@@ -32,20 +32,20 @@ The project’s neural network model will be constructed and tested extensively 
   - f.	Determine group member individual strengths and goals within this project.
   
 2.	(2-3 weeks) Narrower Research
-  a.	Discuss and explore the nature of a neural network. Build understanding as to why it could provide a more efficient model than existing methods.
-  b.	Explore different types of neural networks. 
-  c.	Consider the limitations of machine learning methods.
+  - a.	Discuss and explore the nature of a neural network. Build understanding as to why it could provide a more efficient model than existing methods.
+  - b.	Explore different types of neural networks. 
+  - c.	Consider the limitations of machine learning methods.
   
 3.	(2-3 weeks) Data Processing
-  a.	Configure the PAGES data such that it can be put into our future model in a consistent method.
-  b.	Exploratory analysis of the data.
+  - a.	Configure the PAGES data such that it can be put into our future model in a consistent method.
+  - b.	Exploratory analysis of the data.
   
 4.	(3-4 weeks) Model Development
-  a.	 Model selection and implementation.
+  - a.	 Model selection and implementation.
   
 5.	(1-2 weeks) Model Tweaking
-  a.	Time permitting. Investigate model parameters. 
-  b. Can we predict FUTURE climate/temperature patterns?
+  - a.	Time permitting. Investigate model parameters. 
+  - b. Can we predict FUTURE climate/temperature patterns?
 
 ## PROJECT MEMBER REQUIREMENTS
 - Team member mindset.
