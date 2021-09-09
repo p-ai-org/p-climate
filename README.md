@@ -1,7 +1,8 @@
-# P-climate
+# p-climate
 Project Name: AI for Climate Reconstruction through Proxy Data
 
 Project Manager: Hannah Mandell, PO ’23
+  - Contact: hfma2018@mymail.pomona.edu
 
 ## ABSTRACT
 ### Background & Motivation 
