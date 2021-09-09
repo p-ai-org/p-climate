@@ -24,30 +24,35 @@ The project’s neural network model will be constructed and tested extensively 
 
 ## PROJECT TIMELINE
 1.	(1-2 weeks) Setup and Broad Research
-a.	Install necessary programs, packages, libraries.
-b.	Configure appropriate working environments.
-c.	Formulate group understanding of the science of proxies and their relationship to climate reconstruction. 
-d.	Describe existing paleoclimatology methods (linear regression models) and their results.
-e.	Meet with existing experts in the field of climate models and paleoclimatology. 
-f.	Determine group member individual strengths and goals within this project.
+  a.	Install necessary programs, packages, libraries.
+  b.	Configure appropriate working environments.
+  c.	Formulate group understanding of the science of proxies and their relationship to climate reconstruction. 
+  d.	Describe existing paleoclimatology methods (linear regression models) and their results.
+  e.	Meet with existing experts in the field of climate models and paleoclimatology. 
+  f.	Determine group member individual strengths and goals within this project.
+  
 2.	(2-3 weeks) Narrower Research
-a.	Discuss and explore the nature of a neural network. Build understanding as to why it could provide a more efficient model than existing methods.
-b.	Explore different types of neural networks. 
-c.	Consider the limitations of machine learning methods.
+  a.	Discuss and explore the nature of a neural network. Build understanding as to why it could provide a more efficient model than existing methods.
+  b.	Explore different types of neural networks. 
+  c.	Consider the limitations of machine learning methods.
+  
 3.	(2-3 weeks) Data Processing
-a.	Configure the PAGES data such that it can be put into our future model in a consistent method.
-b.	Exploratory analysis of the data.
+  a.	Configure the PAGES data such that it can be put into our future model in a consistent method.
+  b.	Exploratory analysis of the data.
+  
 4.	(3-4 weeks) Model Development
-a.	 Model selection and implementation.
+  a.	 Model selection and implementation.
+  
 5.	(1-2 weeks) Model Tweaking
-a.	Time permitting. Investigate model parameters. 
+  a.	Time permitting. Investigate model parameters. 
+  b. Can we predict FUTURE climate/temperature patterns?
 
 ## PROJECT MEMBER REQUIREMENTS
 - Team member mindset.
 - Working knowledge of Python or R.
- - Have at least completed a computer science or statistical programming class.
+-- Have at least completed a computer science or statistical programming class.
 - Eagerness to learn and contribute to a rapidly growing field of environmental science.
- - Excited to be at the intersection of AI and environmental topics.
+-- Excited to be at the intersection of AI and environmental topics.
 - Background in chemistry, biology, physics, or environmental science (desired, but not necessary!).
 
 ## SOURCES & INSPIRATION
