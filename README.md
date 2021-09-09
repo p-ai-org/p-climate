@@ -50,9 +50,9 @@ The project’s neural network model will be constructed and tested extensively 
 ## PROJECT MEMBER REQUIREMENTS
 - Team member mindset.
 - Working knowledge of Python or R.
--- Have at least completed a computer science or statistical programming class.
+  - Have at least completed a computer science or statistical programming class.
 - Eagerness to learn and contribute to a rapidly growing field of environmental science.
--- Excited to be at the intersection of AI and environmental topics.
+  -Excited to be at the intersection of AI and environmental topics.
 - Background in chemistry, biology, physics, or environmental science (desired, but not necessary!).
 
 ## SOURCES & INSPIRATION
