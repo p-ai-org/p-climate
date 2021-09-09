@@ -84,4 +84,25 @@ Read “Surface Temperature Reconstructions for the Last 2,000 Years” at NAP.E
 Tahmasebi, Pejman, Serveh Kamrava, Tao Bai, and Muhammad Sahimi. “Machine Learning in 
  Geo- and Environmental Sciences: From Small to Large Scale.” Advances in Water 
  Resources 142 (August 2020): 103619. https://doi.org/10.1016/j.advwatres.2020.103619.
+ 
+ ## RESOURCES
+ 
+ What the heck is a 'Proxy'?
+ - https://www.ncdc.noaa.gov/news/what-are-proxy-data
+ - https://serc.carleton.edu/microbelife/topics/proxies/paleoclimate.html
+ - https://www2.usgs.gov/landresources/lcs/paleoclimate/proxies.asp
+
+What are the goals of climate reconstruction?
+- https://www.climate.gov/maps-data/primer/past-climate
+- https://agupubs-onlinelibrary-wiley-com.ccl.idm.oclc.org/doi/pdf/10.1029/2010EO370001
+
+Which current methods are used for climate reconstructions?
+- (Mainly, different versions of linear regressions)
+- https://www-sciencedirect-com.ccl.idm.oclc.org/science/article/abs/pii/S1125786518300766
+- https://agupubs-onlinelibrary-wiley-com.ccl.idm.oclc.org/doi/pdf/10.1029/2010EO370001
+- https://cp.copernicus.org/articles/13/1339/2017/cp-13-1339-2017.pdf
+
+Where does Machine Learning fall into the mix?
+
+
 
