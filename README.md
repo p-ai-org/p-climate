@@ -42,35 +42,39 @@ a.	 Model selection and implementation.
 a.	Time permitting. Investigate model parameters. 
 
 ## PROJECT MEMBER REQUIREMENTS
-	Team member mindset.
-	Working knowledge of Python or R.
-o	Have at least completed a computer science or statistical programming class.
-	Eagerness to learn and contribute to a rapidly growing field of environmental science.
-o	Excited to be at the intersection of AI and environmental topics.
-	Background in chemistry, biology, physics, or environmental science (desired, but not necessary!).
+- Team member mindset.
+- Working knowledge of Python or R.
+ - Have at least completed a computer science or statistical programming class.
+- Eagerness to learn and contribute to a rapidly growing field of environmental science.
+ - Excited to be at the intersection of AI and environmental topics.
+- Background in chemistry, biology, physics, or environmental science (desired, but not necessary!).
 
 ## SOURCES & INSPIRATION
 Fang, M., & Li, X. (2019). An artificial neural networks‐based tree ring width proxy system \	model 
-for paleoclimate data assimilation. Journal of Advances in Modeling Earth 
-Systems, 11, 892–904. https://doi.org/10.1029/2018MS001525 
-Goosse, H., Crespin, E., Montety, A. D., Mann, M. E., Renssen, H., & Timmermann, A. (2010). 
-Reconstructing surface temperature changes over the past 600 years using climate model 
-simulations with data assimilation. Journal of Geophysical Research, 115, D09108. https://doi.org/10.1029/2009JD012737 Graybill, D. A., & Idso, S. B. (1993).
-Jevšenak, Jernej, and Tom Levanič. “Should Artificial Neural Networks Replace Linear Models 
-in Tree Ring Based Climate Reconstructions?” Dendrochronologia 40 (December 1, 
-2016): 102–9. https://doi.org/10.1016/j.dendro.2016.08.002.
-Kadow, C., Hall, D.M. & Ulbrich, U. Artificial intelligence reconstructs missing climate 
-information. Nat. Geosci. 13, 408–413 (2020). 
-https://doiorg.ccl.idm.oclc.org/10.1038/s41561-020-0582-5 
-Mannila, Heikki, Hannu Toivonen, Atte Korhola, and Heikki Ol. “Learning, Mining, or 
-Modeling? - A Case Study from Paleoecology.” Discovery Science 1532 (March 15, 1999).
-PAGESk Consortium (2017). A global multiproxy database for temperature reconstructions of 
-the common era. Scientific Data, 4, 170088. https://doi.org/10.1038/sdata.2017.88
-Read “Surface Temperature Reconstructions for the Last 2,000 Years” at NAP.Edu. Accessed 
-September 1, 2021. https://doi.org/10.17226/11676.
-Tahmasebi, Pejman, Serveh Kamrava, Tao Bai, and Muhammad Sahimi. “Machine Learning in 
-Geo- and Environmental Sciences: From Small to Large Scale.” Advances in Water 
-Resources 142 (August 2020): 103619. https://doi.org/10.1016/j.advwatres.2020.103619.
+ for paleoclimate data assimilation. Journal of Advances in Modeling Earth 
+ Systems, 11, 892–904. https://doi.org/10.1029/2018MS001525 
 
-![image](https://user-images.githubusercontent.com/58823003/132621158-031fa749-4505-482b-9106-9afa468671ea.png)
+Goosse, H., Crespin, E., Montety, A. D., Mann, M. E., Renssen, H., & Timmermann, A. (2010). 
+ Reconstructing surface temperature changes over the past 600 years using climate model 
+ simulations with data assimilation. Journal of Geophysical Research, 115, D09108. https://doi.org/10.1029/2009JD012737 Graybill, D. A., & Idso, S. B. (1993).
+
+Jevšenak, Jernej, and Tom Levanič. “Should Artificial Neural Networks Replace Linear Models 
+ in Tree Ring Based Climate Reconstructions?” Dendrochronologia 40 (December 1, 
+ 2016): 102–9. https://doi.org/10.1016/j.dendro.2016.08.002.
+
+Kadow, C., Hall, D.M. & Ulbrich, U. Artificial intelligence reconstructs missing climate 
+ information. Nat. Geosci. 13, 408–413 (2020). 
+ https://doiorg.ccl.idm.oclc.org/10.1038/s41561-020-0582-5 
+
+Mannila, Heikki, Hannu Toivonen, Atte Korhola, and Heikki Ol. “Learning, Mining, or 
+ Modeling? - A Case Study from Paleoecology.” Discovery Science 1532 (March 15, 1999).
+ PAGESk Consortium (2017). A global multiproxy database for temperature reconstructions of 
+ the common era. Scientific Data, 4, 170088. https://doi.org/10.1038/sdata.2017.88
+
+Read “Surface Temperature Reconstructions for the Last 2,000 Years” at NAP.Edu. Accessed 
+ September 1, 2021. https://doi.org/10.17226/11676.
+
+Tahmasebi, Pejman, Serveh Kamrava, Tao Bai, and Muhammad Sahimi. “Machine Learning in 
+ Geo- and Environmental Sciences: From Small to Large Scale.” Advances in Water 
+ Resources 142 (August 2020): 103619. https://doi.org/10.1016/j.advwatres.2020.103619.
 
