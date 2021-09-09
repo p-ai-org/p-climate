@@ -1,5 +1,6 @@
 # P-climate
 Project Name: AI for Climate Reconstruction through Proxy Data
+
 Project Manager: Hannah Mandell, PO ’23
 
 ## ABSTRACT
@@ -14,10 +15,10 @@ Many linear regression models have been scientifically developed between the mar
 
 ### Project Goals & Description
 The PAGES (Past Global Change) 2k consortium is one of the most comprehensive sources of information and data related to global temperature over the past couple thousand years. It pulls from a plethora of temperature proxies from many distinct sources. Using the diverse proxy datasets for temperature from PAGES this project aims to construct a temperature-focused climate reconstruction by means of Neural Network computing, a relatively novel approach. Although PAGES datasets contain different organisms and proxies, the aim of the project is to use artificial intelligence to identify an overall signal in the measurements despite the various sources of ‘noise’. 
+
 With the input data being multiple proxy measurements all dated by time, the final output signal will be a constructed temperature time series of the previous couple hundred or thousand years.
 
- 
-
+![hockeystick diagram](https://1.bp.blogspot.com/-8y06JBzLbU0/T4F7o536y6I/AAAAAAAAAXs/UFc2vM6gRxs/s1600/Hockey_stick_chart_ipcc_large.jpg)
 
 The project’s neural network model will be constructed and tested extensively against existing climate reconstructions from leading scientific organizations (NOAA Extended Reconstructed Sea Surface Temperature (ErSST), NCAR Hadley Centre Global Sea Ice and Sea Surface Temperature (HadISST), NOAA Optimum Interpolation Sea Surface Temperature (OISST)) that were created using many different factors, including proxies, and are considered to be the most robust temperature reconstructions known to the scientific community. The goal of this project is to recreate similar time series but with machine learning and only temperature proxies. 
 
