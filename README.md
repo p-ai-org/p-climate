@@ -103,6 +103,9 @@ Which current methods are used for climate reconstructions?
 - https://cp.copernicus.org/articles/13/1339/2017/cp-13-1339-2017.pdf
 
 Where does Machine Learning fall into the mix?
-
-
+- Its application to climate reconstructions have just scratched the surface. 
+- https://www-nature-com.ccl.idm.oclc.org/articles/s41598-019-52293-4
+- https://cims.nyu.edu/~dimitris/files/GiannakisMajda11_machine_learning.pdf
+- https://nercdtp.esc.cam.ac.uk/projects/CE222
+- https://github.com/EarthByte/paleoclimate-reconstruction
 
