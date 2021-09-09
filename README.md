@@ -9,6 +9,8 @@ Earth’s climate has been studied since the earliest age of humankind. Even sti
 
 An important factor in understanding Earth’s climatic future is understanding Earth’s climatic past. Many fields of study have developed under this one notion. For example, dendroclimatology is the science of determining past climates from the annual properties of tree rings. Similar processes can be completed by examining annual aspects of ice cores, sediment cores, and even the skeletal rings of oceanic organisms. Thanks to these processes, science has gained the famous ‘hockey stick’ diagram that allows us to see the dramatic effect of anthropogenic global warming. 
 
+![hockeystick diagram](https://1.bp.blogspot.com/-8y06JBzLbU0/T4F7o536y6I/AAAAAAAAAXs/UFc2vM6gRxs/s1600/Hockey_stick_chart_ipcc_large.jpg)
+
 Each of these items are described as ‘proxies’ since the measured aspects of the physical, biological, or isotopic records stored in their annual markers directly relate to measurements of the climate system at the time of creation, thus providing paleo-climatologists with proxies to the temperature, salinity, precipitation, or atmospheric composition of the period without physically having to measure them. Proxies are the key to looking into Earth’s climate past. 
 
 Many linear regression models have been scientifically developed between the markers in the proxies and physical measurements of a climate system. However, with the climate system being so notably complex and the samples often having considerate ‘noise’ in their data, it is only reasonable to explore the role of machine learning in improving these models and their subsequent climate reconstructions. 
@@ -17,8 +19,6 @@ Many linear regression models have been scientifically developed between the mar
 The PAGES (Past Global Change) 2k consortium is one of the most comprehensive sources of information and data related to global temperature over the past couple thousand years. It pulls from a plethora of temperature proxies from many distinct sources. Using the diverse proxy datasets for temperature from PAGES this project aims to construct a temperature-focused climate reconstruction by means of Neural Network computing, a relatively novel approach. Although PAGES datasets contain different organisms and proxies, the aim of the project is to use artificial intelligence to identify an overall signal in the measurements despite the various sources of ‘noise’. 
 
 With the input data being multiple proxy measurements all dated by time, the final output signal will be a constructed temperature time series of the previous couple hundred or thousand years.
-
-![hockeystick diagram](https://1.bp.blogspot.com/-8y06JBzLbU0/T4F7o536y6I/AAAAAAAAAXs/UFc2vM6gRxs/s1600/Hockey_stick_chart_ipcc_large.jpg)
 
 The project’s neural network model will be constructed and tested extensively against existing climate reconstructions from leading scientific organizations (NOAA Extended Reconstructed Sea Surface Temperature (ErSST), NCAR Hadley Centre Global Sea Ice and Sea Surface Temperature (HadISST), NOAA Optimum Interpolation Sea Surface Temperature (OISST)) that were created using many different factors, including proxies, and are considered to be the most robust temperature reconstructions known to the scientific community. The goal of this project is to recreate similar time series but with machine learning and only temperature proxies. 
 
