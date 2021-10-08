@@ -1,0 +1,131 @@
+{
+  "xmlId" : "1162",
+  "NOAAStudyId" : "1915",
+  "studyName" : "Double Reef - Oxygen Isotope Data",
+  "doi" : null,
+  "uuid" : "982186dc-a8ab-4530-9552-fb69857a28cf",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Asami, R.; Yamada, T.; Iryu, Y.; Quinn, T.M.; Meyer, C.P.; Paulay, G.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Guam Porites Coral Oxygen Isotope Data for 1790 to 2000",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1915",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1915.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1915.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES 2k Network", "PAGES Australasia 2k" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2005-07-01",
+  "entryId" : "noaa-coral-1915",
+  "earliestYearBP" : 160,
+  "mostRecentYearBP" : -50,
+  "earliestYearCE" : 1790,
+  "mostRecentYearCE" : 2000,
+  "publication" : [ {
+    "author" : {
+      "name" : "Asami, R.; Yamada, T.; Iryu, Y.; Quinn, T.M.; Meyer, C.P.; Paulay, G"
+    },
+    "pubYear" : 2005,
+    "title" : "Interannual and decadal variability of the western Pacific sea surface condition for the years 1787-2000",
+    "journal" : "Journal of Geophysical Research: Oceans",
+    "volume" : "110",
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Asami, R.; Yamada, T.; Iryu, Y.; Quinn, T.M.; Meyer, C.P.; Paulay, G. 2005. Interannual and decadal variability of the western Pacific sea surface condition for the years 1787-2000. Journal of Geophysical Research: Oceans, 110. doi: 10.1029/2004JC002555",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2004JC002555",
+      "url" : "http://dx.doi.org/10.1029/2004JC002555"
+    },
+    "abstract" : "We present a monthly resolved, 213-year stable isotope time series from a coral from Guam (13N, 145E), which is located on the northern edge of the western Pacific warm pool. Oxygen isotopic composition of the coral skeleton (d18Ocoral) shows seasonal, interannual, and decadal variability, which documents significant oceanographic changes related to thermal and hydrologic variations in this region. The d18Ocoral anomaly reflects sea surface temperature (SST) anomaly and sea surface salinity (SSS) anomaly with significant r values of -0.69 and 0.49, respectively, which are strongly linked to oceanographic changes that occur during El Nino-Southern Oscillation (ENSO) warm and cool phases. We identified 46 ENSO warm (El Nino) and 53 cool phases (La Nina) in the coral record, which are consistent with those phases reconstructed by Nino 3.4 SST anomaly. Spectral analyses of the d18Ocoral anomaly record for the years 1790-1999 identified significant peaks around ~3 to ~7 years. These results indicate that the Guam coral has recorded ENSO periodicity. The d18Ocoral anomaly shows decadal variability of ~15‐ to ~45-year periodicity with significant shifts (<0.2 permil) from warmer to cooler condition and vice versa. An accumulative decrease in d18Ocoral time series may imply ~0.75°C warming of SST and ~0.23 permil freshening of seawater d18O, corresponding to a decrease of SSS by ~0.85, in the northwestern tropical Pacific over the last 2 centuries.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1946",
+    "siteName" : "Double Reef",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Central Pacific Ocean>Guam",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "13.598183", "144.83588" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "13.598183",
+        "northernmostLatitude" : "13.598183",
+        "westernmostLongitude" : "144.83588",
+        "easternmostLongitude" : "144.83588",
+        "minElevationMeters" : "-5",
+        "maxElevationMeters" : "-5"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "GD2",
+      "NOAADataTableId" : "2042",
+      "earliestYear" : 1790,
+      "mostRecentYear" : 2000,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 160,
+      "mostRecentYearBP" : -50,
+      "earliestYearCE" : 1790,
+      "mostRecentYearCE" : 2000,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/asami2005_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "asami2005_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lobata",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

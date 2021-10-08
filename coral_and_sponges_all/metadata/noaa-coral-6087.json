@@ -1,0 +1,143 @@
+{
+  "xmlId" : "2573",
+  "NOAAStudyId" : "6087",
+  "studyName" : "Flinders Reef - Sr/Ca and Oxygen Isotope Data",
+  "doi" : null,
+  "uuid" : "46ef04ec-836f-4a7e-ae96-3b7574178d2a",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Calvo, E.; Marshall, J.F.; Pelejero, C.; McCulloch, M.T.; Gagan, M.K.; Lough, J.M.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/6087",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-6087.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-6087.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES 2k Network", "PAGES Australasia 2k" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2007-07-01",
+  "entryId" : "noaa-coral-6087",
+  "earliestYearBP" : 242,
+  "mostRecentYearBP" : -38,
+  "earliestYearCE" : 1708,
+  "mostRecentYearCE" : 1988,
+  "publication" : [ {
+    "author" : {
+      "name" : "Calvo, E.; Marshall, J.F.; Pelejero, C.; McCulloch, M.T.; Gagan, M.K.; Lough, J.M"
+    },
+    "pubYear" : 2007,
+    "title" : "Interdecadal climate variability in the Coral Sea since 1708 A.D",
+    "journal" : "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "volume" : "248",
+    "edition" : null,
+    "issue" : "-1",
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Calvo, E.; Marshall, J.F.; Pelejero, C.; McCulloch, M.T.; Gagan, M.K.; Lough, J.M. 2007. Interdecadal climate variability in the Coral Sea since 1708 A.D. Palaeogeography, Palaeoclimatology, Palaeoecology, 248(-1). doi: 10.1016/j.palaeo.2006.12.003",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1016/j.palaeo.2006.12.003",
+      "url" : "http://dx.doi.org/10.1016/j.palaeo.2006.12.003"
+    },
+    "abstract" : "Low resolution (5-year) Sr/Ca and d18O samples, extending back to  1708 A.D., were analysed from a Porites coral core collected from  Flinders Reef, an offshore reef on the Queensland Plateau in the  western Coral Sea (17.5ï¿½ S, 148.3ï¿½ E). Using the Sr/Ca ratio as  a proxy for sea surface temperature (SST), we deconvolved a  salinity record by subtracting the SST signal from the d18O record.  Decadal variability in the reconstructed salinity record is closely  paralleled by changes in SST, with cooler (warmer) temperatures  recorded during wetter (drier) periods.  This relationship differs  from the conventional view often described for tropical areas,  where warm temperatures are associated with wet periods and cool  temperatures with dry periods. The anti-correlation between  reconstructed SST and salinity observed at Flinders Reef, however,  matches the climatic effects expected from variations in the  Interdecadal Pacific Oscillation (IPO), a recurrent pattern of  SST variability over the Pacific Ocean which is known to modulate  Australia's climate, in particular the impact of ENSO events on  decadal time scales. On longer timescales, salinity seems to have  remained almost constant for the last two centuries after a  progressive freshening of surface waters that culminated around  1800 A.D. Conversely, SSTs show a warming trend towards the late  20th century.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1875",
+    "siteName" : "Flinders Reef",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Australia/New Zealand>Australia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-17.73", "148.43" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-17.73",
+        "northernmostLatitude" : "-17.73",
+        "westernmostLongitude" : "148.43",
+        "easternmostLongitude" : "148.43",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Flinders Reef Core 92",
+      "NOAADataTableId" : "9396",
+      "earliestYear" : 1708,
+      "mostRecentYear" : 1988,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 242,
+      "mostRecentYearBP" : -38,
+      "earliestYearCE" : 1708,
+      "mostRecentYearCE" : 1988,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/great_barrier/calvo2007_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "calvo2007_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>strontium/calcium",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>thermal ionization mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      } ]
+    } ]
+  } ]
+}

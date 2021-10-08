@@ -1,0 +1,467 @@
+{
+  "xmlId" : "73273",
+  "NOAAStudyId" : "31612",
+  "studyName" : "South China Sea 1996-2002 Weekly-Monthly Resolution Coral d13C and d18O Data",
+  "doi" : null,
+  "uuid" : "77159641-bed6-4120-b666-fc497c346688",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Li, X.; Wang, X.; Liu, C.; Liu, Y.; Yu, K.; Sun, W.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "High-resolution (weekly - monthly) coral d13C and d18O from 3 locations in the South China Sea (Nansha Islands, Nanwan, Xiaoliuqiu Island) for 1996-2002 CE.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/31612",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-31612.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-31612.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2020-10-20",
+  "entryId" : "noaa-coral-31612",
+  "earliestYearBP" : -46,
+  "mostRecentYearBP" : -52,
+  "earliestYearCE" : 1996,
+  "mostRecentYearCE" : 2002,
+  "publication" : [ {
+    "author" : {
+      "name" : "Xiaohua Li, Xiaowei Wang, Chuanyu Liu, Yi Liu, Kefu Yu, Weidong Sun"
+    },
+    "pubYear" : 2020,
+    "title" : "Traces of the 1997 Indonesian Wildfires in the Marine Environment From a Network of Coral d13C Records",
+    "journal" : "Geophysical Research Letters",
+    "volume" : "47",
+    "edition" : "e2020GL090383",
+    "issue" : "22",
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Xiaohua Li, Xiaowei Wang, Chuanyu Liu, Yi Liu, Kefu Yu, Weidong Sun. 2020. Traces of the 1997 Indonesian Wildfires in the Marine Environment From a Network of Coral d13C Records. Geophysical Research Letters, 47(22), e2020GL090383. doi: 10.1029/2020GL090383",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2020GL090383",
+      "url" : "http://dx.doi.org/10.1029/2020GL090383"
+    },
+    "abstract" : "Great efforts have been made to understand the impacts of the 1997 Indonesian wildfires on land ecology and human health, yet its influences on marine environments are poorly understood owing to sparse observations. Here we present weekly to monthly resolution coral d13C records across the South China Sea in conjunction with a regional ocean general circulation model to study the effects of these cataclysmic wildfires on nearby oceans. Large and persistent negative d13C excursions were found in corals from the interior South China Sea several months after the wildfires. This delay indicates that the 13C-depleted ash fallout was distributed by ocean currents rather than direct atmospheric transport, which is supported by the results of our numerical model. Thus, the impacts of tropical wildfires on marine ecology may last for 1 year and extend thousands of kilometers from the burning center.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "58578",
+    "siteName" : "Nansha Islands",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>South China Sea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "9.83", "115.5" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "9.83",
+        "northernmostLatitude" : "9.83",
+        "westernmostLongitude" : "115.5",
+        "easternmostLongitude" : "115.5",
+        "minElevationMeters" : "-5",
+        "maxElevationMeters" : "-5"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Li2020Nansha-age",
+      "NOAADataTableId" : "44137",
+      "earliestYear" : 1996,
+      "mostRecentYear" : 2002,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -46,
+      "mostRecentYearBP" : -52,
+      "earliestYearCE" : 1996,
+      "mostRecentYearCE" : 2002,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/li2020/li2020nansha-iso-age.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Nansha Islands Coral d13C and d18O Data by Age",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "age"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d13C"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "Li2020Nansha-depth",
+      "NOAADataTableId" : "44138",
+      "earliestYear" : 1996,
+      "mostRecentYear" : 2002,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -46,
+      "mostRecentYearBP" : -52,
+      "earliestYearCE" : 1996,
+      "mostRecentYearCE" : 2002,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "The samples which had an analytical issue were reported as NaN. Due to high sampling resolution, and low skeleton density between 35 and 26 mm for NS coral, some samples were not enough for analysis. We combined two to four adjacent samples and these samples were reported only one value.",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/li2020/li2020nansha-iso-depth.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Nansha Islands Coral d13C and d18O Data by Depth",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>millimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Distance from the top",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "depth"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d13C"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "58579",
+    "siteName" : "Nanwan",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>South China Sea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "21.93", "120.78" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "21.93",
+        "northernmostLatitude" : "21.93",
+        "westernmostLongitude" : "120.78",
+        "easternmostLongitude" : "120.78",
+        "minElevationMeters" : "-5",
+        "maxElevationMeters" : "-5"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Li2020Nanwan-age",
+      "NOAADataTableId" : "44139",
+      "earliestYear" : 1996,
+      "mostRecentYear" : 2002,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -46,
+      "mostRecentYearBP" : -52,
+      "earliestYearCE" : 1996,
+      "mostRecentYearCE" : 2002,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/li2020/li2020nanwan-iso-age.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Nanwan Coral d13C and d18O Data by Age",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "age"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d13C"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "Li2020Nanwan-depth",
+      "NOAADataTableId" : "44140",
+      "earliestYear" : 1996,
+      "mostRecentYear" : 2002,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -46,
+      "mostRecentYearBP" : -52,
+      "earliestYearCE" : 1996,
+      "mostRecentYearCE" : 2002,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/li2020/li2020nanwan-iso-depth.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Nanwan Coral d13C and d18O Data by Depth",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>millimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Distance from the top",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "depth"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d13C"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "58580",
+    "siteName" : "Xiaoliuqiu Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>South China Sea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "22.32", "120.37" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "22.32",
+        "northernmostLatitude" : "22.32",
+        "westernmostLongitude" : "120.37",
+        "easternmostLongitude" : "120.37",
+        "minElevationMeters" : "-5",
+        "maxElevationMeters" : "-5"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Li2020Xiaoliuqiu-age",
+      "NOAADataTableId" : "44141",
+      "earliestYear" : 1996,
+      "mostRecentYear" : 2002,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -46,
+      "mostRecentYearBP" : -52,
+      "earliestYearCE" : 1996,
+      "mostRecentYearCE" : 2002,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/li2020/li2020xiaoliuqiu-iso-age.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Xiaoliuqiu Island Coral d13C and d18O Data by Age",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "age"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d13C"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "Li2020Xiaoliuqiu-depth",
+      "NOAADataTableId" : "44142",
+      "earliestYear" : 1996,
+      "mostRecentYear" : 2002,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -46,
+      "mostRecentYearBP" : -52,
+      "earliestYearCE" : 1996,
+      "mostRecentYearCE" : 2002,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/li2020/li2020xiaoliuqiu-iso-depth.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Xiaoliuqiu Island Coral d13C and d18O Data by Depth",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>millimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "Distance from the top",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "depth"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d13C"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

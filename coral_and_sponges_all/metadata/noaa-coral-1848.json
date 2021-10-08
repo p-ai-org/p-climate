@@ -1,0 +1,221 @@
+{
+  "xmlId" : "1090",
+  "NOAAStudyId" : "1848",
+  "studyName" : "Punta Pitt - Stable Isotope and Ion Data  1936-1982",
+  "doi" : null,
+  "uuid" : "8e54163e-3df2-469a-b236-f552aac3c0c7",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Shen, G.T.; Cole, J.E.; Lea, D.W.; Linn, L.J.; McConnaughey, T.A.; Fairbanks, R.G.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1848",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1848.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1848.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "1992-07-01",
+  "entryId" : "noaa-coral-1848",
+  "earliestYearBP" : 14,
+  "mostRecentYearBP" : -32,
+  "earliestYearCE" : 1936,
+  "mostRecentYearCE" : 1982,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 1992,
+    "title" : "Surface ocean variability at Galapagos from 1936-1982: Calibration of geochemical tracers in corals",
+    "journal" : "Paleoceanography",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Shen, G.T., J.E. Cole, D.W. Lea, L.J. Linn, T.A. McConnaughey, and R.G. Fairbanks. 1992. Surface ocean variability at Galapagos from 1936-1982: Calibration of geochemical tracers in corals. Paleoceanography 7:563-588.",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1853",
+    "siteName" : "Punta Pitt",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Eastern Pacific Ocean>Galapagos Islands",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ ".67", "-89.17" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "0.67",
+        "northernmostLatitude" : "0.67",
+        "westernmostLongitude" : "-89.17",
+        "easternmostLongitude" : "-89.17",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Punta Pitt Core 001",
+      "NOAADataTableId" : "1859",
+      "earliestYear" : 1936,
+      "mostRecentYear" : 1982,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 14,
+      "mostRecentYearBP" : -32,
+      "earliestYearCE" : 1936,
+      "mostRecentYearCE" : 1982,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/ptapitt.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "ptapitt.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>cadmium/calcium",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>nanomole per mole",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>electronic spectroscopy>atomic spectroscopy>atomic absorption spectroscopy>graphite furnace atomic absorption spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>manganese/calcium",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>nanomole per mole",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>electronic spectroscopy>atomic spectroscopy>atomic absorption spectroscopy>graphite furnace atomic absorption spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>barium/calcium",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>inductively-coupled plasma mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "INSTRUMENTAL",
+          "cvWhat" : "earth system variable>temperature variable>temperature>sea water temperature>sea surface temperature",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "temperature unit>degree Celsius",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : "in situ data logger",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>trace metals", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/readme_punta.txt",
+        "urlDescription" : "Readme",
+        "linkText" : "readme_punta.txt",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>age control" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/pitt13c.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "pitt13c.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/pitt18o.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "pitt18o.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/pittbaca.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "pittbaca.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/pittcdca.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "pittcdca.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/pittmnca.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "pittmnca.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      } ]
+    } ]
+  } ]
+}

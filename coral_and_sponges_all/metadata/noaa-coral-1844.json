@@ -1,0 +1,131 @@
+{
+  "xmlId" : "1086",
+  "NOAAStudyId" : "1844",
+  "studyName" : "Madang Lagoon - del18O Data  - 1995",
+  "doi" : null,
+  "uuid" : "aaf8362e-b360-4805-acd2-9d5801eb5a88",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Tudhope, A.W.; Shimmield, G.B.; Chilcott, C.P.; Jebb, M.; Fallick, A.E.; Dalgleish, A.N.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1844",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1844.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1844.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "1995-07-01",
+  "entryId" : "noaa-coral-1844",
+  "earliestYearBP" : 28,
+  "mostRecentYearBP" : -41,
+  "earliestYearCE" : 1922,
+  "mostRecentYearCE" : 1991,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 1995,
+    "title" : "Recent changes in climate in the far western equatorial Pacific and their relationship to the Southern Oscillation; oxygen isotope records from massive corals, Papua New Guinea",
+    "journal" : "Earth and Planetary Science Letters",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Tudhope, A.W., G.B. Shimmield, C.P. Chilcott, M. Jebb, A.E. Fallick, and A.N. Dalgleish. 1995. Recent changes in climate in the far western equatorial Pacific and their relationship to the Southern Oscillation; oxygen isotope records from massive corals, Papua New Guinea. Earth and Planetary Science Letters 136:575-590.",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1849",
+    "siteName" : "Madang Lagoon",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-5.22", "145.82" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-5.22",
+        "northernmostLatitude" : "-5.22",
+        "westernmostLongitude" : "145.82",
+        "easternmostLongitude" : "145.82",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Madang Lagoon Core 001",
+      "NOAADataTableId" : "1852",
+      "earliestYear" : 1922,
+      "mostRecentYear" : 1991,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 28,
+      "mostRecentYearBP" : -41,
+      "earliestYearCE" : 1922,
+      "mostRecentYearCE" : 1991,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/tudhope1995_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope1995_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/madang18o.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "madang18o.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

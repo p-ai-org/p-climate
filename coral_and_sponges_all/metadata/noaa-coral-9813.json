@@ -1,0 +1,665 @@
+{
+  "xmlId" : "8745",
+  "NOAAStudyId" : "9813",
+  "studyName" : "Papua New Guinea Holocene Coral Oxygen Isotope Data ",
+  "doi" : null,
+  "uuid" : "308e1840-ad00-402e-89d8-c09007b05f54",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "McGregor, H.V.; Gagan, M.K.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Fossil and modern coral d18O data from Koil Island and Muschu Island, \nnorthern Papua New Guinea, collected from uplifted and living reefs. \nFossil corals were screened for diagenesis using X-ray diffraction.  \nEight mid-late Holocene fossil corals were selected for study due to \ntheir well preserved state. Uranium-series ages of these corals were \ndetermined by isotope dilution thermal ionisation mass spectrometry, \nwith fossil coral initial d234U constrained to 146–150 per mil. \nThe average error on the uranium-series ages  is ±90 yr.  \n",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/9813",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-9813.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-9813.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "Warm Pool", "ENSO" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2010-11-15",
+  "entryId" : "noaa-coral-9813",
+  "earliestYearBP" : 7550,
+  "mostRecentYearBP" : -47,
+  "earliestYearCE" : -5600,
+  "mostRecentYearCE" : 1997,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2004,
+    "title" : "Western Pacific coral d18O records of anomalous Holocene  variability in the El Nino-Southern Oscillation",
+    "journal" : "Geophysical Research Letters",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "McGregor, H.V., and M.K. Gagan. 2004.\nWestern Pacific coral d18O records of anomalous Holocene \nvariability in the El Nino-Southern Oscillation. \nGeophysical Research Letters, 31, L11204, doi:10.1029/2004GL019972.\n",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2004GL019972",
+      "url" : "http://dx.doi.org/10.1029/2004GL019972"
+    },
+    "abstract" : "Skeletal oxygen isotope ratios in Holocene Porites corals from \nnorthern Papua New Guinea record decreases in sea surface temperature \n(SST) and rainfall during El Nino events. Threshold analysis of seven \nfossil coral d18O records spanning the period 7.6-5.4 ka (thousand \nyears ago) shows 8-12 El Nino events/century, significantly less \nthan the 23 events/century recorded by the NINO3.4 Index. The coral \nreconstructions also show a 15% reduction in El Nino event amplitude \nfor 7.6-5.4 ka, compared to today, which is greater than the \nsuppression given by model studies. In contrast, large and protracted \nEl Nino events are identified for 2.5-1.7 ka. Taken together, \nthe results indicate a nonlinear atmospheric response to Holocene \nchanges in El Nino SST anomalies. We propose that small changes \nin tropical SST gradients, the positioning of the Intertropical \nConvergence Zone, and the Pacific tradewind climatology modify \nthe impact of El Nino events on western Pacific rainfall. \n",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "31486",
+    "siteName" : "Morock Bay, Muschu Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-3.4064", "143.6083" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-3.4064",
+        "northernmostLatitude" : "-3.4064",
+        "westernmostLongitude" : "143.6083",
+        "easternmostLongitude" : "143.6083",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "04papu01b",
+      "NOAADataTableId" : "1002551",
+      "earliestYear" : 2650,
+      "mostRecentYear" : 2650,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 2650,
+      "mostRecentYearBP" : 2650,
+      "earliestYearCE" : -700,
+      "mostRecentYearCE" : -700,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FM09; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fm09_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FM09 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "04papu01c",
+      "NOAADataTableId" : "1002552",
+      "earliestYear" : 5420,
+      "mostRecentYear" : 5420,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 5420,
+      "mostRecentYearBP" : 5420,
+      "earliestYearCE" : -3470,
+      "mostRecentYearCE" : -3470,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FM22; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fm22_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FM22 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "04papu01d",
+      "NOAADataTableId" : "1002553",
+      "earliestYear" : 5830,
+      "mostRecentYear" : 5830,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 5830,
+      "mostRecentYearBP" : 5830,
+      "earliestYearCE" : -3880,
+      "mostRecentYearCE" : -3880,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FM21; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fm21_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FM21 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "04papu01e",
+      "NOAADataTableId" : "1002554",
+      "earliestYear" : 5855,
+      "mostRecentYear" : 5855,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 5855,
+      "mostRecentYearBP" : 5855,
+      "earliestYearCE" : -3905,
+      "mostRecentYearCE" : -3905,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FM07; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fm07_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FM07 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "04papu01f",
+      "NOAADataTableId" : "1002555",
+      "earliestYear" : 6025,
+      "mostRecentYear" : 6025,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 6025,
+      "mostRecentYearBP" : 6025,
+      "earliestYearCE" : -4075,
+      "mostRecentYearCE" : -4075,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FM15; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fm15_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FM15 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "04papu01g",
+      "NOAADataTableId" : "1002556",
+      "earliestYear" : 7030,
+      "mostRecentYear" : 7030,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 7030,
+      "mostRecentYearBP" : 7030,
+      "earliestYearCE" : -5080,
+      "mostRecentYearCE" : -5080,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FM23; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fm23_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FM23 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "04papu01h",
+      "NOAADataTableId" : "1002557",
+      "earliestYear" : 7215,
+      "mostRecentYear" : 7215,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 7215,
+      "mostRecentYearBP" : 7215,
+      "earliestYearCE" : -5265,
+      "mostRecentYearCE" : -5265,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FM24; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fm24_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FM24 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "04papu01i",
+      "NOAADataTableId" : "1002558",
+      "earliestYear" : 7550,
+      "mostRecentYear" : 7550,
+      "timeUnit" : "cal yr BP",
+      "earliestYearBP" : 7550,
+      "mostRecentYearBP" : 7550,
+      "earliestYearCE" : -5600,
+      "mostRecentYearCE" : -5600,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Core FK05; year 1=the youngest year in that coral",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-fk05_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "FK05 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "31487",
+    "siteName" : "Cape Saum, Muschu Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-3.4132", "143.6363" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-3.4132",
+        "northernmostLatitude" : "-3.4132",
+        "westernmostLongitude" : "143.6363",
+        "easternmostLongitude" : "143.6363",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "04papu01a",
+      "NOAADataTableId" : "1002550",
+      "earliestYear" : 1910,
+      "mostRecentYear" : 1997,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 40,
+      "mostRecentYearBP" : -47,
+      "earliestYearCE" : 1910,
+      "mostRecentYearCE" : 1997,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/papau-new-guinea2004.xls",
+        "urlDescription" : "Coral",
+        "linkText" : "papau-new-guinea2004.xls",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/mcgregor2004-ms01_noaa.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "MS01 Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to series mean",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

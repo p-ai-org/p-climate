@@ -1,0 +1,131 @@
+{
+  "xmlId" : "1112",
+  "NOAAStudyId" : "1865",
+  "studyName" : "Palmyra Island - del18O Data",
+  "doi" : null,
+  "uuid" : "e0694342-941e-4075-87bb-96d700c4de42",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Cobb, K.M.; Charles, C.D.; Hunter, D.E.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1865",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1865.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1865.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES 2k Network", "PAGES Australasia 2k" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2001-05-01",
+  "entryId" : "noaa-coral-1865",
+  "earliestYearBP" : 64,
+  "mostRecentYearBP" : -48,
+  "earliestYearCE" : 1886,
+  "mostRecentYearCE" : 1998,
+  "publication" : [ {
+    "author" : {
+      "name" : "Cobb, K.M.; Charles, C.D.; Hunter, D.E"
+    },
+    "pubYear" : 2001,
+    "title" : "A central tropical Pacific coral demonstrates Pacific, Indian, and Atlantic decadal climate connections",
+    "journal" : "Geophysical Research Letters",
+    "volume" : "28",
+    "edition" : null,
+    "issue" : "11",
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Cobb, K.M.; Charles, C.D.; Hunter, D.E. 2001. A central tropical Pacific coral demonstrates Pacific, Indian, and Atlantic decadal climate connections. Geophysical Research Letters, 28(11). doi: 10.1029/2001GL012919",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2001GL012919",
+      "url" : "http://dx.doi.org/10.1029/2001GL012919"
+    },
+    "abstract" : "While instrumental and proxy-based climate records describe significant decadal-scale climate variability throughout the tropical Pacific, Indian, and Atlantic Oceans, the processes responsible for these variations and their interactions are not readily apparent from the observations. A new 112-yr coral-based sea surface temperature (SST) reconstruction from Palmyra Island in the central tropical Pacific (CTP) exhibits strong decadal variability with an amplitude of roughly 0.3Â°C. A 12â€“13yr-period signal in this coral record is highly coherent with long equatorial Atlantic and Indian Ocean climate records, implying a unified phenomenon. The Atlantic pattern suggests that it may fall under direct influence of anomalous SST in the CTP, as it does over inter annual timescales, while the Indian Ocean pattern exhibits maximum response during the switch between warm/cold states in the tropical Pacific. The results demonstrate that the CTP has played a significant role in determining the expression of global decadal climate variability over the twentieth century.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1900",
+    "siteName" : "Palmyra Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Central Pacific Ocean",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "5.8664", "-162.12" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "5.8664",
+        "northernmostLatitude" : "5.8664",
+        "westernmostLongitude" : "-162.12",
+        "easternmostLongitude" : "-162.12",
+        "minElevationMeters" : "-9",
+        "maxElevationMeters" : "-9"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Palmyra Island Core 001",
+      "NOAADataTableId" : "1920",
+      "earliestYear" : 1886,
+      "mostRecentYear" : 1998,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 64,
+      "mostRecentYearBP" : -48,
+      "earliestYearCE" : 1886,
+      "mostRecentYearCE" : 1998,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/cobb2001_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "cobb2001_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,131 @@
+{
+  "xmlId" : "1138",
+  "NOAAStudyId" : "1890",
+  "studyName" : "St. Gilles Reef - Oxygen Isotope Data",
+  "doi" : null,
+  "uuid" : "0ce3e20a-9718-4f8f-b03a-6bd8d036b38f",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Pfeiffer, M.; Timm, O.; Dullo, W.-C.; Podlech, S.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1890",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1890.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1890.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES 2k Network", "PAGES Australasia 2k" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2004-11-01",
+  "entryId" : "noaa-coral-1890",
+  "earliestYearBP" : 118,
+  "mostRecentYearBP" : -45,
+  "earliestYearCE" : 1832,
+  "mostRecentYearCE" : 1995,
+  "publication" : [ {
+    "author" : {
+      "name" : "Pfeiffer, M.; Timm, O.; Dullo, W.C.; Podlech, S"
+    },
+    "pubYear" : 2004,
+    "title" : "Oceanic forcing of interannual and multidecadal climate variability in the southwestern Indian Ocean: Evidence from a 160 year coral isotopic record (La Rï¿½union, 55E, 21S)",
+    "journal" : "Paleoceanography",
+    "volume" : "19",
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Pfeiffer, M.; Timm, O.; Dullo, W.C.; Podlech, S. 2004. Oceanic forcing of interannual and multidecadal climate variability in the southwestern Indian Ocean: Evidence from a 160 year coral isotopic record (La Rï¿½union, 55E, 21S). Paleoceanography, 19. doi: 10.1029/2003PA000964",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2003PA000964",
+      "url" : "http://dx.doi.org/10.1029/2003PA000964"
+    },
+    "abstract" : "We have developed a new 163-year bimonthly coral d18O record from  La Rï¿½union (55ï¿½E, 21ï¿½S). Interannual variations in coral d18O are  coherent with the Southern Oscillation Index but not with regional  sea surface temperature (SST). Correlations with the global SST field  suggest more negative seawater d18O (d18Osw) during La Niï¿½a years.  We propose that the signal results from changes in the strength of  the South Equatorial Current and the Indonesian throughflow, which  carry low salinity water. Multidecadal variations in coral d18O are  coherent with regional SST, but the sign is of opposite sense as  expected from the coral d18O-temperature relationship. This requires  multidecadal changes in salinity large enough to overprint the SST  contribution in the coral d18O record. Our results suggest that  multidecadal salinity variations result from modulations in the  transport of the South Equatorial Current, which varies in response  to the surface wind field and/or the Indonesian throughflow.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1935",
+    "siteName" : "St. Gilles Reef",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Indian Ocean>Reunion",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-21.03", "55.25" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-21.03",
+        "northernmostLatitude" : "-21.03",
+        "westernmostLongitude" : "55.25",
+        "easternmostLongitude" : "55.25",
+        "minElevationMeters" : "-12",
+        "maxElevationMeters" : "-12"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "St. Gilles Reef Core 001",
+      "NOAADataTableId" : "1997",
+      "earliestYear" : 1832,
+      "mostRecentYear" : 1995,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 118,
+      "mostRecentYearBP" : -45,
+      "earliestYearCE" : 1832,
+      "mostRecentYearCE" : 1995,
+      "coreLengthMeters" : 2,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/indian_ocean/pfeiffer2004_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "pfeiffer2004_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : null,
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

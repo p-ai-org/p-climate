@@ -1,0 +1,155 @@
+{
+  "xmlId" : "17277",
+  "NOAAStudyId" : "19544",
+  "studyName" : "Northeast Breakers Coral Stable Isotope Data from 1927-1983 AD",
+  "doi" : null,
+  "uuid" : "a47db4e9-e6d9-468f-a24c-7de38abd810a",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Kuhnert, H.; Crüger, T.; Pätzold, J.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/19544",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-19544.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-19544.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2015-11-11",
+  "entryId" : "noaa-coral-19544",
+  "earliestYearBP" : 23,
+  "mostRecentYearBP" : -33,
+  "earliestYearCE" : 1927,
+  "mostRecentYearCE" : 1983,
+  "publication" : [ {
+    "author" : {
+      "name" : "Kuhnert, H., T. Crüger, and J. Pätzold"
+    },
+    "pubYear" : 2005,
+    "title" : "NAO signature in a Bermuda coral Sr/Ca record",
+    "journal" : "Geochemistry, Geophysics, Geosystems",
+    "volume" : "6",
+    "edition" : null,
+    "issue" : "4",
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Kuhnert, H., T. Crüger, and J. Pätzold. 2005. NAO signature in a Bermuda coral Sr/Ca record. Geochemistry, Geophysics, Geosystems, 6(4). doi: 10.1029/2004GC000786",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2004GC000786",
+      "url" : "http://dx.doi.org/10.1029/2004GC000786"
+    },
+    "abstract" : "We present a 55-year-long record (1928–1982) of Sr/Ca in a Bermuda coral (Diploria strigosa), which we use to reconstruct local twentieth century climate features. The clearest climate signal emerges for the late-year Sr/Ca. Although the coral was collected in shallow water (12 m), the correlation with station data is highest for temperatures at 50 m depth (r = −0.70), suggesting that local temperatures at the collection site are not representative for the sea surface temperatures in the adjacent open ocean. The most striking feature of the coral record is the persistent and significant correlation (r = −0.50) with the North Atlantic Oscillation (NAO) index. Field correlations of fall Sr/Ca with the winter sea level pressure (SLP) show the typical spatial NAO pattern. The stable relationship with the NAO shows that Sr/Ca in Bermuda corals is a suitable tool for the reconstruction of North Atlantic climate variability.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1923",
+    "siteName" : "Northeast Breakers",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Atlantic Ocean>North Atlantic Ocean>Bermuda",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "32.466667", "-64.7" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "32.466667",
+        "northernmostLatitude" : "32.466667",
+        "westernmostLongitude" : "-64.7",
+        "easternmostLongitude" : "-64.7",
+        "minElevationMeters" : "-12",
+        "maxElevationMeters" : "-12"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "05berm01a kuhnert05",
+      "NOAADataTableId" : "30149",
+      "earliestYear" : 1927,
+      "mostRecentYear" : 1983,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 23,
+      "mostRecentYearBP" : -33,
+      "earliestYearCE" : 1927,
+      "mostRecentYearCE" : 1983,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "{\"database\":\"PAGES2\"}{\"database\":\"LMR_FM\"}",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/atlantic/kuhnert2005/kuhnert2005.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "Northeast Breakers Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Pseudodiploria sp.>Pseudodiploria strigosa",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>strontium/calcium",
+          "cvMaterial" : "biological material>organism>coral>Pseudodiploria sp.>Pseudodiploria strigosa",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>inductively-coupled plasma mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Pseudodiploria sp.>Pseudodiploria strigosa",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      } ]
+    } ]
+  } ]
+}

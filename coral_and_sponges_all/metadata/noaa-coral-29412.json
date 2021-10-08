@@ -1,0 +1,184 @@
+{
+  "xmlId" : "71297",
+  "NOAAStudyId" : "29412",
+  "studyName" : "Houbihu, southern Taiwan Porites Sr/Ca and d18O data from 1788 to 2013",
+  "doi" : null,
+  "uuid" : "5966903d-1d41-4a28-a1f5-ebf8361ed4de",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Ramos, R.D.; Goodkin, N.F.; Fan, T.-Y.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "National Research Foundation Singapore",
+    "fundingGrant" : "NRF-RF2012-03"
+  }, {
+    "fundingAgency" : "Singapore Ministry of Education Academic Research Fund Tier 2",
+    "fundingGrant" : "Project MOE2016-T2-1-016"
+  } ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/29412",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-29412.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-29412.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2020-04-08",
+  "entryId" : "noaa-coral-29412",
+  "earliestYearBP" : 162,
+  "mostRecentYearBP" : -63,
+  "earliestYearCE" : 1788,
+  "mostRecentYearCE" : 2013,
+  "publication" : [ ],
+  "site" : [ {
+    "NOAASiteId" : "58331",
+    "siteName" : "Houbihu, southern Taiwan",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Asia>Eastern Asia>Taiwan",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "21.9", "120.7" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "21.9",
+        "northernmostLatitude" : "21.9",
+        "westernmostLongitude" : "120.7",
+        "easternmostLongitude" : "120.7",
+        "minElevationMeters" : "-6",
+        "maxElevationMeters" : "-6"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "HBH monthly Ramos2020",
+      "NOAADataTableId" : "41898",
+      "earliestYear" : 1788,
+      "mostRecentYear" : 2013,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 162,
+      "mostRecentYearBP" : -63,
+      "earliestYearCE" : 1788,
+      "mostRecentYearCE" : 2013,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/ramos2020/ramos2020-monthly.txt",
+        "urlDescription" : "NOAA Template (tab-delimited data)",
+        "linkText" : "Houbihu d18O and Sr/Ca Monthly Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "age_AD"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>strontium/calcium",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : "monthly",
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>electronic spectroscopy>atomic spectroscopy>inductively-coupled plasma atomic emission spectroscopy",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Sr/Ca-Porites"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : "monthly",
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O-Porites"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      } ]
+    }, {
+      "dataTableName" : "HBH wet-dry season Ramos2020",
+      "NOAADataTableId" : "41899",
+      "earliestYear" : 1788,
+      "mostRecentYear" : 1905,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 162,
+      "mostRecentYearBP" : 45,
+      "earliestYearCE" : 1788,
+      "mostRecentYearCE" : 1905,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/ramos2020/ramos2020-season.txt",
+        "urlDescription" : "NOAA Template (tab-delimited data)",
+        "linkText" : "Houbihu d18O Wet and Dry Season Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "age_AD"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : "4-month period>Dec-Mar",
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O-Porites-dry"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : "4-month period>Jun-Sep",
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O-Porites-wet"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

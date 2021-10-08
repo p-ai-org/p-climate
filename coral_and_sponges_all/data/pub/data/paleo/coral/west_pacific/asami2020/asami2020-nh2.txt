@@ -1,0 +1,646 @@
+# Okinawa Fossil Coral Geochemical Data at 4.4ka and 4.9ka
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/31352
+#      Description: NOAA Landing Page
+# Online_Resource: https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/asami2020/asami2020-nh2.txt
+#      Description: NOAA location of the template
+#
+#
+# Data_Type: Corals and Sclerosponges
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: oxygen isotopes, trace metals
+#---------------------------------------
+# Contribution_Date
+#    Date: 2020-09-24
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2020-09-24
+#---------------------------------------
+# Title
+#    Study_Name: Okinawa Fossil Coral Geochemical Data at 4.4ka and 4.9ka
+#---------------------------------------
+# Investigators
+#      Investigators: Asami, R.; Yoshimura, N.; Toriyabe, H.; Minei, S.; Shinjo, R.; Hongo, C.; Sakamaki, T.; Fujita, K.
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: 53-yr, 4-yr, 10-yr, and 9-yr-long bimonthly time series of oxygen isotopes (d18O), Sr/Ca, and U/Ca from 4.4 ka and 4.9 ka corals in Okinawa, Japan
+#         Provided Keywords: mid-Holocene, coral, d18O, Sr/Ca, U/Ca, EAM, ENSO
+#---------------------------------------
+# Publication
+# Authors: Asami, R., Yoshimura, N., Toriyabe, H., Minei, S., Shinjo, R., Hogo, C., Sakamaki, T., and Fujita, K.
+# Published_Date_or_Year: 2020
+# Published_Title: High-Resolution Evidence for Middle Holocene East Asian Winter and Summer Monsoon Variations: Snapshots of Fossil Coral Records
+# Journal_Name: Geophysical Research Letters
+# Volume: 47
+# Edition: 
+# Issue: 
+# Pages: 
+# Report_Number: e2020GL088509
+# DOI: 10.1029/2020GL088509
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: We first generated 53-yr, 4-yr, 10-yr, and 9-yr-long bimonthly time series of oxygen isotopes (d18O), Sr/Ca, and U/Ca from 4.4 and 4.9 ka corals in Okinawa, Japan. Results indicate that the mid-Holocene sea surface temperature (SST) and seawater d18O were <1 °C lower and 0.1-0.2 ‰ higher than today. Spectral analyses of reconstructed SST and seawater d18O time series revealed East Asia monsoon (EAM) and El Niño/Southern Oscillation (ENSO) variations. Moreover, the latter had a dominant component of decade-scale hydrologic variations. The Sr/Ca and U/Ca variations with removal of the ENSO component showed larger fluctuations by ~2 °C in winter and ~0.6 °C in summer at 4.4 ka relative to today, demonstrating (slightly) greater influences of the EAM variation on the northwestern subtropical Pacific in winter (summer) at that time, which are probably caused by enhancement of the EAM intensity and/or a southward migration of the latitudinal circulation.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Japan Society for the Promotion of Science (JSPS)
+#    Grant: 26550012, 26707028, 18K18522, 25340060, GR083
+#---------------------------------------
+# Site_Information
+# Site_Name: Okinawa Island
+# Location: Japan
+# Northernmost_Latitude: 26.2237
+# Southernmost_Latitude: 26.2237
+# Easternmost_Longitude: 127.6767
+# Westernmost_Longitude: 127.6767
+# Elevation: 2.5
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: NH-2 d18O, trace metals Asami2020
+#   First_Year: 4945
+#   Last_Year: 4367
+#   Time_Unit: cal yr BP
+#   Core_Length: 
+#   Notes: The respective 14C ages of the top and bottom of the NH-2-C1 sample are 4367 ± 141 and 4425 ± 145 cal. yr BP. The 14C ages of the NH-2-C2 sample is 4917 ± 120 cal. yr BP. Core lengths: 70cm (NH-2-C1), 26cm (NH-2-C2)
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## age	age,,,calendar year before present,,Corals and Sclerosponges,,,N,four time series are generated
+## d18O_porites	delta 18O,Porites sp.,,per mil PDB,,Corals and Sclerosponges,,isotope ratio mass spectrometry,N,four time series are generated
+## Sr/Ca	strontium/calcium,Porites sp.,,millimole per mole,,Corals and Sclerosponges,,inductively-coupled plasma mass spectrometry,N,four time series are generated
+## U/Ca	uranium/calcium,Porites sp.,,micromole per mole,,Corals and Sclerosponges,,inductively-coupled plasma mass spectrometry,N,four time series are generated
+## source_core	notes,,,,,Corals and Sclerosponges,,,C,source core of sample
+#------------------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values: -999
+age	d18O_porites	Sr/Ca	U/Ca	source_core	
+4367.38	-4.51	8.91	1.12	NH-2-C1_upper part	
+4367.50	-4.52	8.95	1.11	NH-2-C1_upper part	
+4367.63	-4.26	9.00	1.18	NH-2-C1_upper part	
+4367.75	-3.86	9.17	1.33	NH-2-C1_upper part	
+4367.88	-3.53	9.24	1.35	NH-2-C1_upper part	
+4368.00	-4.42	9.11	1.18	NH-2-C1_upper part	
+4368.13	-4.67	9.01	1.12	NH-2-C1_upper part	
+4368.25	-4.79	8.95	1.09	NH-2-C1_upper part	
+4368.38	-4.72	8.86	1.08	NH-2-C1_upper part	
+4368.54	-4.45	9.02	1.14	NH-2-C1_upper part	
+4368.71	-4.00	9.16	1.25	NH-2-C1_upper part	
+4368.88	-3.54	9.31	1.40	NH-2-C1_upper part	
+4369.04	-4.08	9.13	1.22	NH-2-C1_upper part	
+4369.21	-4.73	8.98	1.10	NH-2-C1_upper part	
+4369.38	-4.84	8.87	1.08	NH-2-C1_upper part	
+4369.50	-4.63	8.87	1.10	NH-2-C1_upper part	
+4369.63	-4.37	8.97	1.14	NH-2-C1_upper part	
+4369.75	-3.66	9.26	1.33	NH-2-C1_upper part	
+4369.88	-3.50	9.37	1.38	NH-2-C1_upper part	
+4370.04	-4.26	9.10	1.17	NH-2-C1_upper part	
+4370.21	-4.71	8.98	1.11	NH-2-C1_upper part	
+4370.38	-4.66	8.89	1.09	NH-2-C1_upper part	
+4370.54	-4.30	9.12	1.21	NH-2-C1_upper part	
+4370.71	-3.56	9.33	1.33	NH-2-C1_upper part	
+4370.88	-3.58	9.43	1.43	NH-2-C1_upper part	
+4371.04	-4.25	9.18	1.21	NH-2-C1_upper part	
+4371.21	-4.73	9.01	1.12	NH-2-C1_upper part	
+4371.38	-4.73	8.92	1.14	NH-2-C1_upper part	
+4371.54	-4.51	9.08	1.16	NH-2-C1_upper part	
+4371.71	-4.00	9.11	1.27	NH-2-C1_upper part	
+4371.88	-3.35	9.26	1.41	NH-2-C1_upper part	
+4372.13	-4.27	8.96	1.15	NH-2-C1_upper part	
+4372.38	-4.51	8.97	1.15	NH-2-C1_upper part	
+4372.63	-4.28	9.11	1.19	NH-2-C1_upper part	
+4372.88	-3.40	9.39	1.47	NH-2-C1_upper part	
+4373.13	-4.36	9.09	1.20	NH-2-C1_upper part	
+4373.38	-4.62	9.01	1.18	NH-2-C1_upper part	
+4373.48	-4.58	9.04	1.20	NH-2-C1_upper part	
+4373.58	-4.62	9.07	1.14	NH-2-C1_upper part	
+4373.68	-4.48	9.12	1.23	NH-2-C1_upper part	
+4373.78	-3.66	9.19	1.33	NH-2-C1_upper part	
+4373.88	-3.68	9.30	1.30	NH-2-C1_upper part	
+4374.00	-4.44	9.13	1.14	NH-2-C1_upper part	
+4374.13	-4.72	9.01	1.15	NH-2-C1_upper part	
+4374.25	-4.99	8.93	1.10	NH-2-C1_upper part	
+4374.38	-4.75	8.88	1.07	NH-2-C1_upper part	
+4374.54	-4.72	8.96	1.11	NH-2-C1_upper part	
+4374.71	-4.46	9.03	1.17	NH-2-C1_upper part	
+4374.88	-3.46	9.43	1.40	NH-2-C1_upper part	
+4374.96	-3.80	9.41	1.32	NH-2-C1_upper part	
+4375.04	-4.52	9.10	1.12	NH-2-C1_upper part	
+4375.13	-4.81	9.02	1.11	NH-2-C1_upper part	
+4375.21	-5.05	8.98	1.08	NH-2-C1_upper part	
+4375.29	-4.98	8.91	1.04	NH-2-C1_upper part	
+4375.38	-4.84	8.89	1.07	NH-2-C1_upper part	
+4375.54	-4.69	8.97	1.17	NH-2-C1_upper part	
+4375.71	-4.02	9.18	1.23	NH-2-C1_upper part	
+4375.88	-3.47	9.46	1.41	NH-2-C1_upper part	
+4375.98	-4.20	9.18	1.20	NH-2-C1_upper part	
+4376.08	-4.59	9.06	1.15	NH-2-C1_upper part	
+4376.18	-4.62	9.01	1.15	NH-2-C1_upper part	
+4376.28	-4.77	8.95	1.11	NH-2-C1_upper part	
+4376.38	-4.86	8.93	1.10	NH-2-C1_upper part	
+4376.54	-4.78	8.97	1.11	NH-2-C1_upper part	
+4376.71	-4.10	9.08	1.20	NH-2-C1_upper part	
+4376.88	-3.82	9.24	1.29	NH-2-C1_upper part	
+4377.00	-3.85	9.18	1.30	NH-2-C1_upper part	
+4377.13	-4.20	9.15	1.22	NH-2-C1_upper part	
+4377.25	-4.58	9.00	1.12	NH-2-C1_upper part	
+4377.38	-4.73	8.87	1.04	NH-2-C1_upper part	
+4377.48	-4.78	8.91	1.09	NH-2-C1_upper part	
+4377.58	-4.36	9.03	1.17	NH-2-C1_upper part	
+4377.68	-4.47	9.05	1.22	NH-2-C1_upper part	
+4377.78	-3.84	9.22	1.32	NH-2-C1_upper part	
+4377.88	-3.70	9.27	1.35	NH-2-C1_upper part	
+4377.96	-4.23	9.07	1.19	NH-2-C1_upper part	
+4378.04	-4.78	9.00	1.12	NH-2-C1_upper part	
+4378.13	-4.97	8.87	1.08	NH-2-C1_upper part	
+4378.21	-4.90	8.96	1.05	NH-2-C1_upper part	
+4378.29	-4.76	8.89	1.05	NH-2-C1_upper part	
+4378.38	-4.65	8.83	1.08	NH-2-C1_upper part	
+4378.50	-4.51	8.98	1.14	NH-2-C1_upper part	
+4378.63	-4.26	9.16	1.20	NH-2-C1_upper part	
+4378.75	-3.52	9.21	1.33	NH-2-C1_upper part	
+4378.88	-3.78	9.28	1.34	NH-2-C1_upper part	
+4379.00	-4.15	9.10	1.21	NH-2-C1_upper part	
+4379.13	-4.64	8.98	1.10	NH-2-C1_upper part	
+4379.25	-4.76	8.91	1.05	NH-2-C1_upper part	
+4379.38	-4.81	8.89	1.10	NH-2-C1_upper part	
+4379.46	-4.70	8.90	1.10	NH-2-C1_upper part	
+4379.54	-4.49	8.95	1.17	NH-2-C1_upper part	
+4379.63	-4.31	8.96	1.13	NH-2-C1_upper part	
+4379.71	-3.86	9.09	1.28	NH-2-C1_upper part	
+4379.79	-3.39	9.28	1.35	NH-2-C1_upper part	
+4379.88	-3.44	9.33	1.34	NH-2-C1_upper part	
+4380.00	-4.31	9.14	1.22	NH-2-C1_upper part	
+4380.13	-4.49	9.12	1.17	NH-2-C1_upper part	
+4380.25	-4.63	8.89	1.11	NH-2-C1_upper part	
+4380.38	-4.43	8.88	1.08	NH-2-C1_upper part	
+4380.54	-4.41	8.90	1.09	NH-2-C1_upper part	
+4380.71	-3.96	9.11	1.22	NH-2-C1_upper part	
+4380.88	-3.37	9.35	1.43	NH-2-C1_upper part	
+4381.04	-3.62	9.19	1.31	NH-2-C1_upper part	
+4381.21	-4.25	8.92	1.13	NH-2-C1_upper part	
+4381.38	-4.71	8.87	1.07	NH-2-C1_upper part	
+4381.48	-4.58	8.96	1.10	NH-2-C1_upper part	
+4381.58	-4.68	8.99	1.15	NH-2-C1_upper part	
+4381.68	-4.13	9.04	1.26	NH-2-C1_upper part	
+4381.78	-3.91	9.27	1.39	NH-2-C1_upper part	
+4381.88	-3.53	9.34	1.42	NH-2-C1_upper part	
+4381.96	-4.07	9.18	1.27	NH-2-C1_upper part	
+4382.04	-4.30	9.16	1.22	NH-2-C1_upper part	
+4382.13	-4.61	9.02	1.19	NH-2-C1_upper part	
+4382.21	-4.82	8.98	1.18	NH-2-C1_upper part	
+4382.29	-4.63	8.96	1.16	NH-2-C1_upper part	
+4382.38	-4.68	8.90	1.11	NH-2-C1_upper part	
+4382.54	-4.28	9.11	1.21	NH-2-C1_upper part	
+4382.71	-3.85	9.20	1.31	NH-2-C1_upper part	
+4382.88	-3.44	9.34	1.40	NH-2-C1_upper part	
+4382.98	-4.15	9.22	1.27	NH-2-C1_upper part	
+4383.08	-4.72	9.03	1.13	NH-2-C1_upper part	
+4383.18	-4.85	9.01	1.15	NH-2-C1_upper part	
+4383.28	-4.86	8.98	1.11	NH-2-C1_upper part	
+4383.38	-4.75	8.95	1.12	NH-2-C1_upper part	
+4383.54	-4.34	9.03	1.19	NH-2-C1_upper part	
+4383.71	-3.52	9.42	1.43	NH-2-C1_upper part	
+4383.88	-3.49	9.45	1.39	NH-2-C1_upper part	
+4384.04	-4.38	9.13	1.17	NH-2-C1_upper part	
+4384.21	-4.75	8.99	1.10	NH-2-C1_upper part	
+4384.38	-4.78	8.99	1.12	NH-2-C1_upper part	
+4384.54	-4.12	9.03	1.16	NH-2-C1_upper part	
+4384.71	-3.72	9.15	1.28	NH-2-C1_upper part	
+4384.88	-3.41	9.42	1.40	NH-2-C1_upper part	
+4385.00	-4.42	9.11	1.17	NH-2-C1_upper part	
+4385.13	-4.65	9.03	1.13	NH-2-C1_upper part	
+4385.25	-4.80	8.95	1.12	NH-2-C1_upper part	
+4385.38	-4.78	8.92	1.07	NH-2-C1_upper part	
+4385.50	-4.58	8.97	1.09	NH-2-C1_upper part	
+4385.63	-4.53	9.00	1.11	NH-2-C1_upper part	
+4385.75	-3.81	9.18	1.25	NH-2-C1_upper part	
+4385.88	-3.27	9.47	1.43	NH-2-C1_upper part	
+4385.98	-4.11	9.22	1.26	NH-2-C1_upper part	
+4386.08	-4.41	9.08	1.15	NH-2-C1_upper part	
+4386.18	-4.71	8.95	1.11	NH-2-C1_upper part	
+4386.28	-4.65	8.97	1.10	NH-2-C1_upper part	
+4386.38	-4.50	8.92	1.12	NH-2-C1_upper part	
+4386.54	-4.46	8.97	1.11	NH-2-C1_upper part	
+4386.71	-3.93	9.13	1.25	NH-2-C1_upper part	
+4386.88	-3.34	9.36	1.43	NH-2-C1_upper part	
+4387.00	-3.80	9.26	1.31	NH-2-C1_upper part	
+4387.13	-4.58	9.05	1.13	NH-2-C1_upper part	
+4387.25	-4.66	8.95	1.08	NH-2-C1_upper part	
+4387.38	-4.67	8.88	1.07	NH-2-C1_upper part	
+4387.48	-4.63	8.89	1.08	NH-2-C1_upper part	
+4387.58	-4.55	8.98	1.15	NH-2-C1_upper part	
+4387.68	-4.14	9.04	1.18	NH-2-C1_upper part	
+4387.78	-3.45	9.28	1.34	NH-2-C1_upper part	
+4387.88	-3.38	9.33	1.39	NH-2-C1_upper part	
+4388.04	-3.95	9.16	1.21	NH-2-C1_upper part	
+4388.21	-4.39	8.94	1.08	NH-2-C1_upper part	
+4388.38	-4.42	8.87	1.07	NH-2-C1_upper part	
+4388.48	-4.51	8.91	1.09	NH-2-C1_upper part	
+4388.58	-4.27	9.01	1.14	NH-2-C1_upper part	
+4388.68	-3.99	9.06	1.18	NH-2-C1_upper part	
+4388.78	-3.72	9.21	1.29	NH-2-C1_upper part	
+4388.88	-3.18	9.36	1.41	NH-2-C1_upper part	
+4388.96	-3.58	9.37	1.37	NH-2-C1_upper part	
+4389.04	-3.79	9.21	1.24	NH-2-C1_upper part	
+4389.13	-4.35	8.99	1.14	NH-2-C1_upper part	
+4389.21	-4.47	8.93	1.11	NH-2-C1_upper part	
+4389.29	-4.53	8.89	1.10	NH-2-C1_upper part	
+4389.38	-4.48	8.84	1.04	NH-2-C1_upper part	
+4389.54	-4.19	8.92	1.09	NH-2-C1_upper part	
+4389.71	-3.25	9.28	1.33	NH-2-C1_upper part	
+4389.88	-3.50	9.36	1.35	NH-2-C1_upper part	
+4389.98	-3.90	9.17	1.22	NH-2-C1_upper part	
+4390.08	-4.59	8.98	1.10	NH-2-C1_upper part	
+4390.18	-4.71	9.01	1.12	NH-2-C1_upper part	
+4390.28	-4.69	9.00	1.08	NH-2-C1_upper part	
+4390.38	-4.58	8.82	1.06	NH-2-C1_upper part	
+4390.54	-4.53	8.88	1.07	NH-2-C1_upper part	
+4390.71	-3.90	9.12	1.22	NH-2-C1_upper part	
+4390.88	-3.34	9.44	1.38	NH-2-C1_upper part	
+4390.96	-3.46	9.37	1.35	NH-2-C1_upper part	
+4391.04	-4.04	9.26	1.21	NH-2-C1_upper part	
+4391.13	-4.27	9.07	1.12	NH-2-C1_upper part	
+4391.21	-4.61	8.92	1.10	NH-2-C1_upper part	
+4391.29	-4.71	8.96	1.10	NH-2-C1_upper part	
+4391.38	-4.62	8.92	1.07	NH-2-C1_upper part	
+4391.63	-4.22	9.10	1.16	NH-2-C1_upper part	
+4391.88	-3.18	9.29	1.38	NH-2-C1_upper part	
+4392.00	-3.44	9.27	1.33	NH-2-C1_upper part	
+4392.13	-4.18	9.05	1.17	NH-2-C1_upper part	
+4392.25	-4.43	8.93	1.09	NH-2-C1_upper part	
+4392.38	-4.48	8.88	1.08	NH-2-C1_upper part	
+4392.54	-4.44	8.93	1.09	NH-2-C1_upper part	
+4392.71	-3.62	9.24	1.32	NH-2-C1_upper part	
+4392.88	-3.26	9.38	1.40	NH-2-C1_upper part	
+4392.98	-3.87	9.24	1.28	NH-2-C1_upper part	
+4393.08	-4.66	8.96	1.09	NH-2-C1_upper part	
+4393.18	-4.72	8.91	1.07	NH-2-C1_upper part	
+4393.28	-4.56	8.93	1.09	NH-2-C1_upper part	
+4393.38	-4.55	8.85	1.05	NH-2-C1_upper part	
+4393.54	-4.28	8.95	1.10	NH-2-C1_upper part	
+4393.71	-3.49	9.22	1.31	NH-2-C1_upper part	
+4393.88	-3.15	9.43	1.45	NH-2-C1_upper part	
+4394.00	-4.21	9.09	1.18	NH-2-C1_upper part	
+4394.13	-4.56	8.93	1.09	NH-2-C1_upper part	
+4394.25	-4.71	8.90	1.10	NH-2-C1_upper part	
+4394.38	-4.59	8.84	1.06	NH-2-C1_upper part	
+4394.54	-4.30	8.86	1.08	NH-2-C1_upper part	
+4394.71	-3.73	9.05	1.25	NH-2-C1_upper part	
+4394.88	-3.35	9.31	1.39	NH-2-C1_upper part	
+4395.38	-4.53	8.84	1.08	NH-2-C1_upper part	
+4395.50	-4.53	8.88	1.09	NH-2-C1_upper part	
+4395.63	-4.02	9.09	1.22	NH-2-C1_upper part	
+4395.75	-3.39	9.23	1.34	NH-2-C1_upper part	
+4395.88	-3.27	9.32	1.37	NH-2-C1_upper part	
+4396.04	-4.39	9.05	1.16	NH-2-C1_upper part	
+4396.21	-4.66	8.97	1.09	NH-2-C1_upper part	
+4396.38	-4.53	8.92	1.11	NH-2-C1_upper part	
+4396.50	-4.30	8.96	1.11	NH-2-C1_upper part	
+4396.63	-4.02	9.03	1.18	NH-2-C1_upper part	
+4396.75	-3.68	9.28	1.29	NH-2-C1_upper part	
+4396.88	-3.49	9.30	1.30	NH-2-C1_upper part	
+4396.98	-3.73	9.21	1.27	NH-2-C1_upper part	
+4397.08	-4.29	9.03	1.12	NH-2-C1_upper part	
+4397.18	-4.59	8.95	1.07	NH-2-C1_upper part	
+4397.28	-4.70	8.94	1.08	NH-2-C1_upper part	
+4397.38	-4.50	8.89	1.09	NH-2-C1_upper part	
+4397.54	-4.47	8.92	1.10	NH-2-C1_upper part	
+4397.71	-4.18	9.11	1.21	NH-2-C1_upper part	
+4397.88	-3.55	9.25	1.37	NH-2-C1_upper part	
+4397.98	-3.70	9.20	1.30	NH-2-C1_upper part	
+4398.08	-4.61	8.95	1.10	NH-2-C1_upper part	
+4398.18	-4.69	8.91	1.09	NH-2-C1_upper part	
+4398.28	-4.76	8.90	1.09	NH-2-C1_upper part	
+4398.38	-4.62	8.88	1.08	NH-2-C1_upper part	
+4398.50	-4.62	8.89	1.07	NH-2-C1_upper part	
+4398.63	-4.20	9.00	1.15	NH-2-C1_upper part	
+4398.75	-3.73	9.19	1.29	NH-2-C1_upper part	
+4398.88	-3.42	9.38	1.46	NH-2-C1_upper part	
+4399.00	-3.90	9.12	1.22	NH-2-C1_upper part	
+4399.13	-4.49	9.00	1.13	NH-2-C1_upper part	
+4399.25	-4.56	8.98	1.10	NH-2-C1_upper part	
+4399.38	-4.55	8.93	1.12	NH-2-C1_upper part	
+4399.54	-4.28	9.05	1.20	NH-2-C1_upper part	
+4399.71	-3.77	9.19	1.27	NH-2-C1_upper part	
+4399.88	-3.33	9.28	1.37	NH-2-C1_upper part	
+4400.04	-3.87	9.19	1.25	NH-2-C1_upper part	
+4400.21	-4.78	8.99	1.10	NH-2-C1_upper part	
+4400.38	-4.95	8.88	1.07	NH-2-C1_upper part	
+4400.48	-4.79	8.92	1.09	NH-2-C1_upper part	
+4400.58	-4.72	8.94	1.10	NH-2-C1_upper part	
+4400.68	-4.40	8.95	1.14	NH-2-C1_upper part	
+4400.78	-4.05	9.18	1.26	NH-2-C1_upper part	
+4400.88	-3.40	9.44	1.47	NH-2-C1_upper part	
+4400.98	-3.58	9.28	1.34	NH-2-C1_upper part	
+4401.08	-4.36	9.13	1.20	NH-2-C1_upper part	
+4401.18	-4.61	9.07	1.17	NH-2-C1_upper part	
+4401.28	-4.72	8.92	1.09	NH-2-C1_upper part	
+4401.38	-4.79	8.87	1.07	NH-2-C1_upper part	
+4401.50	-4.66	8.98	1.13	NH-2-C1_upper part	
+4401.63	-4.47	9.05	1.17	NH-2-C1_upper part	
+4401.75	-3.85	9.20	1.27	NH-2-C1_upper part	
+4401.88	-3.27	9.34	1.42	NH-2-C1_upper part	
+4402.13	-4.45	9.00	1.14	NH-2-C1_upper part	
+4402.38	-4.80	8.89	1.06	NH-2-C1_upper part	
+4402.46	-4.89	8.92	1.08	NH-2-C1_upper part	
+4402.54	-4.76	8.90	1.08	NH-2-C1_upper part	
+4402.63	-4.69	8.94	1.12	NH-2-C1_upper part	
+4402.71	-4.43	9.00	1.16	NH-2-C1_upper part	
+4402.79	-3.70	9.24	1.29	NH-2-C1_upper part	
+4402.88	-3.55	9.26	1.34	NH-2-C1_upper part	
+4403.04	-4.16	9.15	1.22	NH-2-C1_upper part	
+4403.21	-4.63	8.95	1.11	NH-2-C1_upper part	
+4403.38	-5.10	8.83	1.07	NH-2-C1_upper part	
+4403.46	-4.85	8.85	1.05	NH-2-C1_upper part	
+4403.54	-4.64	8.89	1.09	NH-2-C1_upper part	
+4403.63	-4.36	8.93	1.12	NH-2-C1_upper part	
+4403.71	-4.15	9.03	1.17	NH-2-C1_upper part	
+4403.79	-3.87	9.13	1.22	NH-2-C1_upper part	
+4403.88	-3.58	9.27	1.35	NH-2-C1_upper part	
+4404.00	-3.97	9.14	1.23	NH-2-C1_upper part	
+4404.13	-4.63	8.95	1.11	NH-2-C1_upper part	
+4404.25	-4.67	8.94	1.11	NH-2-C1_upper part	
+4404.38	-4.77	8.90	1.08	NH-2-C1_upper part	
+4404.50	-4.57	8.89	1.13	NH-2-C1_upper part	
+4404.63	-4.31	8.99	1.16	NH-2-C1_upper part	
+4404.75	-3.55	9.23	1.34	NH-2-C1_upper part	
+4404.88	-3.38	9.30	1.36	NH-2-C1_upper part	
+4405.04	-4.29	9.00	1.13	NH-2-C1_upper part	
+4405.21	-4.65	8.88	1.07	NH-2-C1_upper part	
+4405.38	-4.72	8.85	1.07	NH-2-C1_upper part	
+4405.54	-4.19	8.98	1.12	NH-2-C1_upper part	
+4405.71	-3.61	9.24	1.28	NH-2-C1_upper part	
+4405.88	-3.46	9.29	1.35	NH-2-C1_upper part	
+4406.00	-3.72	9.19	1.26	NH-2-C1_upper part	
+4406.13	-4.23	9.05	1.14	NH-2-C1_upper part	
+4406.25	-4.53	8.95	1.07	NH-2-C1_upper part	
+4406.38	-4.39	8.90	1.11	NH-2-C1_upper part	
+4406.54	-4.20	9.06	1.18	NH-2-C1_upper part	
+4406.71	-3.65	9.19	1.29	NH-2-C1_upper part	
+4406.88	-3.30	9.34	1.40	NH-2-C1_upper part	
+4406.98	-3.58	9.28	1.35	NH-2-C1_upper part	
+4407.08	-4.09	9.07	1.17	NH-2-C1_upper part	
+4407.18	-4.65	8.89	1.08	NH-2-C1_upper part	
+4407.28	-4.70	8.95	1.08	NH-2-C1_upper part	
+4407.38	-4.66	8.87	1.06	NH-2-C1_upper part	
+4407.50	-4.46	8.96	1.13	NH-2-C1_upper part	
+4407.63	-4.28	9.00	1.17	NH-2-C1_upper part	
+4407.75	-3.61	9.24	1.30	NH-2-C1_upper part	
+4407.88	-3.42	9.34	1.39	NH-2-C1_upper part	
+4408.04	-4.08	9.10	1.19	NH-2-C1_upper part	
+4408.21	-4.79	8.96	1.09	NH-2-C1_upper part	
+4408.38	-4.90	8.86	1.05	NH-2-C1_upper part	
+4408.50	-4.50	8.87	1.06	NH-2-C1_upper part	
+4408.63	-4.32	9.02	1.16	NH-2-C1_upper part	
+4408.75	-3.73	9.18	1.28	NH-2-C1_upper part	
+4408.88	-3.14	9.38	1.45	NH-2-C1_upper part	
+4409.04	-3.78	9.17	1.26	NH-2-C1_upper part	
+4409.21	-4.58	8.95	1.08	NH-2-C1_upper part	
+4409.38	-4.75	8.85	1.08	NH-2-C1_upper part	
+4409.48	-4.83	8.89	1.08	NH-2-C1_upper part	
+4409.58	-4.43	8.92	1.08	NH-2-C1_upper part	
+4409.68	-4.31	9.02	1.17	NH-2-C1_upper part	
+4409.78	-3.63	9.17	1.31	NH-2-C1_upper part	
+4409.88	-3.35	9.35	1.38	NH-2-C1_upper part	
+4409.98	-3.92	9.08	1.17	NH-2-C1_upper part	
+4410.08	-4.22	9.01	1.15	NH-2-C1_upper part	
+4410.18	-4.60	8.92	1.10	NH-2-C1_upper part	
+4410.28	-4.53	8.89	1.09	NH-2-C1_upper part	
+4410.38	-4.53	8.85	1.09	NH-2-C1_upper part	
+4410.54	-4.40	8.96	1.13	NH-2-C1_upper part	
+4410.71	-3.61	9.15	1.25	NH-2-C1_upper part	
+4410.88	-3.42	9.24	1.32	NH-2-C1_upper part	
+4411.04	-3.63	9.18	1.27	NH-2-C1_upper part	
+4411.21	-4.34	8.98	1.10	NH-2-C1_upper part	
+4411.38	-4.47	8.85	1.06	NH-2-C1_upper part	
+4411.48	-4.67	8.90	1.10	NH-2-C1_upper part	
+4411.58	-4.30	8.89	1.09	NH-2-C1_upper part	
+4411.68	-4.23	8.92	1.11	NH-2-C1_upper part	
+4411.78	-3.73	9.05	1.20	NH-2-C1_upper part	
+4411.88	-3.39	9.28	1.34	NH-2-C1_upper part	
+4411.98	-3.65	9.24	1.31	NH-2-C1_upper part	
+4412.08	-3.99	9.02	1.16	NH-2-C1_upper part	
+4412.18	-4.52	8.90	1.09	NH-2-C1_upper part	
+4412.28	-4.54	8.96	1.11	NH-2-C1_upper part	
+4412.38	-4.50	8.90	1.08	NH-2-C1_upper part	
+4412.54	-4.25	9.03	1.16	NH-2-C1_upper part	
+4412.71	-3.61	9.20	1.32	NH-2-C1_upper part	
+4412.88	-3.37	9.31	1.39	NH-2-C1_upper part	
+4413.04	-4.07	9.00	1.13	NH-2-C1_upper part	
+4413.21	-4.37	8.91	1.08	NH-2-C1_upper part	
+4413.38	-4.49	8.93	1.06	NH-2-C1_upper part	
+4413.50	-4.54	8.91	1.07	NH-2-C1_upper part	
+4413.63	-4.42	9.04	1.15	NH-2-C1_upper part	
+4413.75	-3.51	9.28	1.30	NH-2-C1_upper part	
+4413.88	-3.32	9.34	1.33	NH-2-C1_upper part	
+4414.04	-4.15	9.01	1.12	NH-2-C1_upper part	
+4414.21	-4.51	8.97	1.09	NH-2-C1_upper part	
+4414.38	-4.42	8.95	1.09	NH-2-C1_upper part	
+4414.54	-4.61	9.00	1.10	NH-2-C1_upper part	
+4414.71	-3.89	9.20	1.23	NH-2-C1_upper part	
+4414.88	-2.97	9.47	1.44	NH-2-C1_upper part	
+4415.04	-3.82	9.08	1.20	NH-2-C1_upper part	
+4415.21	-4.27	8.97	1.13	NH-2-C1_upper part	
+4415.38	-4.52	8.97	1.10	NH-2-C1_upper part	
+4415.63	-4.10	9.02	1.16	NH-2-C1_upper part	
+4415.88	-3.47	9.31	1.30	NH-2-C1_upper part	
+4415.98	-3.20	9.15	1.22	NH-2-C1_upper part	
+4416.08	-3.56	9.16	1.29	NH-2-C1_upper part	
+4416.18	-3.67	9.15	1.21	NH-2-C1_upper part	
+4416.28	-4.21	8.97	1.09	NH-2-C1_upper part	
+4416.38	-4.43	8.95	1.09	NH-2-C1_upper part	
+4416.50	-4.40	8.99	1.09	NH-2-C1_upper part	
+4416.63	-4.32	9.02	1.14	NH-2-C1_upper part	
+4416.75	-3.94	9.16	1.23	NH-2-C1_upper part	
+4416.88	-3.28	9.25	1.31	NH-2-C1_upper part	
+4417.04	-3.53	9.14	1.22	NH-2-C1_upper part	
+4417.21	-4.48	8.98	1.07	NH-2-C1_upper part	
+4417.38	-4.54	8.89	1.04	NH-2-C1_upper part	
+4417.54	-4.33	9.03	1.11	NH-2-C1_upper part	
+4417.71	-3.62	9.14	1.22	NH-2-C1_upper part	
+4417.88	-3.41	9.27	1.31	NH-2-C1_upper part	
+4418.13	-4.01	9.01	1.13	NH-2-C1_upper part	
+4418.38	-4.36	8.94	1.08	NH-2-C1_upper part	
+4418.63	-4.22	8.99	1.12	NH-2-C1_upper part	
+4418.88	-3.20	9.29	1.36	NH-2-C1_upper part	
+4419.04	-3.90	9.09	1.19	NH-2-C1_upper part	
+4419.21	-4.54	8.96	1.07	NH-2-C1_upper part	
+4419.38	-4.46	8.92	1.07	NH-2-C1_upper part	
+4419.54	-4.12	9.10	1.15	NH-2-C1_upper part	
+4419.71	-3.34	9.29	1.31	NH-2-C1_upper part	
+4419.88	-3.19	9.41	1.41	NH-2-C1_upper part	
+4420.04	-3.75	9.17	1.20	NH-2-C1_upper part	
+4420.21	-4.32	8.95	1.10	NH-2-C1_upper part	
+4421.04	-3.62	8.90	1.21	NH-2-C1_lower part	
+4421.21	-4.34	8.83	1.08	NH-2-C1_lower part	
+4421.38	-4.74	8.77	1.04	NH-2-C1_lower part	
+4421.54	-4.51	8.85	1.04	NH-2-C1_lower part	
+4421.71	-4.28	8.98	1.07	NH-2-C1_lower part	
+4421.88	-3.18	9.36	1.31	NH-2-C1_lower part	
+4422.00	-3.40	9.36	1.28	NH-2-C1_lower part	
+4422.13	-4.51	9.04	1.05	NH-2-C1_lower part	
+4422.25	-4.72	9.01	1.04	NH-2-C1_lower part	
+4422.38	-4.61	8.98	1.05	NH-2-C1_lower part	
+4422.54	-4.50	8.99	1.06	NH-2-C1_lower part	
+4422.71	-3.59	9.22	1.24	NH-2-C1_lower part	
+4422.88	-3.76	9.27	1.26	NH-2-C1_lower part	
+4422.98	-4.46	9.05	1.11	NH-2-C1_lower part	
+4423.08	-4.65	9.02	1.11	NH-2-C1_lower part	
+4423.18	-4.58	8.97	1.12	NH-2-C1_lower part	
+4423.28	-4.75	9.01	1.09	NH-2-C1_lower part	
+4423.38	-4.77	8.93	1.04	NH-2-C1_lower part	
+4423.50	-4.71	8.96	1.05	NH-2-C1_lower part	
+4423.63	-4.50	9.04	1.08	NH-2-C1_lower part	
+4423.75	-3.68	9.23	1.22	NH-2-C1_lower part	
+4423.88	-3.60	9.29	1.28	NH-2-C1_lower part	
+4423.98	-4.13	9.17	1.17	NH-2-C1_lower part	
+4424.08	-4.91	9.03	1.09	NH-2-C1_lower part	
+4424.18	-4.99	8.96	1.06	NH-2-C1_lower part	
+4424.28	-4.77	8.93	1.03	NH-2-C1_lower part	
+4424.38	-4.86	8.91	1.04	NH-2-C1_lower part	
+4424.50	-4.66	8.94	1.03	NH-2-C1_lower part	
+4424.63	-4.04	9.04	1.09	NH-2-C1_lower part	
+4424.75	-4.04	9.16	1.21	NH-2-C1_lower part	
+4424.88	-3.80	9.30	1.26	NH-2-C1_lower part	
+4425.00	-4.13	9.16	1.19	NH-2-C1_lower part	
+4425.13	-4.71	9.00	1.09	NH-2-C1_lower part	
+4425.25	-4.92	8.98	1.06	NH-2-C1_lower part	
+4425.38	-4.93	8.92	1.05	NH-2-C1_lower part	
+4917.63	-3.81	9.16	1.30	NH-2-C2_upper part	
+4917.88	-3.37	9.23	1.32	NH-2-C2_upper part	
+4918.13	-4.73	8.99	1.13	NH-2-C2_upper part	
+4918.38	-4.59	8.95	1.11	NH-2-C2_upper part	
+4918.54	-4.67	8.97	1.12	NH-2-C2_upper part	
+4918.71	-4.19	9.00	1.15	NH-2-C2_upper part	
+4918.88	-3.69	9.33	1.32	NH-2-C2_upper part	
+4919.13	-4.20	9.12	1.17	NH-2-C2_upper part	
+4919.38	-4.69	8.94	1.11	NH-2-C2_upper part	
+4919.50	-4.72	8.98	1.10	NH-2-C2_upper part	
+4919.63	-4.57	9.03	1.14	NH-2-C2_upper part	
+4919.75	-4.04	9.12	1.19	NH-2-C2_upper part	
+4919.88	-3.58	9.30	1.32	NH-2-C2_upper part	
+4920.13	-4.19	9.08	1.18	NH-2-C2_upper part	
+4920.38	-4.55	8.85	1.06	NH-2-C2_upper part	
+4920.50	-4.56	8.92	1.08	NH-2-C2_upper part	
+4920.63	-4.57	9.08	1.19	NH-2-C2_upper part	
+4920.75	-3.88	9.14	1.26	NH-2-C2_upper part	
+4920.88	-3.50	9.30	1.34	NH-2-C2_upper part	
+4921.04	-4.04	9.24	1.23	NH-2-C2_upper part	
+4921.21	-4.59	8.99	1.09	NH-2-C2_upper part	
+4921.38	-4.66	8.93	1.09	NH-2-C2_upper part	
+4921.54	-4.29	9.03	1.14	NH-2-C2_upper part	
+4921.71	-4.05	9.10	1.22	NH-2-C2_upper part	
+4921.88	-3.37	9.26	1.32	NH-2-C2_upper part	
+4922.13	-4.22	9.19	1.23	NH-2-C2_upper part	
+4922.38	-4.73	8.90	1.08	NH-2-C2_upper part	
+4922.48	-5.01	8.97	1.09	NH-2-C2_upper part	
+4922.58	-4.81	9.02	1.14	NH-2-C2_upper part	
+4922.68	-4.46	9.03	1.19	NH-2-C2_upper part	
+4922.78	-3.79	9.24	1.31	NH-2-C2_upper part	
+4922.88	-3.92	9.26	1.28	NH-2-C2_upper part	
+4923.04	-4.63	9.13	1.17	NH-2-C2_upper part	
+4923.21	-4.68	9.05	1.10	NH-2-C2_upper part	
+4923.38	-4.81	8.87	1.05	NH-2-C2_upper part	
+4923.50	-5.03	8.88	1.07	NH-2-C2_upper part	
+4923.63	-4.71	8.91	1.11	NH-2-C2_upper part	
+4923.75	-3.97	9.24	1.25	NH-2-C2_upper part	
+4923.88	-3.74	9.26	1.32	NH-2-C2_upper part	
+4924.13	-4.37	9.15	1.19	NH-2-C2_upper part	
+4924.38	-5.01	8.91	1.07	NH-2-C2_upper part	
+4924.48	-4.98	8.92	1.08	NH-2-C2_upper part	
+4924.58	-4.67	8.98	1.08	NH-2-C2_upper part	
+4924.68	-4.69	9.09	1.15	NH-2-C2_upper part	
+4924.78	-4.20	9.16	1.22	NH-2-C2_upper part	
+4924.88	-3.49	9.33	1.34	NH-2-C2_upper part	
+4924.95	-3.65	9.26	1.28	NH-2-C2_upper part	
+4925.02	-4.21	9.23	1.21	NH-2-C2_upper part	
+4925.09	-4.23	9.21	1.23	NH-2-C2_upper part	
+4925.16	-4.58	9.06	1.12	NH-2-C2_upper part	
+4925.23	-4.61	9.02	1.11	NH-2-C2_upper part	
+4925.30	-4.69	8.97	1.11	NH-2-C2_upper part	
+4925.38	-4.62	8.92	1.09	NH-2-C2_upper part	
+4925.48	-4.56	8.94	1.12	NH-2-C2_upper part	
+4925.58	-4.77	8.98	1.10	NH-2-C2_upper part	
+4925.68	-4.21	9.04	1.17	NH-2-C2_upper part	
+4925.78	-3.55	9.23	1.29	NH-2-C2_upper part	
+4925.88	-3.45	9.29	1.37	NH-2-C2_upper part	
+4926.13	-4.35	9.20	1.19	NH-2-C2_upper part	
+4926.38	-4.88	8.92	1.08	NH-2-C2_upper part	
+4926.54	-4.62	8.97	1.10	NH-2-C2_upper part	
+4926.71	-4.47	9.01	1.19	NH-2-C2_upper part	
+4926.88	-3.91	9.24	1.32	NH-2-C2_upper part	
+4927.38	-4.59	8.93	1.10	NH-2-C2_upper part	
+4927.50	-4.58	8.97	1.12	NH-2-C2_upper part	
+4927.63	-4.48	9.08	1.19	NH-2-C2_upper part	
+4927.75	-4.26	9.15	1.23	NH-2-C2_upper part	
+4927.88	-3.51	9.37	1.36	NH-2-C2_upper part	
+4928.00	-3.54	9.29	1.33	NH-2-C2_upper part	
+4928.13	-4.02	9.18	1.23	NH-2-C2_upper part	
+4928.25	-4.49	9.19	1.17	NH-2-C2_upper part	
+4935.88	-3.42	9.37	1.37	NH-2-C2_lower part	
+4936.13	-4.12	9.27	1.23	NH-2-C2_lower part	
+4936.38	-4.87	9.05	1.16	NH-2-C2_lower part	
+4936.48	-4.93	9.11	1.15	NH-2-C2_lower part	
+4936.58	-4.82	9.19	1.13	NH-2-C2_lower part	
+4936.68	-4.60	9.12	1.13	NH-2-C2_lower part	
+4936.78	-3.86	9.20	1.21	NH-2-C2_lower part	
+4936.88	-3.53	9.44	1.35	NH-2-C2_lower part	
+4937.38	-4.27	9.12	1.24	NH-2-C2_lower part	
+4937.54	-4.66	9.26	1.22	NH-2-C2_lower part	
+4937.71	-3.77	9.23	1.30	NH-2-C2_lower part	
+4937.88	-3.46	9.37	1.38	NH-2-C2_lower part	
+4938.13	-4.23	9.31	1.26	NH-2-C2_lower part	
+4938.38	-4.56	9.13	1.17	NH-2-C2_lower part	
+4938.50	-4.61	9.19	1.17	NH-2-C2_lower part	
+4938.63	-4.61	9.24	1.17	NH-2-C2_lower part	
+4938.75	-4.05	9.40	1.27	NH-2-C2_lower part	
+4938.88	-3.48	9.48	1.34	NH-2-C2_lower part	
+4939.04	-4.32	9.31	1.24	NH-2-C2_lower part	
+4939.21	-4.78	9.16	1.15	NH-2-C2_lower part	
+4939.38	-4.89	9.08	1.15	NH-2-C2_lower part	
+4939.54	-4.88	9.15	1.14	NH-2-C2_lower part	
+4939.71	-4.00	9.25	1.26	NH-2-C2_lower part	
+4939.88	-3.73	9.41	1.35	NH-2-C2_lower part	
+4940.04	-4.51	9.20	1.20	NH-2-C2_lower part	
+4940.21	-4.71	9.10	1.17	NH-2-C2_lower part	
+4940.38	-5.18	9.03	1.13	NH-2-C2_lower part	
+4940.54	-4.82	9.11	1.17	NH-2-C2_lower part	
+4940.71	-4.09	9.32	1.24	NH-2-C2_lower part	
+4940.88	-3.68	9.43	1.31	NH-2-C2_lower part	
+4941.04	-4.72	9.10	1.14	NH-2-C2_lower part	
+4941.21	-4.99	9.11	1.15	NH-2-C2_lower part	
+4941.38	-5.11	9.07	1.12	NH-2-C2_lower part	
+4941.54	-4.72	9.07	1.12	NH-2-C2_lower part	
+4941.71	-4.41	9.19	1.15	NH-2-C2_lower part	
+4941.88	-3.64	9.45	1.26	NH-2-C2_lower part	
+4942.13	-4.51	9.15	1.12	NH-2-C2_lower part	
+4942.38	-4.69	9.14	1.12	NH-2-C2_lower part	
+4942.54	-4.80	9.17	1.11	NH-2-C2_lower part	
+4942.71	-4.51	9.23	1.17	NH-2-C2_lower part	
+4942.88	-3.13	9.46	1.37	NH-2-C2_lower part	
+4943.13	-3.80	9.29	1.23	NH-2-C2_lower part	
+4943.38	-4.26	9.16	1.18	NH-2-C2_lower part	
+4943.63	-3.70	9.34	1.26	NH-2-C2_lower part	
+4943.88	-3.78	9.40	1.32	NH-2-C2_lower part	
+4944.13	-4.56	9.11	1.16	NH-2-C2_lower part	
+4944.38	-4.82	9.11	1.16	NH-2-C2_lower part	
+4944.63	-4.28	9.29	1.22	NH-2-C2_lower part	

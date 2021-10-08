@@ -1,0 +1,607 @@
+# Kiritimati Island Modern and Fossil Coral d18O and d13C Data				
+#----------------------------------------------------------------------- 				
+#                World Data Service for Paleoclimatology, Boulder 				
+#                                  and 				
+#                     NOAA Paleoclimatology Program 				
+#             National Centers for Environmental Information (NCEI)				
+#----------------------------------------------------------------------- 				
+# Template Version 3.0				
+# Encoding: UTF-8				
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data.
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed.
+#				
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/22415
+#       Description: d18O and d13C data from modern and fossil corals from Kiritimati Island				
+# 				
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/coral/central_pacific/grothe2019/grothe2019-x12-3.txt
+#       Description: NOAA location of the template
+#
+# Description/Documentation lines begin with #				
+# Data lines have no #				
+#				
+# Archive: Corals and Sclerosponges
+#				
+# Dataset DOI: 
+#				
+# Parameter_Keywords: oxygen isotopes, carbon isotopes				
+#--------------------				
+# Contribution_Date				
+#	Date:  2019-10-29			
+#--------------------				
+# File_Last_Modified_Date				
+#	Date:  2019-10-29			
+#--------------------				
+# Title				
+#	Study_Name: Kiritimati Island Modern and Fossil Coral d18O and d13C Data
+#--------------------				
+# Investigators				
+#	Investigators:  Grothe, P.R.; Cobb, K.M.; Liguori, G.; Di Lorenzo, E.; Capotondi, A.; Lu, Y.; Cheng, H.; Edwards, R.L.; Southon, J.R.; Santos, G.M.; Deocampo, D.M.; Lynch-Stieglitz, J.; Chen, T.; Sayani, H.R.; Thompson, D.M.; Conroy, J. L.; Moore, A.L.; Townsend, K.; Hagos, M.; O'Connor, G.; Toth, L.T.
+#--------------------				
+# Description_Notes_and_Keywords				
+#	Description: This dataset contains coral oxygen (d18O) and carbon (d13C) data from modern and fossil coral specimens collected on Kiritimati Island, Line Islands, central tropical Pacific. Proided are the raw data by depth and the associated running timeseries.
+#--------------------				
+# Publication 				
+#	Authors: Grothe, P.R.; Cobb, K.M.; Liguori, G.; Di Lorenzo, E.; Capotondi, A.; Lu, Y.; Cheng, H.; Edwards, R.L.; Southon, J.R.; Santos, G.M.; Deocampo, D.M.; Lynch-Stieglitz, J.; Chen, T.; Sayani, H.R.; Townsend, K.; Hagos, M.; O'Connor, G.; Thompson, D.M.; Toth, L.T.; Moore, A.L.
+#	Published_Date_or_Year:  2019     			
+#	Published_Title: Enhanced El Nino-Southern Oscillation variability in recent decades			
+#	Journal_Name: Geophysical Research Letters			
+#	Volume: 46			
+#	Edition: 			
+#	Issue: 			
+#	Pages:			
+#	Report_Number: 			
+#	DOI: 	10.1029/2019GL083906		
+#	Online_Resource: 			
+#	Full_Citation: 			
+#	Abstract: 	The El Niño-Southern Oscillation (ENSO) represents the largest source of year-to-year global climate variability. While earth system models suggest a range of possible shifts in ENSO properties under continued greenhouse gas forcing, many centuries of preindustrial climate data are required to detect a potential shift in the properties of recent ENSO extremes. Here, we reconstruct the strength of ENSO variations over the last 7,000 years with a new ensemble of fossil coral oxygen isotope records from the Line Islands, located in the central equatorial Pacific. The corals document a significant decrease in ENSO variance of ~20% from 3,000 to 5,000 years ago, coinciding with changes in spring/fall precessional insolation. We find that ENSO variability over the last five decades is ~25% stronger than during the preindustrial. Our results provide empirical support for recent climate model projections showing an intensification of ENSO extremes under greenhouse forcing.		
+#------------------				
+# Funding_Agency 				
+#	Funding_Agency_Name: National Science Foundation			
+#	Grant: 3506D33; 41888101; 1029020; 1349599			
+#------------------				
+# Site_Information 				
+#	Site_Name: Kiritimati Island, Line Islands			
+#	Location: Central Pacific Ocean			
+#	Country:  Republic of Kiribati			
+#	Northernmost_Latitude:  2.05
+# 	Southernmost_Latitude:  1.683333
+# 	Easternmost_Longitude:  -157.15
+# 	Westernmost_Longitude:  -157.55
+# 	Elevation:  5 m			
+#------------------				
+# Data_Collection   				
+#	Collection_Name:  Kiritimati X12-6 Grothe2019			
+#	Earliest_Year: 1986  			
+#	Most_Recent_Year:  2012		
+#	Time_Unit:  CE		
+#	Core_Length: 			
+#	Notes: 			
+#------------------				
+# Chronology_Information
+#  Chronology:				
+#	Coral Name	IGSN	Age	Length_yrs
+# 	X12-3	IEPRG000G	1994-2012 AD	18
+# 	X12-6	IEPRG000H	1986-2012 AD	26
+# 	X12-D2-5	IEPRG0001	2491	18
+# 	X13-FS21-36	IEPRG0002	2901	12
+#	X12-D1-6	IEPRG0003	3234	14
+#	X12-D1-4	IEPRG0004	3295	22
+#	X12-D2-1	IEPRG0005	3742	22
+#	X13-FS21-51	IEPRG0006	4103	15
+#	X13-FS21-14	IEPRG0007	4527	8
+#	X13-FS21-38	IEPRG0008	4729	8
+#	X13-FS27-2	IEPRG0009	4781	17
+#	X13-FS21-15	IEPRG000A	5017	19
+#	X13-FS21-40	IEPRG000B	5038	11
+#	X13-FS21-22	IEPRG000C	5103	9
+#	X13-FS21-45(1)	IEPRG000D	5131	8
+#	X13-FS21-45(2)	IEPRG000D	5131	7
+#	X13-FS21-16	IEPRG000E	5198	17
+# 	X13-FS22-8	IEPRG000F	6296	26
+#----------------				
+# Variables 				
+#				
+# Data variables follow are preceded by ""##"" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, additional information)
+#				
+## depth_mm	depth, , , millimeter, ,corals and sclerosponges,,,N,			
+## age_CE	age, , ,year Common Era, ,corals and sclerosponges, , ,N,
+## d18Ocoral	delta 18O,,,per mil VPDB,,corals and sclerosponges,,,N,
+## d13Ccoral	delta 13C,,,per mil VPDB,,corals and sclerosponges,,,N,
+#				
+#----------------				
+# Data:				
+# Data lines follow (have no #)				
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values:  NA
+#				
+# 2. X12-6 (Kiritimati Island Modern)				
+depth_mm	age_CE	d18Ocoral	d13Ccoral	
+5	2012.042	-4.671	NA	
+6	2011.9772	-4.787	NA	
+7	2011.9124	-4.899	NA	
+8	2011.8476	-4.871	NA	
+9	2011.7828	-4.966	NA	
+10	2011.7179	-4.979	NA	
+11	2011.6531	-4.877	NA	
+12	2011.5883	-4.873	NA	
+13	2011.5235	-4.815	NA	
+14	2011.4587	-5.108	NA	
+15	2011.424	-5.036	NA	
+16	2011.3893	-5.013	NA	
+17	2011.3545	-4.989	NA	
+18	2011.3198	-4.932	NA	
+19	2011.2851	-4.936	NA	
+20	2011.2504	-4.796	NA	
+21	2011.2156	-4.704	NA	
+22	2011.1809	-4.698	NA	
+23	2011.1462	-4.738	NA	
+24	2011.1115	-4.697	NA	
+25	2011.0767	-4.676	NA	
+26	2011.042	-4.627	NA	
+27	2010.9646	-4.714	NA	
+28	2010.8872	-4.769	NA	
+29	2010.8099	-4.813	NA	
+30	2010.7325	-4.774	NA	
+31	2010.6551	-5.016	NA	
+32	2010.5777	-5.01	NA	
+33	2010.5004	-5.154	NA	
+34	2010.423	-5.176	NA	
+35	2010.3456	-5.065	NA	
+36	2010.2682	-5.2	NA	
+37	2010.1908	-5.267	NA	
+38	2010.1135	-5.275	NA	
+39	2010.0361	-5.214	NA	
+40	2009.9587	-5.325	NA	
+41	2009.9129	-5.174	NA	
+42	2009.867	-5.259	NA	
+43	2009.8212	-5.254	NA	
+44	2009.7754	-5.215	NA	
+45	2009.7295	-5.316	NA	
+46	2009.6837	-5.191	NA	
+47	2009.6379	-5.127	NA	
+48	2009.592	-5.104	NA	
+49	2009.5462	-5.046	NA	
+50	2009.5004	-5.163	NA	
+51	2009.4545	-5.204	NA	
+52	2009.4087	-5.128	NA	
+53	2009.3628	-4.955	NA	
+54	2009.317	-4.862	NA	
+55	2009.2712	-4.955	NA	
+56	2009.2253	-4.903	NA	
+57	2009.1795	-4.724	NA	
+58	2009.1337	-4.77	NA	
+59	2009.0878	-4.787	NA	
+60	2009.042	-4.664	NA	
+61	2008.9795	-4.677	NA	
+62	2008.917	-4.939	NA	
+63	2008.8545	-4.956	NA	
+64	2008.792	-5.065	NA	
+65	2008.7295	-4.907	NA	
+66	2008.667	-4.886	NA	
+67	2008.6045	-5.023	NA	
+68	2008.542	-5.065	NA	
+69	2008.5041	-4.969	NA	
+70	2008.4662	-4.84	NA	
+71	2008.4284	-4.869	NA	
+72	2008.3905	-4.884	NA	
+73	2008.3526	-4.798	NA	
+74	2008.3147	-4.689	NA	
+75	2008.2768	-4.415	NA	
+76	2008.2389	-4.35	NA	
+77	2008.2011	-4.475	NA	
+78	2008.1632	-4.541	NA	
+79	2008.1253	-4.347	NA	
+80	2008.042	-4.432	NA	
+81	2007.9587	-4.659	NA	
+82	2007.8753	-4.687	NA	
+83	2007.792	-4.794	NA	
+84	2007.7087	-4.767	NA	
+85	2007.6254	-4.916	NA	
+86	2007.542	-4.874	NA	
+87	2007.4587	-5.001	NA	
+88	2007.4275	-4.982	NA	
+89	2007.3962	-4.914	NA	
+90	2007.365	-5.009	NA	
+91	2007.3337	-4.927	NA	
+92	2007.3025	-4.963	NA	
+93	2007.2712	-4.978	NA	
+94	2007.24	-5.01	NA	
+95	2007.2087	-4.936	NA	
+96	2007.1784	-5.096	NA	
+97	2007.1481	-5.197	NA	
+98	2007.1178	-5.1	NA	
+99	2007.0875	-5.178	NA	
+100	2007.0572	-5.138	NA	
+101	2007.0268	-5.118	NA	
+102	2006.9965	-5.215	NA	
+103	2006.9662	-5.208	NA	
+104	2006.9359	-5.17	NA	
+105	2006.9056	-5.185	NA	
+106	2006.8753	-5.286	NA	
+107	2006.7995	-5.19	NA	
+108	2006.7238	-5.233	NA	
+109	2006.648	-5.239	NA	
+110	2006.5723	-5.033	NA	
+111	2006.4965	-4.935	NA	
+112	2006.4208	-5.078	NA	
+113	2006.345	-4.882	NA	
+114	2006.2693	-4.835	NA	
+115	2006.1935	-4.711	NA	
+116	2006.1178	-4.678	NA	
+117	2006.042	-4.665	NA	
+118	2005.9837	-4.865	NA	
+119	2005.9253	-4.948	NA	
+120	2005.867	-5.043	NA	
+121	2005.8087	-4.871	NA	
+122	2005.7504	-4.928	NA	
+123	2005.692	-5.005	NA	
+124	2005.6337	-4.975	NA	
+125	2005.5754	-5.115	NA	
+126	2005.517	-5.117	NA	
+127	2005.4587	-5.221	NA	
+128	2005.417	-5.094	NA	
+129	2005.3754	-4.934	NA	
+130	2005.3337	-5.058	NA	
+131	2005.292	-4.968	NA	
+132	2005.2503	-5.093	NA	
+133	2005.2087	-5.095	NA	
+134	2005.167	-5.154	NA	
+135	2005.1253	-5.027	NA	
+136	2005.065	-5.106	NA	
+137	2005.0047	-5.098	NA	
+138	2004.9444	-5.154	NA	
+139	2004.8841	-5.167	NA	
+140	2004.8238	-5.315	NA	
+141	2004.7635	-5.193	NA	
+142	2004.7032	-5.354	NA	
+143	2004.6429	-5.253	NA	
+144	2004.5827	-5.307	NA	
+145	2004.5224	-5.302	NA	
+146	2004.4621	-5.3	NA	
+147	2004.4018	-5.228	NA	
+148	2004.3415	-5.17	NA	
+149	2004.2812	-5.196	NA	
+150	2004.2209	-4.993	NA	
+151	2004.1606	-5.001	NA	
+152	2004.1003	-4.961	NA	
+153	2004.04	-4.899	NA	
+154	2003.9919	-4.965	NA	
+155	2003.9437	-4.951	NA	
+156	2003.8956	-5.028	NA	
+157	2003.8474	-5.226	NA	
+158	2003.7993	-5.167	NA	
+159	2003.7511	-5.102	NA	
+160	2003.703	-5.101	NA	
+161	2003.6549	-5.105	NA	
+162	2003.6067	-5.026	NA	
+163	2003.5586	-5.11	NA	
+164	2003.5104	-5.14	NA	
+165	2003.4623	-5.057	NA	
+166	2003.4142	-5.024	NA	
+167	2003.366	-5.133	NA	
+168	2003.3179	-5.01	NA	
+169	2003.2697	-4.99	NA	
+170	2003.2216	-5.039	NA	
+171	2003.1734	-5.059	NA	
+172	2003.1253	-5.012	NA	
+173	2003.042	-5.237	NA	
+174	2003.0003	-5.239	NA	
+175	2002.9587	-5.284	NA	
+176	2002.917	-5.347	NA	
+177	2002.8753	-5.487	NA	
+178	2002.7607	-5.344	NA	
+179	2002.6462	-5.17	NA	
+180	2002.5316	-5.271	NA	
+181	2002.417	-5.129	NA	
+182	2002.3024	-5.198	NA	
+183	2002.1879	-5.289	NA	
+184	2002.0733	-5.018	NA	
+185	2001.9587	-4.872	NA	
+186	2001.926	-4.919	NA	
+187	2001.8932	-4.948	NA	
+188	2001.8605	-4.947	NA	
+189	2001.8277	-5.047	NA	
+190	2001.795	-5.006	NA	
+191	2001.7623	-5.017	NA	
+192	2001.7295	-4.896	NA	
+193	2001.6968	-4.964	NA	
+194	2001.664	-4.934	NA	
+195	2001.6313	-5.028	NA	
+196	2001.5986	-4.956	NA	
+197	2001.5658	-5.04	NA	
+198	2001.5331	-4.957	NA	
+199	2001.5004	-5.006	NA	
+200	2001.4676	-4.999	NA	
+201	2001.4349	-4.954	NA	
+202	2001.4021	-4.828	NA	
+203	2001.3694	-4.796	NA	
+204	2001.3367	-4.954	NA	
+205	2001.3039	-4.803	NA	
+206	2001.2712	-4.856	NA	
+207	2001.2384	-4.775	NA	
+208	2001.2057	-4.809	NA	
+209	2001.173	-4.852	NA	
+210	2001.1402	-4.762	NA	
+211	2001.1075	-4.757	NA	
+212	2001.0747	-4.76	NA	
+213	2001.042	-4.712	NA	
+214	2000.9753	-4.799	NA	
+215	2000.9087	-4.866	NA	
+216	2000.842	-4.913	NA	
+217	2000.7754	-4.95	NA	
+218	2000.7087	-4.979	NA	
+219	2000.6358	-4.848	NA	
+220	2000.5629	-4.819	NA	
+221	2000.4899	-4.744	NA	
+222	2000.417	-4.848	NA	
+223	2000.3441	-4.798	NA	
+224	2000.2712	-4.596	NA	
+225	2000.1982	-4.501	NA	
+226	2000.1253	-4.482	NA	
+227	2000.0698	-4.593	NA	
+228	2000.0142	-4.678	NA	
+229	1999.9587	-4.67	NA	
+230	1999.9031	-4.872	NA	
+231	1999.8476	-4.73	NA	
+232	1999.792	-4.877	NA	
+233	1999.7365	-4.783	NA	
+234	1999.6809	-4.903	NA	
+235	1999.6254	-4.865	NA	
+236	1999.5698	-4.9	NA	
+237	1999.5143	-4.846	NA	
+238	1999.4587	-4.937	NA	
+239	1999.375	-4.799	NA	
+240	1999.2912	-4.662	NA	
+241	1999.2075	-4.752	NA	
+242	1999.1237	-4.644	NA	
+243	1999.04	-4.542	NA	
+244	1998.9882	-4.535	NA	
+245	1998.9363	-4.69	NA	
+246	1998.8845	-4.586	NA	
+247	1998.8327	-4.673	NA	
+248	1998.7808	-4.78	NA	
+249	1998.729	-4.781	NA	
+250	1998.6771	-4.677	NA	
+251	1998.6253	-4.677	NA	
+252	1998.5586	-4.947	NA	
+253	1998.492	-4.951	NA	
+254	1998.4253	-5.244	NA	
+255	1998.3587	-5.151	NA	
+256	1998.292	-5.054	NA	
+257	1998.2087	-5.111	NA	
+258	1998.1253	-5.285	NA	
+259	1998.042	-5.509	NA	
+260	1997.9587	-5.429	NA	
+261	1997.8754	-5.428	NA	
+262	1997.792	-5.56	NA	
+263	1997.7087	-5.615	NA	
+264	1997.592	-5.425	NA	
+265	1997.4753	-5.377	NA	
+266	1997.3587	-5.447	NA	
+267	1997.242	-5.176	NA	
+268	1997.1253	-4.855	NA	
+269	1997.0878	-4.937	NA	
+270	1997.0503	-5.097	NA	
+271	1997.0128	-4.898	NA	
+272	1996.9753	-4.731	NA	
+273	1996.9378	-4.804	NA	
+274	1996.9003	-4.85	NA	
+275	1996.8628	-4.849	NA	
+276	1996.8253	-4.746	NA	
+277	1996.7878	-4.661	NA	
+278	1996.7503	-4.684	NA	
+279	1996.7128	-4.696	NA	
+280	1996.6753	-4.66	NA	
+281	1996.6378	-4.642	NA	
+282	1996.6003	-4.849	NA	
+283	1996.5628	-4.811	NA	
+284	1996.5253	-4.782	NA	
+285	1996.4878	-4.801	NA	
+286	1996.4503	-4.841	NA	
+287	1996.4128	-4.907	NA	
+288	1996.3753	-4.936	NA	
+289	1996.3383	-4.844	NA	
+290	1996.3012	-4.881	NA	
+291	1996.2642	-4.7	NA	
+292	1996.2272	-4.615	NA	
+293	1996.1901	-4.695	NA	
+294	1996.1531	-4.578	NA	
+295	1996.1161	-4.549	NA	
+296	1996.079	-4.663	NA	
+297	1996.042	-4.532	NA	
+298	1995.992	-4.651	NA	
+299	1995.942	-4.741	NA	
+300	1995.892	-4.742	NA	
+301	1995.842	-4.817	NA	
+302	1995.792	-4.832	NA	
+303	1995.742	-4.758	NA	
+304	1995.692	-4.934	NA	
+305	1995.642	-4.983	NA	
+306	1995.592	-4.907	NA	
+307	1995.542	-5	NA	
+308	1995.492	-5.136	NA	
+309	1995.442	-5.131	NA	
+310	1995.392	-5.01	NA	
+311	1995.342	-5.08	NA	
+312	1995.292	-4.91	NA	
+313	1995.242	-4.985	NA	
+314	1995.192	-4.974	NA	
+315	1995.142	-5.023	NA	
+316	1995.092	-4.991	NA	
+317	1995.042	-4.974	NA	
+318	1994.9864	-5.075	NA	
+319	1994.9309	-5.121	NA	
+320	1994.8753	-5.027	NA	
+321	1994.8198	-4.981	NA	
+322	1994.7642	-4.907	NA	
+323	1994.7087	-4.997	NA	
+324	1994.6531	-5.003	NA	
+325	1994.5976	-5.146	NA	
+326	1994.542	-5.071	NA	
+327	1994.4864	-5.109	NA	
+328	1994.4309	-5.08	NA	
+329	1994.3753	-4.902	NA	
+330	1994.3198	-4.925	NA	
+331	1994.2642	-5.001	NA	
+332	1994.2087	-4.935	NA	
+333	1994.1531	-4.992	NA	
+334	1994.0976	-4.846	NA	
+335	1994.042	-4.81	NA	
+336	1993.9944	-4.901	NA	
+337	1993.9468	-4.902	NA	
+338	1993.8991	-5.017	NA	
+339	1993.8515	-5.011	NA	
+340	1993.8039	-4.997	NA	
+341	1993.7563	-4.958	NA	
+342	1993.7087	-5.012	NA	
+343	1993.661	-5.093	NA	
+344	1993.6134	-5.077	NA	
+345	1993.5658	-4.989	NA	
+346	1993.5182	-5.055	NA	
+347	1993.4705	-5.063	NA	
+348	1993.4229	-5.24	NA	
+349	1993.3753	-5.26	NA	
+350	1993.3336	-5.188	NA	
+351	1993.292	-5.109	NA	
+352	1993.2503	-5.042	NA	
+353	1993.2087	-4.99	NA	
+354	1993.167	-5.022	NA	
+355	1993.1253	-4.956	NA	
+356	1993.0837	-4.909	NA	
+357	1993.042	-4.818	NA	
+358	1992.9851	-4.86	NA	
+359	1992.9281	-4.928	NA	
+360	1992.8712	-4.862	NA	
+361	1992.8142	-4.847	NA	
+362	1992.7573	-4.882	NA	
+363	1992.7003	-4.864	NA	
+364	1992.6434	-4.876	NA	
+365	1992.5864	-5.072	NA	
+366	1992.5295	-5.063	NA	
+367	1992.4725	-5.15	NA	
+368	1992.4156	-5.197	NA	
+369	1992.3586	-5.32	NA	
+370	1992.3017	-5.397	NA	
+371	1992.2447	-5.383	NA	
+372	1992.1878	-5.327	NA	
+373	1992.1308	-5.351	NA	
+374	1992.0739	-5.245	NA	
+375	1992.0169	-5.252	NA	
+376	1991.96	-5.46	NA	
+377	1991.9043	-5.334	NA	
+378	1991.8486	-5.282	NA	
+379	1991.7929	-5.17	NA	
+380	1991.7372	-5.094	NA	
+381	1991.6815	-5.077	NA	
+382	1991.6258	-5.085	NA	
+383	1991.5701	-5.148	NA	
+384	1991.5144	-5.141	NA	
+385	1991.4587	-5.243	NA	
+386	1991.4001	-5.153	NA	
+387	1991.3414	-5.01	NA	
+388	1991.2828	-5.006	NA	
+389	1991.2241	-5.091	NA	
+390	1991.1655	-4.974	NA	
+391	1991.1068	-5.035	NA	
+392	1991.0482	-5.017	NA	
+393	1990.9895	-4.924	NA	
+394	1990.9309	-4.951	NA	
+395	1990.8723	-5.088	NA	
+396	1990.8136	-5.082	NA	
+397	1990.755	-4.99	NA	
+398	1990.6963	-4.922	NA	
+399	1990.6377	-5.079	NA	
+400	1990.579	-5.114	NA	
+401	1990.5204	-5.124	NA	
+402	1990.4617	-5.039	NA	
+403	1990.4031	-5.027	NA	
+404	1990.3445	-5.001	NA	
+405	1990.2858	-5.064	NA	
+406	1990.2272	-5.17	NA	
+407	1990.1685	-5.076	NA	
+408	1990.1099	-4.994	NA	
+409	1990.0512	-5.039	NA	
+410	1989.9926	-5.019	NA	
+411	1989.9339	-4.962	NA	
+412	1989.8753	-4.823	NA	
+413	1989.842	-5.062	NA	
+414	1989.8086	-4.962	NA	
+415	1989.7753	-4.995	NA	
+416	1989.742	-4.995	NA	
+417	1989.7086	-4.924	NA	
+418	1989.6753	-4.774	NA	
+419	1989.642	-4.777	NA	
+420	1989.6086	-4.586	NA	
+421	1989.5753	-4.63	NA	
+422	1989.542	-4.644	NA	
+423	1989.5086	-4.588	NA	
+424	1989.4753	-4.52	NA	
+425	1989.442	-4.537	NA	
+426	1989.4087	-4.522	NA	
+427	1989.3753	-4.546	NA	
+428	1989.342	-4.633	NA	
+429	1989.3087	-4.49	NA	
+430	1989.2753	-4.578	NA	
+431	1989.242	-4.455	NA	
+432	1989.2087	-4.543	NA	
+433	1989.1753	-4.618	NA	
+434	1989.142	-4.51	NA	
+435	1989.1087	-4.323	NA	
+436	1989.0753	-4.397	NA	
+437	1989.042	-4.344	NA	
+438	1988.9875	-4.459	NA	
+439	1988.933	-4.453	NA	
+440	1988.8785	-4.361	NA	
+441	1988.824	-4.258	NA	
+442	1988.7696	-4.272	NA	
+443	1988.7151	-4.2	NA	
+444	1988.6606	-4.506	NA	
+445	1988.6061	-4.633	NA	
+446	1988.5516	-4.718	NA	
+447	1988.4971	-4.704	NA	
+448	1988.4426	-4.778	NA	
+449	1988.3881	-4.792	NA	
+450	1988.3337	-4.832	NA	
+451	1988.2792	-4.796	NA	
+452	1988.2247	-4.78	NA	
+453	1988.1702	-4.836	NA	
+454	1988.1157	-4.93	NA	
+455	1988.0612	-4.981	NA	
+456	1988.0067	-5.092	NA	
+457	1987.9522	-5.099	NA	
+458	1987.8977	-5.168	NA	
+459	1987.8433	-5.219	NA	
+460	1987.7888	-5.179	NA	
+461	1987.7343	-5.211	NA	
+462	1987.6798	-5.288	NA	
+463	1987.6253	-5.548	NA	
+464	1987.3753	-5.399	NA	
+465	1987.1253	-5.083	NA	
+466	1987.1086	-5.112	NA	
+467	1987.092	-5.087	NA	
+468	1987.0753	-5.131	NA	
+469	1987.0586	-5.128	NA	
+470	1987.042	-5.083	NA	
+471	1987.0253	-5.115	NA	
+472	1987.0086	-5.182	NA	
+473	1986.992	-5.185	NA	
+474	1986.9753	-5.191	NA	
+475	1986.9587	-5.219	NA	
+476	1986.942	-5.192	NA	
+477	1986.9253	-5.134	NA	
+478	1986.9087	-5.171	NA	
+479	1986.892	-5.203	NA	
+480	1986.8753	-5.32	NA	
+481	1986.8587	-5.183	NA	
+482	1986.842	-5.286	NA	
+483	1986.8253	-5.231	NA	
+484	1986.8087	-5.194	NA	
+485	1986.792	-5.291	NA	
+486	1986.7206	-5.179	NA	
+487	1986.6491	-5.155	NA	
+488	1986.5777	-5.106	NA	
+489	1986.5063	-5.08	NA	
+490	1986.4349	-5.215	NA	
+491	1986.3634	-5.105	NA	
+492	1986.292	-4.914	NA	

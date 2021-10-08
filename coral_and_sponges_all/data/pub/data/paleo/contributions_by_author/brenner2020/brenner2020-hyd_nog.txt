@@ -1,0 +1,190 @@
+# Great Barrier Reef- Coral Sr/Ca and d18O derived Sea Surface Temperature Anomalies since the Last Glacial Maximum (LGM)
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/31835
+#      Description: NOAA Landing Page
+# Online_Resource: https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/brenner2020/brenner2020-hyd_nog.txt
+#      Description: NOAA location of the template
+#
+# Data_Type: Paleoceanography
+#
+# Dataset_DOI:
+#
+# Parameter_Keywords: trace metals in carbonates, oxygen isotopes, reconstruction
+#---------------------------------------
+# Contribution_Date
+#    Date: 2020-11-23
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2020-11-23
+#---------------------------------------
+# Title
+#    Study_Name: Great Barrier Reef- Coral Sr/Ca and d18O derived Sea Surface Temperature Anomalies since the Last Glacial Maximum (LGM)
+#---------------------------------------
+# Investigators
+#      Investigators: Brenner, L.D.; Linsley, B.K.; Webster, J.M.; Potts, D.; Felis, T; Gagan, M.K.; Inoue, M.; McGregor, H.; Suzuki, A.; Tudhope, S.; Esat, T.; Thomas, A.; Thompson, W.; Fallon, S.; Humblet, M.; Tiwari, M.; Yokoyama, Y.
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: These data include geochemical data associated with fossil Isopora corals collected during IODP Exp 325 and calculated Sr/Ca or d18O derived Sea Surface Temperature Anomalies (SSTAs). Each Isopora coral yields one Sr/Ca and one d18O value representing the entire fossil coral. Each coral is U/Th dated and are stitched together for a discontinuous time series.  
+# Samples are from Hydrographers Passage (HYD) and Noggin Pass (NOG). The geochemical data (Sr/Ca, d18O) was originally published by Felis et al., 2014 and can also be found at https://doi.pangaea.de/10.1594/PANGAEA.833407.
+# Here coral Sr/Ca and d18O were converted to SST using two different calibration equations. The Brenner et al. (2017) calibration is based on high-resolution sampled modern Isopora corals and the Felis et al. (2014) calibration is based on bulk sampled modern Isopora corals. 
+# Brenner et al. (2017): Sr/Ca×10^3=11.37(±0.02)-0.083(±0.007)×SST AND δ^18 O=0.65(±0.04)-0.185(±0.014)×SST
+# Felis et al. (2014): Sr/Ca×10^3=11.15(±0.09)-0.075(±0.011)×SST AND δ^18 O=1.6(±0.5)-0.218(±0.027)×SST
+# The SSTAs were calculated by subtracting the calculated SST values from modern SST Benchmarks (26.6°C for Noggin Pass and 26°C for Hydrographers Passage, based on the World Ocean Atlas 2009 long-term climatological mean (reference period: 1955-2006) (Locarnini et al., 2010)). 
+# Propagated error was calculated for each site- and calibration- specific SSTA. Detailed steps for error propagation can be found in Brenner et al. (In review) and the error components referred to in this data submission refer to the steps outlined in the supplementary material of the paper.
+# Locations of events:
+# 325-M0031A (HYD): Latitude: -19.678950,  Longitude: 150.239610; 325-M0033A (HYD): Latitude: -19.678830, Longitude: 150.239850; 325-M0035A (HYD): Latitude: -19.67263, Longitude: 150.243830
+# 325-M0036A (HYD): Latitude: -19.672390, Longitude: 150.243960; 325-M0039A (HYD): Latitude: -19.671500, Longitude: 150.244880; 325-M0053A (NOG): Latitude: -17.101170, Longitude: 146.576320; 325-M0057A (NOG): Latitude: -17.105210,  Longitude: 146.563990
+# More detailed information on location, various core properties, and geochemical analyses can be found in Felis et al. (2014), Webster et al. (2018), Yokoyama et al. (2018), Humblet et al. (2019) amongst others
+# Additional References: 
+# Brenner, L. D., Linsley, B. K. and D. C. Potts (2017), A Modern Sr/Ca-d18O- Sea Surface Temperature calibration for Isopora corals on the Great Barrier Reef, Paleoceanography, 32(2), 182-194, doi:10.1002/2016PA002973
+# Felis, T., McGregor, H. V., Linsley, B. K., Tudhope, A. W., Gagan, M. K., Suzuki, A., Inoue, M., Thomas, A. L., Esat, T. M., Thompson, W. G., Tiwari, M., Potts, D. C., Mudelsee, M., Yokoyama, Y., and J. M. Webster (2014), Intensification of the meridional temperature gradient in the Great Barrier Reef following the Last Glacial Maximum, Nature Communications, 5, 4102, doi:10.1038/ncomms5102.
+# Humblet, M., Potts, D. C., Webster, J. M., Braga, J .C., Iryu, Y., Yokoyama, Y., Bourillot, R., Séard, C., Droxler, A., Fujita, K., Gischler, E., and H. Kan (2019), Late glacial to deglacial variation of coralalgal assemblages in the Great Barrier Reef, Australia, Global and Planetary Change, 174, 70-91, doi: 10.1016/j.gloplacha.2018.12.014.
+# Locarnini, R. A., Mishonov, A. V., Antonov, J. I., Boyer, T. P., Garcia, H. E., Baranova, O. K., Zweng, M. M., and D. R. Johnson (2010), World Ocean Atlas 2009, Volume 1: Temperature, S. Levitus, Ed., NOAA Atlas NESDIS 68, U.S. Government Printing Office, Washington, D.C., 184 pp.
+# Webster, J.M., Braga, J.C., Humblet, M., Potts, D.C., Iryu, Y., Yokoyama, Y., Fujita, K., Bourillot, R., Esat, T.M., Fallon, S., Thompson, W.G., Thomas, A.L., Kan, H., McGregor, H.V., Hinestrosa, G., Obrochta, S.P., and B.C. Lougheed (2018), Response of the Great Barrier Reef to sea-level and environmental changes over the past 30,000 years, Nature Geoscience, 11, 426-432, doi: 10.1038/s41561-018-0127-3.
+# Yokoyama, Y., Esat, T.M., Thompson, W.G., Thomas, A.L., Webster, J.M., Miyairi, Y., Sawada, C., Aze, T., Matsuzaki, H., Okuno, J., Fallon, S., Braga, J.-C., Humblet, M., Iryu, Y., Potts, D.C., Fujita, K., Suzuki, A., and H. Kan (2018), Rapid glaciation and a two-step sea level plunge into the Last Glacial Maximum, Nature, 559, 603-607, doi: 10.1038:/s41586-018-0335-4.  
+#
+#         Provided Keywords: Younger Dryas Chronozone, Great Barrier Reef, Last Glacial Maximum, coral, Sr/Ca
+#---------------------------------------
+# Publication
+# Authors: Brenner, L.D.; Linsley, B.K.; Webster, J.M.; Potts, D.; Felis, T; Gagan, M.K.; Inoue, M.; McGregor, H.; Suzuki, A.; Tudhope, S.; Esat, T.; Thomas, A.; Thompson, W.; Fallon, S.; Humblet, M.; Tiwari, M.; Yokoyama, Y.
+# Published_Date_or_Year: 2020
+# Published_Title: Coral record of Younger Dryas Chronozone warmth on the Great Barrier Reef
+# Journal_Name: Paleoceanography and Paleoclimatology
+# Volume: in review
+# Edition: 
+# Issue: 
+# Pages: 
+# Report_Number: 
+# DOI: 
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: The Great Barrier Reef (GBR) is a globally recognized and widely studied ecosystem, yet little is known about its sea surface temperature evolution since the Last Glacial Maximum (LGM) (~20 kyr BP). Here, we present the first paleo-application of Isopora coral-derived SST calibrations to a suite of 25 previously published fossil Isopora from the central GBR spanning ~25-11 kyr BP. The resultant multi-coral Sr/Ca- and d18O-derived sea surface temperature anomaly (SSTA) histories are placed within the context of published relative sea level, reef sequence and coralgal reef assemblage evolution. Our new calculations indicate SSTs were cooler on average by ~5-5.5°C at Noggin Pass (~17°S) and ~7-8°C at Hydrographer’s Passage (~20°S) (Sr/Ca-derived) during the LGM, in line with previous estimates (Felis et al., 2014). We focus on contextualizing the Younger Dryas Chronozone (YDC, 12.9-11.7 kyr BP), whose southern hemisphere expression, in particular in Australia, is elusive and poorly constrained. Our record does not indicate cooling during the YDC with near modern temperatures reached during this interval on the GBR, supporting an asymmetric hemispheric presentation of this climate event. Building on a previous study (Felis et al., 2014), these fossil Isopora SSTA data from the GBR provide new insights into the deglacial reef response, with near-modern warming during the YDC, since the LGM.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: National Science Foundation
+#    Grant: OCE 13-56948, DGE-11-44155 
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Australian Research Council 
+#    Grant: DP1094001
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Australian and New Zealand Consortium (ANZIC) for the IODP
+#    Grant: 
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Vetlesen Foundation
+#    Grant: 
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Deutsche Forschungsgemeinschaft (DFG)
+#    Grant: Project number 180346848
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: 	Natural Environment Research Council (NERC)
+#    Grant: NE/H014136/1, NE/H014268/1
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: Ministry of Earth Sciences 
+#    Grant: 
+#---------------------------------------
+# Site_Information
+# Site_Name:  Great Barrier Reef - Hydrographers Passage (HYD) and Noggin Pass (NOG)
+# Location: Western Pacific Ocean
+# Northernmost_Latitude: -17
+# Southernmost_Latitude: -20
+# Easternmost_Longitude: 151
+# Westernmost_Longitude: 146
+# Elevation: 
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: HYD_NOG_SSTA Brenner2020
+#   First_Year: 25083
+#   Last_Year: 11655
+#   Time_Unit: cal yr BP
+#   Core_Length: 
+#   Notes: 
+#---------------------------------------
+# Chronology_Information 
+# Chronology: 
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## Event	sample identification,,,,,Corals and Sclerosponges,,,C,Event; See Felis et al. (2014) for original publication and more information
+## Sample	sample identification,,,,,Corals and Sclerosponges,,,C,Sample Name; See Felis et al. (2014) for original publication and more information
+## Site	sample identification,,,,,Corals and Sclerosponges,,,C,Site Name; See Felis et al. (2014) for original publication and more information
+## Age_kyr	age,,,calendar kiloyear before present,,Corals and Sclerosponges; Climate Reconstructions,,,N,U/Th coral age; See Felis et al. (2014) for original publication and more information
+## Age_err	age,,two standard deviations,calendar kiloyear,,Corals and Sclerosponges; Climate Reconstructions,,,N,U/Th coral age error; See Felis et al. (2014) for original publication and more information
+## Dating_lab	notes,,,,,Corals and Sclerosponges,,,C,Lab responsible for dating the sample; See Felis et al. (2014) for original publication and more information
+## bench_sst	sea surface temperature,,,degree Celsius,,Instrumental,,,N,instrumental benchmark sst
+## Bench_uncert	sea surface temperature,,one standard error,degree Celsius,,Instrumental,,,N,standard error associated with instrumental SST Benchmark squared; corresponds to error component 3
+## Sr/Ca	strontium/calcium,Isopora sp.,,millimole per mole,,Corals and Sclerosponges,,inductively-coupled plasma atomic emission spectroscopy; inductively-coupled plasma mass spectrometry,N,See Felis et al. (2014) for original publication and more information
+## Sr/Ca_stdev	strontium/calcium,Isopora sp.,one standard deviation,millimole per mole,,Corals and Sclerosponges,,inductively-coupled plasma atomic emission spectroscopy; inductively-coupled plasma mass spectrometry,N,See Felis et al. (2014) for original publication and more information
+## Sr/Ca_std_err	strontium/calcium,Isopora sp.,one standard error,millimole per mole,,Corals and Sclerosponges,,inductively-coupled plasma atomic emission spectroscopy; inductively-coupled plasma mass spectrometry,N,
+## d18O	delta 18O,Isopora sp.,,per mil,,Corals and Sclerosponges,corrected,isotope ratio mass spectrometry,N, ice volume corrected; See Felis et al. (2014) for original publication and more information
+## d18O_stdev	delta 18O,Isopora sp.,one standard deviation,per mil,,Corals and Sclerosponges,,isotope ratio mass spectrometry,N,See Felis et al. (2014) for original publication and more information
+## d18O_std_err	delta 18O,Isopora sp.,one standard error,per mil,,Corals and Sclerosponges,,isotope ratio mass spectrometry,N,
+## Sr/Ca_sst_b	sea surface temperature,strontium/calcium,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,Sr/Ca-derived SST using calibration in Brenner et al. (2017)
+## Sr/Ca_ssta_b	sea surface temperature,strontium/calcium,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,anomalized,,N,Sr/Ca-derived SST anomaly using Felis et al. (2014) SST with site specific SST benchmark
+## Taylr_srca_b	sea surface temperature,strontium/calcium,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,Taylor expansion component of error associated with the sr/ca derived SSTAs calculated with the Brenner et al. (2017) calibrations; corresponds to error component 1&2
+## prop_srca_b	sea surface temperature,strontium/calcium,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,propagated error associated with the sr/ca derived SSTAs calculated with the Brenner et al. (2017) calibrations
+## Sr/Ca_sst_f	sea surface temperature,strontium/calcium,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,Sr/Ca-derived SST using calibration in Felis et al. (2014)
+## Sr/Ca_ssta_f	sea surface temperature,strontium/calcium,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,anomalized,,N,Sr/Ca-derived SST anomaly using Felis et al. (2014) SST with site specific SST benchmark
+## Taylr_srca_f	sea surface temperature,strontium/calcium,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,Taylor expansion component of error associated with the sr/ca derived SSTAs calculated with the Felis et al. (2014) calibrations; corresponds to error component 1&2
+## prop_srca_f	sea surface temperature,strontium/calcium,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,propagated error associated with the sr/ca derived SSTAs calculated with the Brenner et al. (2017) calibrations
+## d18O_sst_b	sea surface temperature,delta 18O,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,d18O-derived SST using calibration in Brenner et al. (2017)
+## d18O_ssta_b	sea surface temperature,delta 18O,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,anomalized,,N,d18O-derived SST anomaly using Felis et al. (2014) SST with site specific SST benchmark
+## Taylr_d18O_b	sea surface temperature,delta 18O,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,Taylor expansion component of error associated with the d18O derived SSTAs calculated with the Brenner et al. (2017) calibrations; corresponds to error component 1&2
+## prop_d18O_b	sea surface temperature,delta 18O,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,propagated error associated with the d18O derived SSTAs calculated with the Brenner et al. (2017) calibrations
+## d18O_sst_f	sea surface temperature,delta 18O,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,d18O-derived SST using calibration in Felis et al. (2014)
+## d18O_ssta_f	sea surface temperature,delta 18O,,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,anomalized,,N,d18O-derived SST anomaly using Felis et al. (2014) SST with site specific SST benchmark
+## Taylr_d18O_f	sea surface temperature,delta 18O,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,Taylor expansion component of error associated with the d18O derived SSTAs calculated with the Felis et al. (2014) calibrations; corresponds to error component 1&2
+## prop_d18O_f	sea surface temperature,delta 18O,one standard error,degree Celsius,,Corals and Sclerosponges; Climate Reconstructions,,,N,propagated error associated with the d18O derived SSTAs calculated with the Brenner et al. (2017) calibrations
+## d18Osw_b	delta 18O,sea water; strontium/calcium,,per mil,,Corals and Sclerosponges; Climate Reconstructions,,,N,d18O composition of seawater based on Sr/Ca derived sst from the Brenner et al. (2017) calibrations
+## prop_d18Osw_b	delta 18O,sea water; strontium/calcium,one standard error,per mil,,Corals and Sclerosponges; Climate Reconstructions,,,N,propagated error associated with d18O composition of seawater based on Sr/Ca derived sst from the Brenner et al. (2017) calibrations
+## d18Osw_f	delta 18O,sea water; strontium/calcium,,per mil,,Corals and Sclerosponges; Climate Reconstructions,,,N,d18O composition of seawater based on Sr/Ca derived sst from the Felis et al. (2014) calibrations
+## prop_d18Osw_f	delta 18O,sea water; strontium/calcium,one standard error,per mil,,Corals and Sclerosponges; Climate Reconstructions,,,N,propagated error associated with d18O composition of seawater based on Sr/Ca derived sst from the Felis et al. (2014) calibrations
+#------------------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values: -999
+Event	Sample	Site	Age_kyr	Age_err	Dating_lab	bench_sst	Bench_uncert	Sr/Ca	Sr/Ca_stdev	Sr/Ca_std_err	d18O	d18O_stdev	d18O_std_err	Sr/Ca_sst_b	Sr/Ca_ssta_b	Taylr_srca_b	prop_srca_b	Sr/Ca_sst_f	Sr/Ca_ssta_f	Taylr_srca_f	prop_srca_f	d18O_sst_b	d18O_ssta_b	Taylr_d18O_b	prop_d18O_b	d18O_sst_f	d18O_ssta_f	Taylr_d18O_f	prop_d18O_f	d18Osw_b	prop_d18Osw_b	d18Osw_f	prop_d18Osw_f	
+325-M0031A	325-31A-2-1 (27-32)	HYD	13.197	0.003	WHOI	26	0.01	9.495	0.03	0.02	-2.72	0.12	0.07	22.6	-3.4	3.73	1.93	22.1	-3.9	11.97	3.46	18.2	-7.8	2.09	1.45	19.8	-6.2	11.39	3.38	0.81	0.48	0.71	1.09	
+325-M0031A	325-31A-2R-CC (5-10)	HYD	13.238	0.002	WHOI	26	0.01	9.478	0.057	0.00	-2.73	0.14	0.01	22.8	-3.2	3.76	1.94	22.3	-3.7	12.13	3.48	18.3	-7.7	1.96	1.40	19.9	-6.1	11.31	3.37	0.84	0.48	0.74	1.09	
+325-M0033A	325-33A-8R-1 (11-17)	HYD	14.871	0.113	ANU	26	0.01	9.562	0.019	0.01	-2.7	0.06	0.03	21.8	-4.2	3.45	1.86	21.2	-4.8	11.11	3.33	18.1	-7.9	1.96	1.40	19.7	-6.3	11.25	3.36	0.68	0.46	0.57	1.05	
+325-M0033A	325-33A-5R-1 (68-74)	HYD	14.974	0.017	ANU	26	0.01	9.659	0.02	0.01	-2.71	0.1	0.06	20.6	-5.4	3.10	1.76	19.9	-6.1	9.97	3.16	18.2	-7.8	2.03	1.43	19.8	-6.2	11.33	3.37	0.45	0.44	0.32	1.01	
+325-M0033A	325-33A-7R-CC (2-10)	HYD	14.997	0.013	ANU	26	0.01	9.548	0.065	0.00	-2.98	0.065	0.00	22.0	-4.0	3.49	1.87	21.4	-4.6	11.26	3.36	19.6	-6.4	2.25	1.50	21.0	-5.0	12.03	3.47	0.43	0.46	0.32	1.06	
+325-M0035A	325-35A-3R-1 (35-38)	HYD	15.1	0.018	ANU	26	0.01	9.499	0.006	0.00	-2.49	0.21	0.12	22.5	-3.5	3.68	1.92	22.0	-4.0	11.87	3.45	17.0	-9.0	2.13	1.46	18.8	-7.2	10.97	3.31	1.03	0.49	0.93	1.09	
+325-M0031A	325-31A-7R-1 (16-24)	HYD	15.124	0.07	WHOI	26	0.01	9.499	0.029	0.02	-3.05	0.04	0.02	22.5	-3.5	3.71	1.93	22.0	-4.0	11.91	3.45	20.0	-6.0	2.35	1.54	21.3	-4.7	12.25	3.50	0.47	0.48	0.37	1.08	
+325-M0033A	325-33A-9R-1 (7-16)	HYD	15.167	0.097	OX	26	0.01	9.624	0.019	0.01	-2.6	0.09	0.05	21.0	-5.0	3.22	1.80	20.3	-5.7	10.37	3.22	17.6	-8.4	1.87	1.37	19.3	-6.7	11.00	3.32	0.64	0.45	0.51	1.02	
+325-M0033A	325-33A-10R-1 (42-48)	HYD	15.331	0.092	OX	26	0.01	9.7	0.08	0.05	-2.32	0.1	0.06	20.1	-5.9	3.25	1.80	19.3	-6.7	9.86	3.14	16.1	-9.9	1.62	1.28	18.0	-8.0	10.29	3.21	0.75	0.44	0.61	1.00	
+325-M0039A	325-39A-15R-1 (22-25)	HYD	18.32	0.086	OX	26	0.01	9.72	0.062	0.01	-2.35	0.14	0.03	19.9	-6.1	2.89	1.70	19.1	-6.9	9.28	3.05	16.2	-9.8	1.57	1.26	18.1	-7.9	10.31	3.21	0.68	0.42	0.53	0.98	
+325-M0036A	325-36A-16R-1 (12-22)	HYD	18.898	0.005	WHOI	26	0.01	9.857	0.041	0.00	-2.12	0.12	0.01	18.2	-7.8	2.42	1.56	17.2	-8.8	7.84	2.80	15.0	-11.0	1.34	1.16	17.1	-8.9	9.73	3.12	0.60	0.39	0.42	0.92	
+325-M0036A	325-36A-16R-1 (6-10)	HYD	19.041	0.005	WHOI	26	0.01	9.843	0.019	0.01	-2	0.1	0.06	18.4	-7.6	2.48	1.58	17.4	-8.6	7.99	2.83	14.3	-11.7	1.32	1.15	16.5	-9.5	9.51	3.09	0.75	0.40	0.57	0.92	
+325-M0033A	325-33A-16R-1 (54-60)	HYD	25.038	0.156	OX	26	0.01	9.706	0.007	0.00	-2.32	0.09	0.05	20.0	-6.0	2.92	1.71	19.3	-6.7	9.42	3.07	16.1	-9.9	1.58	1.26	18.0	-8.0	10.26	3.21	0.74	0.43	0.59	0.98	
+325-M0057A	325-57A-4R-1 (75-88)	NOG	11.655	0.059	OX	26.6	0.0361	9.193	0.088	0.05	-3.71	0.02	0.01	26.2	-0.4	5.33	2.32	26.1	-0.5	16.55	4.07	23.6	-3.0	3.23	1.81	24.4	-2.2	14.36	3.79	0.49	0.56	0.47	1.24	
+325-M0057A	325-57A-5R-1 (1-3)	NOG	11.746	0.054	OX	26.6	0.0361	9.394	0.03	0.02	-3.43	0.08	0.05	23.8	-2.8	4.13	2.04	23.4	-3.2	13.29	3.65	22.1	-4.5	2.89	1.71	23.1	-3.5	13.47	3.68	0.32	0.51	0.25	1.13	
+325-M0057A	325-57A-5-1 (41-50)	NOG	11.875	0.055	OX	26.6	0.0361	9.204	0.015	0.01	-3.410	0.05	0.03	26.1	-0.5	4.91	2.22	25.9	-0.7	15.94	4.00	21.9	-4.7	2.83	1.69	23.0	-3.6	13.38	3.66	0.77	0.55	0.74	1.22	
+325-M0057A	325-57A-5R-1 (126-133)	NOG	12.317	0.073	OX	26.6	0.0361	9.313	0.087	0.01	-3.42	0.15	0.02	24.8	-1.8	4.44	2.12	24.5	-2.1	14.36	3.79	22.0	-4.6	2.83	1.69	23.0	-3.6	13.40	3.67	0.51	0.52	0.46	1.17	
+325-M0057A	325-57A-5-1 (115-122)	NOG	12.328	0.07	OX	26.6	0.0361	9.195	0.059	0.03	-3.710	0.01	0.01	26.2	-0.4	5.11	2.27	26.1	-0.5	16.26	4.04	23.6	-3.0	3.23	1.81	24.4	-2.2	14.36	3.79	0.49	0.56	0.46	1.23	
+325-M0057A	325-57A-6R-1 (103-114)	NOG	12.674	0.074	OX	26.6	0.0361	9.305	0.047	0.02	-3.67	0.08	0.04	24.9	-1.7	4.51	2.13	24.6	-2.0	14.51	3.81	23.4	-3.2	3.22	1.80	24.2	-2.4	14.26	3.78	0.28	0.53	0.23	1.18	
+325-M0057A	325-57A-6R-2 (66-80)	NOG	12.767	0.064	OX	26.6	0.0361	9.26	0.015	0.01	-3.65	0.03	0.02	25.4	-1.2	4.67	2.17	25.2	-1.4	15.11	3.89	23.2	-3.4	3.15	1.78	24.1	-2.5	14.16	3.77	0.40	0.54	0.36	1.20	
+325-M0053A	325-53A-6-1 (7-9)	NOG	17.146	0.011	WHOI	26.6	0.0361	9.463	0.054	0.03	-2.83	0.04	0.02	23.0	-3.6	3.95	2.00	22.5	-4.1	12.50	3.54	18.8	-7.8	2.09	1.46	20.3	-6.3	11.61	3.41	0.77	0.49	0.68	1.10	
+325-M0053A	325-53A-9R-CC (0-7)	NOG	19.2	0.012	WHOI	26.6	0.0361	9.501	0.101	0.01	-2.86	0.16	0.01	22.5	-4.1	3.67	1.93	22.0	-4.6	11.85	3.45	19.0	-7.6	2.11	1.47	20.5	-6.1	11.68	3.42	0.66	0.48	0.56	1.08	
+325-M0053A	325-53A-15R-1 (30-33)	NOG	20.843	0.021	WHOI	26.6	0.0361	9.61	0.062	0.04	-2.72	0.09	0.05	21.2	-5.4	3.44	1.87	20.5	-6.1	10.74	3.28	18.2	-8.4	2.03	1.44	19.8	-6.8	11.34	3.37	0.55	0.46	0.43	1.03	
+325-M0053A	325-53A-15R-1 (33-37)	NOG	20.899	0.014	WHOI	26.6	0.0361	9.607	0.07	0.01	-2.78	0.18	0.02	21.2	-5.4	3.27	1.82	20.6	-6.0	10.55	3.25	18.5	-8.1	2.03	1.44	20.1	-6.5	11.46	3.39	0.50	0.45	0.38	1.03	
+325-M0053A	325-53A-15R-1 (42-48)	NOG	20.93	0.004	WHOI	26.6	0.0361	9.64	0.128	0.07	-2.38	0.14	0.08	20.8	-5.8	3.94	1.99	20.1	-6.5	11.13	3.34	16.4	-10.2	1.77	1.35	18.3	-8.3	10.51	3.25	0.83	0.48	0.69	1.04	

@@ -1,0 +1,191 @@
+{
+  "xmlId" : "1148",
+  "NOAAStudyId" : "1900",
+  "studyName" : "Aulong Island, Drum Can Island - Oxygen Isotope Data",
+  "doi" : null,
+  "uuid" : "ca167593-a5fa-4f56-8c3e-007becef169a",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Morimoto, M.; Abe, O.; Kayanne, H.; Kurita, N.; Matsumoto, E.; Yoshida, N.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1900",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1900.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1900.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2002-07-01",
+  "entryId" : "noaa-coral-1900",
+  "earliestYearBP" : -48,
+  "mostRecentYearBP" : -50,
+  "earliestYearCE" : 1998,
+  "mostRecentYearCE" : 2000,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2002,
+    "title" : "Salinity records for the 1997-98 El Nino from Western Pacific corals",
+    "journal" : "Geophysical Research Letters",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Morimoto, M., O. Abe, H. Kayanne, N. Kurita, E. Matsumoto, and N. Yoshida. 2002. Salinity records for the 1997-98 El Nino from Western Pacific corals. Geophysical Research Letters 29(11).",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : "Seasonal sea surface salinity (SSS) records can be of great value in reconstructing El Nino/Southern Oscillation (ENSO) variability in the equatorial Western and Central Pacific, a region where ENSO-related evaporation and precipitation (E-P) changes are dramatic. The d18O values of coral skeleton (d18Ocoral) reflect seawater d18O (d18Oseawater) changes, which in tropical oceans are also generally influenced by E-P changes. Therefore, d18Ocoral is a good indicator of rainfall and ENSO variability. We present biweekly data from Palau, in the northern part of the Western Pacific Warm Pool, for the period 1998-2000, which indicate a strong quantitative relationship between d18Ocoral, sea surface temperature, d18Oseawater and SSS. The coral skeletal d18O values documented the SSS changes after the 1997-98 El Nino; therefore, d18Ocoral can be used to estimate paleosalinity changes. However, the slope of the d18Oseawater - SSS relationship cannot be assumed to be constant throughout the tropics, making site-specific calibrations is essential.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1948",
+    "siteName" : "Aulong Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>Micronesia>Palau",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "7.27", "134.3" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "7.27",
+        "northernmostLatitude" : "7.27",
+        "westernmostLongitude" : "134.3",
+        "easternmostLongitude" : "134.3",
+        "minElevationMeters" : "-3",
+        "maxElevationMeters" : "-3"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Aulong Island Core 001",
+      "NOAADataTableId" : "2010",
+      "earliestYear" : 1998,
+      "mostRecentYear" : 2000,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -48,
+      "mostRecentYearBP" : -50,
+      "earliestYearCE" : 1998,
+      "mostRecentYearCE" : 2000,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/palau2002.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "palau2002.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1949",
+    "siteName" : "Drum Can Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>Micronesia>Palau",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "7.3", "134.4" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "7.3",
+        "northernmostLatitude" : "7.3",
+        "westernmostLongitude" : "134.4",
+        "easternmostLongitude" : "134.4",
+        "minElevationMeters" : "-2",
+        "maxElevationMeters" : "-2"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Drum Can Island Core 001",
+      "NOAADataTableId" : "2011",
+      "earliestYear" : 1998,
+      "mostRecentYear" : 2000,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -48,
+      "mostRecentYearBP" : -50,
+      "earliestYearCE" : 1998,
+      "mostRecentYearCE" : 2000,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/palau2002.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "palau2002.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

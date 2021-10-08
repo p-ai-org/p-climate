@@ -1,0 +1,137 @@
+{
+  "xmlId" : "16115",
+  "NOAAStudyId" : "1003980",
+  "studyName" : "New Caledonia Coral d18O, PAGES Australasia 2k Version",
+  "doi" : null,
+  "uuid" : "968ed43f-b80e-4e30-8aa8-211273db1562",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Quinn, T.M.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Uploaded by R. Neukom, data obtained from NOAA Paleo DB.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1003980",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1003980.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1003980.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES Australasia 2k", "PAGES 2k Network" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2013-03-01",
+  "entryId" : "noaa-coral-1003980",
+  "earliestYearBP" : 292,
+  "mostRecentYearBP" : -42,
+  "earliestYearCE" : 1658,
+  "mostRecentYearCE" : 1992,
+  "publication" : [ {
+    "author" : {
+      "name" : "Quinn, T. M.; Crowley, T. J.; Taylor, F. W.; Henin, C.; Joannot, P.; Join, Y"
+    },
+    "pubYear" : 1998,
+    "title" : "A multicentury stable isotope record from a New Caledonia coral: Interannual and decadal sea surface temperature variability in the southwest Pacific since 1657 AD",
+    "journal" : "Paleoceanography",
+    "volume" : "13",
+    "edition" : null,
+    "issue" : "4",
+    "pages" : "412-426",
+    "reportNumber" : null,
+    "citation" : "Quinn, T.M., T.J. Crowley, F.W. Taylor, C. Henin, P. Joannot, and Y. Join. 1998.A multicentury stable isotope record from a New Caledonia coral: Interannual and decadal SST variability in the southwest Pacific since 1657.Paleoceanography, Vol. 13, No. 4, pp. 412-426, 10.1029/98PA00401.",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/98PA00401",
+      "url" : "http://dx.doi.org/10.1029/98PA00401"
+    },
+    "abstract" : "A 335 year stable isotope record from a New Caledonia coral (22 degrees S, 166 degrees E) helps fill a large gap in historical climate reconstructions. Although the long-term cord delta(18)O-based sea surface temperature (SST) trend is one of warming, there are notable decadal fluctuations, especially in the early 18th and early 19th centuries. Mean annual SSTs between 1658 and 1900 are estimated to be similar to 0.3 degrees C lower than the 20th century average, with interdecadal excursions of 0.5 degrees-0.8 degrees C. Time series analyses of the coral isotope record reveals significant concentrations of variance in the El Nino band; an inderdecadal spectral peak is present, but its robustness requires additional statistical evaluation. A secular but irregular decrease in cord delta(13)C values begins in the mid-1800s and may reflect the anthropogenic perturbation of the carbon reservoir. These and other results indicate that the New Caledonia coral isotope record is a valuable source of information on southwest Pacific climate history.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1000893",
+    "siteName" : "New Caledonia",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-22.48", "166.45" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-22.48",
+        "northernmostLatitude" : "-22.48",
+        "westernmostLongitude" : "166.45",
+        "easternmostLongitude" : "166.45",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "New Caledonia PAGES Australasia 2k",
+      "NOAADataTableId" : "1002149",
+      "earliestYear" : 1658,
+      "mostRecentYear" : 1992,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 292,
+      "mostRecentYearBP" : -42,
+      "earliestYearCE" : 1658,
+      "mostRecentYearCE" : 1992,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "These are SONDJF seasonal averages. Raw data can be obtained from NOAA Paleo DB.",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/amedee_1998.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "amedee_1998.txt",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/pages2k/australasia2k/New_Caledonia.txt",
+        "urlDescription" : "Data",
+        "linkText" : "New_Caledonia.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : "6-month period>Sep-Feb",
+          "cvDetail" : "averaged",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "seasonal averages",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges" ]
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,203 @@
+{
+  "xmlId" : "15956",
+  "NOAAStudyId" : "18255",
+  "studyName" : "Seasonal Galapagos coral D14C, d18O and d13C values from 1602-1835 AD",
+  "doi" : null,
+  "uuid" : "ab15bf02-f941-440f-93e6-85f0a0aca871",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Druffel, E.R.M.; Griffin, S.M.; Vetter, D.; Dunbar, R.B.; Mucciarone, D.M.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Near-monthly measurements of D14C, d18O and d13C in the UR-18 coral collected from Urvina Bay in 1986. Precision on National Institute of Standards and Technology Standard Reference Materials 8544 and internal laboratory standards is better than 0.06‰ and 0.03‰ for d18O and d13C, respectively. Total uncertainty of D14C measurements was ±1.4‰.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/18255",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-18255.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-18255.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2015-03-17",
+  "entryId" : "noaa-coral-18255",
+  "earliestYearBP" : 348,
+  "mostRecentYearBP" : 115,
+  "earliestYearCE" : 1602,
+  "mostRecentYearCE" : 1835,
+  "publication" : [ {
+    "author" : {
+      "name" : "Druffel, E.R.M., S. Griffin, D. Vetter, R.B. Dunbar, and D.M. Mucciarone"
+    },
+    "pubYear" : 2015,
+    "title" : "Identification of frequent La Niña events during the early 1800s in the east equatorial Pacific",
+    "journal" : "Geophysical Research Letters",
+    "volume" : "42",
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Druffel, E.R.M., S. Griffin, D. Vetter, R.B. Dunbar, and D.M. Mucciarone. 2015. Identification of frequent La Niña events during the early 1800s in the east equatorial Pacific. Geophysical Research Letters, 42. doi: 10.1002/2014GL062997",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1002/2014GL062997",
+      "url" : "http://dx.doi.org/10.1002/2014GL062997"
+    },
+    "abstract" : "We report measurements of near monthly D14C and d18O during selected decades from an east equatorial Pacific coral that grew during the past four centuries. We find that El Niño events occurred regularly during the late 1700s. During the early 1800s, El Niño events occurred less often, and La Niña conditions prevailed, which were accompanied by unprecedented, low cool season D14C values and high cool season d18O values. These results indicate that shallow overturning water (e.g., Central Mode Water) from the North Pacific was likely an important source of water to the Galapagos area during the early 1800s.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1854",
+    "siteName" : "Urvina Bay",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Eastern Pacific Ocean>Galapagos Islands",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-.25", "-91.367" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-0.25",
+        "northernmostLatitude" : "-0.25",
+        "westernmostLongitude" : "-91.367",
+        "easternmostLongitude" : "-91.367",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Urvina Isotopes Druffel15",
+      "NOAADataTableId" : "28614",
+      "earliestYear" : 1602,
+      "mostRecentYear" : 1835,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 348,
+      "mostRecentYearBP" : 115,
+      "earliestYearCE" : 1602,
+      "mostRecentYearCE" : 1835,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Age in the data table is the sample midpoint age. ",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/druffel2015/druffel2015.txt",
+        "urlDescription" : "Formatted Text File",
+        "linkText" : "Urvina Bay Isotope Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>Delta 14C",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil NBS oxalic acid",
+          "cvSeasonality" : null,
+          "cvDetail" : "corrected",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>accelerator mass spectrometry",
+          "cvAdditionalInfo" : "corrected for known age to 1950 AD (Stuiver and Polack 1977)",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>Delta 14C",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil NBS oxalic acid",
+          "cvSeasonality" : null,
+          "cvDetail" : "corrected",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>accelerator mass spectrometry",
+          "cvAdditionalInfo" : "warm season; corrected for known age to 1950 AD (Stuiver and Polack 1977)",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>Delta 14C",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil NBS oxalic acid",
+          "cvSeasonality" : null,
+          "cvDetail" : "corrected",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>accelerator mass spectrometry",
+          "cvAdditionalInfo" : "cool season; corrected for known age to 1950 AD (Stuiver and Polack 1977)",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "warm season",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Pavona sp.>Pavona clavus",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "cool season",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

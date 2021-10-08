@@ -1,0 +1,137 @@
+{
+  "xmlId" : "16122",
+  "NOAAStudyId" : "1003987",
+  "studyName" : "Palmyra Coral d18O, PAGES Australasia 2k Version",
+  "doi" : null,
+  "uuid" : "69144409-b445-4013-9556-cf23cc36522d",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Cobb, K.M.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Uploaded by R. Neukom, data obtained from NOAA Paleo DB.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1003987",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1003987.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1003987.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES Australasia 2k", "PAGES 2k Network" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2013-02-28",
+  "entryId" : "noaa-coral-1003987",
+  "earliestYearBP" : 800,
+  "mostRecentYearBP" : -48,
+  "earliestYearCE" : 1150,
+  "mostRecentYearCE" : 1998,
+  "publication" : [ {
+    "author" : {
+      "name" : "Cobb, K.; Charles, C.; Cheng, H.; Edwards, L"
+    },
+    "pubYear" : 2003,
+    "title" : "El Nino/Southern Oscillation and tropical Pacific climate during the last millennium",
+    "journal" : "Nature",
+    "volume" : "424",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "271-276",
+    "reportNumber" : null,
+    "citation" : "Cobb, K.; Charles, C.; Cheng, H.; Edwards, L. 2003. El Nino/Southern Oscillation and tropical Pacific climate during the last millennium. Nature, 424, 271-276. doi: 10.1038/nature01779",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1038/nature01779",
+      "url" : "http://dx.doi.org/10.1038/nature01779"
+    },
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "9438",
+    "siteName" : "Palmyra",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Central Pacific Ocean",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "5.87", "-162.13" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "5.87",
+        "northernmostLatitude" : "5.87",
+        "westernmostLongitude" : "-162.13",
+        "easternmostLongitude" : "-162.13",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Palmyra PAGES Australasia 2k",
+      "NOAADataTableId" : "1002156",
+      "earliestYear" : 1150,
+      "mostRecentYear" : 1998,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 800,
+      "mostRecentYearBP" : -48,
+      "earliestYearCE" : 1150,
+      "mostRecentYearCE" : 1998,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "These are processed data (SONDJF season extracted). Raw data can be obtained from NOAA Paleo DB.",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/palmyra_2003.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "palmyra_2003.txt",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/pages2k/australasia2k/Palmyra.txt",
+        "urlDescription" : "Data",
+        "linkText" : "Palmyra.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : "6-month period>Sep-Feb",
+          "cvDetail" : "averaged",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "seasonal averages",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges" ]
+      } ]
+    } ]
+  } ]
+}

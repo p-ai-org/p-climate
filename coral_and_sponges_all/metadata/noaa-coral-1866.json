@@ -1,0 +1,1289 @@
+{
+  "xmlId" : "1113",
+  "NOAAStudyId" : "1866",
+  "studyName" : "Multi-site - del18O Data  - 2001",
+  "doi" : null,
+  "uuid" : "30a01804-44e5-4386-aac5-8cf3baf16a69",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Tudhope, A.W.; Chilcott, C.P.; McCulloch, M.T.; Cook, E.R.; Chappell, J.; Ellam, R.M.; Lea, D.W.; Lough, J.M.; Shimmield, G.B.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Results of analysis of cores collected from 'fossil' massive Porites corals exposed in the raised reefs of the Huon Peninsula, Papua New Guinea (see below for age estimate), and living corals.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1866",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1866.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1866.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES 2k Network", "PAGES Australasia 2k" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2001-10-01",
+  "entryId" : "noaa-coral-1866",
+  "earliestYearBP" : 129985,
+  "mostRecentYearBP" : -45,
+  "earliestYearCE" : -128035,
+  "mostRecentYearCE" : 1995,
+  "publication" : [ {
+    "author" : {
+      "name" : "Tudhope, A.; C., Chilcott; Mc Culloch, M.; Cook, E.; Chappell, J.; R., Ellam; Lea, D.; Lough, J.; Shimmield, G"
+    },
+    "pubYear" : 2001,
+    "title" : "Variability in the El Nino Southern Oscillation through a glacial-interglacial cycle.",
+    "journal" : "Science",
+    "volume" : "291",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "1511-1517",
+    "reportNumber" : null,
+    "citation" : "Tudhope, A.; C., Chilcott; Mc Culloch, M.; Cook, E.; Chappell, J.; R., Ellam; Lea, D.; Lough, J.; Shimmield, G. 2001. Variability in the El Nino Southern Oscillation through a glacial-interglacial cycle. Science, 291, 1511-1517. doi: 10.1126/science.1057969",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1126/science.1057969",
+      "url" : "http://dx.doi.org/10.1126/science.1057969"
+    },
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1849",
+    "siteName" : "Madang Lagoon",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-5.22", "145.82" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-5.22",
+        "northernmostLatitude" : "-5.22",
+        "westernmostLongitude" : "145.82",
+        "easternmostLongitude" : "145.82",
+        "minElevationMeters" : "-4",
+        "maxElevationMeters" : "115"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "dt91-7",
+      "NOAADataTableId" : "1951",
+      "earliestYear" : 1880,
+      "mostRecentYear" : 1993,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 70,
+      "mostRecentYearBP" : -43,
+      "earliestYearCE" : 1880,
+      "mostRecentYearCE" : 1993,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-dt91-7_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-dt91-7_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig3a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig3a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1901",
+    "siteName" : "Huon Peninsula",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.08", "147.6" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.08",
+        "northernmostLatitude" : "-6.08",
+        "westernmostLongitude" : "147.6",
+        "easternmostLongitude" : "147.6",
+        "minElevationMeters" : "-4",
+        "maxElevationMeters" : "-4"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h95-64",
+      "NOAADataTableId" : "1922",
+      "earliestYear" : 1977,
+      "mostRecentYear" : 1995,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -27,
+      "mostRecentYearBP" : -45,
+      "earliestYearCE" : 1977,
+      "mostRecentYearCE" : 1995,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h95-64_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h95-64_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig3a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig3a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1902",
+    "siteName" : "Huon Terrace I",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.08", "147.6" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.08",
+        "northernmostLatitude" : "-6.08",
+        "westernmostLongitude" : "147.6",
+        "easternmostLongitude" : "147.6",
+        "minElevationMeters" : "3",
+        "maxElevationMeters" : "3"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h95-16",
+      "NOAADataTableId" : "1923",
+      "earliestYear" : -4525,
+      "mostRecentYear" : -4475,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 6475,
+      "mostRecentYearBP" : 6425,
+      "earliestYearCE" : -4525,
+      "mostRecentYearCE" : -4475,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h95-16_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h95-16_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1903",
+    "siteName" : "Huon Terrace IIa1",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.22", "147.67" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.22",
+        "northernmostLatitude" : "-6.22",
+        "westernmostLongitude" : "147.67",
+        "easternmostLongitude" : "147.67",
+        "minElevationMeters" : "27",
+        "maxElevationMeters" : "27"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h96-18",
+      "NOAADataTableId" : "1925",
+      "earliestYear" : -37433,
+      "mostRecentYear" : -37367,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 39383,
+      "mostRecentYearBP" : 39317,
+      "earliestYearCE" : -37433,
+      "mostRecentYearCE" : -37367,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h96-18_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h96-18_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1904",
+    "siteName" : "Huon Terrace IIa2",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.22", "147.67" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.22",
+        "northernmostLatitude" : "-6.22",
+        "westernmostLongitude" : "147.67",
+        "easternmostLongitude" : "147.67",
+        "minElevationMeters" : "27",
+        "maxElevationMeters" : "27"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h96-27",
+      "NOAADataTableId" : "1927",
+      "earliestYear" : -36319,
+      "mostRecentYear" : -36281,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 38269,
+      "mostRecentYearBP" : 38231,
+      "earliestYearCE" : -36319,
+      "mostRecentYearCE" : -36281,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h96-27_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h96-27_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1905",
+    "siteName" : "Huon Terrace IIa3",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.12", "147.62" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.12",
+        "northernmostLatitude" : "-6.12",
+        "westernmostLongitude" : "147.62",
+        "easternmostLongitude" : "147.62",
+        "minElevationMeters" : "27",
+        "maxElevationMeters" : "27"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h96-36",
+      "NOAADataTableId" : "1930",
+      "earliestYear" : -37005,
+      "mostRecentYear" : -36995,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 38955,
+      "mostRecentYearBP" : 38945,
+      "earliestYearCE" : -37005,
+      "mostRecentYearCE" : -36995,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h96-36_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h96-36_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1906",
+    "siteName" : "Huon Terrace IIIb",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.2", "147.67" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.2",
+        "northernmostLatitude" : "-6.2",
+        "westernmostLongitude" : "147.67",
+        "easternmostLongitude" : "147.67",
+        "minElevationMeters" : "56",
+        "maxElevationMeters" : "56"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h96-6",
+      "NOAADataTableId" : "1932",
+      "earliestYear" : -39920,
+      "mostRecentYear" : -39880,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 41870,
+      "mostRecentYearBP" : 41830,
+      "earliestYearCE" : -39920,
+      "mostRecentYearCE" : -39880,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h96-6_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h96-6_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1907",
+    "siteName" : "Huon Terrace V",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.13", "147.62" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.13",
+        "northernmostLatitude" : "-6.13",
+        "westernmostLongitude" : "147.62",
+        "easternmostLongitude" : "147.62",
+        "minElevationMeters" : "60",
+        "maxElevationMeters" : "60"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h97-10",
+      "NOAADataTableId" : "1933",
+      "earliestYear" : -83009,
+      "mostRecentYear" : -82991,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 84959,
+      "mostRecentYearBP" : 84941,
+      "earliestYearCE" : -83009,
+      "mostRecentYearCE" : -82991,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h97-10_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h97-10_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1908",
+    "siteName" : "Huon Terrace VII1",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.07", "147.57" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.07",
+        "northernmostLatitude" : "-6.07",
+        "westernmostLongitude" : "147.57",
+        "easternmostLongitude" : "147.57",
+        "minElevationMeters" : "101",
+        "maxElevationMeters" : "101"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h95-18",
+      "NOAADataTableId" : "1935",
+      "earliestYear" : -128035,
+      "mostRecentYear" : -127965,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 129985,
+      "mostRecentYearBP" : 129915,
+      "earliestYearCE" : -128035,
+      "mostRecentYearCE" : -127965,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h95-18_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h95-18_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1909",
+    "siteName" : "Huon Terrace VII2",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.07", "147.57" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.07",
+        "northernmostLatitude" : "-6.07",
+        "westernmostLongitude" : "147.57",
+        "easternmostLongitude" : "147.57",
+        "minElevationMeters" : "101",
+        "maxElevationMeters" : "101"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h95-25",
+      "NOAADataTableId" : "1937",
+      "earliestYear" : -128010,
+      "mostRecentYear" : -127990,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 129960,
+      "mostRecentYearBP" : 129940,
+      "earliestYearCE" : -128010,
+      "mostRecentYearCE" : -127990,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h95-25_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h95-25_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1910",
+    "siteName" : "Huon Terrace VII3",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.07", "147.57" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.07",
+        "northernmostLatitude" : "-6.07",
+        "westernmostLongitude" : "147.57",
+        "easternmostLongitude" : "147.57",
+        "minElevationMeters" : "113",
+        "maxElevationMeters" : "113"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h95-6",
+      "NOAADataTableId" : "1940",
+      "earliestYear" : -128015,
+      "mostRecentYear" : -127985,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 129965,
+      "mostRecentYearBP" : 129935,
+      "earliestYearCE" : -128015,
+      "mostRecentYearCE" : -127985,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h95-6_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h95-6_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1911",
+    "siteName" : "Huon Terrace VIIa1",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.12", "147.6" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.12",
+        "northernmostLatitude" : "-6.12",
+        "westernmostLongitude" : "147.6",
+        "easternmostLongitude" : "147.6",
+        "minElevationMeters" : "115",
+        "maxElevationMeters" : "115"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h94-2",
+      "NOAADataTableId" : "1942",
+      "earliestYear" : -121010,
+      "mostRecentYear" : -120990,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 122960,
+      "mostRecentYearBP" : 122940,
+      "earliestYearCE" : -121010,
+      "mostRecentYearCE" : -120990,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h94-2_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h94-2_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1912",
+    "siteName" : "Huon Terrace VIIa2",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.12", "147.6" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.12",
+        "northernmostLatitude" : "-6.12",
+        "westernmostLongitude" : "147.6",
+        "easternmostLongitude" : "147.6",
+        "minElevationMeters" : "115",
+        "maxElevationMeters" : "115"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h95-14",
+      "NOAADataTableId" : "1943",
+      "earliestYear" : -121013,
+      "mostRecentYear" : -120987,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 122963,
+      "mostRecentYearBP" : 122937,
+      "earliestYearCE" : -121013,
+      "mostRecentYearCE" : -120987,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h95-14_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h95-14_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1913",
+    "siteName" : "Huon Terrace VIIa3",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-6.1", "147.6" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-6.1",
+        "northernmostLatitude" : "-6.1",
+        "westernmostLongitude" : "147.6",
+        "easternmostLongitude" : "147.6",
+        "minElevationMeters" : "115",
+        "maxElevationMeters" : "115"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "h95-58",
+      "NOAADataTableId" : "1946",
+      "earliestYear" : -121010,
+      "mostRecentYear" : -120990,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 122960,
+      "mostRecentYearBP" : 122940,
+      "earliestYearCE" : -121010,
+      "mostRecentYearCE" : -120990,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-h95-58_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-h95-58_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1914",
+    "siteName" : "Laing Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-4.15", "144.88" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-4.15",
+        "northernmostLatitude" : "-4.15",
+        "westernmostLongitude" : "144.88",
+        "easternmostLongitude" : "144.88",
+        "minElevationMeters" : "-3",
+        "maxElevationMeters" : "-3"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "dur-2",
+      "NOAADataTableId" : "1948",
+      "earliestYear" : 1884,
+      "mostRecentYear" : 1993,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 66,
+      "mostRecentYearBP" : -43,
+      "earliestYearCE" : 1884,
+      "mostRecentYearCE" : 1993,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-dur-2_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-dur-2_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig3a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig3a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1915",
+    "siteName" : "Laing Terrace",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-4.15", "144.88" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-4.15",
+        "northernmostLatitude" : "-4.15",
+        "westernmostLongitude" : "144.88",
+        "easternmostLongitude" : "144.88",
+        "minElevationMeters" : "2",
+        "maxElevationMeters" : "2"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "fc2",
+      "NOAADataTableId" : "1950",
+      "earliestYear" : -750,
+      "mostRecentYear" : -650,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 2700,
+      "mostRecentYearBP" : 2600,
+      "earliestYearCE" : -750,
+      "mostRecentYearCE" : -650,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-fc2_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-fc2_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1916",
+    "siteName" : "Madang Terrace",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>South Pacific Ocean>Melanesia>Papua New Guinea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-5.22", "145.82" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-5.22",
+        "northernmostLatitude" : "-5.22",
+        "westernmostLongitude" : "145.82",
+        "easternmostLongitude" : "145.82",
+        "minElevationMeters" : "0",
+        "maxElevationMeters" : "0"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "m93tbfc",
+      "NOAADataTableId" : "1953",
+      "earliestYear" : -520,
+      "mostRecentYear" : -480,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 2470,
+      "mostRecentYearBP" : 2430,
+      "earliestYearCE" : -520,
+      "mostRecentYearCE" : -480,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001-m93tbfc_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "tudhope2001-m93tbfc_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>duration unit>year",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/papua_new_guinea/tudhope2001/fig4a.jpg",
+        "urlDescription" : "Coral",
+        "linkText" : "fig4a.jpg",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

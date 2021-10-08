@@ -1,0 +1,134 @@
+{
+  "xmlId" : "67635",
+  "NOAAStudyId" : "27490",
+  "studyName" : "Palmyra 860 Year Modern and Fossil Coral Oxygen Isotope Data",
+  "doi" : null,
+  "uuid" : "db8b7cdb-2367-451b-a622-0f7cdab19088",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Dee, S.G.; Cobb, K.M.; Emile-Geay, J.; Ault, T.R.; Edwards, R.L.; Cheng, H.; Charles, C.D.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "US National Science Foundation",
+    "fundingGrant" : "MGG 0752091, 1502832, 1836645; EAR-1347213"
+  } ],
+  "studyNotes" : "Monthly-resolved coral aragonite oxygen isotope (d18O) data from Palmyra Island from modern and fossil corals, 1146-2006 CE",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/27490",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-27490.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-27490.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2020-03-25",
+  "entryId" : "noaa-coral-27490",
+  "earliestYearBP" : 804,
+  "mostRecentYearBP" : -56,
+  "earliestYearCE" : 1146,
+  "mostRecentYearCE" : 2006,
+  "publication" : [ {
+    "author" : {
+      "name" : "Sylvia G. Dee, Kim M. Cobb, Julien Emile-Geay, Toby R. Ault, R. Lawrence Edwards, Hai Cheng, Christopher D. Charles"
+    },
+    "pubYear" : 2020,
+    "title" : "No consistent ENSO response to volcanic forcing over the last millennium",
+    "journal" : "Science",
+    "volume" : "367",
+    "edition" : null,
+    "issue" : "6485",
+    "pages" : "1477-1481",
+    "reportNumber" : null,
+    "citation" : "Sylvia G. Dee, Kim M. Cobb, Julien Emile-Geay, Toby R. Ault, R. Lawrence Edwards, Hai Cheng, Christopher D. Charles. 2020. No consistent ENSO response to volcanic forcing over the last millennium. Science, 367(6485), 1477-1481. doi: 10.1126/science.aax2000",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1126/science.aax2000",
+      "url" : "http://dx.doi.org/10.1126/science.aax2000"
+    },
+    "abstract" : "The El Nino-Southern Oscillation (ENSO) shapes global climate patterns yet its sensitivity to external climate forcing remains uncertain. Modeling studies suggest that ENSO is sensitive to sulfate aerosol forcing associated with explosive volcanism but observational support for this effect remains ambiguous. Here, we used absolutely dated fossil corals from the central tropical Pacific to gauge ENSO's response to large volcanic eruptions of the last millennium. Superposed epoch analysis reveals a weak tendency for an El Nino-like response in the year after an eruption, but this response is not statistically significant, nor does it appear after the outsized 1257 Samalas eruption. Our results suggest that those models showing a strong ENSO response to volcanic forcing may overestimate the size of the forced response relative to natural ENSO variability.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1900",
+    "siteName" : "Palmyra Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Central Pacific Ocean",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "5.8664", "-162.12" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "5.8664",
+        "northernmostLatitude" : "5.8664",
+        "westernmostLongitude" : "-162.12",
+        "easternmostLongitude" : "-162.12",
+        "minElevationMeters" : "-9",
+        "maxElevationMeters" : "-9"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Palmyra2020d18O",
+      "NOAADataTableId" : "41697",
+      "earliestYear" : 1146,
+      "mostRecentYear" : 2006,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 804,
+      "mostRecentYearBP" : -56,
+      "earliestYearCE" : 1146,
+      "mostRecentYearCE" : 2006,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "This record includes both modern and fossil corals at monthly resolution. 10th-13th Century Piece: 1146-1464 CE.  16th Century Piece: 1635-1703 CE.  Modern Pieces: 1886-2006 CE",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/palmyra2020d18o.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Palmyra Modern and Fossil Coral d18O Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "age"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18O"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

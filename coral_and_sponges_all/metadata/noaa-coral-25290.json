@@ -1,0 +1,182 @@
+{
+  "xmlId" : "23454",
+  "NOAAStudyId" : "25290",
+  "studyName" : "Lombok Strait, Indonesia, Porites d18O data covering the last 200 years",
+  "doi" : null,
+  "uuid" : "2c4af988-54ea-4d53-8350-4f42b43f6488",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Murty, S.A.; Goodkin, N.F.; Wiguna, A.; Gordon, A.L.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "National Research Foundation Singapore",
+    "fundingGrant" : "NRFF-2012-03"
+  }, {
+    "fundingAgency" : "National Oceanic and Atmospheric Administration",
+    "fundingGrant" : "UCAR-Z15-17551"
+  } ],
+  "studyNotes" : "Monthly and bimonthly d18O measurements of a Porites coral collected from Gili Selang in the northern Lombok Strait. The d18O data were determined using isotope ratio mass spectrometry (IRMS)",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/25290",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-25290.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-25290.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2018-10-01",
+  "entryId" : "noaa-coral-25290",
+  "earliestYearBP" : 126,
+  "mostRecentYearBP" : -66,
+  "earliestYearCE" : 1824,
+  "mostRecentYearCE" : 2016,
+  "publication" : [ ],
+  "site" : [ {
+    "NOAASiteId" : "57736",
+    "siteName" : "Gili Selang",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Indian Ocean>Indonesia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-8.38", "115.71" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-8.38",
+        "northernmostLatitude" : "-8.38",
+        "westernmostLongitude" : "115.71",
+        "easternmostLongitude" : "115.71",
+        "minElevationMeters" : "-10",
+        "maxElevationMeters" : "-10"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Murty.LombokStrait.GiliSelang.2018",
+      "NOAADataTableId" : "37113",
+      "earliestYear" : 1905,
+      "mostRecentYear" : 2016,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 45,
+      "mostRecentYearBP" : -66,
+      "earliestYearCE" : 1905,
+      "mostRecentYearCE" : 2016,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/murty2018/Murty.LombokStrait.GiliSelang.2018.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Gili Selang d18O Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "57737",
+    "siteName" : "Nusa Penida",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Indian Ocean>Indonesia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-8.67", "115.51" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-8.67",
+        "northernmostLatitude" : "-8.67",
+        "westernmostLongitude" : "115.51",
+        "easternmostLongitude" : "115.51",
+        "minElevationMeters" : "-5",
+        "maxElevationMeters" : "-5"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Murty.LombokStrait.NusaPenida.2018",
+      "NOAADataTableId" : "37114",
+      "earliestYear" : 1824,
+      "mostRecentYear" : 2016,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 126,
+      "mostRecentYearBP" : -66,
+      "earliestYearCE" : 1824,
+      "mostRecentYearCE" : 2016,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/murty2018/Murty.LombokStrait.NusaPenida.2018.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Nusa Penida d18O Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

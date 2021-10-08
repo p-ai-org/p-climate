@@ -1,0 +1,127 @@
+{
+  "xmlId" : "1106",
+  "NOAAStudyId" : "1859",
+  "studyName" : "Maiana - Data",
+  "doi" : null,
+  "uuid" : "af962f24-05db-4a40-8495-3fc2d51fb2db",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Urban, F.E.; Cole, J.E.; Overpeck, J.T.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1859",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1859.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1859.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES 2k Network", "PAGES Australasia 2k" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2000-10-01",
+  "entryId" : "noaa-coral-1859",
+  "earliestYearBP" : 110,
+  "mostRecentYearBP" : -44,
+  "earliestYearCE" : 1840,
+  "mostRecentYearCE" : 1994,
+  "publication" : [ {
+    "author" : {
+      "name" : "Urban, F.E.; Cole, J.E.; Overpeck, J.T"
+    },
+    "pubYear" : 2000,
+    "title" : "Influence of mean climate change on climate variability from a 155-year tropical Pacific coral record",
+    "journal" : "Nature",
+    "volume" : "407",
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Urban, F.E.; Cole, J.E.; Overpeck, J.T. 2000. Influence of mean climate change on climate variability from a 155-year tropical Pacific coral record. Nature, 407. ",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : "Today, the El NiÃ±o/Southern Oscillation (ENSO) system is the primary driver of interannual variability in global climate, but its long-term behaviour is poorly understood. Instrumental observations reveal a shift in 1976 towards warmer and wetter conditions in the tropical Pacific, with widespread climatic and ecological consequences. This shift, unique over the past century, has prompted debate over the influence of increasing atmospheric concentrations of greenhouse gases on ENSO variability. Here we present a 155-year ENSO reconstruction from a central tropical Pacific coral that provides new evidence for long-term changes in the regional mean climate and its variability. A gradual transition in the early 20th century and the abrupt change in 1976, both towards warmer/wetter conditions, co-occur with changes in variability. In the mid-late 19th century, cooler/drier background conditions coincided with prominent decadal variability; in the early 20th century, shorter-period (~2.9 years) variability intensified. After 1920, variability weakens and becomes focused at interannual time scales; with the shift in 1976, variability with a period of about 4 years becomes prominent. Our results suggest that variability in the tropical Pacific is linked to the region's mean climate, and that changes in both have occurred during periods of natural as well as anthropogenic climate forcing.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1863",
+    "siteName" : "Maiana",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Central Pacific Ocean>Kiribati",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "1", "173" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "1",
+        "northernmostLatitude" : "1",
+        "westernmostLongitude" : "173",
+        "easternmostLongitude" : "173",
+        "minElevationMeters" : "-6",
+        "maxElevationMeters" : "-6"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Maiana Core 001",
+      "NOAADataTableId" : "1878",
+      "earliestYear" : 1840,
+      "mostRecentYear" : 1994,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 110,
+      "mostRecentYearBP" : -44,
+      "earliestYearCE" : 1840,
+      "mostRecentYearCE" : 1994,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/urban2000_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "urban2000_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

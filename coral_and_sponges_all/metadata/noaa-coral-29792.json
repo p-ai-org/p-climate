@@ -1,0 +1,211 @@
+{
+  "xmlId" : "71632",
+  "NOAAStudyId" : "29792",
+  "studyName" : "Palawan Island, South China Sea Coral Radiocarbon Data from 1947-1981 CE",
+  "doi" : null,
+  "uuid" : "6090f644-3c14-4d48-a2c3-c901a79c82c3",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Wu, Y.; Fallon, S.J.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Coral radiocarbon and oxygen isotope data at monthly resolution from the west side of Palawan Island, South China Sea from 1947 to 1981",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/29792",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-29792.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-29792.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2020-05-19",
+  "entryId" : "noaa-coral-29792",
+  "earliestYearBP" : 3,
+  "mostRecentYearBP" : -31,
+  "earliestYearCE" : 1947,
+  "mostRecentYearCE" : 1981,
+  "publication" : [ {
+    "author" : {
+      "name" : "Yang Wu, Stewart J. Fallon"
+    },
+    "pubYear" : 2020,
+    "title" : "Prebomb to Postbomb 14C History From the West Side of Palawan Island: Insights Into Oceanographic Changes in the South China Sea",
+    "journal" : "Journal of Geophysical Research: Oceans",
+    "volume" : "125",
+    "edition" : "e2019JC015979",
+    "issue" : "6",
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Yang Wu, Stewart J. Fallon. 2020. Prebomb to Postbomb 14C History From the West Side of Palawan Island: Insights Into Oceanographic Changes in the South China Sea. Journal of Geophysical Research: Oceans, 125(6), e2019JC015979. doi: 10.1029/2019JC015979",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/2019JC015979",
+      "url" : "http://dx.doi.org/10.1029/2019JC015979"
+    },
+    "abstract" : "Compared to the natural production of 14C, thermonuclear tests have produced a globally abnormal 14C signal. To examine and reconstruct ocean circulation in the South China Sea (SCS), we generated a prebomb to postbomb 14C time series from a Porites lobata coral from the west side of Palawan Island, Philippines. Results show a diluted early bomb 14C intrusion in late 1955. We use this record to extend our understanding of the surface ocean circulation in and around the SCS by tracing 14C labeled water from nuclear test sites. Our postbomb D14C peaked at 154 per mil in 1975, which lags ~10 years from the atmospheric peak, consistent with other marine records. This coral record also displayed clear seasonal D14C cycles indicating different surface waters passed the Palawan Island coral site due to seasonal variations of the East Asian Monsoon.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "58353",
+    "siteName" : "Palawan Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>South China Sea",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "11.483333", "119.016667" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "11.483333",
+        "northernmostLatitude" : "11.483333",
+        "westernmostLongitude" : "119.016667",
+        "easternmostLongitude" : "119.016667",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Palawan Porites d18O Yang2020",
+      "NOAADataTableId" : "42317",
+      "earliestYear" : 1947,
+      "mostRecentYear" : 1981,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 3,
+      "mostRecentYearBP" : -31,
+      "earliestYearCE" : 1947,
+      "mostRecentYearCE" : 1981,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "A core was drilled from a Porites lobata coral colony off the west side of El Nido Bay, Palawan Islands (11°29′ N; 119°01′ E) in May 1981 by the US Geological Survey",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/south_china_sea/wu2020/wu2020-palawan-d18o.txt",
+        "urlDescription" : "NOAA Template (tab-delimited data)",
+        "linkText" : "Palawan Island d18O Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>centimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "depth_cm"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Year_CE"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "corrected",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "d18OcarbVPDB"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "Palawan Porites D14C Yang2020",
+      "NOAADataTableId" : "42318",
+      "earliestYear" : 1947,
+      "mostRecentYear" : 1981,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 3,
+      "mostRecentYearBP" : -31,
+      "earliestYearCE" : 1947,
+      "mostRecentYearCE" : 1981,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "A core was drilled from a Porites lobata coral colony off the west side of El Nido Bay, Palawan Islands (11°29′ N; 119°01′ E) in May 1981 by the US Geological Survey",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/south_china_sea/wu2020/wu2020-palawan-14c.txt",
+        "urlDescription" : "NOAA Template (tab-delimited data)",
+        "linkText" : "Palawan Island D14C Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>centimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "depth_cm"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : "Year_CE"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>Delta 14C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil NBS oxalic acid",
+          "cvSeasonality" : null,
+          "cvDetail" : "corrected",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>accelerator mass spectrometry",
+          "cvAdditionalInfo" : "age-corrected",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "D14C"
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>Delta 14C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : "standard error>one standard error",
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil NBS oxalic acid",
+          "cvSeasonality" : null,
+          "cvDetail" : "corrected",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>accelerator mass spectrometry",
+          "cvAdditionalInfo" : "age-corrected",
+          "cvFormat" : "Numeric",
+          "cvShortName" : "D14C_err"
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,314 @@
+# WDC PALEO DATA SUBMISSION for PAGES 2k database
+#
+# Created 01 Mrz 2013 by Raphi Neukom based on WDC template from 21 Dec 2012 using make_NOAA_files.r
+#-----------------------------------------------------------------------
+#                World Data Center for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#-----------------------------------------------------------------------
+# NOTE: Please cite original reference when using these data,
+# plus the Online Resource and date accessed.
+#
+# Original_Source_URL: ftp://ftp.ncdc.noaa.gov/pub/data/paleo/coral/east_pacific/rarotonga2006.txt
+#
+# Archive: Corals
+#--------------------
+# Contribution_Date
+#	Date: 15-05-2013
+#--------------------
+# Title
+#	Study_Name: Rarotonga 2R Coral d18O and Sr/Ca
+#--------------------
+# Investigators
+#	Investigators: Linsley, B.K.
+#--------------------
+# Description_and_Notes
+#	Description: Uploaded by R. Neukom, data obtained from NOAA Paleo DB.
+#--------------------
+# Publication
+#	Authors: Linsley, B.; Wellington, G.; Schrag, D.
+#	Published_Date_or_Year: 2000
+#	Published_Title: Decadal Sea Surface Temperature Variability in the Subtropical South Pacific from 1726 to 1997 AD
+#	Journal_Name: Science
+#	Volume: 290
+#	Issue: 
+#	Pages: 1145-1149
+#--------------------
+# Publication
+#	Authors: Linsley, B. K.; Kaplan, A.; Gouriou, Y.; Salinger, J.; Demenocal, P. B.; Wellington, G. M.; Howe, S. S.
+#	Published_Date_or_Year: 2006
+#	Published_Title: Tracking the extent of the South Pacific Convergence Zone since the early 1600s
+#	Journal_Name: Geochemistry Geophysics Geosystems
+#	Volume: 7
+#	Issue: 
+#	Pages: 
+#	Abstract: The South Pacific Convergence Zone (SPCZ) is the largest and most persistent spur of the Intertropical Convergence Zone. At the southeastern edge of the SPCZ near 170 degrees W and 15 degrees - 20 degrees S a surface ocean salinity frontal zone exists that separates fresher Western Pacific Warm Pool water from saltier and cooler waters in the east. This salinity front is known to shift east and west with the phase of the El Nino Southern Oscillation. We have generated subannually resolved and replicated coral oxygen isotopic time series from Fiji ( 17 degrees S, 179 degrees E) and Rarotonga (21.5 degrees S, 160 degrees W) that have recorded interannual displacements of the salinity front over the last 380 years and also indicate that at lower frequencies the decadal mean position of the salinity front, and eastern extent of the SPCZ, has shifted east-west through 10 degrees to 20 degrees of longitude three times during this interval. The most recent and largest shift began in the mid 1800s as the salinity front progressively moved eastward and salinity decreased at both sites. Our results suggest that sea surface salinity at these sites is now at the lowest levels recorded and is evidence for an unprecedented expansion of the SPCZ since the mid 1800s. The expansion of the SPCZ implies a gradual change in the South Pacific to more La Nina-like long-term mean conditions. This observation is consistent with the ocean thermostat mechanism for the Pacific coupled ocean-atmosphere system, whereby exogenous heating of the atmosphere would result in greater warming in the western Pacific and a greater east-west surface temperature gradient.
+#--------------------
+# Funding_Agency 
+#--------------------
+# Site_Information 
+#	Site_Name: Rarotonga 2R
+#	Location: Ocean>Pacific Ocean
+#	Region: PAGES Australasia 2k
+#	Country: Cook Island
+#	Northernmost_Latitude: -21.23
+#	Southernmost_Latitude: -21.23
+#	Easternmost_Longitude: -159.83
+#	Westernmost_Longitude: -159.83
+#	Elevation: 
+#--------------------
+# Data_Collection
+#	Collection_Name: Coral d18O and Sr/Ca for PAGES Australasia 2k regional reconstructions
+#	Earliest_Year: 1762
+#	Most_Recent_Year: 1996
+#	Time_Unit: AD
+#	Notes: These may be processed data. Raw data can be obtained from NOAA Paleo DB.. Early part of the record (back to 1726) removed due to potential artifacts, See Linsley et al. 2006 G3.
+#--------------------
+#  Species
+#--------------------
+# Chronology: 
+#--------------------
+# Variables
+# Short_name  What,Material,Error,Units, Anomaly_period,Archive,Details,Method,Data_type
+## age_AD	age, , ,AD, ,corals, ,,N
+## Rarotonga_d18O_SONDJF	Coral d18O,coral,,‰,,coral,,,N
+## Rarotonga_SrCa_SONDJF	Coral Sr/Ca,coral,,Sr/Ca ratio,,coral,,,N
+#--------------------
+# Data
+# Missing values: NA
+age_AD	Rarotonga_d18O_SONDJF	Rarotonga_SrCa_SONDJF
+1762	-3.911	9.344
+1763	-3.867	9.371
+1764	-3.959	9.342
+1765	-3.982	9.385
+1766	-3.699	9.515
+1767	-3.774	9.472
+1768	-3.786	9.44
+1769	-3.775	9.506
+1770	-3.905	9.551
+1771	-3.968	9.483
+1772	-4.196	9.396
+1773	-4.149	9.454
+1774	-3.943	9.476
+1775	-4.039	9.453
+1776	-4.02	9.417
+1777	-3.822	9.442
+1778	-3.962	9.406
+1779	-3.86	9.405
+1780	-4.08	9.472
+1781	-4.312	9.376
+1782	-4.061	9.414
+1783	-4.17	9.47
+1784	-4.363	9.368
+1785	-4.335	9.378
+1786	-4.165	9.387
+1787	-4.194	9.44
+1788	-4.274	9.356
+1789	-4.121	9.393
+1790	-4.089	9.389
+1791	-3.849	9.494
+1792	-3.898	9.504
+1793	-4.445	9.403
+1794	-4.505	9.423
+1795	-4.525	9.432
+1796	-4.357	9.423
+1797	-4.321	9.485
+1798	-4.192	9.512
+1799	-4.132	9.494
+1800	-4.255	9.38
+1801	-4.163	9.422
+1802	-4.235	9.396
+1803	-3.941	9.544
+1804	-4.192	9.463
+1805	-4.379	9.342
+1806	-4.256	9.388
+1807	-4.24	9.415
+1808	-4.248	9.395
+1809	-4.089	9.453
+1810	-4.192	9.379
+1811	-4.27	9.388
+1812	-4.401	9.368
+1813	-4.333	9.396
+1814	-4.189	9.433
+1815	-3.885	9.5
+1816	-3.945	9.494
+1817	-3.943	9.481
+1818	-3.85	9.384
+1819	-4.013	9.267
+1820	-3.827	9.382
+1821	-3.842	9.346
+1822	-4.014	9.419
+1823	-4.055	9.361
+1824	-3.688	9.534
+1825	-4.483	9.341
+1826	-4.338	9.452
+1827	-4.297	9.417
+1828	-4.44	9.357
+1829	-4.359	9.34
+1830	-4.134	9.457
+1831	-4.153	9.446
+1832	-4.08	9.469
+1833	-4.263	9.598
+1834	-4.307	9.417
+1835	-4.249	9.436
+1836	-4.037	9.499
+1837	-4.342	9.44
+1838	-4.1	9.521
+1839	-4.061	9.51
+1840	-4.366	9.41
+1841	-4.174	9.442
+1842	-4.213	9.536
+1843	-4.155	9.487
+1844	-4.255	9.475
+1845	-4.155	9.535
+1846	-4.209	9.512
+1847	-4.167	9.528
+1848	-4.318	9.491
+1849	-4.276	9.494
+1850	-4.015	9.586
+1851	-4.174	9.561
+1852	-4.32	9.48
+1853	-4.117	9.509
+1854	-4.176	9.485
+1855	-4.29	9.418
+1856	-4.269	9.482
+1857	-4.314	9.451
+1858	-4.303	9.427
+1859	-4.059	9.54
+1860	-4.19	9.47
+1861	-4.452	9.374
+1862	-4.31	9.395
+1863	-4.161	9.479
+1864	-4.127	9.468
+1865	-4.253	9.47
+1866	-4.131	9.538
+1867	-4.347	9.392
+1868	-4.252	9.407
+1869	-4.352	9.458
+1870	-4.431	9.357
+1871	-4.355	9.383
+1872	-4.29	9.4
+1873	-4.284	9.448
+1874	-4.357	9.407
+1875	-4.306	9.457
+1876	-4.249	9.459
+1877	-4.113	9.529
+1878	-4.104	9.531
+1879	-4.511	9.441
+1880	-4.24	9.516
+1881	-4.121	9.537
+1882	-4.409	9.466
+1883	-4.233	9.516
+1884	-4.236	9.448
+1885	-4.01	9.557
+1886	-4.587	9.38
+1887	-4.498	9.387
+1888	-4.184	9.493
+1889	-4.416	9.407
+1890	-4.352	9.468
+1891	-4.34	9.488
+1892	-4.224	9.553
+1893	-4.499	9.489
+1894	-4.536	9.41
+1895	-4.324	9.456
+1896	-4.25	9.486
+1897	-4.145	9.559
+1898	-4.291	9.507
+1899	-4.472	9.457
+1900	-4.265	9.485
+1901	-4.486	9.44
+1902	-4.364	9.521
+1903	-4.26	9.488
+1904	-4.192	9.522
+1905	-4.159	9.562
+1906	-4.122	9.549
+1907	-4.333	9.497
+1908	-4.29	9.568
+1909	-4.596	9.516
+1910	-4.455	9.524
+1911	-4.429	9.52
+1912	-4.386	9.587
+1913	-4.166	9.632
+1914	-4.247	9.54
+1915	-4.44	9.511
+1916	-4.369	9.505
+1917	-4.539	9.486
+1918	-4.618	9.445
+1919	-4.363	9.483
+1920	-4.174	9.498
+1921	-4.566	9.495
+1922	-4.465	9.498
+1923	-4.3	9.459
+1924	-4.195	9.566
+1925	-4.353	9.487
+1926	-4.239	9.56
+1927	-4.292	9.495
+1928	-4.209	9.505
+1929	-4.22	9.46
+1930	-4.358	9.43
+1931	-4.14	9.491
+1932	-4.148	9.466
+1933	-4.219	9.403
+1934	-4.268	9.474
+1935	-4.182	9.556
+1936	-4.167	9.43
+1937	-3.945	9.56
+1938	-4.271	9.552
+1939	-4.378	9.477
+1940	-4.364	9.488
+1941	-4.006	9.633
+1942	-4.089	9.568
+1943	-4.337	9.464
+1944	-4.576	9.571
+1945	-4.379	9.558
+1946	-4.625	9.454
+1947	-4.435	9.483
+1948	-4.22	9.475
+1949	-4.193	9.457
+1950	-4.319	9.406
+1951	-4.419	9.388
+1952	-4.269	9.442
+1953	-4.3	9.389
+1954	-4.253	9.5
+1955	-4.46	9.441
+1956	-4.625	9.445
+1957	-4.671	9.407
+1958	-4.348	9.522
+1959	-4.3	9.592
+1960	-4.471	9.508
+1961	-4.483	9.457
+1962	-4.331	9.531
+1963	-4.325	9.484
+1964	-4.333	9.54
+1965	-4.317	9.474
+1966	-4.289	9.531
+1967	-4.349	9.489
+1968	-4.414	9.457
+1969	-4.45	9.436
+1970	-4.345	9.515
+1971	-4.474	9.464
+1972	-4.537	9.432
+1973	-4.343	9.5
+1974	-4.596	9.383
+1975	-4.46	9.415
+1976	-4.477	9.4
+1977	-4.369	9.47
+1978	-4.449	9.455
+1979	-4.431	9.499
+1980	-4.426	9.525
+1981	-4.462	9.484
+1982	-4.404	9.458
+1983	-4.235	9.552
+1984	-4.373	9.508
+1985	-4.478	9.457
+1986	-4.42	9.509
+1987	-4.456	9.489
+1988	-4.43	9.515
+1989	-4.554	9.464
+1990	-4.47	9.438
+1991	-4.441	9.475
+1992	-4.561	9.448
+1993	-4.581	9.416
+1994	-4.542	9.455
+1995	-4.486	9.47
+1996	-4.534	9.443

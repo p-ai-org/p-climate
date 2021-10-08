@@ -1,0 +1,315 @@
+﻿﻿# Bermuda Coral Sr/Ca and d18O Data and SST Reconstruction 1781-1998
+#----------------------------------------------------------------------- 
+#                World Data Center for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#----------------------------------------------------------------------- 
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/6115
+#
+# Original_Source_URL: http://www1.ncdc.noaa.gov/pub/data/paleo/coral/atlantic/bermuda2008.txt
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Archive: Corals and Sclerosponges
+#--------------------
+# Contribution_Date
+#	Date:  2008-10-01
+#--------------------
+# Title
+#	Study_Name: Bermuda - Sr/Ca and d18O Data and SST Reconstruction 
+#--------------------
+# Investigators
+#       Investigators: Goodkin, N.F.; Hughen, K.A.; Curry, W.B.; Doney, S.C.; Ostermann, D.R.
+#--------------------
+# Description_and_Notes
+#	Description: Records of past climate and ocean environment derived from stable isotope, trace metal, and other measurements made on corals and sclerosponges. Parameter keywords describe what was measured in this data set. Additional summary information can be found in the abstracts of papers listed in the data set citations. Coral Sr/Ca and d18O data from a 225-year old Diploria labyrinthiformis colony collected on the south shore of Bermuda (64W, 32N), on the southeastern edge of the Bermuda platform, at 16 m water depth.
+#--------------------
+# Publication 
+#       Authors: Goodkin, N.F.; Hughen, K.A.; Curry, W.B.; Doney, S.C.; Ostermann, D.R.
+#       Published_Date_or_Year: 2008-07-08      
+#       Published_Title: Sea surface temperature and salinity variability at Bermuda during the end of the Little Ice Age
+#       Journal_Name: Paleoceanography
+#       Volume: 23
+#       Edition: 
+#       Issue: 
+#       Pages: 
+#       DOI: 10.1029/2007PA001532
+#       Online_Resource: 
+#       Full_Citation: Goodkin, N.F., K.A. Hughen, W.B. Curry, S.C. Doney, and D.R. Ostermann. 2008. Sea surface temperature and salinity variability at Bermuda during the end of the Little Ice Age.  Paleoceanography, 23, PA3203, doi:10.1029/2007PA001532.
+#       Abstract: We use geochemical and isotope measurements on a 225-year old brain coral (Diploria labyrinthiformis) from the south shore of Bermuda (64W, 32N) to construct a record of decadal-to-centennial-scale climate variability. The coral was collected alive, and annual density bands visible in X radiographs delineate cold and warm seasons allowing for precise dating. Coral skeletons incorporate strontium (Sr) and calcium (Ca) in relative proportions inversely to the sea surface temperature (SST) in which the skeleton is secreted. Previous studies on this and other coral colonies from this region document the ability to reconstruct mean annual andwintertime SST using Sr/Ca measurements (Goodkin et al., 2007, 2005). The coral-based records of SST for the past 2 centuries show abrupt shifts at both decadal and centennial timescales and suggest that SST at the end of the Little Ice Age (between 1840 and 1860) was 1.5C-0.4C colder than today (1990s). Coral-reconstructed SST has a greater magnitude change than does a gridded instrumental SST record from this region. This may result from several physical processes including high rates of mesoscale eddy propagation in this region. Oxygen isotope values (d18O) of the coral skeleton reflect changes in both temperature and the d18O of seawater (dOw),where dOw is proportional to sea surface salinity (SSS). We show in this study that mean annual and wintertime d18O of the carbonate (dOc) are correlated to both SST and SSS, but a robust, quantitative measure of SSS is not found with present calibration data. In combination, however, the Sr/Ca and dOc qualitatively reconstruct lower salinities at the end of the Little Ice Age relative to modern day. Temperature changes agree with other records from the Bermuda region. Radiative and atmospheric forcing may explain some of the SST variability, but the scales of implied changes in SST and SSS indicate large-scale ocean circulation impacts as well.
+#------------------
+# Funding_Agency 
+#       Funding_Agency_Name: Woods Hole Oceanographic Institution
+#       Grant:
+#------------------
+# Funding_Agency 
+#       Funding_Agency_Name: U.S. National Science Foundation
+#       Grant: OCE-0402728
+
+#------------------
+# Site_Information 
+#       Site_Name: Bermuda
+#       Location: Ocean>Atlantic Ocean>North Atlantic Ocean>Bermuda
+#	Country: Bermuda 
+#	Northernmost_Latitude: 32
+# 	Southernmost_Latitude: 32
+# 	Easternmost_Longitude: -64
+# 	Westernmost_Longitude: -64
+# 	Elevation: -16 m
+#------------------
+# Data_Collection   
+#	Collection_Name: 08berm01c
+#	Earliest_Year: 1781
+#	Most_Recent_Year: 1998
+#	Time_Unit: AD
+#	Core_Length: 
+#	Notes:  
+#------------------
+# Species 
+#	Species_Name: Diploria labyrinthiformis
+#	Common_Name: Brain Coral
+#------------------
+# Chronology_Information
+#	Chronology: 
+#  
+#----------------
+# Variables 
+#
+# Data variables follow that are preceded by "##" in columns one and two.
+# Data line variables format:  Variables list, one per line, shortname-tab-longname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data) 
+#
+##age	age, , ,years AD, , , , ,N
+##d18O	delta 18O,Diploria labyrinthiformis, ,permil PDB, ,Corals and Sclerosponges, ,instrument: isotope ratio mass spectrometer,N
+##Sr/Ca	Strontium/Calcium, Diploria labyrinthiformis, , mmol/mol, , Corals and Sclerosponges, ,instrument: inductively coupled plasma–atomic emission spectrometry,N
+##ext	mean extension rate, Diploria labyrinthiformis, ,mm/yr, ,Corals and Sclerosponges, , smooth: 3 year running mean,N 
+##sst	sea surface temperature, , ,degrees Celsius, ,Climate Reconstructions, , coral Sr/Ca,N
+##
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values: NAN 
+#
+age	d18O	Sr/Ca	ext	sst
+1998	-3.619	9.288	3.464	23.251
+1997	-3.482	9.280	3.333	23.413
+1996	-3.405	9.291	2.898	23.344
+1995	-3.588	9.309	3.103	23.010
+1994	-3.593	9.281	3.028	23.475
+1993	-3.533	9.306	3.287	23.022
+1992	-3.491	9.310	3.179	22.981
+1991	-3.632	9.298	3.279	23.145
+1990	-3.507	9.254	3.333	23.816
+1989	-3.484	9.291	3.647	23.160
+1988	-3.515	9.354	3.700	22.176
+1987	-3.643	9.281	3.809	23.278
+1986	-3.599	9.277	3.834	23.334
+1985	-3.597	9.280	3.855	23.278
+1984	-3.568	9.281	3.858	23.265
+1983	-3.575	9.295	3.888	23.043
+1982	-3.587	9.286	3.991	23.144
+1981	-3.488	9.386	3.948	21.614
+1980	-3.649	9.320	3.899	22.654
+1979	-3.984	9.266	3.939	23.478
+1978	-3.923	9.327	4.170	22.475
+1977	-3.899	9.275	4.101	23.293
+1976	-3.685	9.263	4.037	23.491
+1975	-3.635	9.279	3.851	23.289
+1974	-3.818	9.251	3.880	23.715
+1973	-3.525	9.322	4.079	22.568
+1972	-3.716	9.259	3.960	23.582
+1971	-3.740	9.268	4.017	23.423
+1970	-3.733	9.256	4.043	23.601
+1969	-3.638	9.236	4.327	23.839
+1968	-3.777	9.248	4.067	23.721
+1967	-3.808	9.276	4.087	23.274
+1966	-4.022	9.160	3.887	25.120
+1965	-3.689	9.236	4.185	23.863
+1964	-3.740	9.223	4.018	24.110
+1963	-3.842	9.246	3.520	23.881
+1962	-3.835	9.189	3.422	24.797
+1961	-3.881	9.196	3.515	24.655
+1960	-3.922	9.234	3.948	23.957
+1959	-3.406	9.259	4.023	23.557
+1958	-3.936	9.157	3.820	25.187
+1957	-3.295	9.241	3.722	23.917
+1956	-3.387	9.259	3.532	23.687
+1955	-3.765	9.222	3.933	24.143
+1954	-3.709	9.159	3.955	25.118
+1953	-3.672	9.189	4.123	24.609
+1952	-3.707	9.221	3.817	24.195
+1951	-3.672	9.239	4.000	23.871
+1950	-3.529	9.296	3.820	23.038
+1949	-3.574	9.342	3.970	22.289
+1948	-3.402	9.358	3.975	22.050
+1947	-3.571	9.385	4.110	21.601
+1946	-3.693	9.303	4.213	22.837
+1945	-3.500	9.346	4.388	22.130
+1944	-3.655	9.329	4.253	22.424
+1943	-3.622	9.340	4.093	22.302
+1942	-3.785	9.273	4.015	23.347
+1941	-3.513	9.266	4.150	23.424
+1940	-3.799	9.264	4.127	23.456
+1939	-3.818	9.228	3.845	24.088
+1938	-3.709	9.228	3.867	24.071
+1937	-3.686	9.245	3.662	23.861
+1936	-3.697	9.278	3.822	23.318
+1935	-3.750	9.276	3.287	23.487
+1934	-3.792	9.262	3.297	23.695
+1933	-3.740	9.287	3.002	23.376
+1932	-3.669	9.340	3.283	22.487
+1931	-3.672	9.260	3.138	23.761
+1930	-3.736	9.287	3.357	23.301
+1929	-3.814	9.297	3.300	23.157
+1928	-3.801	9.249	3.057	23.955
+1927	-3.609	9.243	2.885	24.095
+1926	-3.638	9.278	3.112	23.501
+1925	-3.647	9.286	3.598	23.243
+1924	-3.767	9.263	4.100	23.480
+1923	-3.763	9.302	4.335	22.821
+1922	-3.780	9.282	4.512	23.089
+1921	-3.729	9.253	4.138	23.616
+1920	-3.607	9.346	3.692	22.306
+1919	-3.653	9.381	3.263	21.858
+1918	-3.628	9.374	3.278	21.965
+1917	-3.555	9.392	3.267	21.690
+1916	-3.706	9.321	3.293	22.780
+1915	-3.580	9.351	3.370	22.301
+1914	-3.652	9.339	3.525	22.446
+1913	-3.852	9.343	3.555	22.382
+1912	-3.628	9.373	3.967	21.810
+1911	-4.028	9.291	3.985	23.078
+1910	-3.926	9.246	4.252	23.697
+1909	-3.906	9.245	4.030	23.771
+1908	-3.676	9.303	4.048	22.870
+1907	-3.865	9.306	3.975	22.839
+1906	-3.603	9.393	3.680	21.583
+1905	-3.904	9.276	3.790	23.356
+1904	-3.776	9.341	3.428	22.444
+1903	-3.645	9.362	3.017	22.210
+1902	-3.992	9.315	2.598	23.049
+1901	-3.767	9.378	2.848	22.000
+1900	-3.370	9.436	3.230	21.019
+1899	-3.668	9.302	3.257	23.081
+1898	-3.659	9.288	3.608	23.211
+1897	-3.722	9.280	3.650	23.325
+1896	-3.691	9.314	3.205	22.919
+1895	-3.207	9.407	2.472	21.635
+1894	-3.371	9.421	2.475	21.428
+1893	-3.385	9.313	3.188	22.931
+1892	-3.741	9.221	3.837	24.192
+1891	-3.848	9.184	3.807	24.770
+1890	-3.855	9.169	3.858	24.980
+1889	-3.852	9.212	3.662	24.373
+1888	-3.752	9.211	3.997	24.299
+1887	-3.725	9.232	4.142	23.945
+1886	-3.715	9.304	4.373	22.787
+1885	-3.712	9.297	4.227	22.923
+1884	-3.547	9.325	4.545	22.411
+1883	-3.673	9.313	4.572	22.597
+1882	-3.498	9.331	4.657	22.298
+1881	-3.440	9.360	4.840	21.812
+1880	-3.553	9.307	4.862	22.620
+1879	-3.608	9.321	4.543	22.475
+1878	-3.712	9.263	3.893	23.534
+1877	-3.809	9.318	3.748	22.714
+1876	-3.703	9.262	3.965	23.534
+1875	-3.746	9.320	3.773	22.682
+1874	-3.826	9.302	3.760	22.961
+1873	-3.770	9.263	3.817	23.548
+1872	-3.813	9.272	3.737	23.425
+1871	-4.026	9.227	3.628	24.159
+1870	-3.673	9.351	3.377	22.292
+1869	-3.649	9.413	3.348	21.344
+1868	-3.660	9.328	2.913	22.771
+1867	-3.545	9.389	2.605	21.888
+1866	-3.592	9.424	2.357	21.403
+1865	-3.660	9.331	2.213	22.889
+1864	-3.312	9.439	2.255	21.184
+1863	-3.662	9.406	2.408	21.668
+1862	-3.588	9.340	2.780	22.618
+1861	-3.167	9.480	2.988	20.376
+1860	-3.455	9.436	2.718	21.136
+1859	-3.349	9.418	2.932	21.368
+1858	-3.371	9.461	2.680	20.754
+1857	-3.861	9.337	3.060	22.591
+1856	-3.579	9.417	2.607	21.446
+1855	-3.344	9.454	2.355	20.932
+1854	-3.170	9.386	2.068	22.064
+1853	-3.176	9.446	2.533	21.018
+1852	-3.560	9.385	3.015	21.858
+1851	-3.869	9.413	2.910	21.437
+1850	-3.774	9.396	2.380	21.834
+1849	-3.290	9.489	1.713	20.531
+1848	-3.619	9.502	1.918	20.273
+1847	-3.707	9.408	1.880	21.772
+1846	-3.418	9.493	2.528	20.287
+1845	-3.555	9.434	2.640	21.187
+1844	-3.605	9.364	2.888	22.218
+1843	-3.430	9.333	2.830	22.713
+1842	-3.528	9.317	2.683	23.000
+1841	-3.545	9.350	2.627	22.493
+1840	-3.485	9.430	2.488	21.281
+1839	-3.624	9.425	2.540	21.339
+1838	-3.536	9.340	2.627	22.649
+1837	-3.759	9.329	2.487	22.855
+1836	-3.533	9.381	2.418	22.068
+1835	-3.344	9.414	2.305	21.570
+1834	-3.399	9.371	2.378	22.221
+1833	-3.699	9.346	2.385	22.618
+1832	-3.534	9.452	2.510	20.922
+1831	-3.746	9.411	2.680	21.535
+1830	-3.471	9.408	2.997	21.499
+1829	-3.626	9.418	3.093	21.317
+1828	-3.545	9.478	3.608	20.280
+1827	-3.681	9.371	3.507	21.950
+1826	-3.706	9.445	3.350	20.854
+1825	-3.726	9.472	3.182	20.464
+1824	-3.702	9.416	3.487	21.261
+1823	-3.796	9.368	3.427	22.026
+1822	-3.554	9.429	3.382	21.087
+1821	-3.472	9.424	3.252	21.195
+1820	-3.732	9.299	3.798	22.996
+1819	-3.711	9.404	3.342	21.486
+1818	-3.720	9.400	3.403	21.535
+1817	-3.767	9.366	3.713	21.987
+1816	-3.897	9.322	4.175	22.559
+1815	-3.968	9.299	4.292	22.882
+1814	-3.731	9.335	3.803	22.449
+1813	-3.531	9.360	3.405	22.157
+1812	-3.530	9.382	3.235	21.851
+1811	-3.670	9.363	3.443	22.103
+1810	-3.751	9.320	4.005	22.630
+1809	-3.777	9.289	3.970	23.112
+1808	-3.715	9.365	3.900	21.957
+1807	-3.762	9.333	3.760	22.476
+1806	-3.550	9.366	3.650	22.005
+1805	-3.691	9.309	3.645	22.887
+1804	-3.879	9.257	3.885	23.631
+1803	-3.699	9.339	3.905	22.351
+1802	-3.745	9.303	3.940	22.906
+1801	-3.788	9.275	3.653	23.409
+1800	-3.689	9.326	3.808	22.586
+1799	-3.675	9.318	3.808	22.695
+1798	-3.674	9.325	3.625	22.642
+1797	-3.686	9.296	3.525	23.113
+1796	-3.523	9.345	3.495	22.366
+1795	-3.376	9.344	3.657	22.342
+1794	-3.540	9.301	4.092	22.888
+1793	-3.674	9.277	3.623	23.379
+1792	-3.586	9.222	4.125	24.108
+1791	-3.595	9.301	4.272	22.856
+1790	-3.747	9.315	4.055	22.692
+1789	-3.893	9.300	3.240	23.125
+1788	-3.838	9.266	2.805	23.753
+1787	-3.599	9.301	3.310	23.084
+1786	-3.464	9.333	3.675	22.501
+1785	-3.480	9.342	3.805	22.335
+1784	-3.435	9.359	3.865	22.052
+1783	-3.247	9.448	3.887	20.674
+1782	-3.379	9.352	3.748	22.190
+1781	-3.545	9.328	NAN	NAN	

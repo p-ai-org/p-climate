@@ -1,0 +1,224 @@
+{
+  "xmlId" : "14065",
+  "NOAAStudyId" : "16339",
+  "studyName" : "Palau 215 Year Coral Stable Isotope Data",
+  "doi" : null,
+  "uuid" : "c0feb33b-6b8c-444d-a1f7-c11a62a6c83b",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Osborne, M.C.; Dunbar, R.B.; Mucciarone, D.A.; Druffel, E.R.M.; Sanchez-Cabeza, J.-A.",
+  "version" : "1.0",
+  "funding" : [ {
+    "fundingAgency" : "International Atomic Energy Agency (IAEA)",
+    "fundingGrant" : "Project \"Nuclear and isotopic studies of the El Nino phenomenon in the ocean\""
+  } ],
+  "studyNotes" : "Palau Stable Isotope Data 1793-2008. Records of past climate and ocean environment derived from stable isotope data. Site name acronyms are as follows: UC = Ulong Channel; RI = Rock Islands",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/16339",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-16339.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-16339.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "Warm Pool" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2014-04-11",
+  "entryId" : "noaa-coral-16339",
+  "earliestYearBP" : 157,
+  "mostRecentYearBP" : -58,
+  "earliestYearCE" : 1793,
+  "mostRecentYearCE" : 2008,
+  "publication" : [ {
+    "author" : {
+      "name" : "Michael C. Osborne, Robert B. Dunbar, David A. Mucciarone, Ellen Druffel, Joan-Albert Sanchez-Cabeza"
+    },
+    "pubYear" : 2014,
+    "title" : "A 215-yr coral d18O time series from Palau records dynamics of the West Pacific Warm Pool following the end of the Little Ice Age",
+    "journal" : "Coral Reefs",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Michael C. Osborne, Robert B. Dunbar, David A. Mucciarone, Ellen Druffel, Joan-Albert Sanchez-Cabeza. 2014. A 215-yr coral d18O time series from Palau records dynamics of the West Pacific Warm Pool following the end of the Little Ice Age. Coral Reefs. . doi: 10.1007/s00338-014-1146-1",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1007/s00338-014-1146-1",
+      "url" : "http://dx.doi.org/10.1007/s00338-014-1146-1"
+    },
+    "abstract" : "The West Pacific Warm Pool (WPWP) is a critical region of the global climate system that is closely linked with the El Nino-Southern Oscillation (ENSO). We have generated two monthly resolved coral d18O (d18OCRL) records from a key region of the WPWP, the Republic of Palau (7N, 135E). The isotopic time series span the years 1793-2008 and 1899-2008. During the period of overlap, the two records are well correlated at interannual and annual periods. Multiple lines of evidence demonstrate a strong ENSO signal in Palau d18OCRL. Our records are consistent with previous investigations of twentieth-century tropical Pacific climate variability. We identify a regionally coherent bi-decadal cycle in the WPWP following the termination of the Little Ice Age. The Palau d18OCRL records show long-term trends towards warming/freshening, suggesting a century scale increase in the strength of the hydrologic cycle associated with the WPWP. Our study represents an important addition to the network of tropical paleo-archives.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "55841",
+    "siteName" : "Rock Islands",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>Micronesia>Palau",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "7.2708", "134.3837" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "7.2708",
+        "northernmostLatitude" : "7.2708",
+        "westernmostLongitude" : "134.3837",
+        "easternmostLongitude" : "134.3837",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Palau2014RI",
+      "NOAADataTableId" : "26379",
+      "earliestYear" : 1899,
+      "mostRecentYear" : 2008,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 51,
+      "mostRecentYearBP" : -58,
+      "earliestYearCE" : 1899,
+      "mostRecentYearCE" : 2008,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/palau2014ri.txt",
+        "urlDescription" : "Data File",
+        "linkText" : "Rock Islands Stable Isotope Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "55842",
+    "siteName" : "Ulong Channel",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Western Pacific Ocean>Micronesia>Palau",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "7.2859", "134.2503" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "7.2859",
+        "northernmostLatitude" : "7.2859",
+        "westernmostLongitude" : "134.2503",
+        "easternmostLongitude" : "134.2503",
+        "minElevationMeters" : null,
+        "maxElevationMeters" : null
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Palau2014UC",
+      "NOAADataTableId" : "26378",
+      "earliestYear" : 1793,
+      "mostRecentYear" : 2008,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 157,
+      "mostRecentYearBP" : -58,
+      "earliestYearCE" : 1793,
+      "mostRecentYearCE" : 2008,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/palau2014uc.txt",
+        "urlDescription" : "Data File",
+        "linkText" : "Ulong Channel Stable Isotope Data",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      } ]
+    } ]
+  } ]
+}

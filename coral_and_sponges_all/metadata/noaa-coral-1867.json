@@ -1,0 +1,211 @@
+{
+  "xmlId" : "1114",
+  "NOAAStudyId" : "1867",
+  "studyName" : "Ningaloo Reef - Stable Isotope Data",
+  "doi" : null,
+  "uuid" : "b513cb74-7403-4f22-8944-e0990cd52959",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Kuhnert, H.; Pätzold, J.; Wyrwoll, K-H.; Wefer, G.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Interpolated d18O and d13C in bimonthly temporal resolution for the time period 1878-1994.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1867",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1867.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1867.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES Australasia 2k", "PAGES 2k Network" ],
+  "reconstruction" : "N",
+  "contributionDate" : "2001-11-01",
+  "entryId" : "noaa-coral-1867",
+  "earliestYearBP" : 72,
+  "mostRecentYearBP" : -45,
+  "earliestYearCE" : 1878,
+  "mostRecentYearCE" : 1995,
+  "publication" : [ {
+    "author" : {
+      "name" : "Kuhnert, H.; Pätzold, J.; Wyrwoll, K.; Wefer, G"
+    },
+    "pubYear" : 2000,
+    "title" : "Monitoring climate variability over the past 116 years in coral oxygen isotopes from Ningaloo Reef, Western Australia",
+    "journal" : "International Journal of Earth Sciences",
+    "volume" : "88",
+    "edition" : null,
+    "issue" : null,
+    "pages" : "725-732",
+    "reportNumber" : null,
+    "citation" : "Kuhnert, H.; Pätzold, J.; Wyrwoll, K.; Wefer, G. 2000. Monitoring climate variability over the past 116 years in coral oxygen isotopes from Ningaloo Reef, Western Australia. International Journal of Earth Sciences, 88, 725-732. doi: 10.1007/s005310050300",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1007/s005310050300",
+      "url" : "http://dx.doi.org/10.1007/s005310050300"
+    },
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1917",
+    "siteName" : "Ningaloo Reef",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Continent>Australia/New Zealand>Australia>Western Australia",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "-21.9", "113.97" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "-21.9",
+        "northernmostLatitude" : "-21.9",
+        "westernmostLongitude" : "113.97",
+        "easternmostLongitude" : "113.97",
+        "minElevationMeters" : "-3",
+        "maxElevationMeters" : "-3"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "00aust01a",
+      "NOAADataTableId" : "1002456",
+      "earliestYear" : 1878,
+      "mostRecentYear" : 1995,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 72,
+      "mostRecentYearBP" : -45,
+      "earliestYearCE" : 1878,
+      "mostRecentYearCE" : 1995,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Internal precisions (1 SD) are 0.02 per mil for delta O-18",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/indian_ocean/kuhnert2000-depth_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "kuhnert2000-depth_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "depth variable>depth",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "length unit>millimeter",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "raw",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "00aust01b",
+      "NOAADataTableId" : "1002457",
+      "earliestYear" : 1879,
+      "mostRecentYear" : 1994,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 71,
+      "mostRecentYearBP" : -44,
+      "earliestYearCE" : 1879,
+      "mostRecentYearCE" : 1994,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Internal precisions (1 SD) are 0.02 per mil for delta O-18",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/indian_ocean/kuhnert2000-bimonth_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "kuhnert2000-bimonth_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.>Porites lutea",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes", "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    } ]
+  } ]
+}

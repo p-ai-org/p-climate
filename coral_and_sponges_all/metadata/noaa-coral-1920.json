@@ -1,0 +1,215 @@
+{
+  "xmlId" : "1239",
+  "NOAAStudyId" : "1920",
+  "studyName" : "Tongue of the Ocean, Exuma Sound - Sclerosponge Sr/Ca and Oxygen Isotope Data",
+  "doi" : null,
+  "uuid" : "3c0dd58b-815c-4ffe-8894-827e6bacdf8a",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Rosenheim, B.; Swart, P.K.; Thorrold, S.R.; Eisenhauer, A.; Willenz, P.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : null,
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1920",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1920.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1920.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : null,
+  "reconstruction" : "N",
+  "contributionDate" : "2005-07-01",
+  "entryId" : "noaa-coral-1920",
+  "earliestYearBP" : 60,
+  "mostRecentYearBP" : -40,
+  "earliestYearCE" : 1890,
+  "mostRecentYearCE" : 1990,
+  "publication" : [ {
+    "author" : null,
+    "pubYear" : 2005,
+    "title" : "Salinity change in the subtropical Atlantic: Secular increase and teleconnections to the North Atlantic Oscillation",
+    "journal" : "Geophysical Research Letters",
+    "volume" : null,
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Rosenheim, B.E., P.K. Swart, S.R. Thorrold, A. Eisenhauer, and P. Willenz. 2005.  Salinity change in the subtropical Atlantic: Secular increase and teleconnections to the North Atlantic Oscillation. Geophysical Research Letters, Vol. 32, L02603, January 2005.",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : "Recent studies comparing shipboard data between the1950's and the 1990's have shown significant,heterogeneous adjustments of the temperature-salinitystructure of the N. Atlantic Ocean. Here, we presentproxy records of temperature and salinity from aragonitesclerosponge skeletons, extending existing records of theSalinity Maximum Waters (SMW) of the N. Atlantic back to1890. These proxy records show secular temperatureincreases of 1.6ŋ2.0C, higher than published globalaverages, and salinity increases of 0.35ŋ0.5 psu, smallerthan short-term secular trends recently measured. Salinityreconstructions vary more significantly on the decadal scale,showing changes that are related to low-frequencyvariations of the North Atlantic Oscillation (NAO). Onboth secular and decadal time scales, the records indicatesignificant thermohaline changes in the SMW, either viaforcing at the surface or increasing depths of densitysurfaces in the Bahamas.",
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1932",
+    "siteName" : "Tongue of the Ocean",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Atlantic Ocean>North Atlantic Ocean>Caribbean Sea>Bahamas",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "23.92", "-76.83" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "23.92",
+        "northernmostLatitude" : "23.92",
+        "westernmostLongitude" : "-76.83",
+        "easternmostLongitude" : "-76.83",
+        "minElevationMeters" : "-146",
+        "maxElevationMeters" : "-146"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Tongue of the Ocean Core 002",
+      "NOAADataTableId" : "2054",
+      "earliestYear" : 1890,
+      "mostRecentYear" : 1990,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 60,
+      "mostRecentYearBP" : -40,
+      "earliestYearCE" : 1890,
+      "mostRecentYearCE" : 1990,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/atlantic/bahamas-sclerosponge2005.txt",
+        "urlDescription" : "Sclerosponge",
+        "linkText" : "bahamas-sclerosponge2005.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>sponge>sclerosponge>Ceratoporella sp.>Ceratoporella nicholsoni",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : "annual",
+          "cvDetail" : "averaged",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>strontium/calcium",
+          "cvMaterial" : "biological material>organism>sponge>sclerosponge>Ceratoporella sp.>Ceratoporella nicholsoni",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : "annual",
+          "cvDetail" : "averaged",
+          "cvMethod" : "laboratory method>sampling method>laser ablation|laboratory method>spectroscopy>mass spectrometry>inductively-coupled plasma mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      } ]
+    } ]
+  }, {
+    "NOAASiteId" : "1976",
+    "siteName" : "Exuma Sound",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Atlantic Ocean>North Atlantic Ocean>Caribbean Sea>Bahamas",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "23.67", "-75.75" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "23.67",
+        "northernmostLatitude" : "23.67",
+        "westernmostLongitude" : "-75.75",
+        "easternmostLongitude" : "-75.75",
+        "minElevationMeters" : "-136",
+        "maxElevationMeters" : "-136"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Exuma Sound Core 001",
+      "NOAADataTableId" : "2053",
+      "earliestYear" : 1890,
+      "mostRecentYear" : 1990,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 60,
+      "mostRecentYearBP" : -40,
+      "earliestYearCE" : 1890,
+      "mostRecentYearCE" : 1990,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/atlantic/bahamas-sclerosponge2005.txt",
+        "urlDescription" : "Sclerosponge",
+        "linkText" : "bahamas-sclerosponge2005.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>sponge>sclerosponge>Ceratoporella sp.>Ceratoporella nicholsoni",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil VPDB",
+          "cvSeasonality" : "annual",
+          "cvDetail" : "averaged",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>strontium/calcium",
+          "cvMaterial" : "biological material>organism>sponge>sclerosponge>Ceratoporella sp.>Ceratoporella nicholsoni",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : "annual",
+          "cvDetail" : "averaged",
+          "cvMethod" : "laboratory method>sampling method>laser ablation|laboratory method>spectroscopy>mass spectrometry>inductively-coupled plasma mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>trace metals" ]
+      } ]
+    } ]
+  } ]
+}

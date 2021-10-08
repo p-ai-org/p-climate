@@ -1,0 +1,298 @@
+{
+  "xmlId" : "1089",
+  "NOAAStudyId" : "1847",
+  "studyName" : "Kiritimati Island - Data",
+  "doi" : null,
+  "uuid" : "e3fdfe94-3c9c-4e77-8bc7-fd0e5cb086ad",
+  "dataPublisher" : "NOAA",
+  "contactInfo" : {
+    "type" : "CONTACT INFORMATION",
+    "shortName" : "DOC/NOAA/NESDIS/NCEI",
+    "longName" : "National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce ",
+    "address" : "325 Broadway, E/NE31",
+    "city" : "Boulder",
+    "state" : "CO",
+    "postalCode" : "80305-3328",
+    "country" : "USA",
+    "dataCenterUrl" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data",
+    "email" : "paleo@noaa.gov",
+    "phone" : "303-497-6280",
+    "fax" : "303-497-6513",
+    "constraints" : "Please cite original publication, online resource, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, title, online resource, and date accessed. The appearance of external links associated with a dataset does not constitute endorsement by the Department of Commerce/National Oceanic and Atmospheric Administration of external Web sites or the information, products or services contained therein. For other than authorized activities, the Department of Commerce/NOAA does not exercise any editorial control over the information you may find at these locations. These links are provided consistent with the stated purpose of this Department of Commerce/NOAA Web site."
+  },
+  "dataType" : "CORALS AND SCLEROSPONGES",
+  "investigators" : "Evans, M.N.; Fairbanks, R.G.; Rubenstone, J.L.",
+  "version" : "1.0",
+  "funding" : [ ],
+  "studyNotes" : "Coral stable isotope (d18O, d13C) and Sr/Ca data from Kiritimati.  Stable isotope data by-depth for long core Kiritimati-1 added 4/8/2021.",
+  "onlineResourceLink" : "https://www.ncdc.noaa.gov/paleo/study/1847",
+  "difMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/dif/xml/noaa-coral-1847.xml",
+  "isoMetadataLink" : "http://www1.ncdc.noaa.gov/pub/data/metadata/published/paleo/iso/xml/noaa-coral-1847.xml",
+  "originalSource" : null,
+  "dataTypeInformation" : "https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/coral-sclerosponge",
+  "studyCode" : null,
+  "scienceKeywords" : [ "PAGES 2k Network", "PAGES Australasia 2k" ],
+  "reconstruction" : "N",
+  "contributionDate" : "1998-10-01",
+  "entryId" : "noaa-coral-1847",
+  "earliestYearBP" : 12,
+  "mostRecentYearBP" : -43,
+  "earliestYearCE" : 1938,
+  "mostRecentYearCE" : 1993,
+  "publication" : [ {
+    "author" : {
+      "name" : "Evans, M.N., R.G. Fairbanks and J.L. Rubenstone"
+    },
+    "pubYear" : 1999,
+    "title" : "The thermal oceanographic signal of El Niño reconstructed from a Kiritimati Island coral",
+    "journal" : "Journal of Geophysical Research: Oceans",
+    "volume" : "104",
+    "edition" : null,
+    "issue" : "C6",
+    "pages" : "13409-13421",
+    "reportNumber" : null,
+    "citation" : "Evans, M.N., R.G. Fairbanks and J.L. Rubenstone. 1999. The thermal oceanographic signal of El Niño reconstructed from a Kiritimati Island coral. Journal of Geophysical Research: Oceans, 104(C6), 13409-13421. doi: 10.1029/1999JC900001",
+    "type" : "publication",
+    "identifier" : {
+      "type" : "doi",
+      "id" : "10.1029/1999JC900001",
+      "url" : "http://dx.doi.org/10.1029/1999JC900001"
+    },
+    "abstract" : null,
+    "pubRank" : "2"
+  }, {
+    "author" : {
+      "name" : "Evans, M.N.; Fairbanks, R.G.; Rubenstone, J.L"
+    },
+    "pubYear" : 1998,
+    "title" : "A Proxy Index of ENSO Teleconnections",
+    "journal" : "Nature",
+    "volume" : "394",
+    "edition" : null,
+    "issue" : null,
+    "pages" : null,
+    "reportNumber" : null,
+    "citation" : "Evans, M.N.; Fairbanks, R.G.; Rubenstone, J.L. 1998. A Proxy Index of ENSO Teleconnections. Nature, 394. ",
+    "type" : "publication",
+    "identifier" : null,
+    "abstract" : null,
+    "pubRank" : "1"
+  } ],
+  "site" : [ {
+    "NOAASiteId" : "1852",
+    "siteName" : "Kiritimati Island",
+    "siteCode" : null,
+    "mappable" : "Y",
+    "locationName" : "Ocean>Pacific Ocean>Central Pacific Ocean>Kiribati",
+    "geo" : {
+      "geoType" : "Feature",
+      "geometry" : {
+        "type" : "POINT",
+        "coordinates" : [ "2", "-157.3" ]
+      },
+      "properties" : {
+        "southernmostLatitude" : "2",
+        "northernmostLatitude" : "2",
+        "westernmostLongitude" : "-157.3",
+        "easternmostLongitude" : "-157.3",
+        "minElevationMeters" : "-9",
+        "maxElevationMeters" : "-9"
+      }
+    },
+    "paleoData" : [ {
+      "dataTableName" : "Kiritimati Island Core 001",
+      "NOAADataTableId" : "1858",
+      "earliestYear" : 1938,
+      "mostRecentYear" : 1993,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 12,
+      "mostRecentYearBP" : -43,
+      "earliestYearCE" : 1938,
+      "mostRecentYearCE" : 1993,
+      "coreLengthMeters" : 0,
+      "dataTableNotes" : null,
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/kirit13c.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "kirit13c.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      }, {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/image/kirit18o.gif",
+        "urlDescription" : "Coral",
+        "linkText" : "kirit18o.gif",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "Kiritmati1-depth",
+      "NOAADataTableId" : "45937",
+      "earliestYear" : 1938,
+      "mostRecentYear" : 1993,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 12,
+      "mostRecentYearBP" : -43,
+      "earliestYearCE" : 1938,
+      "mostRecentYearCE" : 1993,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "stable isotope by depth for Kiritimati long core kiritmati-1, added 2021-04-08",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/kiritimati1-depth.txt",
+        "urlDescription" : "NOAA Template File",
+        "linkText" : "Stable Isotope Data by Depth for Kiritimati-1 Long Core",
+        "variables" : [ ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "98kiri01a",
+      "NOAADataTableId" : "1002450",
+      "earliestYear" : 1938,
+      "mostRecentYear" : 1993,
+      "timeUnit" : "AD",
+      "earliestYearBP" : 12,
+      "mostRecentYearBP" : -43,
+      "earliestYearCE" : 1938,
+      "mostRecentYearCE" : 1993,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "DATA PRECISION (1 standard deviation): COLUMN 1: 1938-1945: +/- 0.5 year; 1946-1955: +/- 0.7 year; 1956-1965: +/- 0.8 year; 1966-1975: +/- 0.8 year; 1976-1985: +/- 0.8 year; 1986-1993: +/- 0.7 year. COLUMN 2: +/- 0.09 per mil COLUMN 3: +/- 0.06 per mil",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/evans1998-long_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "evans1998-long_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      } ]
+    }, {
+      "dataTableName" : "98kiri01b",
+      "NOAADataTableId" : "1002451",
+      "earliestYear" : 1981,
+      "mostRecentYear" : 1986,
+      "timeUnit" : "AD",
+      "earliestYearBP" : -31,
+      "mostRecentYearBP" : -36,
+      "earliestYearCE" : 1981,
+      "mostRecentYearCE" : 1986,
+      "coreLengthMeters" : null,
+      "dataTableNotes" : "Data precision (one standard deviation): COLUMN 1: +/- 0.8 year; COLUMN 2: +/- 0.09 per mil; COLUMN 3: +/- 0.06 per mil; COLUMN 4: +/- 0.09 per mil; COLUMN 5: +/- 0.015 mmol/mol; COLUMN 6: +/- 0.015 mmol/mol",
+      "species" : [ ],
+      "dataFile" : [ {
+        "fileUrl" : "https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/evans1998-short_noaa.txt",
+        "urlDescription" : "Coral",
+        "linkText" : "evans1998-short_noaa.txt",
+        "variables" : [ {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "age variable>age",
+          "cvMaterial" : null,
+          "cvError" : null,
+          "cvUnit" : "time unit>age unit>year Common Era",
+          "cvSeasonality" : null,
+          "cvDetail" : null,
+          "cvMethod" : null,
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 13C",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>isotope>isotope ratio>delta 18O",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>parts per notation unit>parts per thousand>per mil>per mil PDB",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized|interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>isotope ratio mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to 1981-1986 AD",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>strontium/calcium",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : null,
+          "cvDetail" : "interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>thermal ionization mass spectrometry",
+          "cvAdditionalInfo" : null,
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        }, {
+          "cvDataType" : "CORALS AND SCLEROSPONGES",
+          "cvWhat" : "chemical composition>element or compound ratio>strontium/calcium",
+          "cvMaterial" : "biological material>organism>coral>Porites sp.",
+          "cvError" : null,
+          "cvUnit" : "concentration unit>mole fraction unit>millimole per mole",
+          "cvSeasonality" : null,
+          "cvDetail" : "anomalized|interpolated",
+          "cvMethod" : "laboratory method>spectroscopy>mass spectrometry>thermal ionization mass spectrometry",
+          "cvAdditionalInfo" : "anomalized to 1981-1986 AD",
+          "cvFormat" : "Numeric",
+          "cvShortName" : null
+        } ],
+        "NOAAKeywords" : [ "earth science>paleoclimate>corals and sclerosponges>oxygen isotopes", "earth science>paleoclimate>corals and sclerosponges>trace metals", "earth science>paleoclimate>corals and sclerosponges>carbon isotopes" ]
+      } ]
+    } ]
+  } ]
+}

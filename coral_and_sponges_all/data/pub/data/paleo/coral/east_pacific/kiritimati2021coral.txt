@@ -1,0 +1,494 @@
+# Kiritimati Island 2015/16 El Nino Coral and Seawater Oxygen Isotope Data 
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/28291
+#       Description: NOAA Landing Page
+# Online_Resource: https://www.ncei.noaa.gov/pub/data/paleo/coral/east_pacific/kiritimati2021coral-d18o.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL: 
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Data_Type: Corals and Sclerosponges
+#
+# Dataset_DOI: 
+#
+# Parameter_Keywords: oxygen isotopes
+#--------------------
+# Contribution_Date
+#	Date: 2021-04-24
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2021-04-24
+#--------------------
+# Title
+#	Study_Name: Kiritimati Island 2015/16 El Nino Coral and Seawater Oxygen Isotope Data 
+#--------------------
+# Investigators
+#	Investigators: O'Connor, G.K.; Cobb, K.M.; Sayani, H.R.; Atwood, A.T.; Grothe, P.R.; Stevenson, S.; Baum, J.K.; Chen, T.; Claar, D.C.; Hitt, N.T.; Lynch-Stieglitz, J.; Schmidt, G.A.; Walter, R.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: This dataset contains modern coral oxygen isotope (d18O) data from Kiritimati Island covering the 2015/16 El Nino Event, plus in situ logger data (sea surface temperature and salinity) as well as in situ seawater bottle sample data (salinity and d18O).  
+#--------------------
+# Publication 
+#	Authors: O'Connor, G.K., Cobb, K.M., Sayani, H.R., Atwood, A.T., Grothe, P.R., Stevenson, S., Baum, J.K., Chen, T., Claar, D.C., Hitt, N.T., Lynch-Stieglitz, J., Schmidt, G.A., Walter, R.
+#	Published_Date_or_Year: 2021 submitted    
+#	Published_Title: Coral oxygen isotope and in situ records capture the 2015/2016 El Nino event in the central equatorial Pacific
+#	Journal_Name: Geophysical Research Letters
+#	Volume: 
+#	Edition: 
+#	Issue: 
+#	Pages:
+#	Report_Number: 
+#	DOI: 
+#	Online_Resource: 
+#	Full_Citation: 
+#	Abstract: Coral oxygen isotopes (d18O) from the central equatorial Pacific provide monthly-resolved records of El Nino-Southern Oscillation (ENSO) activity over past centuries to millennia. However, calibration studies using in situ data to assess the relative contributions of warming and freshening to coral d18O records are exceedingly rare. Furthermore, the fidelity of coral d18O records under the most severe thermal stress events is difficult to assess. Here, we present six coral d18O records and in situ temperature, salinity, and seawater d18O data from Kiritimati Island (2N, 157W) spanning the very strong 2015/16 El Nino event. Local sea surface temperature (SST) anomalies of +2.4+/-0.4C and seawater d18O anomalies of -0.19+/-0.02 per mil contribute to the observed coral d18O anomalies of -0.58+/-0.05 per mil, consistent with a ~70% contribution from SST and ~30% from seawater d18O. Our results demonstrate that Kiritimati coral d18O records can provide reliable reconstructions even during the largest class of El Nino events.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: US National Science Foundation
+#	Grant: 1502832, 1658182, 1635068, 1836645, 1446343, 1446274 
+#------------------
+# Site_Information 
+#	Site_Name: Kiritimati Island
+#	Location: Ocean>Pacific Ocean>Central Pacific Ocean>Kiribati
+#	Country:  Republic of Kiribati
+#	Northernmost_Latitude:  1.93
+# 	Southernmost_Latitude:  1.93
+# 	Easternmost_Longitude:  -157.48
+# 	Westernmost_Longitude:  -157.48
+# 	Elevation:  -4
+#------------------
+# Data_Collection   
+#	Collection_Name: Kiritimati2021coral-d18O
+#	Earliest_Year: 2006
+#	Most_Recent_Year: 2016
+#	Time_Unit: Year CE
+#	Core_Length: 0.061 to 0.168 m
+#	Notes: 2015 El Nino Kiritimati coral data
+#------------------
+# Chronology_Information
+#	Chronology: 
+#   Coral Name	IGSN	Age	Length (m)
+#   X16A-D1	IECXI000B	2012-2015		0.070
+#   X16A-D2	IECXI000C	2012-2016		0.061
+#   X16C-D3	IECXI000D	2012-2016		0.072
+#   X16C-D4	IECXI000E	2012-2016		0.067
+#   X16C-D5	IECXI000F	2011-2016		0.069
+#   X16C-D10	IECXI000G	2006-2016		0.168
+# 	
+#----------------	
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## sample	sample identification, , , , , corals and sclerosponges, , ,C,
+## age_CE	age, , , year Common Era, , corals and sclerosponges, , ,N,
+## d18O_raw	delta 18O,Porites sp., ,per mil VPDB, ,corals and sclerosponges,,isotope ratio mass spectrometry,N,	
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values: 
+#
+sample	age_CE	d18O
+X16A-D1	2015.875	-5.521
+X16A-D1	2015.792	-5.571
+X16A-D1	2015.708	-5.47
+X16A-D1	2015.625	-5.559
+X16A-D1	2015.542	-5.577
+X16A-D1	2015.458	-5.504
+X16A-D1	2015.375	-5.317
+X16A-D1	2015.292	-5.205
+X16A-D1	2015.208	-5.054
+X16A-D1	2015.125	-5.139
+X16A-D1	2015.042	-5.015
+X16A-D1	2014.958	-5.153
+X16A-D1	2014.875	-5.086
+X16A-D1	2014.792	-5.203
+X16A-D1	2014.708	-5.231
+X16A-D1	2014.625	-5.286
+X16A-D1	2014.542	-5.258
+X16A-D1	2014.458	-5.316
+X16A-D1	2014.375	-5.278
+X16A-D1	2014.292	-5.189
+X16A-D1	2014.208	-5.082
+X16A-D1	2014.125	-5.012
+X16A-D1	2014.042	-4.763
+X16A-D1	2013.958	-4.989
+X16A-D1	2013.875	-4.975
+X16A-D1	2013.792	-4.885
+X16A-D1	2013.708	-5.046
+X16A-D1	2013.625	-5.08
+X16A-D1	2013.542	-5.097
+X16A-D1	2013.458	-5.085
+X16A-D1	2013.375	-5.229
+X16A-D1	2013.292	-5.128
+X16A-D1	2013.208	-4.977
+X16A-D1	2013.125	-4.861
+X16A-D1	2013.042	-4.854
+X16A-D1	2012.958	-4.958
+X16A-D1	2012.875	-4.936
+X16A-D1	2012.792	-5.156
+X16A-D1	2012.708	-5.004
+X16A-D1	2012.625	-5.017
+X16A-D1	2012.542	-5.067
+X16A-D1	2012.458	-5.118
+X16A-D2	2016.375	-5.368
+X16A-D2	2016.292	-5.412
+X16A-D2	2016.208	-5.434
+X16A-D2	2016.125	-5.433
+X16A-D2	2016.042	-5.456
+X16A-D2	2015.958	-5.5
+X16A-D2	2015.875	-5.564
+X16A-D2	2015.792	-5.417
+X16A-D2	2015.708	-5.409
+X16A-D2	2015.625	-5.412
+X16A-D2	2015.542	-5.347
+X16A-D2	2015.458	-5.179
+X16A-D2	2015.375	-5.096
+X16A-D2	2015.292	-5.15
+X16A-D2	2015.208	-5.121
+X16A-D2	2015.125	-5.058
+X16A-D2	2015.042	-5.027
+X16A-D2	2014.958	-5.137
+X16A-D2	2014.875	-5.144
+X16A-D2	2014.792	-5.118
+X16A-D2	2014.708	-5.129
+X16A-D2	2014.625	-5.084
+X16A-D2	2014.542	-4.975
+X16A-D2	2014.458	-5.096
+X16A-D2	2014.375	-5.031
+X16A-D2	2014.292	-4.981
+X16A-D2	2014.208	-4.778
+X16A-D2	2014.125	-4.783
+X16A-D2	2014.042	-4.878
+X16A-D2	2013.958	-4.795
+X16A-D2	2013.875	-4.998
+X16A-D2	2013.792	-4.9
+X16A-D2	2013.708	-4.944
+X16A-D2	2013.625	-4.914
+X16A-D2	2013.542	-4.976
+X16A-D2	2013.458	-4.994
+X16A-D2	2013.375	-4.972
+X16A-D2	2013.292	-4.937
+X16A-D2	2013.208	-4.884
+X16A-D2	2013.125	-4.887
+X16A-D2	2013.042	-4.8
+X16A-D2	2012.958	-4.915
+X16A-D2	2012.875	-4.967
+X16A-D2	2012.792	-4.93
+X16A-D2	2012.708	-4.914
+X16A-D2	2012.625	-5.195
+X16A-D2	2012.542	-5.095
+X16C-D3	2016.875	-5.148
+X16C-D3	2016.792	-5.032
+X16C-D3	2016.708	-5.01
+X16C-D3	2016.625	-5.139
+X16C-D3	2016.542	-5.105
+X16C-D3	2016.458	-5.179
+X16C-D3	2016.375	-5.303
+X16C-D3	2016.292	-5.333
+X16C-D3	2016.208	-5.258
+X16C-D3	2016.125	-5.253
+X16C-D3	2016.042	-5.601
+X16C-D3	2015.958	-5.706
+X16C-D3	2015.875	-5.954
+X16C-D3	2015.792	-5.601
+X16C-D3	2015.708	-5.51
+X16C-D3	2015.625	-5.552
+X16C-D3	2015.542	-5.217
+X16C-D3	2015.458	-5.264
+X16C-D3	2015.375	-5.328
+X16C-D3	2015.292	-5.058
+X16C-D3	2015.208	-5.047
+X16C-D3	2015.125	-5.026
+X16C-D3	2015.042	-4.937
+X16C-D3	2014.958	-5.105
+X16C-D3	2014.875	-5.128
+X16C-D3	2014.792	-5.033
+X16C-D3	2014.708	-5.143
+X16C-D3	2014.625	-5.148
+X16C-D3	2014.542	-5.066
+X16C-D3	2014.458	-5.15
+X16C-D3	2014.375	-5.159
+X16C-D3	2014.292	-5.091
+X16C-D3	2014.208	-5.111
+X16C-D3	2014.125	-4.841
+X16C-D3	2014.042	-4.941
+X16C-D3	2013.958	-4.9
+X16C-D3	2013.875	-5.136
+X16C-D3	2013.792	-4.965
+X16C-D3	2013.708	-4.9
+X16C-D3	2013.625	-4.923
+X16C-D3	2013.542	-5.055
+X16C-D3	2013.458	-5.085
+X16C-D3	2013.375	-5.029
+X16C-D3	2013.292	-4.97
+X16C-D3	2013.208	-5.106
+X16C-D3	2013.125	-4.886
+X16C-D3	2013.042	-4.848
+X16C-D3	2012.958	-5.003
+X16C-D3	2012.875	-5.069
+X16C-D3	2012.792	-4.949
+X16C-D3	2012.708	-4.908
+X16C-D3	2012.625	-5.237
+X16C-D3	2012.542	-5.12
+X16C-D3	2012.458	-5.044
+X16C-D3	2012.375	-5.089
+X16C-D3	2012.292	-4.889
+X16C-D4	2016.875	-4.86
+X16C-D4	2016.792	-4.969
+X16C-D4	2016.708	-4.918
+X16C-D4	2016.625	-4.939
+X16C-D4	2016.542	-5.074
+X16C-D4	2016.458	-5.126
+X16C-D4	2016.375	-5.26
+X16C-D4	2016.292	-5.378
+X16C-D4	2016.208	-5.288
+X16C-D4	2016.125	-5.612
+X16C-D4	2016.042	-5.591
+X16C-D4	2015.958	-5.827
+X16C-D4	2015.875	-6.088
+X16C-D4	2015.792	-5.727
+X16C-D4	2015.708	-5.751
+X16C-D4	2015.625	-5.585
+X16C-D4	2015.542	-5.248
+X16C-D4	2015.458	-5.321
+X16C-D4	2015.375	-5.164
+X16C-D4	2015.292	-5.164
+X16C-D4	2015.208	-5.157
+X16C-D4	2015.125	-5.091
+X16C-D4	2015.042	-5.03
+X16C-D4	2014.958	-5.212
+X16C-D4	2014.875	-5.138
+X16C-D4	2014.792	-5.117
+X16C-D4	2014.708	-5.052
+X16C-D4	2014.625	-5.022
+X16C-D4	2014.542	-5.062
+X16C-D4	2014.458	-5.275
+X16C-D4	2014.375	-5.15
+X16C-D4	2014.292	-5.012
+X16C-D4	2014.208	-5.08
+X16C-D4	2014.125	-4.996
+X16C-D4	2014.042	-4.912
+X16C-D4	2013.958	-4.992
+X16C-D4	2013.875	-5.101
+X16C-D4	2013.792	-4.898
+X16C-D4	2013.708	-4.771
+X16C-D4	2013.625	-4.838
+X16C-D4	2013.542	-4.869
+X16C-D4	2013.458	-4.833
+X16C-D4	2013.375	-4.753
+X16C-D4	2013.292	-4.95
+X16C-D4	2013.208	-4.788
+X16C-D4	2013.125	-4.816
+X16C-D4	2013.042	-4.715
+X16C-D4	2012.958	-4.949
+X16C-D4	2012.875	-4.928
+X16C-D4	2012.792	-4.928
+X16C-D4	2012.708	-4.971
+X16C-D4	2012.625	-5.118
+X16C-D4	2012.542	-5.049
+X16C-D4	2012.458	-5.121
+X16C-D4	2012.375	-4.986
+X16C-D4	2012.292	-4.876
+X16C-D5	2016.708	-4.606
+X16C-D5	2016.625	-4.747
+X16C-D5	2016.542	-4.847
+X16C-D5	2016.458	-4.919
+X16C-D5	2016.375	-5.006
+X16C-D5	2016.292	-4.973
+X16C-D5	2016.208	-4.974
+X16C-D5	2016.125	-5.182
+X16C-D5	2016.042	-5.205
+X16C-D5	2015.958	-5.278
+X16C-D5	2015.875	-5.454
+X16C-D5	2015.792	-5.314
+X16C-D5	2015.708	-5.157
+X16C-D5	2015.625	-5.215
+X16C-D5	2015.542	-5.253
+X16C-D5	2015.458	-5.272
+X16C-D5	2015.375	-5.072
+X16C-D5	2015.292	-4.891
+X16C-D5	2015.208	-4.928
+X16C-D5	2015.125	-4.925
+X16C-D5	2015.042	-4.854
+X16C-D5	2014.958	-5.057
+X16C-D5	2014.875	-5.015
+X16C-D5	2014.792	-4.969
+X16C-D5	2014.708	-5.068
+X16C-D5	2014.625	-5.076
+X16C-D5	2014.542	-5.121
+X16C-D5	2014.458	-4.961
+X16C-D5	2014.375	-5.116
+X16C-D5	2014.292	-4.885
+X16C-D5	2014.208	-4.718
+X16C-D5	2014.125	-4.727
+X16C-D5	2014.042	-4.646
+X16C-D5	2013.958	-4.885
+X16C-D5	2013.875	-4.947
+X16C-D5	2013.792	-4.773
+X16C-D5	2013.708	-4.773
+X16C-D5	2013.625	-4.845
+X16C-D5	2013.542	-4.838
+X16C-D5	2013.458	-4.847
+X16C-D5	2013.375	-4.79
+X16C-D5	2013.292	-4.687
+X16C-D5	2013.208	-4.768
+X16C-D5	2013.125	-4.684
+X16C-D5	2013.042	-4.653
+X16C-D5	2012.958	-4.663
+X16C-D5	2012.875	-4.748
+X16C-D5	2012.792	-4.865
+X16C-D5	2012.708	-4.84
+X16C-D5	2012.625	-4.865
+X16C-D5	2012.542	-4.746
+X16C-D5	2012.458	-4.752
+X16C-D5	2012.375	-4.848
+X16C-D5	2012.292	-4.666
+X16C-D5	2012.208	-4.506
+X16C-D5	2012.125	-4.586
+X16C-D5	2012.042	-4.489
+X16C-D5	2011.958	-4.509
+X16C-D5	2011.875	-4.611
+X16C-D5	2011.792	-4.584
+X16C-D5	2011.708	-4.737
+X16C-D10	2016.875	-4.99
+X16C-D10	2016.792	-4.97
+X16C-D10	2016.708	-4.902
+X16C-D10	2016.625	-4.988
+X16C-D10	2016.542	-5.073
+X16C-D10	2016.458	-5.079
+X16C-D10	2016.375	-5.216
+X16C-D10	2016.292	-5.22
+X16C-D10	2016.208	-5.127
+X16C-D10	2016.125	-5.208
+X16C-D10	2016.042	-5.461
+X16C-D10	2015.958	-5.356
+X16C-D10	2015.875	-5.616
+X16C-D10	2015.792	-5.486
+X16C-D10	2015.708	-5.485
+X16C-D10	2015.625	-5.394
+X16C-D10	2015.542	-5.163
+X16C-D10	2015.458	-5.032
+X16C-D10	2015.375	-5.13
+X16C-D10	2015.292	-5.162
+X16C-D10	2015.208	-5.226
+X16C-D10	2015.125	-5.132
+X16C-D10	2015.042	-5.077
+X16C-D10	2014.958	-5.105
+X16C-D10	2014.875	-5.298
+X16C-D10	2014.792	-5.2
+X16C-D10	2014.708	-5.181
+X16C-D10	2014.625	-5.278
+X16C-D10	2014.542	-5.163
+X16C-D10	2014.458	-5.446
+X16C-D10	2014.375	-5.375
+X16C-D10	2014.292	-5.133
+X16C-D10	2014.208	-4.977
+X16C-D10	2014.125	-4.98
+X16C-D10	2014.042	-4.846
+X16C-D10	2013.958	-4.882
+X16C-D10	2013.875	-4.987
+X16C-D10	2013.792	-5.008
+X16C-D10	2013.708	-4.991
+X16C-D10	2013.625	-5.11
+X16C-D10	2013.542	-5.069
+X16C-D10	2013.458	-4.91
+X16C-D10	2013.375	-4.975
+X16C-D10	2013.292	-5.117
+X16C-D10	2013.208	-5.027
+X16C-D10	2013.125	-5.126
+X16C-D10	2013.042	-4.879
+X16C-D10	2012.958	-4.962
+X16C-D10	2012.875	-5.085
+X16C-D10	2012.792	-5.339
+X16C-D10	2012.708	-5.138
+X16C-D10	2012.625	-5.455
+X16C-D10	2012.542	-5.281
+X16C-D10	2012.458	-5.018
+X16C-D10	2012.375	-5.039
+X16C-D10	2012.292	-4.86
+X16C-D10	2012.208	-4.707
+X16C-D10	2012.125	-4.626
+X16C-D10	2012.042	-4.544
+X16C-D10	2011.958	-4.539
+X16C-D10	2011.875	-4.547
+X16C-D10	2011.792	-4.625
+X16C-D10	2011.708	-4.692
+X16C-D10	2011.625	-4.719
+X16C-D10	2011.542	-4.907
+X16C-D10	2011.458	-4.882
+X16C-D10	2011.375	-4.837
+X16C-D10	2011.292	-4.648
+X16C-D10	2011.208	-4.475
+X16C-D10	2011.125	-4.46
+X16C-D10	2011.042	-4.424
+X16C-D10	2010.958	-4.562
+X16C-D10	2010.875	-4.545
+X16C-D10	2010.792	-4.474
+X16C-D10	2010.708	-4.608
+X16C-D10	2010.625	-4.668
+X16C-D10	2010.542	-4.559
+X16C-D10	2010.458	-4.655
+X16C-D10	2010.375	-4.646
+X16C-D10	2010.292	-4.788
+X16C-D10	2010.208	-5.028
+X16C-D10	2010.125	-5.019
+X16C-D10	2010.042	-5.023
+X16C-D10	2009.958	-5.163
+X16C-D10	2009.875	-5.004
+X16C-D10	2009.792	-5.049
+X16C-D10	2009.708	-4.999
+X16C-D10	2009.625	-5.078
+X16C-D10	2009.542	-5.108
+X16C-D10	2009.458	-5.066
+X16C-D10	2009.375	-4.777
+X16C-D10	2009.292	-4.549
+X16C-D10	2009.208	-4.673
+X16C-D10	2009.125	-4.538
+X16C-D10	2009.042	-4.394
+X16C-D10	2008.958	-4.891
+X16C-D10	2008.875	-4.737
+X16C-D10	2008.792	-4.71
+X16C-D10	2008.708	-4.867
+X16C-D10	2008.625	-4.788
+X16C-D10	2008.542	-5.052
+X16C-D10	2008.458	-4.765
+X16C-D10	2008.375	-4.56
+X16C-D10	2008.292	-4.297
+X16C-D10	2008.208	-4.447
+X16C-D10	2008.125	-4.219
+X16C-D10	2008.042	-4.393
+X16C-D10	2007.958	-4.32
+X16C-D10	2007.875	-4.37
+X16C-D10	2007.792	-4.44
+X16C-D10	2007.708	-4.631
+X16C-D10	2007.625	-4.72
+X16C-D10	2007.542	-4.863
+X16C-D10	2007.458	-4.898
+X16C-D10	2007.375	-4.8
+X16C-D10	2007.292	-4.792
+X16C-D10	2007.208	-4.713
+X16C-D10	2007.125	-4.743
+X16C-D10	2007.042	-4.801
+X16C-D10	2006.958	-4.975
+X16C-D10	2006.875	-5.062
+X16C-D10	2006.792	-5.024
+X16C-D10	2006.708	-4.912
+X16C-D10	2006.625	-4.908

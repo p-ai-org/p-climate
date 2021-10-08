@@ -1,0 +1,428 @@
+# South China Sea 1996-2002 Weekly-Monthly Resolution Coral d13C and d18O Data
+#----------------------------------------------------------------------- 
+#                World Data Service for Paleoclimatology, Boulder 
+#                                  and 
+#                     NOAA Paleoclimatology Program 
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------------------------- 
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite Publication, and Online_Resource and date accessed when using these data. 
+# If there is no publication information, please cite Investigators, Title, and Online_Resource and date accessed. 
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/31612 
+#       Description: NOAA Landing Page
+# Online_Resource: https://www.ncei.noaa.gov/pub/data/paleo/coral/west_pacific/li2020/li2020nansha-iso-depth.txt
+#       Description: NOAA location of the template
+#
+# Original_Source_URL:  
+#       Description:
+# 
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Data Type: Corals and Sclerosponges
+#
+# Dataset DOI: 
+#
+# Parameter_Keywords: carbon isotopes, oxygen isotopes
+#--------------------
+# Contribution_Date
+#	Date: 2020-10-20
+#--------------------
+# File_Last_Modified_Date
+#	Date: 2020-10-20
+#--------------------
+# Title
+#	Study_Name: South China Sea 1996-2002 Weekly-Monthly Resolution Coral d13C and d18O Data
+#--------------------
+# Investigators
+#	Investigators: Li, X.; Wang, X.; Liu, C.; Liu, Y.; Yu, K.; Sun, W.
+#--------------------
+# Description_Notes_and_Keywords
+#	Description: High-resolution (weekly - monthly) coral d13C and d18O from 3 locations in the South China Sea (Nansha Islands, Nanwan and Xiaoliuqiu Island), for 1996-2002 CE. 
+#	Data are presented by both by depth and by age, in separate files. 
+#--------------------
+# Publication 
+#	Authors: Xiaohua Li, Xiaowei Wang, Chuanyu Liu, Yi Liu, Kefu Yu, Weidong Sun
+#	Published_Date_or_Year: 2020-11-28
+#	Published_Title: Traces of the 1997 Indonesian Wildfires in the Marine Environment From a Network of Coral d13C Records
+#	Journal_Name: Geophysical Research Letters
+#	Volume: 47
+#	Edition: e2020GL090383
+#	Issue: 22
+#	Pages:
+#	Report_Number: 
+#	DOI: 10.1029/2020GL090383
+#	Online_Resource: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL090383
+#	Full_Citation: 
+#	Abstract: Great efforts have been made to understand the impacts of the 1997 Indonesian wildfires on land ecology and human health, yet its influences on marine environments are poorly understood owing to sparse observations. Here we present weekly to monthly resolution coral d13C records across the South China Sea in conjunction with a regional ocean general circulation model to study the effects of these cataclysmic wildfires on nearby oceans. Large and persistent negative d13C excursions were found in corals from the interior South China Sea several months after the wildfires. This delay indicates that the 13C-depleted ash fallout was distributed by ocean currents rather than direct atmospheric transport, which is supported by the results of our numerical model. Thus, the impacts of tropical wildfires on marine ecology may last for 1 year and extend thousands of kilometers from the burning center.
+#------------------
+# Funding_Agency 
+#	Funding_Agency_Name: 
+#	Grant: 
+#------------------
+# Site_Information 
+#	Site_Name: Nansha Islands
+#	Location: Ocean>Pacific Ocean>Western Pacific Ocean>South China Sea
+#	Country:  
+#	Northernmost_Latitude: 9.83
+# 	Southernmost_Latitude: 9.83
+# 	Easternmost_Longitude: 115.5
+# 	Westernmost_Longitude: 115.5
+# 	Elevation: -5
+#------------------
+# Data_Collection   
+#	Collection_Name: Li2020Nansha-depth
+#	Earliest_Year: 1996
+#	Most_Recent_Year: 2002
+#	Time_Unit: Year Common Era
+#	Core_Length: 
+#	Notes: The samples which had an analytical issue were reported as NaN. Due to high sampling resolution, and low skeleton density between 35 and 26 mm for NS coral, some samples were not enough for analysis. We combined two to four adjacent samples and these samples were reported only one value.
+#------------------
+# Chronology_Information
+#	Chronology: 
+# 	
+#----------------
+# Variables 
+#
+# Data variables follow are preceded by "##" in columns one and two.
+# Data line variables format:  one per line, shortname-tab-variable components (what, material, error, units, seasonality, data type,detail, method, C or N for Character or Numeric data, free text) 
+#
+## depth	depth, , , millimeter, , Corals and Sclerosponges, , ,N, Distance from the top
+## d13C	delta 13C, Porites sp., , per mil VPDB, , Corals and Sclerosponges,raw,isotope ratio mass spectrometry,N,
+## d18O	delta 18O, Porites sp., , per mil VPDB, , Corals and Sclerosponges,raw,isotope ratio mass spectrometry,N,
+#
+#----------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Values:  NaN
+#
+depth	d13C	d18O
+4.00	-1.46	-5.81
+4.16	-1.46	-5.78
+4.31	NaN	NaN
+4.45	-1.20	-5.97
+4.62	-1.36	-5.59
+4.91	-1.18	-5.78
+5.06	-1.44	-5.49
+5.20	-1.42	-5.84
+5.35	-1.45	-5.85
+5.50	-1.69	-5.73
+5.65	-1.66	-5.77
+5.80	-1.51	-5.71
+5.95	-1.64	-5.49
+6.10	-1.52	-5.78
+6.25	-1.72	-5.64
+6.40	-1.73	-5.78
+6.55	-1.83	-5.56
+6.70	-1.72	-5.73
+6.85	-1.74	-5.58
+7.00	-1.61	-5.56
+7.15	-1.73	-5.61
+7.30	-1.71	-5.87
+7.45	-1.90	-5.75
+7.60	-2.06	-6.15
+7.75	-1.88	-6.04
+7.90	-1.87	-6.16
+8.05	-1.89	-6.17
+8.20	-1.88	-6.29
+8.35	-1.83	-5.93
+8.50	-1.66	-6.13
+8.65	-1.49	-5.91
+8.80	-1.51	-6.21
+8.95	-1.39	-5.96
+9.10	-1.21	-6.19
+9.25	-1.46	-6.04
+9.40	-1.43	-6.16
+9.55	-1.20	-5.76
+9.70	-1.42	-5.93
+9.85	-1.33	-5.80
+10.00	-1.38	-5.92
+10.15	-1.68	-5.78
+10.30	-1.55	-5.95
+10.45	-1.74	-5.73
+10.60	-1.74	-6.00
+10.75	-1.82	-5.88
+10.90	-1.89	-6.08
+11.05	-1.85	-5.96
+11.20	-1.64	-5.92
+11.35	-1.78	-5.87
+11.50	-1.57	-6.04
+11.65	NaN	NaN
+11.80	-1.56	-6.07
+11.95	-1.56	-5.94
+12.10	-1.50	-5.94
+12.25	-1.20	-5.69
+12.40	-1.14	-5.83
+12.55	-1.18	-5.60
+12.70	-1.23	-5.73
+12.85	-1.20	-5.58
+13.00	-1.28	-5.90
+13.15	-1.51	-5.59
+13.30	-1.51	-5.65
+13.45	-1.61	-5.62
+13.60	-1.65	-5.96
+13.75	-1.50	-5.69
+13.90	-1.73	-5.91
+14.05	-1.66	-5.70
+14.20	-1.81	-6.02
+14.35	-1.74	-6.00
+14.50	-2.03	-6.35
+14.65	-1.70	-6.21
+14.80	-1.92	-6.43
+14.95	-1.59	-6.09
+15.10	-1.76	-6.36
+15.25	-1.61	-6.06
+15.40	-1.51	-6.21
+15.55	-1.55	-5.91
+15.70	-1.71	-6.01
+15.85	-1.52	-5.91
+16.00	-1.34	-6.13
+16.15	-1.41	-6.01
+16.30	-1.41	-5.99
+16.45	-1.48	-6.02
+16.60	-1.64	-6.08
+16.75	-1.98	-5.76
+16.90	-1.81	-6.08
+17.05	-1.94	-5.98
+17.20	-1.51	-5.88
+17.35	-1.55	-5.90
+17.50	-1.37	-6.00
+17.65	-1.48	-5.84
+17.80	-1.40	-6.04
+17.95	-1.54	-5.99
+18.10	-1.36	-5.92
+18.25	-1.32	-5.92
+18.40	-1.20	-6.09
+18.55	-1.37	-5.96
+18.70	-1.18	-5.91
+18.85	-1.35	-5.91
+19.15	NaN	NaN
+19.30	-1.48	-5.93
+19.45	-2.00	-5.76
+19.60	-1.82	-5.93
+19.75	-2.10	-5.79
+19.90	-1.91	-5.95
+20.05	-1.89	-5.85
+20.20	-1.84	-6.14
+20.35	-1.91	-5.88
+20.50	-1.91	-6.30
+20.65	-2.00	-5.88
+20.80	-2.04	-6.08
+20.95	-1.97	-5.95
+21.10	-1.79	-6.04
+21.25	-1.77	-5.89
+21.40	-1.53	-6.03
+21.55	-1.57	-5.93
+21.70	-1.64	-6.03
+21.85	-1.51	-5.88
+22.00	-1.66	-6.01
+22.15	-1.54	-5.90
+22.60	-1.41	-5.80
+22.75	-1.27	-5.83
+22.90	-1.17	-5.99
+23.05	-1.38	-5.81
+23.20	-1.33	-5.75
+23.35	-1.31	-5.75
+23.50	-1.25	-5.89
+23.65	-1.16	-5.73
+23.95	-1.50	-5.89
+24.25	-1.31	-5.87
+24.40	-1.27	-6.04
+24.55	-1.48	-5.99
+24.70	-1.67	-5.98
+25.00	-1.45	-6.04
+25.15	-1.37	-5.91
+25.30	-1.36	-5.77
+25.45		
+25.60	-1.38	-5.98
+25.75	-1.33	-5.90
+25.90	-1.44	-5.77
+26.05		
+26.20	-1.21	-5.65
+26.35	-1.35	-5.67
+26.50		
+26.65	-1.73	-5.64
+26.80		
+26.95		
+27.10		
+27.25	-1.74	-5.77
+27.40		
+27.55	-1.64	-5.56
+27.70	-1.67	-5.62
+27.85		
+28.00		
+28.15	-1.61	-5.89
+28.30		
+28.45		
+28.60	-1.47	-5.79
+28.75	-1.67	-6.06
+28.90	-1.63	-6.07
+29.05	-1.77	-6.22
+29.20	-1.73	-6.06
+29.45	-1.54	-6.07
+29.60	-1.70	-6.00
+29.75	-1.56	-5.73
+29.90		
+30.05	-1.48	-5.83
+30.20		
+30.35		
+30.50	-1.61	-5.85
+30.65		
+30.80	-1.44	-5.74
+30.95		
+31.10	-1.45	-5.83
+31.25		
+31.40	-1.55	-5.71
+31.55		
+31.70	-1.47	-5.72
+31.85		
+32.00	-1.43	-5.73
+32.15		
+32.30	-1.28	-5.70
+32.45		
+32.60	-1.45	-5.69
+32.75		
+32.90		
+33.05	-1.45	-5.61
+33.20		
+33.35	-1.42	-5.79
+33.50		
+33.65	-1.48	-6.18
+33.80	-1.42	-5.85
+33.95	-1.19	-5.69
+34.10		
+34.25		
+34.40	-1.30	-5.87
+34.55		
+34.70	-1.28	-5.58
+34.85	-1.25	-5.59
+35.00		
+35.15	-1.48	-5.62
+35.30		
+35.45	-1.57	-5.72
+35.60		
+35.90	-1.92	-5.96
+36.05	-1.85	-5.97
+36.20	-2.02	-6.08
+36.35	-2.04	-5.90
+36.50	-1.99	-6.20
+36.65	-1.99	-6.13
+36.80	-2.17	-6.18
+36.95	-2.21	-6.20
+37.10	-2.27	-6.14
+37.25	-2.22	-6.07
+37.40	NaN	NaN
+37.55	-2.12	-6.16
+37.70	-2.10	-6.25
+37.85	-2.06	-6.12
+38.00	-2.10	-6.30
+38.15	-1.81	-5.95
+38.30	-2.06	-6.24
+38.45	-2.03	-5.87
+38.60	-1.95	-6.28
+38.75	-1.91	-5.95
+38.90	-1.92	-6.18
+39.05	-1.95	-5.93
+39.20	-1.79	-6.15
+39.35	-1.82	-6.01
+39.50	-1.90	-5.98
+39.65	-1.97	-6.28
+39.80	-1.80	-5.91
+39.95	-1.89	-6.35
+40.10	-1.83	-5.91
+40.25	-1.86	-6.25
+40.40	-1.75	-6.07
+40.55	-1.74	-6.19
+40.70	-1.62	-6.09
+40.85	-1.57	-6.17
+41.00	-1.55	-5.88
+41.15	-1.54	-6.02
+41.30	-1.45	-5.84
+41.45	-1.22	-6.13
+41.60	-1.40	-5.84
+41.75	-1.39	-6.11
+41.90	-1.32	-5.78
+42.05	-1.27	-5.93
+42.20	-1.25	-5.84
+42.35	-1.20	-5.76
+42.50	-1.23	-5.79
+42.65	-1.10	-5.66
+42.80	-1.16	-5.69
+42.95	-1.11	-5.69
+43.10	-1.05	-5.64
+43.25	-1.23	-5.53
+43.40	-1.21	-5.52
+43.55	-1.26	-5.47
+43.70	-1.28	-5.59
+43.85	-1.20	-5.44
+44.00	-1.42	-5.74
+44.15	-1.24	-5.46
+44.30	-1.37	-5.73
+44.45	-1.47	-5.60
+44.60	-1.47	-5.64
+44.75	-1.43	-5.55
+44.90	-1.62	-5.83
+45.15	-1.65	-5.85
+45.30	-1.46	-5.68
+45.45	-1.69	-6.06
+45.60	-1.58	-5.91
+45.75	-1.76	-6.06
+45.90	-1.50	-5.89
+46.05	-1.58	-6.28
+46.20	-1.37	-5.96
+46.35	-1.33	-6.11
+46.50	-1.30	-5.92
+46.65	-1.34	-6.22
+46.80	-1.13	-5.99
+46.95	-1.28	-6.19
+47.10	-1.27	-5.98
+47.25	-1.16	-6.16
+47.40	-1.22	-6.07
+47.55	-1.24	-6.09
+47.70	-1.13	-5.86
+47.85	-1.24	-6.05
+48.00	-1.30	-5.89
+48.15	-1.28	-6.02
+48.30	-1.33	-5.87
+48.45	-1.46	-6.22
+48.60	-1.28	-5.98
+48.75	-1.33	-6.13
+48.90	-1.13	-5.92
+49.05	-1.31	-6.17
+49.20	-1.24	-5.89
+49.35	-1.24	-6.04
+49.50	-1.34	-5.98
+49.65	-1.22	-6.02
+49.80	-1.19	-5.87
+49.95	-1.35	-6.10
+50.10	-1.14	-5.95
+50.25	-1.17	-5.96
+50.40	-1.07	-5.81
+50.55	-1.11	-5.93
+50.70	-1.05	-5.75
+50.85	-1.02	-5.77
+51.00	-1.15	-5.74
+51.15	-1.29	-6.01
+51.29	-1.25	-5.75
+51.44	-1.43	-6.00
+51.59	-1.52	-5.91
+51.74	-1.36	-5.95
+51.89	-1.40	-5.86
+52.04	-1.37	-6.08
+52.19	-1.05	-5.82
+52.34	-1.40	-5.89
+52.49	-1.30	-5.92
+52.64	-1.40	-6.10
+52.79	-1.36	-6.07
+52.94	-1.25	-5.93
+53.09	-1.34	-5.99
+53.24	-1.25	-6.18
+53.39	-1.32	-6.01
+53.54	-1.43	-6.32
+53.69	-1.35	-6.04
+53.84	-1.64	-6.12
+53.99	-1.59	-6.03
+54.14	-1.48	-5.96
