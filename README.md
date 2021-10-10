@@ -110,3 +110,13 @@ Where does Machine Learning fall into the mix?
 - https://nercdtp.esc.cam.ac.uk/projects/CE222
 - https://github.com/EarthByte/paleoclimate-reconstruction
 
+----------
+
+Notes for data collection (downloading data from NOAA PAGES Paleo site):
+
+TREES
+- Criteria: physical measurement = ring width
+
+CORALS
+- Criteria: physical measurement = d18O
+- Include year = 1960 (i think???)
