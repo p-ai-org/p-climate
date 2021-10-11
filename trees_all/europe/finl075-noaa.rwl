@@ -1,0 +1,306 @@
+# Gutierrez - Bromarv - QURO - ITRDB FINL075
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                  and
+#                     NOAA Paleoclimatology Program
+#             National Centers for Environmental Information (NCEI)
+#-----------------------------------------------------------------------
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, online resource and date accessed when using these data,
+# If there is no publication information, please cite investigator, title, online resource and date accessed.
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/27472
+#             Description: NOAA Landing Page of study
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/europe/finl075-noaa.rwl
+#    Description: Raw Measurements - NOAA Template File
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/europe/finl075.rwl
+#    Description: Raw Measurements - Tucson Decadal File
+#
+# Archive: Treering
+#
+# Dataset_DOI: 
+#
+# Parameter_Keywords: ring width
+#-------------------
+# Contribution_Date
+# Date: 2019-08-19
+#-------------------
+# File_Last_Modified_Date
+# Date: 2020-01-31
+#-------------------
+# Title
+#   Study_Name: Gutierrez - Bromarv - QURO - ITRDB FINL075
+#-------------------
+# Investigators: Gutierrez, E.
+#-------------------
+# Description_Notes_and_Keywords
+#     Description: NOAA Template Raw Measurements file added 2020-01-15. NOAA Template Raw Measurements file added 2020-01-31.
+#-------------------
+# Publication
+# Authors: Tatiana A. Shestakova, Jordi Voltas, Matthias Saurer, Frank Berninger, Jan Esper, Laia Andreu-Hayles, Valerie Daux, Gerhard Helle, Markus Leuenberger, Neil J. Loader, Valerie Masson-Delmotte, Antonio Saracino, John S. Waterhouse, Gerhard H. Schleser, Zdzislaw Bednarz, Tatjana Boettger, Isabel Dorado-Li?an, Marc Filot, David Frank, Michael Grabner, Marika Haupt, Emmi Hilasvuori, Hogne Jungner, Maarit Kalela-Brundin, Marek Krapiec, Hamid Marah, Slawomira Pawelczyk, Anna Pazdur, Monique Pierre, Octavi Planells, Rutile Pukiene, Christina E. Reynolds-Henne, Katja T. Rinne-Garmston (Rinne), Angelo Rita, Eloni Sonninen, Michel Stievenard, Vincent R. Switsur, Elzbieta Szychowska-Krapiec, Malgorzata Szymaszek, Luigi Todaro, Kerstin Treydte, Adomas Vitas, Martin Weigl, Rupert Wimmer, Emilia Gutierrez.
+# Journal_Name: Global Ecology and Biogeography
+# Published_Title: Spatio-temporal patterns of tree growth as related to carbon isotope fractionation in European forests under changing climate
+# Published_Date_or_Year: 2019
+# Volume: 28
+# Pages: 1295-1309
+# Report_Number: 
+# DOI: 10.1111/geb.12933
+# Full_Citation: 
+# Abstract: Aim
+#  
+#  The aim was to decipher Europe?wide spatio-temporal patterns of forest growth dynamics and their associations with carbon isotope fractionation processes inferred from tree rings as modulated by climate warming.
+#  Location
+#  
+#  Europe and North Africa (30-70 N, 10 W-35 E).
+#  Time period
+#  
+#  1901-2003.
+#  Major taxa studied
+#  
+#  Temperate and Euro-Siberian trees.
+#  Methods
+#  
+#  We characterize changes in the relationship between tree growth and carbon isotope fractionation over the 20th century using a European network consisting of 20 site chronologies. Using indexed tree-ring widths (TRWi), we assess shifts in the temporal coherence of radial growth across sites (synchrony) for five forest ecosystems (Atlantic, boreal, cold continental, Mediterranean and temperate). We also examine whether TRWi shows variable coupling with leaf-level gas exchange, inferred from indexed carbon isotope discrimination of tree-ring cellulose (Delta13Ci).
+#  
+#  Results
+#  
+#  We find spatial autocorrelation for TRWi and Delta13Ci extending over a maximum of 1,000 km among forest stands. However, growth synchrony is not uniform across Europe, but increases along a latitudinal gradient concurrent with decreasing temperature and evapotranspiration. Latitudinal relationships between TRWi and Delta13Ci (changing from negative to positive southwards) point to drought impairing carbon uptake via stomatal regulation for water saving occurring at forests below 60 N in continental Europe. An increase in forest growth synchrony over the 20th century together with increasingly positive relationships between TRWi and Delta13Ci indicate intensifying impacts of drought on tree performance. These effects are noticeable in drought-prone biomes (Mediterranean, temperate and cold continental).
+#  Main conclusions
+#  
+#  At the turn of this century, convergence in growth synchrony across European forest ecosystems is coupled with coordinated warming-induced effects of drought on leaf physiology and tree growth spreading northwards. Such a tendency towards exacerbated moisture-sensitive growth and physiology could override positive effects of enhanced leaf intercellular CO2 concentrations, possibly resulting in Europe?wide declines of forest carbon gain in the coming decades.
+#-------------------
+# Site Information
+# Site_Name:  Bromarv
+# Location: Finland
+# Northernmost_Latitude: 60
+# Southernmost_Latitude: 60
+# Easternmost_Longitude: 23.08
+# Westernmost_Longitude: 23.08
+# Elevation: 5
+#-------------------
+# Data Collection
+# Collection_Name:  FINL075
+# Earliest_Year: 1822
+# Most_Recent_Year: 2004
+# Time_Unit: AD
+# Notes: 
+#-------------------
+# Species
+# Species_Name: Quercus robur L. = Quercus pendunculata Ehrl.
+# Common_Name: English oak
+# Tree_Species_Code: QURO
+#-------------------
+# Chronology_Information 
+#      Chronology: 
+#---------------------
+# Variables 
+# Data variables follow that are preceded by '##' in columns one and two.
+# Variables list, one per line; shortname-tab- components: what, material, error, units, seasonality, data_type, detail, method, C or N for Character or Numeric data,additional information)
+## age_CE age,,,time unit>age unit>year Common Era,,tree ring,,,N,
+## Fi1Qr02a_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr02a; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr02b_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr02b; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr02c_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr02c; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr02d_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr02d; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr01a_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr01a; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr01b_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr01b; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr01c_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr01c; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr01d_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr01d; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr03a_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr03a; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr03b_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr03b; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr03c_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr03c; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr03d_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr03d; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr04a_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr04a; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr04b_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr04b; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr04c_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr04c; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr04d_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr04d; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr06a_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr06a; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr05a_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr05a; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## Fi1Qr07a_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: Fi1Qr07a; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+#---------------------
+# Data:
+# Missing_Values: NaN
+age_CE	Fi1Qr02a_raw	Fi1Qr02b_raw	Fi1Qr02c_raw	Fi1Qr02d_raw	Fi1Qr01a_raw	Fi1Qr01b_raw	Fi1Qr01c_raw	Fi1Qr01d_raw	Fi1Qr03a_raw	Fi1Qr03b_raw	Fi1Qr03c_raw	Fi1Qr03d_raw	Fi1Qr04a_raw	Fi1Qr04b_raw	Fi1Qr04c_raw	Fi1Qr04d_raw	Fi1Qr06a_raw	Fi1Qr05a_raw	Fi1Qr07a_raw	
+1822 	NaN	NaN	NaN	NaN	221	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1823	NaN	NaN	NaN	NaN	271	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1824	NaN	NaN	NaN	NaN	247	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1825	NaN	NaN	NaN	NaN	176	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1826	NaN	NaN	NaN	NaN	185	398	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1827	NaN	NaN	NaN	NaN	214	435	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1828	NaN	NaN	NaN	NaN	204	295	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1829	NaN	NaN	NaN	NaN	201	278	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1830	NaN	NaN	NaN	NaN	211	302	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1831	NaN	NaN	NaN	NaN	172	279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1832	NaN	NaN	NaN	NaN	215	236	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1833	NaN	NaN	NaN	258	167	193	NaN	449	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	319	NaN	NaN	
+1834	NaN	NaN	NaN	341	155	148	NaN	246	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	222	NaN	NaN	
+1835	NaN	NaN	NaN	439	205	191	NaN	275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	264	NaN	NaN	
+1836	NaN	NaN	NaN	332	176	171	NaN	257	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	227	NaN	NaN	
+1837	NaN	NaN	NaN	240	127	155	NaN	260	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	181	NaN	NaN	
+1838	NaN	NaN	NaN	227	206	242	NaN	331	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	119	NaN	NaN	
+1839	NaN	NaN	NaN	244	203	303	NaN	303	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	145	NaN	NaN	
+1840	NaN	NaN	NaN	254	229	354	NaN	434	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	213	NaN	NaN	
+1841	NaN	NaN	NaN	186	190	412	NaN	397	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	242	NaN	NaN	
+1842	NaN	NaN	NaN	185	252	339	NaN	367	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	257	NaN	NaN	
+1843	NaN	NaN	NaN	98	230	259	NaN	277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	222	NaN	NaN	
+1844	NaN	NaN	NaN	154	393	490	704	315	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	303	NaN	NaN	
+1845	NaN	NaN	NaN	151	311	507	421	363	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	219	NaN	NaN	
+1846	NaN	NaN	NaN	102	232	256	459	233	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	185	NaN	NaN	
+1847	NaN	NaN	NaN	120	159	200	237	212	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	119	NaN	NaN	
+1848	NaN	NaN	NaN	117	168	223	381	254	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	141	NaN	NaN	
+1849	NaN	NaN	NaN	159	224	392	433	251	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	232	NaN	NaN	
+1850	NaN	NaN	NaN	190	214	298	393	254	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	201	NaN	NaN	
+1851	NaN	NaN	NaN	147	233	258	251	286	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	188	NaN	NaN	
+1852	NaN	NaN	NaN	153	223	290	257	233	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	179	NaN	NaN	
+1853	NaN	NaN	NaN	103	232	358	302	260	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	133	NaN	NaN	
+1854	NaN	NaN	NaN	95	167	244	220	229	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	98	NaN	NaN	
+1855	NaN	NaN	NaN	113	211	243	247	173	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	147	NaN	NaN	
+1856	NaN	NaN	548	143	247	269	235	200	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	173	NaN	NaN	
+1857	NaN	NaN	298	92	190	212	221	193	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	113	68	NaN	
+1858	NaN	NaN	376	160	175	254	198	232	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	122	485	NaN	
+1859	NaN	NaN	332	134	230	261	262	205	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	159	349	NaN	
+1860	NaN	NaN	529	213	232	356	301	210	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	208	389	NaN	
+1861	674	NaN	430	214	245	330	233	228	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	194	379	NaN	
+1862	403	NaN	396	291	172	234	193	188	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	244	427	NaN	
+1863	281	379	481	230	185	228	165	160	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	139	272	NaN	
+1864	269	380	350	234	245	249	248	199	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	196	348	NaN	
+1865	244	378	310	222	189	168	151	157	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	202	394	NaN	
+1866	230	512	548	189	223	242	305	199	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	228	349	NaN	
+1867	232	559	590	226	406	427	340	266	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	224	649	NaN	
+1868	167	456	402	157	299	234	169	198	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	247	479	NaN	
+1869	101	311	188	78	198	236	194	169	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	187	368	NaN	
+1870	161	407	233	124	202	228	212	223	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	169	186	NaN	
+1871	58	413	270	100	212	346	297	195	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	272	182	NaN	
+1872	146	473	272	76	263	398	376	246	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	164	224	NaN	
+1873	192	470	324	115	224	304	246	243	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	218	324	NaN	
+1874	101	256	153	61	148	257	197	162	NaN	NaN	NaN	NaN	NaN	86	NaN	NaN	134	251	NaN	
+1875	152	261	180	99	187	360	248	195	NaN	NaN	NaN	NaN	NaN	263	NaN	NaN	118	353	NaN	
+1876	178	395	246	83	270	511	391	385	NaN	NaN	NaN	NaN	NaN	170	NaN	NaN	118	384	482	
+1877	193	375	410	150	274	401	360	282	NaN	NaN	NaN	NaN	NaN	179	NaN	NaN	165	315	363	
+1878	282	342	359	143	192	295	223	236	NaN	NaN	NaN	NaN	NaN	250	NaN	NaN	153	215	336	
+1879	509	535	427	125	267	403	305	290	NaN	NaN	NaN	NaN	NaN	413	NaN	NaN	283	330	379	
+1880	291	519	426	108	217	276	256	287	NaN	NaN	NaN	NaN	NaN	424	NaN	NaN	273	339	235	
+1881	185	153	165	78	183	235	199	207	NaN	NaN	NaN	NaN	NaN	181	NaN	NaN	176	196	139	
+1882	225	289	357	209	225	297	212	230	NaN	NaN	NaN	NaN	NaN	239	NaN	NaN	165	347	305	
+1883	223	379	308	204	236	291	274	302	NaN	NaN	NaN	NaN	NaN	253	NaN	NaN	179	334	292	
+1884	330	438	344	251	258	267	225	249	NaN	NaN	NaN	NaN	NaN	435	NaN	NaN	238	354	338	
+1885	173	331	301	157	180	170	187	172	NaN	NaN	NaN	NaN	396	249	NaN	NaN	172	277	218	
+1886	283	543	316	172	192	211	177	173	NaN	NaN	NaN	NaN	368	318	NaN	NaN	137	329	313	
+1887	355	505	328	247	265	307	257	226	NaN	NaN	NaN	NaN	455	325	NaN	NaN	236	354	267	
+1888	344	531	344	217	275	303	293	299	NaN	NaN	NaN	NaN	271	317	353	183	237	289	294	
+1889	488	611	284	180	264	276	264	269	NaN	NaN	NaN	NaN	412	256	387	512	197	270	355	
+1890	540	616	384	336	269	332	341	281	NaN	NaN	NaN	NaN	568	488	530	570	267	335	519	
+1891	338	376	263	147	204	224	214	239	NaN	NaN	NaN	NaN	324	360	353	321	244	232	308	
+1892	200	213	157	134	227	207	199	169	NaN	NaN	NaN	NaN	425	402	410	394	181	257	330	
+1893	220	254	190	145	207	233	242	203	NaN	NaN	NaN	NaN	422	305	291	236	173	275	289	
+1894	250	392	218	180	232	208	209	177	NaN	NaN	NaN	NaN	411	356	379	350	229	379	459	
+1895	331	378	253	278	177	202	241	225	NaN	NaN	NaN	NaN	324	352	377	351	235	350	343	
+1896	328	337	248	208	191	289	200	222	NaN	NaN	NaN	NaN	337	366	335	372	185	410	397	
+1897	250	308	232	175	203	201	201	207	NaN	NaN	777	NaN	387	405	356	398	179	382	316	
+1898	242	199	165	93	188	225	210	134	NaN	NaN	876	NaN	505	461	402	525	249	354	399	
+1899	164	184	121	73	163	144	149	98	NaN	NaN	582	646	294	338	271	339	180	227	279	
+1900	238	154	113	124	94	93	95	75	NaN	NaN	490	596	234	243	217	228	106	147	162	
+1901	269	208	139	130	94	117	95	75	NaN	NaN	488	822	217	208	146	162	95	210	155	
+1902	219	182	123	113	118	123	156	119	NaN	NaN	316	348	264	242	162	195	127	216	161	
+1903	248	190	143	87	143	210	176	176	NaN	NaN	199	221	292	249	200	135	124	227	230	
+1904	273	236	170	125	161	134	141	153	NaN	NaN	141	194	272	263	193	205	141	237	287	
+1905	178	196	160	105	151	157	159	113	NaN	NaN	167	349	250	261	221	188	114	167	225	
+1906	199	210	204	138	159	174	191	161	NaN	NaN	365	410	332	293	210	217	90	202	198	
+1907	279	344	288	205	189	193	196	205	165	879	516	565	531	401	340	305	148	325	253	
+1908	202	254	216	174	191	150	151	151	130	243	372	472	456	384	376	326	138	314	202	
+1909	232	242	183	146	158	159	160	155	129	127	326	335	458	337	363	305	132	266	222	
+1910	429	369	269	216	198	197	191	149	184	174	377	403	530	420	386	399	158	377	252	
+1911	270	261	185	171	156	128	167	163	254	227	431	594	295	292	298	361	174	246	198	
+1912	201	258	231	119	185	173	163	189	286	243	482	762	371	324	290	314	163	239	208	
+1913	225	233	181	131	164	167	109	158	237	229	452	704	372	317	318	324	142	324	180	
+1914	183	173	123	104	156	121	124	139	153	208	397	776	355	266	282	270	118	173	125	
+1915	98	108	100	78	151	142	137	137	190	149	327	602	329	272	266	236	128	114	88	
+1916	150	120	100	64	157	159	131	131	116	144	318	381	327	315	353	277	135	157	115	
+1917	125	194	100	102	143	121	117	114	131	135	302	331	328	316	366	286	99	134	129	
+1918	274	280	166	157	180	173	144	133	266	277	585	703	430	524	543	460	139	299	140	
+1919	342	284	198	198	177	149	151	157	293	396	697	835	418	474	504	477	193	363	207	
+1920	248	287	190	186	134	144	188	135	342	389	646	737	516	459	484	545	172	331	165	
+1921	316	333	238	216	159	171	172	154	230	354	483	560	567	491	534	509	159	285	223	
+1922	315	305	205	204	231	181	192	188	332	427	656	690	647	557	663	585	249	338	336	
+1923	199	191	178	107	166	113	122	139	265	282	454	494	438	470	468	427	193	208	171	
+1924	261	256	166	173	138	122	122	129	264	315	548	677	616	548	520	472	198	214	260	
+1925	204	200	190	187	140	124	96	117	347	347	547	702	470	385	356	373	173	198	195	
+1926	154	181	131	123	105	166	87	121	205	221	443	491	510	398	374	314	115	154	254	
+1927	196	237	207	203	103	153	60	84	258	183	419	506	521	417	491	312	150	199	221	
+1928	87	87	64	73	80	70	0	83	112	81	195	240	333	240	359	167	92	113	88	
+1929	181	161	91	106	95	112	62	102	235	135	263	303	481	379	468	314	122	165	150	
+1930	205	178	159	160	100	122	73	101	314	248	409	365	408	316	416	221	115	188	192	
+1931	113	120	87	89	96	110	85	93	255	165	286	298	178	136	166	136	103	149	183	
+1932	147	133	97	90	93	91	94	71	331	179	286	402	181	163	219	114	92	122	170	
+1933	170	198	165	113	79	103	65	109	286	239	317	382	154	140	204	122	107	157	181	
+1934	200	213	133	125	95	103	62	90	386	216	436	450	297	262	352	178	102	206	213	
+1935	111	136	137	118	107	131	67	106	355	179	293	314	198	168	237	139	93	180	200	
+1936	106	200	100	84	98	120	81	111	376	192	280	314	221	199	259	169	104	184	212	
+1937	161	159	132	118	102	125	71	87	352	179	330	284	236	219	215	185	91	145	194	
+1938	175	206	161	122	105	132	72	89	307	138	336	270	259	244	296	188	116	125	205	
+1939	151	159	132	125	102	144	63	79	377	175	331	354	278	270	416	234	77	138	200	
+1940	101	85	116	75	111	123	85	100	596	170	356	350	222	176	256	123	84	130	166	
+1941	109	89	80	100	100	139	75	91	582	248	539	452	377	304	422	240	122	208	265	
+1942	126	119	109	69	108	134	100	122	462	227	479	433	362	412	504	242	144	174	263	
+1943	126	165	160	132	134	130	108	152	529	173	472	450	473	483	642	363	146	250	237	
+1944	214	201	148	138	131	116	85	136	527	196	540	525	508	546	614	372	163	318	233	
+1945	238	155	188	147	156	147	92	138	664	278	611	594	655	580	725	526	246	445	266	
+1946	130	147	160	105	173	177	118	164	459	190	451	456	423	423	454	336	231	259	197	
+1947	139	146	134	89	133	122	133	115	334	180	354	334	311	314	353	214	216	228	173	
+1948	96	105	89	96	117	102	85	74	242	103	315	271	216	206	235	157	146	166	131	
+1949	181	196	159	134	72	131	76	80	257	115	313	238	245	250	282	150	130	146	95	
+1950	169	142	119	112	111	107	97	130	308	128	258	300	223	230	258	192	198	205	105	
+1951	166	146	118	109	150	145	150	107	345	148	272	316	206	210	236	164	217	224	108	
+1952	123	104	110	79	121	157	105	140	372	144	265	310	181	202	194	188	227	231	123	
+1953	122	147	96	95	92	198	87	84	438	192	307	358	233	270	315	217	245	213	143	
+1954	91	111	74	123	73	79	53	67	387	100	251	276	181	158	219	145	174	183	150	
+1955	60	0	48	0	87	101	51	76	217	81	139	156	121	71	121	94	108	94	88	
+1956	72	93	73	86	64	113	72	79	212	86	131	142	109	138	139	97	89	113	112	
+1957	152	186	112	155	108	128	91	98	358	155	220	349	262	225	281	175	152	164	140	
+1958	176	161	117	139	101	94	88	113	267	147	237	333	308	218	234	182	159	171	105	
+1959	120	133	131	85	106	113	113	158	406	172	377	406	222	214	254	192	173	171	109	
+1960	242	149	223	143	203	214	139	218	360	212	504	437	270	280	321	260	267	238	226	
+1961	186	166	236	191	95	99	91	136	420	267	474	425	191	165	196	212	222	238	123	
+1962	111	121	117	72	103	95	77	102	233	144	266	224	176	137	191	169	151	136	92	
+1963	117	123	124	128	125	96	87	163	224	160	305	269	233	177	214	178	120	137	117	
+1964	169	167	169	147	126	129	106	149	355	236	407	371	240	198	204	181	172	194	137	
+1965	150	154	202	146	142	95	104	155	264	235	362	319	202	209	219	175	149	168	118	
+1966	163	130	203	147	143	115	125	140	380	245	457	414	216	219	267	188	163	182	147	
+1967	126	150	125	148	153	107	90	165	263	244	391	349	278	237	313	222	179	155	127	
+1968	109	124	137	113	155	102	158	146	292	218	336	341	268	248	246	214	195	199	145	
+1969	137	122	137	108	137	97	106	126	291	254	328	282	256	182	237	160	154	164	124	
+1970	199	148	138	165	129	127	102	128	266	322	348	360	317	236	314	219	166	186	156	
+1971	133	166	128	135	118	85	80	115	239	207	313	318	317	235	350	164	149	180	205	
+1972	138	129	142	126	114	121	97	101	356	223	289	327	296	171	316	167	176	158	179	
+1973	90	111	114	90	91	103	94	91	223	123	218	281	176	165	227	143	165	161	155	
+1974	99	104	98	66	83	80	80	75	186	128	174	230	162	141	231	125	116	109	151	
+1975	74	100	101	88	95	80	65	61	136	88	111	158	121	101	155	95	96	114	98	
+1976	87	105	89	91	95	69	83	99	190	112	120	163	188	154	168	140	102	144	116	
+1977	165	164	143	100	100	104	69	82	235	130	195	181	169	167	246	146	117	148	117	
+1978	163	150	159	128	85	97	84	97	198	171	258	216	215	212	280	207	162	161	134	
+1979	149	183	197	153	121	104	96	98	230	192	249	240	257	231	272	270	135	122	156	
+1980	189	221	210	135	118	112	90	108	300	219	338	306	289	248	371	292	177	190	200	
+1981	129	133	116	76	87	77	66	81	273	189	312	260	184	212	248	173	157	132	141	
+1982	101	140	148	108	94	72	79	70	208	224	240	202	191	202	239	178	127	166	117	
+1983	123	148	97	106	100	78	115	109	228	148	215	237	178	160	253	134	144	145	116	
+1984	99	137	176	104	99	90	95	117	205	184	281	304	198	236	292	120	154	168	174	
+1985	98	123	91	97	79	75	83	97	263	183	346	251	247	315	351	163	141	177	154	
+1986	116	119	110	105	96	72	77	85	172	197	310	230	244	198	236	208	138	162	139	
+1987	96	92	104	89	87	58	96	78	255	173	305	234	213	173	168	172	136	148	70	
+1988	149	156	136	103	105	67	97	88	235	237	310	305	224	232	209	258	145	207	112	
+1989	125	121	94	86	87	63	104	103	241	261	306	266	216	190	180	170	148	186	188	
+1990	125	155	133	73	100	84	99	92	342	269	340	331	278	284	318	209	124	175	NaN	
+1991	109	108	94	61	95	67	111	84	291	191	317	407	207	230	131	217	176	162	NaN	
+1992	127	145	98	99	73	50	80	90	194	166	193	234	159	130	76	147	103	127	NaN	
+1993	83	91	61	43	65	43	76	50	135	91	140	226	114	120	83	90	93	98	NaN	
+1994	71	90	72	85	73	54	61	74	102	70	135	168	99	141	72	121	87	87	NaN	
+1995	127	163	102	99	94	92	110	75	174	89	123	221	152	125	92	148	66	116	NaN	
+1996	126	160	95	110	101	58	87	88	150	105	155	232	166	175	126	182	121	168	NaN	
+1997	125	114	81	87	86	81	87	84	144	56	115	164	113	145	89	124	83	146	NaN	
+1998	85	93	68	76	90	73	106	82	143	86	135	154	126	158	74	101	78	140	NaN	
+1999	117	119	88	119	97	79	98	85	163	80	154	93	131	133	97	132	89	121	NaN	
+2000	105	123	91	121	94	82	94	83	146	66	139	52	119	132	170	128	97	159	NaN	
+2001	108	135	133	126	79	78	102	91	113	79	147	66	140	121	136	146	108	125	NaN	
+2002	81	122	108	121	86	69	62	69	180	71	164	59	136	145	132	138	102	NaN	NaN	
+2003	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	128	57	142	96	103	136	80	NaN	NaN	
+2004	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	129	58	126	105	119	102	92	NaN	NaN	

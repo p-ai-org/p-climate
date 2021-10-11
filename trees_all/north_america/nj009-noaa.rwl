@@ -1,0 +1,376 @@
+# Cook - Northern New Jersey Region historical oak - QUSP - ITRDB NJ009
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                  and
+#                     NOAA Paleoclimatology Program
+#             National Centers for Environmental Information (NCEI)
+#-----------------------------------------------------------------------
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, online resource and date accessed when using these data,
+# If there is no publication information, please cite investigator, title, online resource and date accessed.
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/13952
+#             Description: NOAA Landing Page of study
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nj009-noaa.rwl
+#    Description: Raw Measurements - NOAA Template File
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nj009.rwl
+#    Description: Raw Measurements - Tucson Decadal File
+#
+# Archive: Treering
+#
+# Dataset_DOI: 
+#
+# Parameter_Keywords: ring width
+#-------------------
+# Contribution_Date
+# Date: 2013-01-05
+#-------------------
+# File_Last_Modified_Date
+# Date: 2019-12-31
+#-------------------
+# Title
+#   Study_Name: Cook - Northern New Jersey Region historical oak - QUSP - ITRDB NJ009
+#-------------------
+# Investigators: Cook, E.R.; Krusic, P.J.
+#-------------------
+# Description_Notes_and_Keywords
+#     Description: This collection of Quercus subgenera Leucobalanus raw ring widths was made from historical timbers and structures by E. Cook in and around the greater northern New Jersey region. Many of the samples are likely Quercus alba, but there could be some Q. montana (formerly Q. prinus) in this collection. We cannot say anything about forest conditions from which these samples originally grew. However, there are growth release patterns in some series that are similar to those seen in trees from dense forest. Therefore, it might be useful to consider detrending these raw data with closed-canopy or forest interior conditions in mind.
+# # 
+# # These data were combined with the Uttertown chestnut oak (Q. montana/prinus) data recently deposited into the ITRDB.
+# #  NOAA Template Raw Measurements file added 2019-02-08. NOAA Template Raw Measurements file added 2019-12-31.
+#-------------------
+# Publication
+# Authors: Pederson, N., A.R. Bell, E.R. Cook, U. Lall, N. Devineni, R. Seager, K. Eggleston, and K.J. Vranes
+# Journal_Name: Journal of Climate
+# Published_Title: Is an Epic Pluvial Masking the Water Insecurity  of the Greater New York City Region?
+# Published_Date_or_Year: 2013
+# Volume: 26
+# Pages: 1339-1354
+# Report_Number: 
+# DOI: 10.1175/JCLI-D-11-00723.1
+# Full_Citation: 
+# Abstract: Six water emergencies have occurred since 1981 for the New York 
+#  City region (NYC) despite: 1) its perhumid climate, 2) substantial 
+#  conservation of water since 1979 and 3) meteorological data 
+#  showing little severe or extreme drought since 1970. We reconstruct 
+#  472 years of moisture availability for the NYC watershed to place 
+#  these emergencies in long-term hydroclimatic context. Using nested 
+#  reconstruction techniques, 32 tree-ring chronologies comprised of 
+#  12 species account for up to 66.2% of the average May-August Palmer 
+#  Drought Severity Index. Verification statistics indicate good 
+#  statistical skill from 1531-2003. The use of multiple tree species, 
+#  including rarely-used species that can sometimes occur on mesic sites 
+#  like Liriodendron tulipifera, Betula lenta and Carya spp., seems to 
+#  aid reconstruction skill. Importantly, the reconstruction captures 
+#  pluvial events in the instrumental record nearly as well as drought 
+#  events and is significantly correlated to precipitation over much of 
+#  the northeastern US. While the mid-1960s drought is a severe drought 
+#  in the context of the new reconstruction, the region experienced 
+#  repeated droughts of similar intensity, but greater duration during 
+#  the 16th and 17th centuries. The full record reveals a trend towards 
+#  more pluvial conditions since ca 1800 that is accentuated by an 
+#  unprecedented, 43-year pluvial event that continues through 2011. 
+#  In the context of the current pluvial, decreasing water usage, 
+#  but increasing extra-urban pressures, it appears that the water 
+#  supply system for the greater NYC region could be severely stressed 
+#  if the current water boom shifts towards hydroclimatic regimes like 
+#  the 16th and 17th centuries. 
+#  
+#-------------------
+# Site Information
+# Site_Name:  Northern New Jersey Region
+# Location: New Jersey
+# Northernmost_Latitude: 41
+# Southernmost_Latitude: 41
+# Easternmost_Longitude: -74.5
+# Westernmost_Longitude: -74.5
+# Elevation: 
+#-------------------
+# Data Collection
+# Collection_Name:  NJ009
+# Earliest_Year: 1491
+# Most_Recent_Year: 1737
+# Time_Unit: AD
+# Notes: 
+#-------------------
+# Species
+# Species_Name: Quercus spp. L.
+# Common_Name: oak
+# Tree_Species_Code: QUSP
+#-------------------
+# Chronology_Information 
+#      Chronology: 
+#---------------------
+# Variables 
+# Data variables follow that are preceded by '##' in columns one and two.
+# Variables list, one per line; shortname-tab- components: what, material, error, units, seasonality, data_type, detail, method, C or N for Character or Numeric data,additional information)
+## age_CE age,,,time unit>age unit>year Common Era,,tree ring,,,N,
+## PAL1C_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PAL1C; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PAL1D_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PAL1D; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PAL2A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PAL2A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PAL3A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PAL3A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PAL3B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PAL3B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PAL3C_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PAL3C; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PH1A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PH1A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PH2A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PH2A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PH3A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PH3A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PH3B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PH3B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PHC1A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PHC1A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PHC2A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PHC2A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PHC3A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PHC3A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PHC5A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PHC5A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PHC7A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PHC7A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PAL7A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PAL7A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## PHC1A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: PHC1A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+#---------------------
+# Data:
+# Missing_Values: NaN
+age_CE	PAL1C_raw	PAL1D_raw	PAL2A_raw	PAL3A_raw	PAL3B_raw	PAL3C_raw	PH1A_raw	PH2A_raw	PH3A_raw	PH3B_raw	PHC1A_raw	PHC2A_raw	PHC3A_raw	PHC5A_raw	PHC7A_raw	PAL7A_raw	PHC1A_raw	
+1491 	59	72	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1492	110	110	110	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1493	89	85	87	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1494	77	89	92	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1495	75	82	92	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1496	57	40	78	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1497	51	55	54	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1498	44	55	53	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1499	41	59	46	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1500	54	63	67	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1501	48	52	63	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1502	41	51	48	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1503	38	37	41	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1504	38	42	55	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1505	27	19	26	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1506	25	24	19	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1507	19	20	20	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1508	31	30	28	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1509	17	19	28	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1510	29	27	19	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1511	33	21	35	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1512	36	38	50	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1513	47	41	39	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1514	41	46	49	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1515	45	47	50	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1516	41	40	38	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1517	49	52	44	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1518	30	25	24	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1519	35	38	39	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1520	50	47	45	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1521	42	48	53	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1522	59	44	53	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	74	NaN	NaN	NaN	
+1523	64	59	63	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	72	NaN	NaN	NaN	
+1524	49	54	59	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	64	NaN	NaN	NaN	
+1525	60	57	81	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	75	NaN	NaN	NaN	
+1526	67	76	80	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	51	NaN	NaN	NaN	
+1527	75	73	82	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	44	NaN	NaN	NaN	
+1528	73	79	93	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	55	NaN	NaN	NaN	
+1529	78	77	80	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	35	NaN	NaN	NaN	
+1530	88	91	84	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	46	NaN	NaN	NaN	
+1531	65	66	71	NaN	154	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	46	NaN	NaN	NaN	
+1532	66	62	63	NaN	153	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	50	NaN	NaN	NaN	
+1533	75	57	69	NaN	175	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	50	NaN	NaN	NaN	
+1534	67	60	79	NaN	163	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	55	NaN	NaN	NaN	
+1535	83	75	83	NaN	192	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	81	NaN	NaN	NaN	
+1536	74	65	94	NaN	206	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	61	NaN	NaN	NaN	
+1537	87	76	105	NaN	252	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	70	NaN	NaN	NaN	
+1538	80	67	87	NaN	196	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	68	NaN	NaN	NaN	
+1539	78	64	77	NaN	228	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	82	NaN	NaN	NaN	
+1540	78	82	101	NaN	126	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	87	NaN	NaN	NaN	
+1541	91	66	85	NaN	171	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	98	NaN	NaN	NaN	
+1542	97	78	94	NaN	166	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	80	NaN	NaN	NaN	
+1543	101	82	102	NaN	224	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	87	NaN	NaN	NaN	
+1544	62	57	69	NaN	172	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	53	NaN	NaN	NaN	
+1545	46	46	40	NaN	122	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	71	NaN	NaN	NaN	
+1546	70	72	72	NaN	152	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	65	NaN	NaN	22	
+1547	80	78	74	NaN	206	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	75	NaN	NaN	15	
+1548	72	61	61	NaN	196	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	75	NaN	NaN	22	
+1549	47	57	51	NaN	152	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	73	NaN	NaN	20	
+1550	49	47	46	NaN	117	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	70	NaN	NaN	23	
+1551	62	49	63	NaN	174	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	84	NaN	NaN	24	
+1552	74	65	62	NaN	170	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	98	NaN	NaN	29	
+1553	80	71	81	NaN	202	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	105	NaN	NaN	32	
+1554	83	73	83	NaN	158	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	122	NaN	NaN	11	
+1555	74	76	76	NaN	148	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	102	NaN	NaN	30	
+1556	76	68	89	NaN	140	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	65	NaN	NaN	13	
+1557	73	67	77	NaN	102	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	67	NaN	NaN	18	
+1558	70	69	72	NaN	115	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	71	NaN	NaN	61	
+1559	90	96	94	NaN	123	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	71	NaN	NaN	113	
+1560	83	88	81	NaN	120	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	55	NaN	NaN	109	
+1561	83	76	83	NaN	125	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	65	NaN	NaN	75	
+1562	90	76	79	NaN	136	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	53	NaN	NaN	79	
+1563	112	96	98	NaN	150	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	62	NaN	NaN	89	
+1564	93	84	81	NaN	119	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	53	NaN	NaN	119	
+1565	76	84	76	NaN	140	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	67	NaN	NaN	122	
+1566	74	113	101	NaN	125	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	95	NaN	NaN	127	
+1567	81	130	111	NaN	149	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	98	NaN	NaN	134	
+1568	87	139	98	NaN	141	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	97	NaN	NaN	137	
+1569	82	142	98	NaN	115	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	127	NaN	NaN	173	
+1570	85	122	95	NaN	122	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	157	NaN	NaN	115	
+1571	87	84	97	NaN	100	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	135	NaN	NaN	86	
+1572	68	47	104	NaN	114	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	78	NaN	NaN	48	
+1573	43	36	48	NaN	95	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	63	NaN	NaN	39	
+1574	53	52	60	NaN	121	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	92	NaN	NaN	81	
+1575	60	62	66	NaN	135	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	138	NaN	NaN	108	
+1576	87	85	103	NaN	158	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	147	NaN	NaN	135	
+1577	89	100	90	NaN	137	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	138	NaN	NaN	114	
+1578	71	115	109	NaN	146	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	151	NaN	NaN	134	
+1579	76	121	111	NaN	165	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	157	NaN	NaN	112	
+1580	79	103	117	NaN	166	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	153	NaN	NaN	127	
+1581	82	105	134	NaN	152	NaN	NaN	NaN	152	NaN	NaN	NaN	NaN	192	NaN	NaN	140	
+1582	85	97	95	NaN	153	NaN	NaN	NaN	110	NaN	NaN	NaN	NaN	211	NaN	NaN	134	
+1583	94	97	103	NaN	151	NaN	NaN	NaN	119	NaN	NaN	NaN	NaN	242	NaN	NaN	115	
+1584	90	97	125	NaN	181	NaN	146	NaN	139	NaN	NaN	NaN	NaN	151	NaN	237	134	
+1585	111	121	109	NaN	194	NaN	143	NaN	123	NaN	NaN	NaN	NaN	142	NaN	153	136	
+1586	103	114	107	NaN	217	NaN	141	NaN	129	NaN	NaN	NaN	NaN	109	NaN	148	149	
+1587	112	99	90	NaN	206	NaN	141	NaN	125	NaN	NaN	NaN	NaN	94	NaN	116	104	
+1588	120	107	97	NaN	193	NaN	136	NaN	106	NaN	NaN	NaN	NaN	102	NaN	135	131	
+1589	81	83	81	NaN	153	NaN	113	NaN	97	NaN	NaN	NaN	NaN	120	NaN	138	105	
+1590	75	93	69	NaN	160	NaN	126	NaN	118	NaN	NaN	NaN	NaN	111	NaN	156	74	
+1591	73	80	85	NaN	169	NaN	111	NaN	130	NaN	NaN	NaN	NaN	86	NaN	108	76	
+1592	80	70	75	NaN	205	NaN	113	NaN	111	NaN	NaN	NaN	NaN	86	NaN	97	80	
+1593	89	106	92	NaN	180	NaN	107	NaN	100	NaN	NaN	NaN	NaN	100	NaN	134	108	
+1594	102	101	91	NaN	200	NaN	103	NaN	108	NaN	NaN	NaN	NaN	105	NaN	117	59	
+1595	83	89	99	NaN	200	NaN	64	NaN	90	NaN	NaN	NaN	NaN	78	NaN	115	68	
+1596	83	86	88	NaN	NaN	NaN	73	NaN	107	NaN	NaN	NaN	NaN	95	NaN	155	54	
+1597	105	112	112	NaN	NaN	NaN	96	NaN	112	NaN	NaN	NaN	NaN	93	NaN	141	61	
+1598	79	81	73	NaN	NaN	NaN	80	NaN	114	NaN	NaN	NaN	NaN	80	NaN	161	73	
+1599	87	81	78	NaN	NaN	162	86	NaN	103	NaN	NaN	NaN	NaN	88	NaN	140	82	
+1600	131	117	103	NaN	NaN	155	77	NaN	122	NaN	NaN	NaN	NaN	103	NaN	171	82	
+1601	107	88	91	NaN	NaN	132	47	NaN	75	NaN	NaN	NaN	NaN	85	NaN	88	70	
+1602	101	97	76	NaN	NaN	149	79	NaN	122	NaN	NaN	NaN	NaN	101	NaN	125	86	
+1603	75	69	79	NaN	NaN	131	53	NaN	100	NaN	NaN	NaN	NaN	66	NaN	128	60	
+1604	87	75	77	NaN	NaN	121	73	NaN	71	NaN	NaN	NaN	NaN	79	NaN	118	46	
+1605	90	65	76	NaN	NaN	125	70	NaN	88	NaN	NaN	NaN	NaN	73	NaN	109	120	
+1606	82	82	92	NaN	NaN	118	69	NaN	68	NaN	NaN	NaN	NaN	92	NaN	132	49	
+1607	61	48	46	NaN	NaN	124	47	NaN	75	NaN	NaN	NaN	NaN	94	NaN	146	58	
+1608	46	45	56	74	NaN	109	39	NaN	63	NaN	NaN	NaN	NaN	68	NaN	125	40	
+1609	53	60	64	69	NaN	110	52	NaN	68	NaN	NaN	NaN	NaN	70	NaN	107	48	
+1610	69	72	82	90	NaN	112	53	NaN	68	NaN	NaN	NaN	NaN	85	NaN	117	48	
+1611	67	61	57	65	NaN	96	40	NaN	53	NaN	NaN	NaN	NaN	65	NaN	82	51	
+1612	45	45	47	57	NaN	81	42	NaN	58	NaN	NaN	NaN	NaN	81	NaN	76	54	
+1613	55	50	80	91	NaN	93	62	NaN	65	NaN	67	NaN	140	96	NaN	108	67	
+1614	55	61	72	75	NaN	90	44	NaN	53	NaN	72	NaN	127	75	NaN	94	72	
+1615	45	53	47	86	NaN	71	61	NaN	63	NaN	80	NaN	133	85	NaN	56	80	
+1616	41	49	59	78	NaN	78	62	NaN	60	NaN	66	NaN	123	86	NaN	58	66	
+1617	60	76	67	85	NaN	77	67	NaN	86	NaN	96	NaN	116	84	NaN	79	96	
+1618	44	68	68	62	NaN	73	55	NaN	88	NaN	89	103	135	80	NaN	72	89	
+1619	50	77	68	80	NaN	76	75	NaN	112	NaN	54	87	111	74	NaN	47	54	
+1620	51	85	75	81	NaN	47	80	NaN	106	NaN	51	85	122	80	60	47	51	
+1621	46	69	63	85	NaN	64	72	NaN	111	NaN	53	110	104	62	76	61	53	
+1622	41	44	54	105	NaN	64	69	NaN	84	NaN	57	123	127	73	78	54	57	
+1623	40	40	47	96	NaN	80	55	NaN	75	NaN	47	112	111	79	63	73	47	
+1624	55	43	60	90	NaN	81	54	NaN	67	NaN	43	115	120	87	82	75	43	
+1625	32	47	41	83	NaN	68	44	NaN	58	NaN	44	96	86	65	55	59	44	
+1626	41	28	48	73	NaN	85	65	NaN	69	NaN	43	82	98	66	71	16	43	
+1627	31	34	32	35	NaN	44	28	NaN	32	NaN	39	100	82	51	86	21	39	
+1628	51	37	39	57	NaN	39	42	NaN	44	NaN	50	97	89	54	87	27	50	
+1629	49	46	47	72	NaN	65	56	NaN	67	NaN	57	137	101	74	118	64	57	
+1630	56	39	41	97	NaN	96	78	131	83	NaN	59	137	111	68	114	86	59	
+1631	72	46	55	89	NaN	78	83	151	68	NaN	60	106	105	74	99	94	60	
+1632	71	64	56	101	NaN	102	80	148	83	NaN	58	118	108	73	117	115	58	
+1633	70	79	61	107	NaN	105	122	172	101	NaN	65	113	96	65	112	125	65	
+1634	88	76	69	99	NaN	87	84	179	91	NaN	58	102	84	49	178	91	58	
+1635	93	88	64	90	NaN	80	101	132	90	NaN	51	119	110	58	151	65	51	
+1636	81	74	66	131	NaN	128	107	130	115	NaN	61	120	108	69	162	132	61	
+1637	70	93	72	108	NaN	99	82	101	67	NaN	55	143	131	74	218	89	55	
+1638	80	114	86	109	NaN	121	89	128	99	NaN	60	133	119	71	159	85	60	
+1639	89	100	105	82	NaN	78	84	134	80	NaN	68	130	108	58	118	92	68	
+1640	97	107	97	115	NaN	104	147	106	88	NaN	114	121	124	63	129	70	114	
+1641	123	115	149	92	NaN	147	179	123	99	NaN	84	134	135	65	119	117	84	
+1642	123	95	113	118	NaN	104	127	80	96	NaN	75	123	129	76	102	95	75	
+1643	132	104	134	130	NaN	129	167	123	155	NaN	230	131	141	87	108	146	230	
+1644	95	73	105	103	NaN	128	132	112	115	NaN	96	136	108	61	111	123	96	
+1645	69	61	91	96	NaN	114	114	91	96	NaN	46	112	79	54	88	90	46	
+1646	104	71	151	141	NaN	100	108	63	103	NaN	59	116	93	55	115	81	59	
+1647	59	45	69	113	NaN	114	111	94	103	NaN	58	134	96	66	127	107	58	
+1648	82	70	63	150	NaN	116	124	80	98	NaN	48	147	106	50	127	130	48	
+1649	67	57	65	117	NaN	99	116	85	90	NaN	58	115	101	62	109	105	58	
+1650	67	63	60	80	NaN	83	84	88	71	NaN	58	130	90	58	93	93	58	
+1651	62	63	65	65	NaN	96	96	73	81	NaN	56	237	105	43	108	90	56	
+1652	78	78	60	87	NaN	94	88	76	67	NaN	64	160	98	42	96	109	64	
+1653	80	85	69	83	NaN	91	108	88	78	NaN	53	131	91	44	106	118	53	
+1654	55	74	53	77	NaN	105	85	86	75	NaN	55	112	101	42	106	105	55	
+1655	79	77	80	81	NaN	104	93	87	78	NaN	40	157	89	47	123	105	40	
+1656	86	89	83	117	NaN	124	135	94	91	NaN	86	163	86	44	129	150	86	
+1657	57	70	69	104	NaN	104	93	83	73	NaN	52	137	76	41	123	101	52	
+1658	71	79	83	101	NaN	103	108	64	87	NaN	55	172	95	43	146	70	55	
+1659	62	67	69	72	NaN	88	94	68	78	75	45	138	72	48	115	64	45	
+1660	66	56	42	72	NaN	84	85	52	64	64	35	133	68	29	110	68	35	
+1661	49	60	50	57	NaN	67	77	64	81	63	40	117	71	30	90	73	40	
+1662	56	56	32	61	NaN	61	60	54	84	62	42	112	45	33	100	67	42	
+1663	56	63	99	75	NaN	54	85	90	87	72	61	120	70	26	100	42	61	
+1664	63	64	75	88	NaN	69	78	69	70	71	63	143	64	28	101	78	63	
+1665	64	48	45	68	NaN	46	49	51	70	70	37	95	58	34	69	54	37	
+1666	48	42	50	45	NaN	40	37	52	37	31	48	105	50	35	60	59	48	
+1667	53	55	48	41	NaN	36	38	58	47	46	56	98	65	24	71	33	56	
+1668	54	49	56	125	NaN	97	55	111	52	59	74	122	87	31	144	86	74	
+1669	63	66	72	156	NaN	157	64	105	64	74	99	138	86	30	213	159	99	
+1670	66	62	59	182	NaN	152	67	107	65	71	79	138	72	40	164	203	79	
+1671	62	35	70	166	NaN	144	63	85	52	64	95	108	83	36	154	206	95	
+1672	73	78	58	197	NaN	149	66	117	60	59	97	128	89	35	144	181	97	
+1673	70	77	64	171	NaN	131	59	116	65	64	119	143	77	56	179	190	119	
+1674	64	64	59	186	NaN	137	58	93	63	71	103	122	90	50	136	207	103	
+1675	75	64	71	190	NaN	157	66	109	67	73	96	164	87	39	124	222	96	
+1676	70	60	60	174	NaN	163	48	92	56	60	88	122	90	27	87	240	88	
+1677	46	52	44	221	NaN	152	60	79	58	52	119	123	81	37	75	227	119	
+1678	63	50	54	203	NaN	158	68	96	56	54	136	147	78	43	108	199	136	
+1679	50	49	45	215	NaN	162	63	80	56	51	116	132	78	37	134	166	116	
+1680	60	51	58	214	NaN	165	76	90	62	56	112	127	85	38	123	234	112	
+1681	40	66	42	164	NaN	124	43	68	36	39	93	96	54	29	85	148	93	
+1682	63	61	64	175	NaN	153	59	94	54	63	99	115	70	42	115	170	99	
+1683	46	52	59	162	NaN	141	54	75	56	48	100	112	60	47	110	150	100	
+1684	64	58	56	197	NaN	191	72	87	53	57	120	144	70	45	125	218	120	
+1685	45	54	55	173	NaN	152	60	64	44	51	77	98	63	33	99	166	77	
+1686	55	49	53	120	NaN	138	60	73	57	58	79	84	58	35	70	139	79	
+1687	49	53	40	127	NaN	108	48	79	62	45	77	69	53	38	70	114	77	
+1688	68	66	63	190	NaN	150	69	86	72	86	91	86	61	45	69	170	91	
+1689	85	86	71	188	NaN	170	83	106	79	80	102	86	63	39	82	167	102	
+1690	69	66	58	171	NaN	165	73	111	81	82	90	87	57	43	69	149	90	
+1691	81	72	70	144	NaN	127	53	80	66	39	79	81	50	42	74	113	79	
+1692	88	87	88	208	NaN	139	72	93	80	83	99	82	77	57	77	165	99	
+1693	70	69	95	200	NaN	126	69	96	83	59	106	83	60	40	89	163	106	
+1694	76	66	89	212	NaN	152	84	122	100	103	122	95	60	60	111	169	122	
+1695	93	89	112	197	NaN	159	83	115	101	101	131	106	73	59	105	171	131	
+1696	93	87	87	181	NaN	144	79	102	86	100	145	97	78	55	88	203	145	
+1697	119	147	89	163	NaN	145	82	92	93	92	104	61	68	43	83	138	104	
+1698	83	81	68	105	NaN	91	38	65	51	48	100	85	59	46	84	80	100	
+1699	85	88	77	114	NaN	112	66	70	50	61	88	86	52	35	66	127	88	
+1700	101	96	94	114	NaN	112	69	82	67	66	114	103	77	40	92	114	114	
+1701	111	101	110	149	NaN	139	81	111	81	80	101	123	90	45	96	121	101	
+1702	98	105	91	133	NaN	123	111	126	84	86	128	120	87	60	93	140	128	
+1703	86	85	75	113	NaN	120	101	148	116	99	96	95	76	55	87	145	96	
+1704	65	70	66	112	NaN	139	74	129	65	71	123	108	72	51	87	155	123	
+1705	77	73	78	126	NaN	121	79	123	73	52	140	122	82	51	88	155	140	
+1706	90	86	75	139	NaN	149	98	124	74	65	125	121	96	57	77	169	125	
+1707	76	73	85	135	NaN	128	81	139	76	75	119	78	81	48	79	123	119	
+1708	70	78	75	117	NaN	120	76	122	85	68	99	103	71	51	88	130	99	
+1709	69	71	72	123	NaN	164	69	151	69	63	95	101	77	54	88	239	95	
+1710	155	140	103	110	NaN	128	63	154	58	57	128	125	75	60	93	155	128	
+1711	97	82	85	113	NaN	119	61	177	61	44	109	112	86	51	76	135	109	
+1712	76	72	63	113	NaN	109	57	157	71	79	96	77	80	44	63	144	96	
+1713	76	78	80	129	NaN	106	57	147	63	68	92	93	73	39	84	127	92	
+1714	60	62	58	91	NaN	103	58	140	63	59	59	79	67	38	66	129	59	
+1715	86	84	83	156	NaN	128	86	142	71	83	98	78	90	47	76	161	98	
+1716	107	107	97	130	NaN	136	74	139	88	81	115	100	110	48	73	116	115	
+1717	101	109	95	140	NaN	147	73	120	87	81	100	83	68	NaN	61	127	100	
+1718	119	109	87	133	NaN	134	89	138	67	83	112	70	75	NaN	75	113	112	
+1719	98	118	92	131	NaN	123	181	112	76	78	104	86	65	NaN	61	128	104	
+1720	NaN	NaN	75	167	NaN	130	100	120	71	77	84	87	61	NaN	73	169	84	
+1721	NaN	NaN	73	158	NaN	143	66	106	NaN	72	69	94	89	NaN	79	205	69	
+1722	NaN	NaN	63	163	NaN	143	52	100	NaN	61	73	73	68	NaN	59	219	73	
+1723	NaN	NaN	90	167	NaN	125	48	117	NaN	48	70	81	50	NaN	NaN	174	70	
+1724	NaN	NaN	73	176	NaN	131	51	126	NaN	57	72	106	54	NaN	NaN	214	72	
+1725	NaN	NaN	NaN	195	NaN	130	71	104	NaN	55	68	138	54	NaN	NaN	165	68	
+1726	NaN	NaN	NaN	176	NaN	123	70	104	NaN	39	112	143	NaN	NaN	NaN	197	112	
+1727	NaN	NaN	NaN	179	NaN	147	67	124	NaN	28	111	120	NaN	NaN	NaN	185	111	
+1728	NaN	NaN	NaN	153	NaN	124	59	100	NaN	35	93	105	NaN	NaN	NaN	193	93	
+1729	NaN	NaN	NaN	148	NaN	146	52	78	NaN	49	72	133	NaN	NaN	NaN	183	72	
+1730	NaN	NaN	NaN	167	NaN	152	53	95	NaN	53	81	107	NaN	NaN	NaN	177	81	
+1731	NaN	NaN	NaN	153	NaN	178	62	97	NaN	57	74	114	NaN	NaN	NaN	163	74	
+1732	NaN	NaN	NaN	172	NaN	158	57	NaN	NaN	56	84	112	NaN	NaN	NaN	NaN	84	
+1733	NaN	NaN	NaN	222	NaN	198	69	NaN	NaN	59	89	99	NaN	NaN	NaN	NaN	89	
+1734	NaN	NaN	NaN	NaN	NaN	155	67	NaN	NaN	54	78	117	NaN	NaN	NaN	NaN	78	
+1735	NaN	NaN	NaN	NaN	NaN	128	65	NaN	NaN	68	74	118	NaN	NaN	NaN	NaN	74	
+1736	NaN	NaN	NaN	NaN	NaN	174	69	NaN	NaN	72	89	117	NaN	NaN	NaN	NaN	89	
+1737	NaN	NaN	NaN	NaN	NaN	999	87	NaN	NaN	66	105	127	NaN	NaN	NaN	NaN	105	

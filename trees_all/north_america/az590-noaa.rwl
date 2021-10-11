@@ -1,0 +1,679 @@
+# Griffin - Wahl Knoll - PSME - ITRDB AZ590
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                  and
+#                     NOAA Paleoclimatology Program
+#             National Centers for Environmental Information (NCEI)
+#-----------------------------------------------------------------------
+# Template Version 3.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, online resource and date accessed when using these data,
+# If there is no publication information, please cite investigator, title, online resource and date accessed.
+#
+# Online_Resource: https://www.ncdc.noaa.gov/paleo/study/22154
+#             Description: NOAA Landing Page of study
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az590-noaa.rwl
+#    Description: Raw Measurements - NOAA Template File
+# Online_Resource: https://www1.ncdc.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az590.rwl
+#    Description: Raw Measurements - Tucson Decadal File
+#
+# Archive: Treering
+#
+# Dataset_DOI: 
+#
+# Parameter_Keywords: ring width
+#-------------------
+# Contribution_Date
+# Date: 2016-07-07
+#-------------------
+# File_Last_Modified_Date
+# Date: 2019-12-31
+#-------------------
+# Title
+#   Study_Name: Griffin - Wahl Knoll - PSME - ITRDB AZ590
+#-------------------
+# Investigators: Griffin, D.; Biggs, R.
+#-------------------
+# Description_Notes_and_Keywords
+#     Description: NOAA Template Raw Measurements file added 2019-12-31.
+#-------------------
+# Publication
+# Authors: David W. Stahle, Edward R. Cook, Dorian J. Burnette, Jose Villanueva, Julian Cerano, Jordan N. Burns, Daniel Griffin, Benjamin I. Cook, Rodolfo Acuna, Max C.A. Torbenson, Paul Sjezner, Ian M. Howard
+# Journal_Name: Quaternary Science Reviews
+# Published_Title: The Mexican Drought Atlas: Tree-ring reconstructions of the soil moisture balance during the late pre-Hispanic, colonial, and modern eras
+# Published_Date_or_Year: 2016
+# Volume: 149
+# Pages: 34-60
+# Report_Number: 
+# DOI: 10.1016/j.quascirev.2016.06.018
+# Full_Citation: 
+# Abstract: Mexico has suffered a long history and prehistory of severe sustained drought. Drought over Mexico is modulated by ocean-atmospheric variability in the Atlantic and Pacific, raising the possibility for long-range seasonal climate forecasting, which could help mediate the economic and social impacts of future dry spells. The instrumental record of Mexican climate is very limited before 1920, but tree-ring chronologies developed from old-growth forests in Mexico can provide an excellent proxy representation of the spatial pattern and intensity of past moisture regimes useful for the analysis of climate dynamics and climate impacts. The Mexican Drought Atlas (MXDA) has been developed from an extensive network of 252 climate sensitive tree-ring chronologies in and near Mexico. The MXDA reconstructions extend from 1400 CE-2012 and were calibrated with the instrumental summer (JJA) self-calibrating Palmer Drought Severity Index (scPDSI) on a 0.5 latitude/longitude grid extending over land areas from 14 to 34N and 75-120W using Ensemble Point-by-Point Regression (EPPR) for the 1944-1984 period. The grid point reconstructions were validated for the period 1920-1943 against instrumental gridded scPDSI values based on the fewer weather station observations available during that interval. The MXDA provides a new spatial perspective on the historical impacts of moisture extremes over Mexico during the past 600-years, including the Aztec Drought of One Rabbit in 1454, the drought of El Ano de Hambre in 1785-1786, and the drought that preceded the Mexican Revolution of 1909-1910. 
+#  The El Nino/Southern Oscillation (ENSO) is the most important ocean-atmospheric forcing of moisture variability detected with the MXDA. In fact, the reconstructions suggest that the strongest central equatorial Pacific sea surface temperature (SST) teleconnection to the soil moisture balance over North America may reside in northern Mexico. This ENSO signal has stronger and more time-stable correlations than computed for either the Atlantic Multidecadal Oscillation or Pacific Decadal Oscillation. The extended Multivariate ENSO Index is most highly correlated with reconstructed scPDSI over northern Mexico, where warm events favor moist conditions during the winter, spring, and early summer. This ENSO teleconnection to northern Mexico has been strong over the past 150 years, but it has been comparatively weak and non-stationary in the MXDA over central and southern Mexico where eastern tropical Pacific and Caribbean/tropical Atlantic SSTs seem to be more important. The ENSO teleconnection to northern Mexico is weaker in the available instrumental PDSI, but analyses based on the millennium climate simulations with the Community Earth System Model suggest that the moisture balance during the winter, spring, and early summer over northern Mexico may indeed be particularly sensitive to ENSO forcing. Nationwide drought is predicted to become more common with anthropogenic climate change, but the MXDA reconstructions indicate that intense "All Mexico" droughts have been rare over the past 600 years and their frequency does not appear to have increased substantially in recent decades.
+#-------------------
+# Site Information
+# Site_Name:  Wahl Knoll
+# Location: Arizona
+# Northernmost_Latitude: 33.992
+# Southernmost_Latitude: 33.992
+# Easternmost_Longitude: -109.381
+# Westernmost_Longitude: -109.381
+# Elevation: 2969
+#-------------------
+# Data Collection
+# Collection_Name:  AZ590
+# Earliest_Year: 1458
+# Most_Recent_Year: 2008
+# Time_Unit: AD
+# Notes: 
+#-------------------
+# Species
+# Species_Name: Pseudotsuga menziesii (Mirb.) Franco
+# Common_Name: Douglas-fir
+# Tree_Species_Code: PSME
+#-------------------
+# Chronology_Information 
+#      Chronology: 
+#---------------------
+# Variables 
+# Data variables follow that are preceded by '##' in columns one and two.
+# Variables list, one per line; shortname-tab- components: what, material, error, units, seasonality, data_type, detail, method, C or N for Character or Numeric data,additional information)
+## age_CE age,,,time unit>age unit>year Common Era,,tree ring,,,N,
+## WAH01A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH01A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH01B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH01B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH02B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH02B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH04B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH04B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH04C_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH04C; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH05B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH05B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH05C_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH05C; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH06A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH06A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH06B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH06B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH07C_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH07C; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH07D_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH07D; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WAH07E_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WAH07E; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM03A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM03A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM03B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM03B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM04A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM04A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM04B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM04B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM05A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM05A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM05B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM05B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM06A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM06A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM06B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM06B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM07A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM07A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM07B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM07B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM08A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM08A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM08B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM08B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM09A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM09A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM09B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM09B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM10A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM10A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM10B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM10B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM11A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM11A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM11B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM11B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM12A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM12A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM12B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM12B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM13A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM13A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM13B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM13B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM14A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM14A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM14B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM14B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM15A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM15A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM15B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM15B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM16A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM16A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM16B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM16B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM17A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM17A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM17B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM17B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM18A_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM18A; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+## WKM18B_raw	total ring width ,,,length unit>millimeter,,tree ring,,,N,Tree ID: WKM18B; units are 0.01 mm if end-of-series marker is 999 and 0.001 mm if end-of-series marker is -9999
+#---------------------
+# Data:
+# Missing_Values: NaN
+age_CE	WAH01A_raw	WAH01B_raw	WAH02B_raw	WAH04B_raw	WAH04C_raw	WAH05B_raw	WAH05C_raw	WAH06A_raw	WAH06B_raw	WAH07C_raw	WAH07D_raw	WAH07E_raw	WKM03A_raw	WKM03B_raw	WKM04A_raw	WKM04B_raw	WKM05A_raw	WKM05B_raw	WKM06A_raw	WKM06B_raw	WKM07A_raw	WKM07B_raw	WKM08A_raw	WKM08B_raw	WKM09A_raw	WKM09B_raw	WKM10A_raw	WKM10B_raw	WKM11A_raw	WKM11B_raw	WKM12A_raw	WKM12B_raw	WKM13A_raw	WKM13B_raw	WKM14A_raw	WKM14B_raw	WKM15A_raw	WKM15B_raw	WKM16A_raw	WKM16B_raw	WKM17A_raw	WKM17B_raw	WKM18A_raw	WKM18B_raw	
+1458 	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	496	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1459	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	435	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1460	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	341	NaN	548	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1461	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	225	NaN	623	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1462	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	358	NaN	715	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1463	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	277	NaN	674	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1464	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	126	NaN	443	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1465	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	361	NaN	754	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1466	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	449	NaN	998	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1467	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	500	NaN	876	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1468	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	335	NaN	968	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1469	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	374	NaN	947	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1470	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	562	NaN	1164	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1471	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	334	NaN	907	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1472	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	436	NaN	918	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1473	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	541	NaN	986	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1474	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	609	NaN	1310	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1475	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	491	NaN	1178	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1476	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	546	NaN	1237	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1477	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	448	NaN	1180	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1478	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	587	NaN	1290	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1479	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	580	NaN	1113	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1480	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	132	NaN	826	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1481	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	969	NaN	1398	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1482	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1022	NaN	1323	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1483	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	863	NaN	1116	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1484	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	748	NaN	1790	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1485	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	865	NaN	1248	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1486	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1219	NaN	1091	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1487	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	663	NaN	816	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1488	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	654	NaN	604	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1489	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	632	NaN	721	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1490	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	849	NaN	936	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1491	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	659	NaN	1141	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1492	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	632	NaN	1079	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1493	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1063	NaN	876	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1494	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1173	NaN	1017	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1495	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	691	NaN	464	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1496	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	538	NaN	829	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1497	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	699	NaN	711	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1498	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	915	NaN	1013	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1499	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	601	NaN	1002	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1500	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	352	NaN	503	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1501	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	478	NaN	598	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	690	NaN	1061	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1503	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	763	NaN	789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1504	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	778	NaN	1168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1505	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	863	NaN	1137	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1506	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	316	NaN	311	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1507	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	953	NaN	1194	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1508	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	802	NaN	925	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1509	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	719	NaN	1216	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1510	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	699	NaN	1008	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1511	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	904	NaN	984	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1512	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	763	NaN	820	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1513	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	986	NaN	980	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1514	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	908	NaN	899	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1515	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	714	NaN	859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1516	NaN	NaN	NaN	NaN	NaN	1549	NaN	NaN	NaN	484	NaN	562	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1517	NaN	NaN	NaN	NaN	NaN	1103	NaN	NaN	879	581	NaN	483	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1518	NaN	NaN	NaN	NaN	NaN	1258	NaN	NaN	955	775	NaN	754	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1519	NaN	NaN	NaN	NaN	NaN	1674	NaN	NaN	1053	834	NaN	959	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1520	NaN	NaN	NaN	NaN	NaN	1605	NaN	NaN	1077	710	NaN	1079	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1521	NaN	NaN	NaN	NaN	NaN	4919	NaN	NaN	1438	600	NaN	957	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1522	NaN	NaN	NaN	NaN	NaN	3002	NaN	NaN	838	775	NaN	705	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1523	NaN	NaN	NaN	NaN	NaN	2553	NaN	NaN	2048	390	NaN	269	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1524	NaN	NaN	NaN	NaN	NaN	2546	NaN	NaN	1598	696	NaN	531	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1525	NaN	NaN	NaN	NaN	NaN	1662	NaN	NaN	2250	768	NaN	698	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1526	NaN	NaN	NaN	NaN	NaN	1726	NaN	NaN	2407	1101	NaN	823	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1527	NaN	NaN	NaN	NaN	NaN	2059	NaN	NaN	2462	929	NaN	1087	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1528	NaN	NaN	NaN	NaN	NaN	1969	NaN	NaN	1852	576	NaN	742	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1529	NaN	NaN	NaN	NaN	NaN	3495	NaN	NaN	2472	262	NaN	157	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1530	NaN	NaN	NaN	NaN	NaN	1670	NaN	NaN	546	221	NaN	238	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2632	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1531	NaN	NaN	NaN	NaN	NaN	2252	NaN	NaN	1172	386	NaN	618	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	3376	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1532	NaN	NaN	NaN	NaN	NaN	2677	NaN	NaN	969	360	NaN	638	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2994	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1533	NaN	NaN	NaN	NaN	NaN	3281	NaN	NaN	2601	555	NaN	833	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2516	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1534	NaN	NaN	NaN	NaN	NaN	2820	NaN	NaN	1580	655	NaN	789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	3197	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1535	NaN	NaN	NaN	NaN	NaN	3243	NaN	NaN	2810	609	NaN	904	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2599	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1536	NaN	NaN	NaN	NaN	NaN	5653	NaN	NaN	2414	610	NaN	902	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2699	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1537	NaN	NaN	NaN	NaN	NaN	3736	NaN	NaN	1565	872	NaN	842	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1235	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1538	NaN	NaN	NaN	NaN	NaN	1470	NaN	NaN	916	448	NaN	485	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1345	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1539	NaN	NaN	NaN	NaN	NaN	1963	NaN	2611	2198	764	NaN	1008	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2320	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1540	NaN	NaN	NaN	NaN	NaN	1369	NaN	2750	1160	739	NaN	1072	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1925	2063	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1541	NaN	NaN	NaN	NaN	NaN	1743	NaN	2178	1652	834	NaN	985	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1980	2068	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1542	NaN	NaN	NaN	NaN	NaN	1286	NaN	1783	1037	435	NaN	629	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1356	1109	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1543	NaN	NaN	NaN	NaN	NaN	1821	NaN	2502	2130	846	NaN	961	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1789	1250	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1544	NaN	NaN	NaN	NaN	NaN	2911	NaN	2524	1411	794	NaN	1135	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2339	2256	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1545	NaN	NaN	NaN	NaN	NaN	2613	NaN	2021	1572	766	NaN	935	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2254	2204	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1546	NaN	NaN	NaN	NaN	NaN	3360	NaN	2543	1821	810	NaN	1123	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2405	2348	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1547	NaN	NaN	NaN	NaN	NaN	2924	NaN	2165	1516	751	NaN	1096	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2074	1571	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1548	NaN	NaN	NaN	NaN	NaN	4919	NaN	1649	1468	747	NaN	1109	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2988	2118	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1549	NaN	NaN	NaN	NaN	NaN	3572	NaN	2421	1449	707	NaN	788	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	3152	2554	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1550	NaN	NaN	NaN	NaN	NaN	2076	NaN	1928	1061	1041	NaN	1229	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2421	2022	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1551	NaN	NaN	NaN	NaN	NaN	2719	NaN	2403	1689	1006	NaN	1344	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2471	2192	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1552	NaN	NaN	NaN	NaN	NaN	2806	NaN	2299	1699	759	NaN	1044	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2198	2332	2368	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1553	NaN	NaN	NaN	NaN	NaN	3949	NaN	2368	2369	987	NaN	1173	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	3275	2935	3393	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1554	NaN	NaN	NaN	NaN	NaN	2481	NaN	599	603	864	NaN	885	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1986	2182	1059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1555	NaN	NaN	NaN	NaN	NaN	1842	NaN	796	525	767	NaN	1132	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1498	1660	1176	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1556	NaN	NaN	NaN	NaN	NaN	1267	NaN	1388	1132	831	NaN	1312	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1524	1338	1685	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1557	NaN	NaN	NaN	NaN	NaN	1192	NaN	1683	1877	NaN	733	1249	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1472	1584	1792	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1558	NaN	NaN	NaN	NaN	NaN	1424	NaN	1656	1494	NaN	627	992	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1209	1923	2253	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1559	NaN	NaN	NaN	NaN	NaN	1052	NaN	1663	1463	NaN	680	995	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1411	1537	1509	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1560	NaN	NaN	NaN	NaN	NaN	1569	NaN	1313	1306	NaN	725	918	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1648	1653	1195	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1561	NaN	NaN	NaN	NaN	NaN	889	NaN	1130	1205	NaN	565	544	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	933	1124	1166	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1562	NaN	NaN	NaN	NaN	NaN	1151	NaN	1539	1270	NaN	823	856	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1748	1809	1444	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1563	NaN	NaN	NaN	NaN	NaN	1386	NaN	1620	1037	NaN	817	1051	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1990	2215	1477	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1564	NaN	NaN	NaN	NaN	NaN	2281	NaN	2122	1765	NaN	950	1264	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2855	2847	1855	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1565	NaN	NaN	NaN	NaN	NaN	1941	NaN	2033	1391	NaN	859	1173	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2289	2323	1479	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1566	NaN	NaN	NaN	NaN	NaN	1702	NaN	1628	1306	NaN	460	661	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1715	1582	1342	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1567	NaN	NaN	NaN	NaN	NaN	2180	NaN	1739	1433	NaN	643	1153	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1795	1981	1615	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1568	NaN	NaN	NaN	NaN	NaN	2644	NaN	2266	1851	NaN	613	1177	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2111	2622	1597	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1569	NaN	NaN	NaN	NaN	NaN	3115	NaN	2099	1539	NaN	586	1189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2878	3017	1879	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1570	NaN	NaN	NaN	NaN	NaN	2166	NaN	1521	1276	NaN	788	1325	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2060	1772	1701	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1571	NaN	NaN	NaN	NaN	NaN	1735	NaN	1384	815	NaN	528	896	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1474	1304	966	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1572	NaN	NaN	NaN	NaN	NaN	1260	NaN	893	540	NaN	527	1011	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1217	1348	815	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1573	NaN	NaN	NaN	NaN	NaN	652	NaN	767	457	NaN	282	493	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	775	981	754	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1574	NaN	NaN	NaN	NaN	NaN	980	NaN	989	493	NaN	389	576	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	949	1041	1039	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1575	NaN	NaN	NaN	NaN	NaN	1019	NaN	1125	703	NaN	331	433	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	928	1006	1028	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1576	NaN	NaN	NaN	NaN	NaN	863	NaN	946	704	NaN	522	647	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	935	965	820	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1577	NaN	NaN	NaN	NaN	NaN	333	NaN	963	682	NaN	440	493	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	627	603	844	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1578	NaN	NaN	NaN	NaN	NaN	615	NaN	991	741	NaN	453	687	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	964	804	978	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1579	NaN	NaN	NaN	NaN	NaN	449	NaN	861	614	NaN	284	363	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	635	524	829	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1580	NaN	NaN	NaN	NaN	NaN	366	NaN	670	672	NaN	412	478	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	521	423	513	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1581	NaN	NaN	NaN	NaN	NaN	869	NaN	358	119	NaN	285	188	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1040	634	378	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1582	NaN	NaN	NaN	NaN	NaN	685	NaN	529	138	NaN	407	391	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	986	576	517	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1583	NaN	NaN	NaN	NaN	NaN	628	NaN	866	336	NaN	291	270	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	888	528	709	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1584	NaN	NaN	NaN	NaN	NaN	452	NaN	867	424	NaN	263	217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	562	482	697	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1585	NaN	NaN	NaN	NaN	NaN	522	NaN	643	420	NaN	243	234	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	539	556	544	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1586	NaN	NaN	NaN	NaN	NaN	993	NaN	625	567	NaN	643	538	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1024	1001	721	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1587	NaN	NaN	NaN	NaN	NaN	1389	NaN	844	642	NaN	500	606	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1171	1115	1072	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1588	NaN	NaN	NaN	NaN	NaN	1454	NaN	1424	572	NaN	493	669	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1476	1327	1277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1589	NaN	NaN	NaN	NaN	NaN	1023	NaN	1149	572	NaN	397	404	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1044	1102	1470	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1590	NaN	NaN	NaN	NaN	NaN	624	NaN	810	445	NaN	249	283	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	710	780	957	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1591	NaN	NaN	NaN	NaN	NaN	1618	NaN	1160	689	NaN	439	579	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1455	1222	1340	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1592	NaN	NaN	NaN	NaN	NaN	722	NaN	1119	396	NaN	179	220	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	785	756	1088	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1593	NaN	NaN	NaN	NaN	NaN	598	NaN	1060	619	NaN	147	205	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	860	719	874	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1594	NaN	NaN	NaN	NaN	NaN	1777	NaN	1229	869	NaN	472	667	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1674	1388	1690	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1595	NaN	NaN	NaN	NaN	NaN	1007	NaN	894	570	NaN	386	360	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1180	847	987	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1596	NaN	NaN	NaN	NaN	NaN	1248	NaN	794	468	NaN	397	394	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1228	760	952	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1597	NaN	NaN	NaN	NaN	NaN	1159	NaN	840	515	NaN	307	244	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1186	826	851	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1598	NaN	NaN	NaN	NaN	NaN	980	NaN	861	449	NaN	327	354	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1163	1003	709	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1599	NaN	NaN	NaN	NaN	NaN	1157	NaN	949	534	NaN	412	357	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1054	823	1020	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1600	NaN	NaN	NaN	NaN	NaN	1109	NaN	969	616	NaN	269	357	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1295	723	1211	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1601	NaN	NaN	NaN	NaN	NaN	1147	NaN	1167	592	NaN	186	182	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1477	748	1109	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1602	NaN	NaN	NaN	NaN	NaN	565	NaN	580	402	NaN	374	351	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	836	642	541	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1603	NaN	NaN	NaN	NaN	NaN	626	NaN	549	338	NaN	364	340	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	995	628	534	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1604	NaN	NaN	NaN	NaN	NaN	782	NaN	692	465	NaN	390	382	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1111	571	798	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1605	NaN	NaN	NaN	NaN	NaN	602	NaN	1012	540	NaN	390	381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1348	649	913	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1606	NaN	NaN	NaN	NaN	NaN	452	NaN	808	514	NaN	134	166	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	641	390	592	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1607	NaN	NaN	NaN	NaN	NaN	656	NaN	770	676	NaN	350	521	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	939	619	787	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1608	NaN	NaN	NaN	NaN	NaN	1263	NaN	1100	930	NaN	326	474	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1352	764	1058	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1609	NaN	NaN	NaN	NaN	NaN	905	NaN	1120	910	NaN	346	632	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1276	776	882	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1610	NaN	NaN	NaN	NaN	NaN	859	NaN	1165	994	NaN	373	584	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1779	946	1036	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1611	NaN	NaN	NaN	NaN	NaN	1288	NaN	1347	968	NaN	285	456	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2033	1190	1178	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1612	NaN	NaN	NaN	NaN	NaN	1421	NaN	1341	1294	NaN	335	419	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2282	1541	1186	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1613	NaN	NaN	NaN	NaN	NaN	984	NaN	948	875	NaN	287	262	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1872	1115	924	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1614	NaN	NaN	NaN	NaN	NaN	752	NaN	843	818	NaN	313	339	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1257	795	1012	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1615	NaN	NaN	NaN	NaN	NaN	1202	NaN	929	954	NaN	226	324	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2362	969	1021	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1616	NaN	NaN	NaN	NaN	NaN	953	NaN	934	939	NaN	347	396	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1423	923	965	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1617	NaN	NaN	NaN	NaN	NaN	740	NaN	916	934	NaN	426	480	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1163	744	948	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1618	NaN	NaN	NaN	NaN	NaN	740	NaN	711	735	NaN	498	618	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	964	709	843	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1619	NaN	NaN	NaN	NaN	NaN	711	NaN	750	630	NaN	451	269	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	746	619	806	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1620	NaN	NaN	NaN	NaN	NaN	794	NaN	644	536	NaN	476	464	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1009	628	571	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1621	NaN	NaN	NaN	NaN	NaN	752	NaN	441	411	NaN	556	481	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1011	558	522	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1622	NaN	NaN	NaN	NaN	NaN	527	NaN	344	444	NaN	361	340	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	726	484	337	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1623	NaN	NaN	NaN	NaN	NaN	282	NaN	437	603	NaN	94	139	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	456	354	409	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1624	NaN	NaN	NaN	NaN	NaN	214	NaN	261	490	NaN	190	164	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	441	320	335	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1625	NaN	NaN	NaN	NaN	NaN	665	NaN	478	615	NaN	190	219	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	673	495	514	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1626	NaN	NaN	NaN	NaN	NaN	810	NaN	786	902	NaN	190	234	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	933	517	824	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1627	NaN	NaN	NaN	NaN	NaN	886	NaN	985	809	NaN	467	519	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1121	606	910	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1628	NaN	NaN	NaN	NaN	NaN	572	NaN	1035	799	NaN	234	275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	965	499	924	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1629	NaN	NaN	NaN	NaN	NaN	1222	NaN	1468	1401	NaN	588	593	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1400	990	1280	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1630	NaN	NaN	NaN	1456	NaN	1072	NaN	1388	1394	NaN	674	524	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1564	946	1209	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1631	NaN	NaN	NaN	1725	NaN	1248	NaN	1331	1058	NaN	498	460	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1315	894	1135	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1632	NaN	NaN	NaN	1289	NaN	966	NaN	1239	1317	NaN	211	284	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1243	812	992	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1633	NaN	NaN	NaN	1533	NaN	1903	NaN	1303	1526	NaN	469	547	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1916	1290	1648	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1634	NaN	NaN	NaN	1422	NaN	2040	NaN	1250	1386	NaN	545	468	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2402	1376	1528	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1635	NaN	NaN	NaN	1215	NaN	949	NaN	782	844	NaN	523	598	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1499	886	790	929	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1636	NaN	NaN	NaN	1611	NaN	1190	NaN	815	739	NaN	504	538	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1531	1149	1200	957	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1637	NaN	NaN	NaN	1677	NaN	1450	NaN	767	700	NaN	418	477	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1171	1215	994	968	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1638	NaN	NaN	NaN	1468	NaN	2121	NaN	783	788	NaN	665	610	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1999	1379	1534	1282	1073	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1639	NaN	NaN	NaN	1080	NaN	1340	NaN	536	623	NaN	429	489	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1175	1252	907	684	693	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1640	NaN	NaN	NaN	1338	NaN	972	NaN	553	696	NaN	412	453	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1808	1340	1136	763	660	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1641	NaN	NaN	NaN	551	NaN	503	NaN	473	659	NaN	357	433	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	718	583	728	381	553	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1642	NaN	NaN	NaN	118	NaN	149	NaN	378	348	NaN	356	361	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	166	116	328	134	447	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1643	NaN	NaN	NaN	146	NaN	350	NaN	476	403	NaN	416	455	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	233	221	593	316	525	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1644	NaN	NaN	NaN	194	NaN	563	NaN	788	590	NaN	520	695	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	245	211	743	336	918	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1645	NaN	NaN	NaN	243	NaN	468	NaN	616	537	NaN	318	370	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	246	315	624	316	659	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1646	NaN	NaN	NaN	238	NaN	632	NaN	770	568	NaN	625	817	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	243	341	870	542	814	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1647	NaN	NaN	NaN	309	NaN	571	NaN	734	873	NaN	593	635	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	330	359	633	445	928	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1648	NaN	NaN	NaN	481	NaN	594	NaN	742	917	NaN	435	327	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	468	391	766	478	964	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1649	NaN	NaN	NaN	781	NaN	747	NaN	808	676	NaN	529	437	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	777	496	951	451	962	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1650	NaN	NaN	NaN	1224	NaN	742	NaN	966	1020	NaN	663	716	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1060	590	860	528	1221	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1651	NaN	NaN	NaN	1215	NaN	842	NaN	857	987	NaN	679	729	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1287	753	1072	697	1093	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1652	NaN	NaN	NaN	966	NaN	810	NaN	817	865	NaN	742	591	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1058	698	1158	495	967	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1653	NaN	NaN	NaN	977	NaN	926	NaN	833	917	NaN	378	376	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	926	1002	1062	550	915	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1654	NaN	NaN	NaN	1255	NaN	646	NaN	875	908	NaN	377	286	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	968	1116	1066	363	1038	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1655	NaN	NaN	NaN	1373	NaN	907	NaN	977	1109	NaN	365	299	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1083	1362	1040	486	1238	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1656	NaN	NaN	NaN	1143	NaN	1393	NaN	1030	1192	NaN	468	429	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	813	1063	973	401	1149	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1657	NaN	NaN	NaN	1251	NaN	983	NaN	990	1100	NaN	123	168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1042	1320	717	354	1065	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1658	NaN	NaN	NaN	957	NaN	1115	NaN	918	868	NaN	269	268	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	948	1036	828	423	1087	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1659	NaN	NaN	NaN	1121	NaN	942	NaN	1085	1100	NaN	324	239	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1007	985	727	427	1385	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1660	NaN	NaN	NaN	1243	NaN	924	NaN	1085	1127	NaN	373	322	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1173	1166	805	527	1359	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1661	NaN	NaN	NaN	1416	NaN	1114	NaN	1116	1181	NaN	591	561	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1334	1485	990	639	1271	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1662	NaN	NaN	NaN	1211	866	804	NaN	848	957	NaN	451	368	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1233	1098	794	457	915	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1663	NaN	NaN	NaN	1363	771	739	NaN	708	978	NaN	443	343	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1296	970	987	461	782	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1664	NaN	NaN	NaN	1368	867	720	NaN	767	954	NaN	262	257	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1091	1087	723	495	784	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1665	NaN	NaN	NaN	1436	998	743	NaN	549	719	NaN	565	479	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1376	1329	1044	539	661	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1666	NaN	NaN	NaN	1153	1170	852	NaN	632	814	NaN	344	267	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1328	1305	864	552	716	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1667	NaN	NaN	2021	1191	1052	742	NaN	522	810	NaN	438	377	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1326	1264	849	539	740	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1668	NaN	NaN	1175	755	651	414	NaN	399	470	NaN	146	65	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	822	843	660	347	496	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1669	NaN	NaN	2045	738	732	512	NaN	322	543	NaN	393	376	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1030	774	759	465	447	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1670	NaN	NaN	2154	625	658	344	NaN	247	480	NaN	183	156	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	817	637	541	322	383	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1671	NaN	NaN	1154	889	987	569	NaN	469	1005	NaN	462	369	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1241	1021	631	453	737	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1672	NaN	NaN	1485	1064	987	763	NaN	573	953	NaN	428	486	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1312	1182	701	525	802	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1673	NaN	NaN	980	1267	991	1246	NaN	716	1088	NaN	523	550	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1305	1206	971	610	971	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1674	NaN	NaN	1065	1159	1185	1034	NaN	647	1107	NaN	502	457	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1337	1179	967	554	879	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1675	NaN	NaN	959	1349	1217	1212	NaN	863	1139	NaN	504	390	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1472	1275	1282	655	1238	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1676	NaN	NaN	888	1264	1382	995	NaN	748	837	NaN	347	292	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1167	1295	909	460	903	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1677	NaN	NaN	632	1339	1542	931	NaN	801	738	NaN	367	381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1179	1278	880	632	798	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1678	NaN	NaN	506	1367	1393	1230	NaN	769	736	NaN	379	301	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1155	1102	1111	618	749	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1679	NaN	NaN	811	1329	1065	1271	NaN	480	969	NaN	319	298	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1083	1201	964	613	757	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1680	NaN	NaN	742	1556	1409	1174	957	791	856	NaN	366	411	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1276	1366	1091	784	843	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1681	NaN	NaN	513	1200	989	1136	833	565	809	NaN	441	453	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1059	1079	1077	756	825	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1682	NaN	NaN	709	1359	1127	1015	940	626	794	NaN	409	498	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1141	1246	1576	847	853	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1683	NaN	NaN	834	1321	1154	1132	878	622	783	NaN	390	447	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1293	1414	1518	751	1001	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1684	NaN	NaN	760	1278	1068	1292	731	583	672	NaN	143	126	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1285	992	878	620	939	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1685	NaN	NaN	441	838	648	867	649	575	643	NaN	129	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	735	683	701	554	865	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1686	NaN	NaN	841	1312	1221	2055	993	677	772	NaN	591	653	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1256	1440	1385	939	1034	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1687	NaN	NaN	929	1223	1194	2170	1004	549	867	NaN	505	458	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1252	1285	1045	965	923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1688	NaN	NaN	1100	1580	1541	2206	1130	529	1081	NaN	610	561	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1499	1251	1353	1141	1161	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1689	NaN	NaN	1398	1325	1299	1313	924	589	1019	NaN	617	559	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1348	1241	1008	1028	1078	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1690	NaN	NaN	755	1121	1102	993	661	409	839	NaN	537	467	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1083	924	906	794	779	820	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1691	NaN	NaN	959	1135	1206	1329	775	425	800	NaN	557	643	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1170	986	873	1018	742	722	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1692	NaN	NaN	1397	1108	1202	1456	859	524	631	NaN	476	525	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1237	1017	850	937	670	702	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1693	NaN	NaN	1257	963	1096	865	608	531	701	NaN	293	304	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1061	880	598	682	818	905	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1694	NaN	NaN	1408	1136	1395	1297	701	757	876	NaN	558	498	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1054	946	656	799	1012	920	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1695	NaN	NaN	1190	1261	1510	1395	669	553	855	NaN	443	406	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1245	1099	728	803	909	989	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1696	NaN	NaN	636	995	928	601	448	427	680	NaN	205	222	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	982	811	507	521	779	865	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1697	NaN	NaN	566	841	787	236	179	466	658	NaN	159	98	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	688	724	248	237	699	684	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1698	NaN	NaN	596	928	734	443	493	555	701	NaN	247	214	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	797	860	508	508	908	729	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1699	NaN	NaN	1073	1149	993	743	601	770	823	NaN	517	499	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1046	1161	612	680	1008	805	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1700	NaN	NaN	1433	1099	989	615	541	669	836	NaN	539	387	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	906	986	497	491	952	671	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1701	NaN	NaN	1033	1133	1136	837	659	689	821	NaN	646	610	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1050	1138	667	674	850	760	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1702	NaN	NaN	1124	795	980	479	466	735	939	NaN	260	181	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	728	724	419	366	735	683	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1703	NaN	NaN	1001	1210	1486	883	787	837	830	NaN	738	647	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1123	1150	739	938	788	654	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1704	NaN	NaN	796	1201	1373	916	518	462	836	NaN	527	352	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1124	993	558	665	672	610	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1705	NaN	NaN	759	1026	1218	1047	578	530	748	NaN	413	358	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	984	803	535	554	580	528	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1706	NaN	NaN	817	1101	1345	1026	607	718	841	NaN	598	544	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1161	961	428	701	717	600	NaN	NaN	1002	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1707	NaN	NaN	1133	967	1257	1005	581	730	753	NaN	556	502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	957	888	650	789	738	649	NaN	NaN	1266	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1708	NaN	NaN	760	752	933	741	549	618	679	NaN	286	196	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	790	775	482	623	688	554	NaN	NaN	1119	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1709	NaN	NaN	681	861	979	656	500	741	676	NaN	230	164	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	838	806	313	421	660	575	NaN	NaN	911	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1710	NaN	NaN	579	973	1074	1089	655	744	718	NaN	677	416	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	986	1102	537	732	767	668	NaN	NaN	1027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1711	NaN	NaN	804	1031	1068	1040	674	744	822	NaN	564	449	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	894	910	563	678	671	669	NaN	NaN	870	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1712	NaN	NaN	797	857	838	1057	608	614	757	NaN	511	519	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	765	1015	572	726	605	620	NaN	NaN	645	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1713	NaN	NaN	926	878	823	900	615	613	764	NaN	344	236	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	802	905	454	580	631	639	NaN	NaN	983	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1714	NaN	NaN	929	965	951	1362	684	868	882	NaN	423	331	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	987	1020	603	730	813	783	NaN	NaN	1208	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1715	NaN	NaN	680	610	620	778	479	676	803	NaN	195	144	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	655	779	413	427	730	758	NaN	NaN	631	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1716	NaN	NaN	405	499	765	652	210	774	840	NaN	227	126	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	506	610	242	291	769	643	NaN	NaN	688	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1717	NaN	NaN	781	636	910	963	607	681	825	NaN	530	428	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	719	875	471	516	789	722	NaN	NaN	528	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1718	NaN	NaN	822	796	1140	581	444	615	832	NaN	400	255	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	790	974	465	476	783	699	NaN	NaN	738	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1719	NaN	NaN	706	651	934	621	423	716	869	NaN	435	342	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	772	875	425	450	833	662	NaN	NaN	688	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1720	590	1341	738	786	1064	588	445	743	821	NaN	579	404	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	836	743	478	575	804	709	NaN	NaN	737	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1721	367	748	762	731	988	665	513	732	686	NaN	417	307	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	780	835	652	626	701	690	NaN	NaN	693	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1722	37	85	1160	797	1059	938	531	820	761	NaN	651	518	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	875	890	586	880	793	700	NaN	NaN	500	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+1723	0	165	1219	707	991	888	631	738	682	NaN	347	270	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	783	948	746	835	726	701	NaN	NaN	651	NaN	NaN	NaN	NaN	NaN	1300	NaN	
+1724	105	338	1009	824	992	843	613	858	720	NaN	270	182	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	734	730	564	525	798	778	NaN	NaN	626	NaN	NaN	NaN	NaN	NaN	1211	NaN	
+1725	179	552	1146	916	1168	1213	525	817	682	NaN	368	162	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	766	833	458	571	722	733	NaN	NaN	883	NaN	NaN	NaN	NaN	NaN	1114	NaN	
+1726	343	901	2972	1101	1396	1807	794	920	921	NaN	809	628	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	991	1187	797	1027	973	1017	NaN	NaN	747	NaN	NaN	NaN	NaN	NaN	1546	NaN	
+1727	307	806	2120	718	921	964	678	610	606	NaN	567	416	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	646	951	619	793	630	757	NaN	NaN	500	NaN	NaN	NaN	NaN	NaN	1250	NaN	
+1728	417	940	1521	594	683	557	550	779	535	NaN	353	267	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	458	633	652	561	766	680	NaN	NaN	395	NaN	NaN	NaN	NaN	NaN	941	NaN	
+1729	536	794	888	756	889	511	630	641	465	NaN	255	153	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	528	772	489	491	543	485	NaN	NaN	552	NaN	NaN	NaN	NaN	NaN	782	NaN	
+1730	660	1110	80	829	961	665	568	913	785	NaN	637	383	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	591	645	498	577	807	582	NaN	NaN	601	NaN	NaN	NaN	NaN	NaN	30	NaN	
+1731	673	1111	271	913	985	528	532	899	968	NaN	609	321	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	737	733	494	523	887	681	NaN	NaN	722	NaN	NaN	NaN	NaN	NaN	177	NaN	
+1732	732	1041	337	982	1012	391	475	1061	1029	NaN	640	316	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	773	737	420	444	992	736	NaN	NaN	908	NaN	NaN	NaN	NaN	NaN	275	NaN	
+1733	524	954	447	854	878	820	855	807	852	NaN	494	435	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	866	921	641	801	898	771	NaN	NaN	567	NaN	NaN	NaN	NaN	NaN	417	NaN	
+1734	764	1212	464	1110	1078	442	636	896	721	NaN	463	236	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	823	794	511	515	892	649	NaN	NaN	1195	NaN	NaN	NaN	NaN	NaN	382	NaN	
+1735	837	1285	359	796	857	954	631	731	573	NaN	329	246	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	566	635	577	657	635	627	NaN	NaN	886	NaN	NaN	NaN	NaN	NaN	407	NaN	
+1736	1128	1379	477	1005	1126	1261	747	734	681	NaN	770	535	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	923	892	720	920	792	783	NaN	NaN	775	NaN	NaN	NaN	NaN	NaN	829	NaN	
+1737	778	924	412	651	716	706	611	791	604	NaN	305	222	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	590	785	520	701	945	739	NaN	NaN	687	NaN	NaN	NaN	NaN	NaN	646	NaN	
+1738	1014	877	576	1053	1100	1392	875	1044	733	NaN	703	585	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	844	1209	839	932	1234	847	NaN	NaN	1018	NaN	NaN	NaN	NaN	NaN	1131	NaN	
+1739	432	624	478	911	842	1762	895	905	694	NaN	422	293	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	677	1101	751	729	962	777	NaN	NaN	620	NaN	NaN	NaN	NaN	NaN	855	NaN	
+1740	297	576	273	634	607	972	514	468	448	NaN	374	334	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	438	592	355	423	627	518	NaN	NaN	579	NaN	NaN	NaN	NaN	NaN	379	NaN	
+1741	659	818	335	948	878	1012	618	540	566	NaN	494	287	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	630	889	459	500	695	532	NaN	NaN	753	NaN	NaN	505	NaN	NaN	447	NaN	
+1742	747	990	384	880	828	835	590	477	571	NaN	448	317	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	660	940	502	514	582	489	NaN	NaN	859	NaN	NaN	695	NaN	NaN	631	NaN	
+1743	710	922	465	1092	1265	1215	669	496	592	NaN	699	562	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	987	1398	629	720	672	631	NaN	NaN	1171	NaN	NaN	866	NaN	NaN	816	NaN	
+1744	591	859	670	805	1063	873	615	434	658	NaN	514	482	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	865	1142	654	644	648	634	NaN	NaN	1002	NaN	NaN	760	NaN	NaN	932	NaN	
+1745	1001	1359	866	810	792	697	463	445	589	NaN	382	357	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	695	905	470	479	648	630	NaN	NaN	1009	NaN	NaN	921	NaN	NaN	806	NaN	
+1746	1300	1115	1407	1140	1336	824	612	611	624	NaN	775	506	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	982	1136	572	699	862	760	NaN	NaN	1017	NaN	NaN	821	NaN	NaN	1214	NaN	
+1747	1222	1166	430	1436	1549	991	699	657	748	NaN	824	556	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1186	1149	556	686	904	967	NaN	NaN	965	NaN	NaN	878	NaN	NaN	678	NaN	
+1748	690	826	187	342	474	461	442	1049	433	NaN	308	192	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	319	395	464	351	485	425	NaN	NaN	307	NaN	NaN	177	NaN	NaN	261	NaN	
+1749	1238	1878	470	1402	1637	740	702	1200	815	NaN	801	685	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1051	1018	716	609	916	888	NaN	NaN	1314	NaN	NaN	742	NaN	NaN	669	NaN	
+1750	1190	1563	474	1384	1477	568	540	1140	1023	NaN	638	414	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	962	729	705	532	1232	1065	NaN	NaN	1163	NaN	NaN	968	NaN	NaN	581	NaN	
+1751	1099	1546	890	1706	1801	878	804	1429	1140	NaN	907	834	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1300	1163	772	918	1372	1043	NaN	NaN	1228	NaN	NaN	1449	NaN	NaN	1143	NaN	
+1752	812	998	651	1095	1231	1268	680	1091	1188	NaN	655	632	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	946	980	664	670	980	753	NaN	NaN	988	NaN	NaN	820	NaN	NaN	842	NaN	
+1753	753	699	481	720	701	747	490	542	644	NaN	301	247	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	595	532	505	418	463	428	NaN	NaN	672	NaN	NaN	685	NaN	NaN	851	NaN	
+1754	987	1039	514	1149	867	855	558	820	454	NaN	368	305	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	967	706	567	435	641	674	NaN	NaN	927	NaN	NaN	837	NaN	NaN	801	NaN	
+1755	873	1047	544	1163	1068	803	604	710	488	NaN	457	393	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	956	846	523	541	437	608	NaN	NaN	854	NaN	NaN	554	NaN	NaN	810	NaN	
+1756	605	894	386	786	760	409	476	461	503	NaN	200	212	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	659	597	469	351	353	565	NaN	NaN	740	NaN	NaN	715	NaN	NaN	449	NaN	
+1757	784	1019	674	1470	1341	742	588	538	543	NaN	571	463	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1161	767	643	698	419	777	NaN	NaN	968	NaN	NaN	719	NaN	NaN	948	NaN	
+1758	878	1027	925	1406	1317	417	476	666	647	NaN	498	487	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1349	695	420	479	494	569	NaN	NaN	839	NaN	NaN	921	NaN	NaN	547	NaN	
+1759	1058	1054	1178	873	1023	490	632	913	689	NaN	522	478	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	929	972	474	550	631	588	NaN	NaN	764	NaN	NaN	1046	NaN	NaN	591	NaN	
+1760	871	938	613	775	700	321	490	721	686	NaN	326	279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	706	707	459	421	492	583	NaN	NaN	530	NaN	425	717	NaN	NaN	429	NaN	
+1761	710	822	578	640	593	293	424	663	674	NaN	250	177	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	568	461	423	385	455	657	NaN	NaN	529	NaN	395	600	NaN	NaN	349	NaN	
+1762	891	888	813	1061	978	460	639	764	764	NaN	587	634	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1087	1107	599	618	575	845	NaN	NaN	844	NaN	930	957	NaN	NaN	972	NaN	
+1763	634	888	424	735	707	436	445	521	590	NaN	527	510	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	701	867	442	377	375	549	NaN	NaN	513	NaN	647	1023	NaN	NaN	610	NaN	
+1764	810	783	494	752	720	421	485	493	624	NaN	596	524	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	710	881	597	492	393	614	NaN	NaN	598	NaN	633	1175	NaN	NaN	587	NaN	
+1765	663	759	628	690	632	380	458	659	600	NaN	471	430	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	568	869	505	520	489	608	NaN	NaN	609	NaN	762	944	NaN	NaN	648	NaN	
+1766	574	534	799	839	717	430	516	732	732	NaN	653	708	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	784	1060	495	686	510	789	NaN	NaN	578	NaN	694	1065	NaN	NaN	842	NaN	
+1767	723	588	357	996	842	421	623	736	762	NaN	744	725	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	969	1222	525	651	664	823	NaN	NaN	555	NaN	846	1025	NaN	NaN	462	NaN	
+1768	498	432	207	758	728	442	516	635	752	NaN	559	611	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	843	913	434	596	522	732	NaN	NaN	547	NaN	481	790	NaN	NaN	271	NaN	
+1769	727	608	393	698	692	397	443	763	761	NaN	396	403	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	785	991	429	598	551	635	NaN	NaN	528	NaN	388	721	NaN	NaN	465	NaN	
+1770	937	673	652	700	754	523	595	700	759	NaN	694	667	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	780	1018	670	790	595	749	NaN	NaN	647	NaN	652	789	NaN	NaN	590	NaN	
+1771	893	786	646	908	818	526	585	816	783	NaN	746	713	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	987	1017	597	711	696	758	NaN	NaN	765	NaN	935	1102	NaN	NaN	651	NaN	
+1772	979	843	564	989	922	560	563	756	801	NaN	602	599	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1068	1151	580	721	681	781	NaN	NaN	818	NaN	738	872	NaN	NaN	693	NaN	
+1773	346	419	163	488	376	221	172	452	343	NaN	162	254	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	484	350	212	260	379	463	NaN	NaN	365	NaN	352	317	NaN	NaN	196	NaN	
+1774	998	681	542	1006	842	404	487	610	450	NaN	481	429	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	918	1025	543	486	509	615	NaN	NaN	952	NaN	619	741	NaN	NaN	614	NaN	
+1775	911	1003	348	992	960	409	426	981	718	NaN	334	288	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1034	1011	468	480	813	932	NaN	NaN	954	NaN	850	885	NaN	NaN	529	NaN	
+1776	728	874	254	866	869	237	262	731	635	NaN	244	205	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	886	856	276	239	678	701	NaN	NaN	802	NaN	719	769	NaN	NaN	483	NaN	
+1777	714	1020	230	525	456	160	187	576	655	NaN	98	74	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	553	506	208	161	633	599	NaN	NaN	725	NaN	374	358	NaN	NaN	323	NaN	
+1778	912	1150	670	894	815	318	409	869	910	NaN	634	573	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	881	1056	454	517	808	942	NaN	NaN	923	NaN	982	1038	NaN	NaN	1027	NaN	
+1779	799	784	552	758	703	243	335	867	786	NaN	307	195	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	700	766	332	331	847	712	NaN	NaN	765	NaN	528	493	NaN	NaN	974	NaN	
+1780	749	595	369	497	479	99	173	738	540	NaN	111	21	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	514	525	230	182	594	612	NaN	NaN	656	NaN	706	543	NaN	NaN	555	NaN	
+1781	854	708	519	565	564	138	275	653	738	NaN	151	77	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	597	659	232	252	603	650	NaN	NaN	621	NaN	501	567	NaN	NaN	716	NaN	
+1782	825	729	880	612	676	317	461	744	865	NaN	365	357	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	637	773	436	398	719	798	NaN	NaN	763	NaN	700	562	NaN	NaN	944	NaN	
+1783	1580	993	1066	926	1088	412	751	822	1007	NaN	874	579	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1137	1335	673	670	1048	991	NaN	NaN	1206	NaN	1145	1273	NaN	NaN	1294	NaN	
+1784	1814	1040	1055	1114	1133	419	680	906	927	NaN	876	739	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1350	1406	608	636	1023	1012	NaN	NaN	1199	NaN	1086	1324	NaN	NaN	968	NaN	
+1785	1047	610	767	707	646	417	598	880	731	NaN	745	408	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	761	951	582	621	950	902	NaN	NaN	747	NaN	419	346	NaN	NaN	600	NaN	
+1786	1687	841	547	1039	749	368	490	747	1059	NaN	440	294	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1006	1095	559	555	927	914	NaN	NaN	997	NaN	1061	948	NaN	NaN	599	NaN	
+1787	1070	634	582	1002	771	259	457	863	1045	NaN	359	223	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	937	1034	455	374	729	1011	NaN	NaN	1050	NaN	1104	869	NaN	NaN	663	NaN	
+1788	926	730	523	763	658	249	427	758	695	NaN	232	203	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	769	784	389	338	712	750	NaN	NaN	759	NaN	585	486	NaN	NaN	514	NaN	
+1789	1041	822	428	441	427	149	237	669	756	NaN	377	100	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	484	691	262	213	781	807	NaN	NaN	698	NaN	720	745	NaN	NaN	386	NaN	
+1790	1115	572	671	794	777	355	522	669	815	NaN	571	593	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	758	893	582	573	734	764	NaN	NaN	792	NaN	665	753	3580	NaN	902	NaN	
+1791	957	634	734	1105	989	459	595	945	824	NaN	681	505	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1021	1091	520	479	897	835	NaN	NaN	861	NaN	1098	1155	2828	NaN	1007	NaN	
+1792	934	756	663	1034	950	496	587	1091	875	NaN	836	576	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1029	991	608	574	1008	796	NaN	NaN	713	NaN	1166	1212	2957	NaN	1043	NaN	
+1793	1312	949	957	1449	1239	606	817	1239	817	NaN	963	714	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1165	1229	722	773	1192	1122	NaN	NaN	762	NaN	1200	1203	3143	4158	1337	NaN	
+1794	989	943	416	948	786	616	600	986	852	NaN	836	582	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	881	813	620	664	1060	913	NaN	NaN	634	NaN	665	560	1734	2123	773	NaN	
+1795	934	866	472	798	744	562	605	847	757	NaN	806	580	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	847	792	612	617	919	724	NaN	NaN	522	NaN	1019	1062	2154	2311	616	NaN	
+1796	953	887	637	741	729	323	526	844	675	NaN	734	450	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	845	799	391	390	846	681	NaN	NaN	736	NaN	895	705	2153	2000	688	NaN	
+1797	819	676	526	555	565	340	436	583	641	NaN	570	336	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	639	661	395	358	583	790	NaN	NaN	540	NaN	404	339	2471	2089	611	NaN	
+1798	934	590	558	611	584	503	534	805	681	NaN	921	538	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	791	842	575	518	743	726	NaN	NaN	533	NaN	839	865	2476	1894	746	NaN	
+1799	1177	644	812	896	761	491	484	957	926	NaN	767	464	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	960	983	523	450	874	776	NaN	NaN	723	NaN	708	690	2639	2124	1042	NaN	
+1800	1124	527	758	848	861	418	618	989	1066	NaN	543	365	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	909	806	690	553	891	809	NaN	NaN	777	NaN	479	377	2842	2002	1131	NaN	
+1801	1247	608	815	869	876	567	598	1129	1029	NaN	908	464	NaN	NaN	NaN	NaN	NaN	2758	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	850	770	681	609	1007	833	NaN	NaN	795	NaN	707	709	2834	1996	1344	NaN	
+1802	1245	653	971	1174	1109	509	702	1263	1365	NaN	895	605	NaN	NaN	NaN	NaN	NaN	2650	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1087	1060	747	734	1011	974	NaN	NaN	1195	NaN	606	525	2457	1941	1366	NaN	
+1803	386	253	689	567	502	303	400	943	781	NaN	423	224	NaN	NaN	NaN	NaN	NaN	1960	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	614	408	494	567	605	547	NaN	NaN	620	NaN	357	249	859	606	519	NaN	
+1804	1092	583	828	824	721	364	738	1080	903	NaN	786	623	NaN	NaN	NaN	NaN	NaN	2235	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	899	892	702	708	848	701	NaN	NaN	1018	NaN	915	783	405	448	796	NaN	
+1805	983	470	618	639	579	367	664	854	929	NaN	523	370	NaN	NaN	NaN	NaN	NaN	1629	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	679	688	740	592	665	716	NaN	NaN	644	NaN	459	355	908	870	686	NaN	
+1806	702	522	395	474	395	211	392	889	850	NaN	394	288	NaN	NaN	NaN	NaN	NaN	840	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	521	450	343	248	764	693	NaN	NaN	365	NaN	394	239	1059	777	434	NaN	
+1807	726	473	915	711	662	344	523	838	812	NaN	882	554	NaN	NaN	NaN	NaN	NaN	2369	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	688	863	541	426	806	745	NaN	NaN	592	NaN	956	960	959	800	943	NaN	
+1808	966	523	836	793	847	338	631	1344	1128	NaN	1003	625	NaN	NaN	NaN	NaN	NaN	2286	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	806	950	594	613	1205	856	NaN	NaN	518	NaN	763	883	2432	1462	811	NaN	
+1809	1281	621	1056	965	1041	394	830	1054	1056	NaN	975	735	NaN	NaN	NaN	NaN	NaN	2494	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	930	825	749	788	1247	811	NaN	NaN	666	NaN	856	766	2399	1672	1161	NaN	
+1810	1443	612	927	909	1032	421	765	1003	817	NaN	864	720	NaN	NaN	NaN	NaN	NaN	2503	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	960	851	787	725	1081	665	NaN	NaN	563	NaN	726	610	1697	1569	1296	NaN	
+1811	1693	581	970	732	751	447	798	1013	689	NaN	693	519	NaN	NaN	NaN	NaN	NaN	1686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	779	673	708	771	1060	549	NaN	NaN	643	NaN	471	391	1441	1182	1011	NaN	
+1812	1142	575	831	799	829	369	762	948	624	NaN	758	567	NaN	NaN	NaN	NaN	NaN	1476	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	810	695	690	790	968	545	NaN	NaN	747	NaN	630	654	1026	1037	922	NaN	
+1813	1074	670	722	574	551	427	779	590	577	NaN	541	426	NaN	NaN	NaN	NaN	NaN	1429	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	506	539	665	633	827	548	NaN	NaN	721	NaN	417	440	749	665	750	NaN	
+1814	1499	671	904	803	706	365	756	919	574	NaN	802	598	NaN	NaN	NaN	NaN	NaN	2081	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	740	725	690	643	887	501	NaN	NaN	924	NaN	549	558	903	754	961	NaN	
+1815	974	588	696	850	756	342	723	848	656	NaN	878	643	NaN	NaN	NaN	NaN	NaN	2117	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	743	691	665	622	874	650	NaN	NaN	886	NaN	476	519	1075	950	935	NaN	
+1816	1038	461	753	696	644	349	703	892	716	NaN	803	676	NaN	NaN	NaN	NaN	NaN	1552	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	750	803	665	670	910	627	NaN	NaN	731	NaN	482	641	1153	935	1059	NaN	
+1817	852	404	835	819	788	395	699	779	600	NaN	962	646	NaN	NaN	NaN	NaN	NaN	1117	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	750	831	652	683	786	558	NaN	NaN	510	NaN	531	570	847	627	989	NaN	
+1818	503	353	522	475	551	259	454	557	350	NaN	354	266	NaN	NaN	NaN	NaN	NaN	710	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	503	487	416	365	589	313	NaN	NaN	365	NaN	190	168	722	569	614	NaN	
+1819	361	236	789	441	529	283	447	673	460	NaN	408	184	NaN	NaN	NaN	NaN	NaN	916	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	534	597	437	356	642	412	NaN	NaN	499	NaN	107	109	838	469	711	NaN	
+1820	476	228	680	531	596	316	459	755	447	NaN	488	271	NaN	NaN	NaN	NaN	NaN	1500	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	462	479	476	468	759	429	NaN	NaN	590	NaN	354	393	829	635	784	NaN	
+1821	473	235	516	487	465	258	340	717	414	NaN	401	299	NaN	NaN	NaN	NaN	NaN	972	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	449	580	349	376	786	448	NaN	NaN	532	NaN	297	346	701	620	604	NaN	
+1822	422	173	506	495	477	176	275	574	404	NaN	329	158	NaN	NaN	NaN	NaN	NaN	772	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	401	439	310	197	563	331	NaN	NaN	371	NaN	67	80	680	570	381	NaN	
+1823	483	366	659	530	551	265	358	658	469	NaN	365	209	NaN	NaN	NaN	NaN	NaN	895	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	468	573	362	399	605	428	NaN	NaN	584	NaN	170	173	840	806	638	NaN	
+1824	680	522	717	594	632	198	324	881	562	NaN	506	335	NaN	NaN	NaN	NaN	NaN	1163	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	486	660	374	267	832	495	NaN	NaN	971	NaN	313	336	1045	1073	550	NaN	
+1825	783	560	615	633	603	149	261	860	549	NaN	372	333	NaN	NaN	NaN	NaN	NaN	1036	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	568	600	302	186	805	533	NaN	NaN	878	NaN	285	387	1379	1135	465	NaN	
+1826	828	488	620	634	632	176	310	856	638	NaN	402	315	NaN	NaN	NaN	NaN	NaN	1443	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	567	653	357	212	817	597	NaN	NaN	964	NaN	354	433	1656	1207	641	NaN	
+1827	246	281	797	880	811	162	378	942	702	NaN	442	213	NaN	NaN	NaN	NaN	NaN	1850	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	770	573	380	257	1014	662	NaN	NaN	984	NaN	296	244	1863	1163	925	NaN	
+1828	455	401	1219	857	751	276	541	794	748	NaN	799	613	NaN	NaN	NaN	NaN	NaN	2499	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	813	850	563	519	1026	719	NaN	NaN	1336	NaN	626	550	1376	910	1441	NaN	
+1829	550	610	971	938	901	286	459	964	700	NaN	641	507	NaN	NaN	NaN	NaN	NaN	2112	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	791	770	594	465	1031	646	NaN	NaN	1391	NaN	547	520	1545	851	1186	NaN	
+1830	650	678	982	1052	1129	322	586	1196	734	NaN	724	580	NaN	NaN	NaN	NaN	1669	1495	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	874	848	564	483	1263	683	NaN	NaN	1557	NaN	731	727	1297	883	1436	NaN	
+1831	888	519	1537	978	1045	502	725	1392	817	NaN	885	719	NaN	NaN	NaN	NaN	2077	1784	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	965	876	749	782	1316	712	NaN	NaN	1232	NaN	523	628	1366	960	1698	NaN	
+1832	980	691	1331	988	1066	441	599	1648	836	NaN	829	677	NaN	NaN	NaN	NaN	1769	1456	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	969	791	733	712	1607	719	NaN	NaN	1460	NaN	541	592	1448	1528	1322	NaN	
+1833	977	880	1261	935	1025	517	693	1292	758	NaN	809	766	NaN	NaN	NaN	NaN	1749	1551	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	885	937	677	741	1203	601	NaN	NaN	1275	NaN	689	731	1127	1234	1239	NaN	
+1834	1139	642	1011	812	841	433	621	1115	588	NaN	865	856	NaN	NaN	NaN	NaN	1307	1276	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	847	865	568	707	1010	561	NaN	NaN	1208	NaN	673	826	1009	967	979	NaN	
+1835	1194	820	1049	919	958	474	633	1082	582	NaN	978	853	NaN	NaN	NaN	NaN	2395	1842	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	927	970	658	743	1026	584	NaN	NaN	1180	NaN	824	878	1113	1261	1076	NaN	
+1836	790	523	874	623	835	354	500	965	491	NaN	527	512	NaN	NaN	NaN	NaN	1073	1053	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	779	791	522	478	889	453	NaN	NaN	1049	NaN	549	594	1115	1110	762	NaN	
+1837	1072	551	774	899	968	513	724	800	610	NaN	791	714	NaN	NaN	NaN	NaN	1944	1677	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	844	860	688	736	843	488	NaN	NaN	918	NaN	664	735	819	714	894	NaN	
+1838	830	387	580	467	454	328	451	703	406	NaN	482	472	NaN	NaN	NaN	NaN	1001	703	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	466	612	511	364	655	376	NaN	NaN	707	NaN	431	596	764	524	528	NaN	
+1839	1049	461	688	762	778	378	540	780	463	NaN	745	659	NaN	NaN	NaN	NaN	1386	1079	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	713	865	529	553	754	373	NaN	NaN	574	NaN	633	791	926	720	660	NaN	
+1840	807	337	549	522	601	270	425	598	341	NaN	577	531	NaN	NaN	NaN	NaN	1421	1027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	567	623	422	384	614	291	NaN	NaN	441	NaN	430	609	694	776	562	NaN	
+1841	732	332	590	531	463	233	523	419	217	NaN	570	416	NaN	NaN	NaN	NaN	1388	1152	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	482	407	531	387	408	231	NaN	NaN	456	NaN	393	644	612	666	423	NaN	
+1842	387	200	489	333	342	257	352	618	343	NaN	313	333	NaN	NaN	NaN	NaN	728	606	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	394	403	435	305	472	290	NaN	NaN	559	NaN	262	367	709	719	398	NaN	
+1843	841	393	911	521	551	400	572	667	381	NaN	674	543	NaN	NaN	NaN	NaN	1960	1480	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	563	608	616	495	555	299	NaN	NaN	879	NaN	684	491	1017	924	883	NaN	
+1844	949	416	1106	480	561	397	610	830	453	NaN	766	640	NaN	NaN	NaN	NaN	1979	1600	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	571	729	626	537	835	328	NaN	NaN	803	NaN	649	460	1160	1146	1243	NaN	
+1845	1062	392	1199	691	799	561	738	853	568	NaN	887	705	NaN	NaN	NaN	NaN	2118	2073	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	726	779	704	668	822	396	NaN	NaN	967	NaN	747	528	1402	1093	1212	NaN	
+1846	916	412	1225	801	900	580	806	890	582	NaN	710	683	NaN	NaN	NaN	NaN	1634	1601	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	843	824	846	630	967	440	NaN	NaN	898	NaN	714	599	1515	983	1366	NaN	
+1847	329	232	659	547	573	308	454	677	339	NaN	280	231	NaN	NaN	NaN	NaN	440	531	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	554	526	540	348	607	297	NaN	NaN	774	NaN	511	367	819	657	704	NaN	
+1848	632	329	876	750	751	344	560	780	488	NaN	595	617	NaN	NaN	NaN	NaN	1147	1020	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	805	818	554	400	744	395	NaN	NaN	968	NaN	621	489	849	866	992	NaN	
+1849	696	351	1030	586	551	473	506	757	532	NaN	897	989	NaN	NaN	NaN	NaN	1932	1352	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	708	832	586	537	893	356	NaN	NaN	1085	NaN	618	654	1129	922	1335	NaN	
+1850	609	341	882	572	592	480	584	718	464	NaN	825	674	NaN	NaN	NaN	NaN	1350	1509	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	634	624	532	502	811	398	NaN	NaN	894	NaN	639	628	1236	1050	1032	NaN	
+1851	386	294	615	331	372	NaN	436	549	397	NaN	453	299	NaN	NaN	NaN	NaN	538	572	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	345	434	434	340	604	354	NaN	NaN	679	NaN	326	399	901	871	559	NaN	
+1852	266	231	1111	543	536	NaN	555	305	320	NaN	846	567	NaN	NaN	NaN	NaN	803	687	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	564	740	492	197	344	260	NaN	NaN	768	NaN	530	575	1394	1160	1021	NaN	
+1853	479	400	908	756	731	NaN	493	916	452	NaN	843	570	NaN	NaN	NaN	NaN	1105	878	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	721	817	568	305	1007	346	NaN	NaN	753	NaN	643	641	943	936	1099	NaN	
+1854	497	409	726	759	600	NaN	317	626	368	NaN	707	424	NaN	NaN	NaN	NaN	840	566	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	646	757	429	209	767	290	NaN	NaN	909	NaN	746	636	781	698	942	NaN	
+1855	666	538	841	756	690	NaN	429	683	415	NaN	706	619	NaN	NaN	NaN	NaN	1263	1018	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	697	824	473	300	723	328	NaN	NaN	1277	NaN	802	852	757	742	1150	NaN	
+1856	758	505	992	874	677	NaN	542	602	468	NaN	916	708	NaN	NaN	NaN	NaN	2047	1340	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	857	973	529	290	666	393	NaN	NaN	960	NaN	679	742	823	986	1057	NaN	
+1857	498	357	803	724	593	NaN	457	472	431	NaN	585	453	NaN	NaN	NaN	NaN	1036	685	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	785	762	500	332	661	356	NaN	3527	690	NaN	542	533	824	818	831	NaN	
+1858	516	357	837	768	761	NaN	308	445	600	NaN	681	502	NaN	NaN	NaN	NaN	1190	962	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	773	931	361	280	559	393	4035	4457	852	NaN	512	449	856	1010	776	NaN	
+1859	299	246	626	510	516	NaN	165	377	473	NaN	247	238	NaN	NaN	NaN	NaN	443	325	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	623	702	185	210	477	337	2869	3634	506	NaN	496	336	654	768	449	NaN	
+1860	545	457	1151	664	694	NaN	417	474	516	NaN	859	847	NaN	NaN	NaN	NaN	954	1210	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2986	NaN	773	814	377	285	572	388	3913	5005	761	NaN	709	726	919	935	854	NaN	
+1861	237	176	678	490	553	NaN	141	442	332	NaN	333	266	NaN	NaN	NaN	NaN	413	506	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2601	NaN	555	448	207	162	532	272	3599	4210	756	NaN	387	404	732	686	465	NaN	
+1862	412	430	546	519	545	NaN	168	565	446	NaN	381	326	NaN	NaN	NaN	NaN	462	379	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2081	NaN	591	560	229	190	661	358	3195	2693	801	NaN	368	464	677	572	385	NaN	
+1863	332	254	788	550	518	NaN	129	501	382	NaN	415	323	NaN	NaN	NaN	NaN	540	433	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2703	NaN	457	664	169	124	622	327	3529	3330	828	NaN	419	430	517	606	543	NaN	
+1864	613	391	1290	670	597	NaN	320	609	391	NaN	710	466	NaN	NaN	NaN	NaN	866	543	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	3075	NaN	640	839	342	299	731	366	3279	3197	880	NaN	509	569	709	763	966	NaN	
+1865	607	319	1003	627	561	NaN	331	419	369	NaN	661	470	NaN	NaN	NaN	NaN	969	881	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2239	NaN	564	770	367	300	558	388	3180	3091	936	NaN	594	555	728	814	753	NaN	
+1866	746	500	1658	889	746	NaN	366	645	526	NaN	767	524	NaN	NaN	NaN	NaN	1636	1358	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1611	NaN	735	1162	387	315	757	440	3439	2813	1289	NaN	709	592	1059	931	1103	NaN	
+1867	920	661	1616	812	868	NaN	360	603	468	NaN	1182	779	NaN	NaN	NaN	661	2240	1588	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1648	NaN	718	1070	375	474	783	468	3013	3100	1294	NaN	698	827	933	847	1365	NaN	
+1868	870	567	1290	646	773	NaN	344	527	419	NaN	1097	761	NaN	NaN	NaN	705	1777	1557	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2504	NaN	640	970	325	399	604	409	2766	3888	1052	NaN	434	712	796	788	1098	NaN	
+1869	720	567	1257	662	780	NaN	302	527	380	NaN	1102	864	NaN	NaN	NaN	1263	1622	1686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2646	NaN	713	827	349	351	593	350	2873	3443	970	NaN	460	569	767	802	1071	NaN	
+1870	830	640	1341	629	711	NaN	285	527	402	NaN	837	566	NaN	NaN	NaN	1164	1477	1744	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1743	NaN	657	745	297	398	547	334	3224	3290	880	NaN	455	540	801	1163	1217	NaN	
+1871	795	567	1188	512	547	NaN	309	476	454	NaN	516	344	NaN	NaN	NaN	1228	1086	1284	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1705	NaN	533	603	327	322	567	312	2758	2308	787	898	490	610	758	987	1116	NaN	
+1872	564	484	660	388	323	NaN	185	531	354	NaN	425	268	NaN	NaN	NaN	1197	637	524	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1473	NaN	433	434	209	188	541	271	2436	1931	731	790	373	462	642	847	522	NaN	
+1873	491	422	696	364	386	NaN	224	460	342	NaN	447	345	NaN	NaN	NaN	1318	610	740	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1148	NaN	452	614	242	233	485	297	2269	2527	783	630	504	519	500	651	674	NaN	
+1874	448	424	817	371	382	NaN	171	382	253	NaN	699	322	NaN	NaN	NaN	1963	568	612	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1722	NaN	422	607	207	152	465	241	2658	2905	866	683	257	272	503	556	451	NaN	
+1875	616	469	885	589	604	NaN	274	412	281	NaN	904	513	NaN	NaN	NaN	2388	624	796	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2083	NaN	593	767	267	250	453	223	2468	2230	964	837	458	470	636	599	511	NaN	
+1876	541	490	659	559	610	NaN	210	435	298	NaN	636	318	NaN	NaN	NaN	2759	675	762	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1623	NaN	600	678	213	206	464	234	2420	2501	828	716	421	426	734	675	612	NaN	
+1877	882	719	1014	669	754	NaN	311	511	354	NaN	907	534	NaN	NaN	NaN	3193	1109	1578	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1575	NaN	698	787	284	359	582	362	2807	3396	830	756	562	648	1023	1065	1041	NaN	
+1878	857	599	1192	633	699	NaN	272	493	425	NaN	816	509	NaN	NaN	NaN	3068	1355	1496	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1779	NaN	704	735	251	290	557	318	2301	2906	752	677	484	547	930	998	1197	NaN	
+1879	1022	689	1022	614	741	NaN	303	528	349	NaN	727	567	NaN	NaN	NaN	1810	1446	1375	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1918	NaN	650	788	292	391	519	352	2220	2770	855	733	423	496	787	718	1127	NaN	
+1880	541	651	1151	616	637	NaN	218	500	326	NaN	475	272	NaN	NaN	NaN	2570	1079	895	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1606	NaN	629	823	204	207	465	322	2552	2063	678	747	521	465	803	752	832	NaN	
+1881	913	875	1662	688	720	NaN	440	538	320	NaN	779	623	NaN	NaN	NaN	2629	1483	1507	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	3016	NaN	687	947	352	417	493	305	2011	2832	924	690	561	589	951	1120	1458	NaN	
+1882	865	799	1125	775	815	NaN	391	543	401	NaN	896	667	NaN	NaN	NaN	2524	1742	2119	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2065	1845	713	912	385	319	579	396	1963	1916	1029	797	527	523	906	1064	1262	NaN	
+1883	983	801	1038	668	701	NaN	272	487	406	NaN	848	576	NaN	NaN	2853	3122	1014	1378	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1878	2174	650	893	315	254	487	379	1579	2213	790	639	518	598	805	950	1275	NaN	
+1884	836	738	1008	663	678	NaN	400	431	431	NaN	931	720	NaN	NaN	2978	2695	1118	1323	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2095	2174	637	968	394	340	490	433	1655	2287	830	794	651	533	830	991	1130	NaN	
+1885	834	799	1107	626	631	NaN	341	522	413	NaN	1060	853	NaN	NaN	3202	2988	1536	1158	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2336	2812	636	961	317	312	499	376	1647	3067	1078	807	650	661	949	1100	1211	NaN	
+1886	652	705	679	566	569	NaN	263	493	443	NaN	644	368	NaN	NaN	2482	1885	739	663	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2332	2082	516	685	262	214	534	433	2101	3529	907	722	663	498	813	895	785	NaN	
+1887	472	581	667	627	550	NaN	292	331	284	NaN	507	298	NaN	NaN	2128	1748	717	630	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2193	1322	516	607	247	224	386	285	1902	2712	753	666	623	517	893	1012	670	NaN	
+1888	726	705	721	629	522	NaN	301	474	388	NaN	610	359	NaN	NaN	2185	1944	769	834	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2562	1852	634	721	301	315	458	375	1961	2516	868	783	590	587	914	984	761	NaN	
+1889	904	593	618	639	594	NaN	312	494	433	NaN	855	511	NaN	NaN	2369	1953	1096	1023	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2728	1410	555	730	313	226	384	379	2128	2625	923	819	713	583	1004	1009	742	511	
+1890	929	545	668	698	742	NaN	369	473	522	NaN	934	586	NaN	NaN	2205	1612	1050	1236	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2705	1574	694	904	339	311	488	482	2174	2609	1221	913	949	599	1102	973	735	435	
+1891	1120	628	916	697	791	NaN	458	583	541	NaN	883	655	NaN	NaN	2033	1693	1180	1395	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2143	1816	726	860	420	377	537	510	1805	1921	963	901	914	571	992	1079	1093	706	
+1892	909	546	536	505	544	NaN	343	450	436	NaN	776	504	NaN	NaN	1792	1785	1161	1347	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2163	1408	593	809	341	266	455	434	1594	1781	760	683	632	415	895	887	769	410	
+1893	487	421	364	358	420	NaN	199	363	323	NaN	358	251	NaN	NaN	1258	1518	894	732	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1364	869	401	465	215	121	334	365	1229	1014	598	491	580	348	573	634	512	268	
+1894	482	467	568	478	595	NaN	263	460	460	NaN	418	300	NaN	NaN	2010	1974	666	991	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1615	1545	527	678	252	258	385	454	1476	1737	588	596	641	428	707	802	625	372	
+1895	521	559	664	461	542	NaN	266	447	504	NaN	479	331	NaN	NaN	1800	1600	782	1024	1059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2217	2224	544	669	241	172	468	453	1709	1863	611	649	622	347	807	711	579	318	
+1896	676	666	1098	520	480	NaN	311	485	623	NaN	703	413	NaN	NaN	1841	1530	1117	1356	678	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1493	1490	519	777	297	272	425	525	1287	1623	701	720	715	551	1063	894	1133	613	
+1897	672	587	755	578	564	NaN	379	510	537	NaN	771	422	NaN	NaN	2334	2006	1274	1403	1070	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1670	1960	503	841	365	270	493	482	1096	1538	732	853	720	571	1005	914	824	566	
+1898	1092	875	1478	687	535	NaN	369	537	661	NaN	929	565	NaN	NaN	3034	2800	2135	2311	1229	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2526	2735	505	879	310	309	578	596	958	1875	881	909	759	621	1452	1335	1386	710	
+1899	980	888	1357	504	482	NaN	304	518	633	NaN	756	460	NaN	NaN	2119	2148	1425	1556	529	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2609	2160	452	758	311	246	509	555	1092	1434	719	793	768	522	1249	1209	1142	562	
+1900	1122	1185	1079	508	451	NaN	265	490	611	NaN	592	472	NaN	NaN	1381	1191	868	1212	537	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1935	1309	405	556	259	231	480	648	1244	1091	558	688	473	501	981	711	890	499	
+1901	878	858	1092	446	436	NaN	245	378	386	NaN	722	435	NaN	NaN	1941	1444	824	1085	622	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2486	1631	391	596	259	208	353	403	1057	1075	627	652	403	385	763	701	992	523	
+1902	728	962	922	459	519	NaN	319	402	604	NaN	690	526	NaN	NaN	1837	1535	884	777	550	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2118	1658	440	714	335	269	397	505	1202	1425	675	747	569	544	986	822	900	490	
+1903	778	971	815	371	380	NaN	348	365	628	NaN	766	551	NaN	NaN	2005	1721	835	1161	612	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1924	2006	354	808	354	364	434	570	1313	1673	856	849	672	613	933	791	824	455	
+1904	458	493	355	291	316	NaN	237	284	393	NaN	304	296	NaN	NaN	1327	1246	301	561	266	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1090	915	273	397	229	220	254	371	598	672	358	497	288	313	832	668	474	279	
+1905	894	774	967	535	503	NaN	409	419	591	NaN	894	598	NaN	NaN	1933	1200	575	936	417	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1956	1650	527	910	383	392	458	545	1090	1119	834	959	482	575	982	949	1249	624	
+1906	990	840	890	684	586	NaN	406	404	688	NaN	926	647	NaN	NaN	2138	1597	986	1077	411	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2231	2076	613	1080	418	440	468	579	1112	1193	881	996	635	592	1233	1431	1199	717	
+1907	1244	983	1073	756	679	NaN	442	555	800	NaN	1184	806	NaN	NaN	1972	1439	1240	1582	550	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2623	2201	750	1247	486	484	605	710	1220	1472	963	1103	698	673	1806	1330	1417	748	
+1908	1335	1037	1308	731	723	NaN	426	485	549	NaN	1081	688	NaN	NaN	1986	1614	1254	1498	875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2907	2466	629	948	446	384	619	521	1424	1830	998	1040	751	648	1757	1367	1300	888	
+1909	1141	830	951	602	521	NaN	392	485	597	NaN	800	636	NaN	NaN	1726	973	1063	1052	552	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1696	1231	624	934	368	375	510	529	1117	1226	805	939	717	541	1061	1021	847	704	
+1910	1160	271	827	503	499	NaN	391	460	554	NaN	769	727	NaN	NaN	1750	1025	722	915	610	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2267	1542	586	927	394	415	546	474	1006	995	867	1079	603	598	1140	1012	907	590	
+1911	1380	292	1439	622	537	NaN	469	452	534	NaN	772	555	NaN	NaN	2439	1799	876	949	1450	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2565	1985	660	931	462	442	557	359	1077	1184	991	1123	719	598	1483	1305	1060	655	
+1912	1482	301	1458	581	512	NaN	448	385	551	NaN	868	503	NaN	NaN	2467	1751	1077	1311	1605	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2428	1884	586	920	467	522	545	382	1035	1124	877	1003	735	575	1422	1611	1251	824	
+1913	1103	400	1047	459	460	NaN	321	486	591	NaN	926	627	NaN	NaN	1887	1155	686	844	637	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2039	1713	543	673	366	387	511	467	1133	941	755	671	754	516	1050	1153	910	675	
+1914	981	412	865	443	405	NaN	341	437	551	NaN	1010	551	NaN	NaN	1993	1202	790	689	1125	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2194	1858	501	634	406	297	483	480	1138	1006	748	678	630	442	1064	1186	896	486	
+1915	1163	491	1340	514	464	NaN	551	465	822	NaN	998	653	NaN	NaN	2563	1344	1148	951	1185	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2465	2097	574	856	560	598	513	641	948	1571	842	745	604	553	1235	1379	1334	696	
+1916	1636	775	1409	586	511	NaN	475	487	674	NaN	1125	646	NaN	NaN	2593	1213	734	794	802	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2533	1499	567	756	465	401	571	520	919	1770	734	792	681	573	1575	1282	1237	594	
+1917	1149	514	1280	623	555	NaN	529	456	500	NaN	960	733	NaN	NaN	2317	1405	794	997	1087	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2172	1652	587	677	523	382	555	443	776	1069	680	826	596	566	1468	1355	1429	759	
+1918	1135	645	1135	541	484	NaN	479	379	664	NaN	942	638	NaN	NaN	2487	1658	738	1062	1150	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2320	1825	562	627	470	351	543	492	936	1255	650	797	594	440	1072	1190	1184	671	
+1919	1296	881	1411	727	600	NaN	477	480	709	NaN	1265	786	NaN	NaN	2494	1926	771	1078	1007	NaN	NaN	NaN	NaN	NaN	2430	NaN	1985	2091	658	821	464	349	619	568	1033	1677	766	982	787	483	1077	1416	1409	763	
+1920	1063	901	1011	542	574	NaN	435	489	640	NaN	899	569	2008	NaN	2102	1434	584	717	647	NaN	NaN	NaN	NaN	NaN	2063	NaN	1517	931	493	786	439	449	644	538	869	1074	713	1002	713	474	924	933	1047	689	
+1921	639	639	738	398	403	NaN	273	428	655	NaN	830	514	2390	NaN	1424	1143	265	351	279	NaN	NaN	NaN	NaN	NaN	1479	NaN	1582	748	344	381	286	225	644	479	742	854	493	606	538	395	625	671	726	465	
+1922	808	844	1518	578	687	NaN	531	448	650	NaN	855	423	2449	NaN	2021	1311	641	944	468	NaN	NaN	NaN	NaN	NaN	1915	NaN	2365	1175	591	787	439	422	680	479	962	1136	593	867	685	505	951	1132	1185	510	
+1923	625	580	1095	450	515	NaN	345	388	491	NaN	859	507	2293	NaN	1499	1093	617	614	395	NaN	NaN	NaN	NaN	NaN	1802	NaN	2117	1168	453	533	363	258	487	425	896	1072	675	877	502	420	800	706	889	394	
+1924	539	789	1363	595	690	NaN	505	408	577	NaN	1029	708	3363	NaN	1603	1207	951	845	911	NaN	NaN	NaN	NaN	NaN	2245	NaN	2183	1174	691	836	505	450	558	484	886	1032	827	917	734	644	791	1209	1176	638	
+1925	542	692	643	571	603	NaN	346	441	652	NaN	946	574	2426	NaN	1214	1027	924	888	758	542	NaN	NaN	NaN	NaN	2882	NaN	2377	1294	532	547	398	286	587	525	776	1272	784	874	578	550	898	952	949	506	
+1926	778	782	1430	706	664	NaN	464	496	601	NaN	1037	596	1626	NaN	2124	1450	1163	1047	1048	778	NaN	NaN	NaN	NaN	2724	NaN	2772	1616	626	731	457	398	598	624	1069	1545	786	882	633	589	966	1221	1470	733	
+1927	1438	917	1690	661	619	NaN	561	573	924	NaN	1085	793	2885	3567	2284	1624	1214	1353	1271	1105	NaN	NaN	NaN	NaN	2302	NaN	3320	1803	615	677	563	506	846	648	1244	2052	857	1048	635	496	1029	1668	1701	1164	
+1928	1229	793	1368	667	697	NaN	472	527	776	NaN	906	626	2425	2440	2044	1473	985	784	779	1009	NaN	NaN	NaN	NaN	2217	NaN	3118	1569	649	677	477	421	679	690	1103	2050	728	895	618	445	843	918	1456	854	
+1929	1021	666	953	514	516	NaN	341	416	503	NaN	845	581	2251	2705	1395	1292	685	548	465	1039	NaN	NaN	NaN	NaN	2022	NaN	2366	1107	501	474	289	236	555	389	754	1356	579	615	951	550	784	775	982	480	
+1930	1201	742	1397	704	684	NaN	502	446	754	NaN	949	724	1643	1461	1899	1252	1140	980	749	1283	NaN	NaN	NaN	NaN	1936	NaN	3065	1327	634	879	592	619	633	617	870	1303	710	612	1145	935	1097	1429	1555	959	
+1931	1190	752	1285	601	625	NaN	534	493	602	NaN	887	679	1313	1284	1367	1321	1132	961	726	1161	NaN	NaN	NaN	NaN	1857	NaN	2791	1513	624	767	463	346	542	469	906	1380	667	803	744	567	815	1197	1515	905	
+1932	1425	817	1385	522	592	NaN	470	461	531	NaN	843	599	2175	1544	1690	1361	1565	1257	519	1117	NaN	NaN	NaN	NaN	1740	NaN	3075	1388	495	800	425	393	536	412	778	1106	750	673	732	547	902	1320	1364	833	
+1933	1337	940	1159	630	666	NaN	565	654	723	NaN	918	641	1253	942	2018	1378	1260	1436	730	942	NaN	NaN	NaN	NaN	2154	NaN	3233	1641	612	740	543	346	736	590	809	1617	786	590	810	677	982	1364	1145	784	
+1934	1293	771	1004	493	531	NaN	430	511	661	NaN	718	543	1124	755	1543	904	982	1042	969	813	NaN	NaN	NaN	NaN	2431	NaN	3138	1260	484	443	418	237	608	501	922	1501	672	670	714	439	943	1005	917	639	
+1935	1248	781	1302	587	644	NaN	494	624	680	NaN	834	526	1040	980	1593	1299	1127	1288	736	532	NaN	NaN	NaN	NaN	2181	NaN	3465	1540	612	471	493	357	665	518	822	1472	690	726	713	487	1258	1616	1689	711	
+1936	1119	812	568	681	670	NaN	539	666	647	NaN	867	635	740	691	1321	1229	990	1002	898	1047	NaN	NaN	NaN	NaN	1635	NaN	2065	1379	628	535	517	340	754	566	809	1130	759	896	779	450	926	1122	668	596	
+1937	826	674	385	593	661	NaN	465	552	519	NaN	663	420	721	818	1214	1358	817	782	681	722	NaN	NaN	NaN	NaN	1774	NaN	1751	1474	585	516	420	300	579	392	691	948	618	898	699	480	826	894	499	385	
+1938	754	604	482	504	544	NaN	535	508	649	NaN	622	461	1046	580	1207	1477	650	605	573	889	NaN	NaN	NaN	NaN	1904	NaN	1738	1961	474	456	451	239	588	448	657	838	758	903	622	462	889	1032	583	408	
+1939	970	742	515	476	512	NaN	398	578	628	NaN	808	502	1010	684	761	1001	837	646	702	1032	NaN	NaN	NaN	NaN	1650	NaN	1942	1560	453	437	353	218	610	534	820	1294	675	915	713	505	589	705	604	401	
+1940	1039	680	474	479	532	NaN	452	446	459	NaN	680	453	1149	1773	868	1139	640	593	800	1036	NaN	NaN	NaN	NaN	2063	1183	1843	1589	469	480	361	220	499	404	780	1147	598	775	575	391	634	842	534	352	
+1941	1220	831	960	648	703	NaN	695	563	603	NaN	862	604	2012	948	1417	1578	896	1122	1393	1397	NaN	NaN	NaN	NaN	2260	1970	2966	2217	662	681	565	390	704	493	760	1269	772	965	617	529	924	1409	992	635	
+1942	1041	776	856	540	507	NaN	507	496	566	NaN	630	513	1150	1397	895	1104	883	946	1311	979	NaN	NaN	NaN	NaN	1610	789	1966	1471	558	461	459	311	511	441	727	947	768	977	649	595	646	990	912	620	
+1943	1161	956	428	403	454	NaN	381	364	290	NaN	458	427	845	1023	794	891	629	613	1292	840	5245	NaN	NaN	NaN	1893	709	2337	1532	455	337	317	171	417	285	608	700	500	622	580	393	585	612	435	345	
+1944	1292	1365	1098	467	532	NaN	507	455	429	NaN	664	466	1150	923	1036	1394	1017	1347	1387	1008	4177	NaN	NaN	NaN	2077	994	2110	1424	555	478	476	218	531	358	598	970	637	807	660	426	1179	991	809	485	
+1945	1324	1263	898	525	547	NaN	464	555	443	NaN	653	509	1054	900	930	986	1078	1168	1026	1015	3669	NaN	1872	NaN	2232	840	2221	1533	558	525	409	261	560	441	782	868	788	878	747	556	888	900	791	583	
+1946	1110	994	406	313	337	NaN	354	432	427	NaN	291	261	688	734	647	811	531	546	561	501	2673	NaN	659	NaN	1412	1151	1710	1089	326	389	269	153	491	380	446	398	512	576	498	424	522	491	414	268	
+1947	1323	1321	1246	725	741	NaN	583	541	556	NaN	720	481	1267	1010	1540	1548	1521	1448	1526	1332	4216	NaN	1475	NaN	2584	2195	2459	1905	658	731	532	369	678	533	811	856	807	948	803	595	1124	1414	1313	831	
+1948	1033	987	769	639	661	NaN	384	491	511	NaN	638	444	1163	1075	1430	1348	1304	1400	1522	1062	3715	NaN	1276	3127	2132	1405	2375	1560	666	667	445	296	540	530	891	1361	803	1074	636	533	793	813	983	768	
+1949	996	855	566	582	591	NaN	474	473	399	NaN	660	513	1055	1059	1212	1310	911	890	1364	889	3197	NaN	1645	3669	1918	1632	1997	1493	572	614	425	259	517	352	972	1271	824	962	671	655	872	701	756	574	
+1950	541	686	479	449	492	NaN	315	413	334	NaN	358	300	853	790	930	992	965	667	818	444	1459	1056	1069	1827	1314	836	1669	1301	454	433	330	182	456	303	766	666	625	803	506	439	880	658	622	414	
+1951	642	670	313	364	378	NaN	262	398	358	NaN	275	247	822	698	761	815	620	539	763	485	947	1315	534	705	1405	780	1224	900	344	324	260	138	451	360	735	778	498	624	587	392	755	535	364	347	
+1952	568	691	480	416	492	NaN	339	388	319	NaN	522	379	680	806	771	955	808	669	1160	636	2284	2132	1105	1255	1468	1775	1620	1157	486	436	322	284	442	350	578	601	544	465	718	539	703	563	561	596	
+1953	802	827	698	389	431	NaN	252	375	385	NaN	487	364	989	1028	925	1091	833	747	1317	588	2707	2322	953	1207	1627	1309	1358	1366	421	457	227	177	497	442	620	605	521	378	651	483	676	520	711	618	
+1954	804	740	671	321	394	NaN	234	403	357	NaN	347	325	1223	1118	831	838	869	823	883	521	2902	2187	381	720	1607	906	1148	1289	392	348	225	205	451	425	708	648	335	203	509	408	638	472	764	600	
+1955	544	597	661	446	433	NaN	219	363	299	NaN	268	208	946	1066	792	970	1011	730	786	589	2744	2753	687	879	1693	1510	1196	1284	450	368	172	156	405	314	760	1042	390	312	579	408	635	444	662	527	
+1956	1087	1016	996	669	606	NaN	322	520	472	NaN	488	340	702	915	1347	1243	1119	1074	924	911	3964	3854	1275	1471	1811	1809	1802	1495	646	743	297	281	629	459	1057	1142	517	372	788	515	886	779	983	919	
+1957	1018	861	788	667	606	NaN	271	461	341	NaN	491	334	1059	1067	1223	1354	790	1028	1042	1167	4133	3739	2643	3328	1593	1461	1723	1458	620	685	220	210	579	336	1081	1621	421	330	771	478	935	834	827	907	
+1958	1011	769	1027	615	660	NaN	358	468	428	NaN	534	398	1236	1393	1415	1370	1212	1201	1101	1203	4692	4208	2266	2755	1813	1242	2090	1590	703	729	358	374	521	428	912	1272	632	431	729	611	877	852	1143	1136	
+1959	594	590	803	490	480	NaN	238	555	397	NaN	293	243	938	1855	1456	1442	807	916	888	1045	3184	3048	2328	3009	1299	1159	1855	1312	401	469	250	188	642	434	797	1191	455	291	636	430	879	702	793	868	
+1960	860	726	538	645	552	NaN	406	606	330	NaN	548	437	1033	1909	1166	1347	1075	934	749	859	3323	3878	1981	1693	1302	1330	1928	1384	486	523	368	305	658	354	1057	1242	549	436	857	616	831	843	724	908	
+1961	667	677	392	491	416	NaN	228	527	341	NaN	389	437	928	1241	781	1014	860	860	747	757	3255	3602	1574	1775	1328	1670	1757	1027	405	426	200	143	577	310	868	1420	451	403	673	416	814	745	502	655	
+1962	1024	712	586	481	460	NaN	286	557	330	NaN	551	602	955	1667	949	931	997	1100	875	873	3303	3716	1934	1792	1708	1453	2270	982	395	490	292	253	649	439	984	1493	493	433	549	609	836	791	732	848	
+1963	887	669	515	409	385	NaN	351	652	384	NaN	407	368	825	1470	1017	842	1126	1463	797	623	3478	4229	1660	1318	1378	1795	2351	1074	359	417	277	211	666	513	799	1287	402	384	587	487	775	698	560	650	
+1964	599	519	707	454	432	NaN	372	504	288	NaN	448	363	1473	1586	1383	933	635	1025	1197	799	3021	3253	3136	2824	1730	1497	1881	1252	397	426	319	295	565	295	427	956	371	388	418	276	757	655	639	690	
+1965	704	596	867	461	465	NaN	326	614	370	NaN	519	508	1740	1639	1661	1021	973	923	1467	762	3357	3405	2993	3488	1480	972	1627	1384	474	498	328	253	647	394	713	987	521	493	436	460	643	668	926	762	
+1966	944	697	969	472	489	NaN	409	658	499	NaN	570	572	1249	4108	1414	1136	860	1099	1107	702	4294	4031	2671	3098	1648	1401	1489	1421	545	515	399	360	727	505	988	1675	730	632	723	618	634	691	1024	760	
+1967	731	478	872	325	313	NaN	313	494	348	NaN	397	338	1817	3834	1483	985	729	784	1020	584	2894	2930	3211	3184	1584	1119	1462	902	414	386	262	178	652	385	875	929	389	341	434	269	743	835	856	927	
+1968	1030	782	1125	408	450	NaN	419	517	332	NaN	425	450	1656	3075	1447	1013	957	870	1140	528	3442	3209	2851	3227	1802	1331	1942	1187	530	511	428	341	517	368	1083	1109	473	434	603	411	1136	1082	1173	931	
+1969	797	521	886	412	343	NaN	297	413	320	NaN	410	473	1914	2924	1404	1249	716	850	1033	481	2642	2067	3044	2849	1730	1260	1362	901	472	347	287	212	412	368	1021	1128	415	300	662	464	810	660	968	772	
+1970	756	535	944	492	485	NaN	361	380	300	NaN	402	452	1668	2117	1493	1062	1000	1007	1141	508	3230	3094	3285	2765	1399	1188	1740	1097	549	381	314	307	406	339	713	833	308	193	423	364	1008	965	1073	795	
+1971	255	173	398	183	156	NaN	140	333	219	NaN	135	178	1023	1077	870	589	480	816	588	324	1277	1376	829	1146	704	650	1047	494	229	226	112	125	329	286	437	565	145	141	285	155	774	782	477	481	
+1972	755	390	948	430	392	NaN	220	343	219	NaN	318	447	1588	1430	980	601	542	763	903	423	2897	3977	1955	2728	1072	619	1319	793	435	438	257	194	348	271	654	462	359	352	422	400	989	1472	1010	722	
+1973	671	344	961	562	522	NaN	294	336	277	NaN	501	454	1817	1812	1102	866	802	910	919	517	3504	3699	2219	2334	1379	750	1537	1054	464	556	301	283	377	266	794	672	485	393	547	386	731	1087	981	726	
+1974	526	337	531	381	375	NaN	201	386	298	NaN	139	281	1224	1252	784	676	681	607	498	284	1881	2527	1106	1286	1147	611	1222	880	372	386	179	164	413	307	693	748	459	411	676	397	553	714	484	456	
+1975	615	281	930	481	435	NaN	312	353	224	NaN	491	502	1840	1919	1102	938	746	817	822	602	2758	3556	2867	2856	1312	792	1642	1104	488	509	295	274	325	239	745	729	628	473	765	393	910	1123	947	848	
+1976	569	330	717	449	372	NaN	292	342	229	NaN	363	385	1995	2141	1028	950	678	694	1022	573	2468	3052	2479	2506	1183	613	1749	948	522	506	216	191	298	258	659	672	583	464	722	389	733	1012	857	596	
+1977	496	322	823	387	355	NaN	216	328	236	NaN	201	304	1893	1690	1024	805	915	747	793	483	2198	2641	2236	2639	1079	543	1517	842	453	488	176	181	384	266	785	778	610	408	759	329	713	1012	980	696	
+1978	566	339	877	475	342	NaN	335	358	265	NaN	409	363	2248	1771	1300	878	750	1054	962	544	2302	2712	2915	2981	1520	1342	1920	1053	589	507	274	259	399	301	723	1040	614	527	578	323	853	1371	1002	863	
+1979	685	376	1010	551	498	NaN	320	363	301	NaN	492	478	2413	2733	1128	798	1028	1516	1118	505	3186	3739	3500	2915	1744	1337	2073	1074	726	509	308	306	512	307	855	1545	775	670	797	490	817	1235	1030	799	
+1980	613	355	986	490	489	NaN	327	341	338	NaN	523	420	1766	2292	899	681	869	1460	967	411	2743	3330	2763	2476	1527	865	1823	1009	665	492	286	295	416	309	804	1496	713	732	723	480	658	960	885	640	
+1981	530	360	1004	580	507	NaN	306	376	323	NaN	529	290	1795	2304	910	549	796	1231	1045	341	2519	3626	2716	3089	1535	1073	1952	971	702	456	247	302	372	327	554	1242	656	632	749	490	621	987	881	692	
+1982	627	444	986	653	650	NaN	321	501	395	NaN	406	300	2046	2227	758	759	886	1199	1027	463	2623	3109	2706	3214	1381	1211	1987	1296	777	486	321	275	555	472	964	1504	755	602	673	481	717	1137	976	804	
+1983	745	459	1250	681	760	NaN	414	589	506	NaN	583	473	1820	2486	1496	976	939	1306	1134	627	2759	3151	3240	3372	1425	1235	2330	1318	866	484	347	299	634	553	916	1155	862	698	826	581	747	1219	1184	1078	
+1984	649	392	988	618	645	NaN	373	526	407	NaN	359	406	1730	2075	1540	935	951	1230	1151	635	3015	2831	2910	3038	1525	1342	1702	1105	801	446	342	337	521	417	775	1187	864	625	627	595	792	1727	934	859	
+1985	757	398	926	673	642	NaN	516	509	456	NaN	844	507	2013	1859	1239	867	933	1381	1432	745	3811	3204	3121	3208	1331	1083	1747	1122	818	445	469	421	474	475	846	1310	813	655	664	631	790	1639	924	1138	
+1986	919	516	970	716	743	NaN	565	492	377	NaN	463	380	2320	2126	1319	705	1000	1248	1452	659	3792	3449	2090	2114	1455	1325	1654	1381	847	413	497	393	490	397	679	1788	852	795	730	621	1013	1902	927	1117	
+1987	555	393	888	757	714	NaN	563	508	474	NaN	465	475	2008	1929	1381	887	829	1138	1564	825	2767	2420	2810	2543	1351	1055	1690	1293	877	474	537	470	532	532	628	1443	888	865	665	616	918	1381	908	1124	
+1988	646	357	1532	813	822	NaN	660	672	663	NaN	NaN	545	2623	2715	1576	1071	1409	1700	2250	1153	4418	3424	3705	3959	1843	1851	2486	1505	975	485	626	450	702	621	671	1886	961	857	784	632	1306	2301	1404	1769	
+1989	559	403	684	659	602	NaN	498	583	620	NaN	NaN	NaN	1486	1995	998	739	820	808	867	520	1982	1885	2893	2467	1447	1281	1925	1216	699	348	485	345	521	594	448	1148	796	710	624	561	982	1420	708	850	
+1990	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1704	2085	1050	769	679	660	792	497	1801	1408	1993	1553	1648	1159	1720	1044	401	228	326	244	228	315	422	896	427	288	410	291	722	1124	642	704	
+1991	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1960	2390	1193	1003	990	1028	1043	798	2034	1847	2587	1979	1504	1434	1855	1384	656	445	485	329	468	515	548	1155	767	748	728	598	766	1096	802	979	
+1992	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1809	2285	1432	946	883	949	1217	771	2829	2345	3488	2909	1414	1282	2441	1319	1053	552	498	463	568	678	514	1226	956	921	711	638	926	1263	928	1228	
+1993	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2231	2534	1475	949	1100	1076	1123	643	2402	2312	3273	2545	1445	1142	2116	1388	841	541	493	437	489	533	778	1226	867	888	726	583	932	1239	993	1148	
+1994	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2096	2621	1207	677	791	708	1133	407	1413	1384	2071	1589	1250	1015	1454	863	655	388	360	260	463	434	487	641	378	419	374	287	680	794	672	844	
+1995	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1755	2979	1099	743	1698	980	1225	717	2389	2553	3008	2271	1438	1338	2049	1470	751	449	422	463	478	491	461	623	670	645	435	361	939	1460	777	946	
+1996	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	783	1303	708	665	650	457	497	275	946	1072	1572	1259	711	586	722	569	161	109	163	151	182	245	170	333	65	69	38	0	659	1028	247	323	
+1997	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1786	2388	824	836	713	590	777	509	1218	1186	1663	1446	1143	935	1507	1096	494	362	327	309	337	189	311	619	578	581	533	473	667	847	486	630	
+1998	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1744	2247	1083	1049	1137	748	954	673	1853	2066	1556	1340	1121	1114	1857	1287	638	403	372	312	478	268	382	699	633	582	527	409	877	931	641	676	
+1999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1836	2165	715	818	840	838	772	567	2452	2169	1471	1211	1833	1842	1396	1073	369	236	133	153	461	449	349	849	359	316	304	161	802	757	403	445	
+2000	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1428	1717	1069	944	493	458	567	400	1603	1339	1200	1363	1454	1183	1150	1006	460	314	342	289	417	427	429	880	255	185	234	196	847	931	560	745	
+2001	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1817	2399	1106	1013	922	879	1113	746	2354	1874	2085	2778	1215	1227	1679	1386	476	421	341	279	393	288	404	1020	757	696	643	391	1141	1224	688	787	
+2002	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	485	846	631	720	320	231	302	150	659	517	629	958	300	418	500	408	104	95	126	92	76	74	127	379	124	122	69	30	57	831	152	218	
+2003	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1364	1682	799	847	614	622	637	510	1162	1052	1035	825	1073	1061	1384	967	298	293	233	222	279	313	305	480	467	373	342	285	615	708	377	570	
+2004	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1309	2041	1053	1075	647	607	940	595	1097	944	1063	719	1136	1215	1125	932	263	329	308	230	329	257	345	808	541	464	373	307	565	1054	483	552	
+2005	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1345	2197	1054	1052	917	852	1264	753	1241	1157	1738	1597	1269	1907	1528	1199	367	365	290	320	370	354	440	830	654	616	504	380	968	885	508	606	
+2006	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1455	2036	655	776	492	363	906	674	858	767	1186	1099	1384	1407	1036	1098	239	204	258	239	233	240	298	527	275	215	123	138	712	548	200	318	
+2007	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	1545	2157	1176	1300	1220	847	1428	967	1495	1359	1911	3179	1526	2040	1259	875	519	461	387	340	457	420	394	862	660	542	377	366	437	1268	520	743	
+2008	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	2111	2349	1309	1468	1863	1346	2579	1422	3001	4379	3990	4223	2308	2870	2240	1727	760	523	601	483	769	604	617	1621	1154	1012	761	868	882	1607	768	885	
