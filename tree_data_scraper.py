@@ -1,5 +1,6 @@
-import os
 import pandas as pd
+import numpy as np
+import os
 import io
 
 # Collect all the files into one list
@@ -7,6 +8,8 @@ root_files = os.listdir('trees_all')
 sub_files_to_flatten = [[f'{r}/{f}' for f in os.listdir(f'trees_all/{r}')] for r in root_files]
 #Flatten list of files into one list
 sub_files = [f'trees_all/{item}' for sublist in sub_files_to_flatten for item in sublist]
+# Get rid of non noaa files
+sub_files = [file for file in sub_files if 'noaa' in file]
 print(f'{len(sub_files)} files')
 
 cols = ['year','avg_tree_ring_width','lat','long','elevation','tree_species','organism_group']
@@ -22,7 +25,7 @@ for fl in sub_files:
     years,avg = [],[]
     # Tree ring and meta data from the file
     with open(fl,'r') as f:
-        lines = f.readlines()
+        lines = f.read().splitlines()
         for i in range(len(lines)):
             if lines[i].startswith('# Northernmost_Latitude:'):
                 north_lat = float(lines[i].split(' ')[2])
@@ -39,7 +42,10 @@ for fl in sub_files:
             elif lines[i].startswith('# Most_Recent_Year:'):
                 latest_year = int(lines[i].split(': ')[1])
             elif lines[i].startswith('# Elevation:'):
-                elevation = float(lines[i].split(': ')[1])
+                try:
+                    elevation = float(lines[i].split(': ')[1])
+                except ValueError:
+                    elevation = np.nan
             elif lines[i].startswith('age'):
                 #Should be the last thing found
                 extracted = ' '.join(lines[i:])
@@ -47,7 +53,9 @@ for fl in sub_files:
                 df_data = pd.read_csv(data, sep="\t")
                 age_label = df_data.columns[0]
                 df_data['Avg'] = df_data.drop(age_label,axis=1).mean(axis=1)
+                print(df_data)
                 years,avg = df_data[age_label].tolist(),df_data['Avg'].tolist()
+                print(years, avg)
                 for y,a in years,avg:
                     feats = {'year':y,'lat':lat,'lon':lon, 'avg_tree_ring_width':a,'elevation':elevation,'tree_species':species,'organism_group':0}
                     df_final = df_final.append(feats,ignore_index=True)
