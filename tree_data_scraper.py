@@ -17,14 +17,8 @@ df_final = pd.DataFrame(columns=cols)
 north_lat_ind = len('# Northernmost_Latitude:')
 # Get data table from files
 
-fl = sub_files[0]
-with open(fl, 'r') as f:
-    lines = f.readlines()
-    
-print(df)
 
-quit()
-for fl in sub_files:
+for fl in sub_files[:5]:
     north_lat = south_lat = west_lon = east_lon = 0
     species = ''
     earliest_year,latest_year = 0,0
@@ -34,7 +28,7 @@ for fl in sub_files:
     # Tree ring and meta data from the file
     with open(fl,'r') as f:
         print(fl)
-        lines = f.read().splitlines()
+        lines = f.readlines()
         for i in range(len(lines)):
             if lines[i].startswith('# Northernmost_Latitude:'):
                 north_lat = float(lines[i].split(' ')[2])
@@ -56,25 +50,24 @@ for fl in sub_files:
                 except ValueError:
                     elevation = np.nan
             elif lines[i].startswith('age'):
+
+                lat = (north_lat + south_lat)/2
+                long = (east_lon + west_lon)/2
+
                 #Should be the last thing found
-                print(lines[i:])
                 extracted = ' '.join(lines[i:])
                 data = io.StringIO(extracted)
-                # print(list(data))
                 df_data = pd.read_csv(data, sep="\t")
-                # df_data = pd.read_csv(data, delim_whitespace=True)
-                print('hi', df_data)
                 age_label = df_data.columns[0]
                 df_data['Avg'] = df_data.drop(age_label,axis=1).mean(axis=1)
-                print(df_data)
                 years,avg = df_data[age_label].tolist(),df_data['Avg'].tolist()
-                print(years, avg)
-                for y,a in years,avg:
-                    feats = {'year':y,'lat':lat,'lon':lon, 'avg_tree_ring_width':a,'elevation':elevation,'tree_species':species,'organism_group':0}
+                for i in range(len(years)):
+                    y, a = years[i], avg[i]
+                    feats = {'year':y,'lat':lat,'long':long, 'avg_tree_ring_width':a,'elevation':elevation,'tree_species':species,'organism_group':0}
                     df_final = df_final.append(feats,ignore_index=True)
-    lat = (north_lat + south_lat)/2
-    lon = (east_lon + west_lon)/2
-
+        
+print(df_final.head(15))
+df_final.to_csv('clean_tree_data.csv', index=False)
 
 
 
