@@ -9,7 +9,8 @@ sub_files_to_flatten = [[f'{r}/{f}' for f in os.listdir(f'trees_all/{r}')] for r
 sub_files = [f'trees_all/{item}' for sublist in sub_files_to_flatten for item in sublist]
 print(f'{len(sub_files)} files')
 
-df_final = pd.DataFrame(columns=['year','avg_tree_ring_width','lat','long','elevation','tree_species'])
+cols = ['year','avg_tree_ring_width','lat','long','elevation','tree_species','organism_group']
+df_final = pd.DataFrame(columns=cols)
 north_lat_ind = len('# Northernmost_Latitude:')
 # Get data table from files
 for fl in sub_files:
@@ -46,8 +47,10 @@ for fl in sub_files:
                 df_data = pd.read_csv(data, sep="\t")
                 age_label = df_data.columns[0]
                 df_data['Avg'] = df_data.drop(age_label,axis=1).mean(axis=1)
-                years,avg = df_data[age_label].tolist,df_data['Avg'].tolist()
-                df_final.append()
+                years,avg = df_data[age_label].tolist(),df_data['Avg'].tolist()
+                for y,a in years,avg:
+                    feats = {'year':y,'lat':lat,'lon':lon, 'avg_tree_ring_width':a,'elevation':elevation,'tree_species':species,'organism_group':0}
+                    df_final = df_final.append(feats,ignore_index=True)
     lat = (north_lat + south_lat)/2
     lon = (east_lon + west_lon)/2
 
