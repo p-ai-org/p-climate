@@ -16,6 +16,14 @@ cols = ['year','avg_tree_ring_width','lat','long','elevation','tree_species','or
 df_final = pd.DataFrame(columns=cols)
 north_lat_ind = len('# Northernmost_Latitude:')
 # Get data table from files
+
+fl = sub_files[0]
+with open(fl, 'r') as f:
+    lines = f.readlines()
+    
+print(df)
+
+quit()
 for fl in sub_files:
     north_lat = south_lat = west_lon = east_lon = 0
     species = ''
@@ -25,6 +33,7 @@ for fl in sub_files:
     years,avg = [],[]
     # Tree ring and meta data from the file
     with open(fl,'r') as f:
+        print(fl)
         lines = f.read().splitlines()
         for i in range(len(lines)):
             if lines[i].startswith('# Northernmost_Latitude:'):
@@ -48,9 +57,13 @@ for fl in sub_files:
                     elevation = np.nan
             elif lines[i].startswith('age'):
                 #Should be the last thing found
+                print(lines[i:])
                 extracted = ' '.join(lines[i:])
                 data = io.StringIO(extracted)
+                # print(list(data))
                 df_data = pd.read_csv(data, sep="\t")
+                # df_data = pd.read_csv(data, delim_whitespace=True)
+                print('hi', df_data)
                 age_label = df_data.columns[0]
                 df_data['Avg'] = df_data.drop(age_label,axis=1).mean(axis=1)
                 print(df_data)
