@@ -18,7 +18,7 @@ north_lat_ind = len('# Northernmost_Latitude:')
 
 
 # Get data table from files
-for i, fl in enumerate(sub_files[1000:2000]):
+for i, fl in enumerate(sub_files[4000:]):
     north_lat = south_lat = west_lon = east_lon = 0
     species = ''
     earliest_year,latest_year = 0,0
@@ -73,7 +73,7 @@ for i, fl in enumerate(sub_files[1000:2000]):
                     feats = {'year':y,'lat':lat,'long':long, 'avg_tree_ring_width':a,'elevation':elevation,'tree_species':species,'organism_group':0}
                     df_final = df_final.append(feats,ignore_index=True)
 
-df_final.to_csv('clean_tree_data2000.csv', index=False)
+df_final.to_csv('clean_tree_data5000.csv', index=False)
 
 
 
