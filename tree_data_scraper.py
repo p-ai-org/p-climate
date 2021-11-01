@@ -15,10 +15,10 @@ print(f'{len(sub_files)} files')
 cols = ['year','avg_tree_ring_width','lat','long','elevation','tree_species','organism_group']
 df_final = pd.DataFrame(columns=cols)
 north_lat_ind = len('# Northernmost_Latitude:')
+
+
 # Get data table from files
-
-
-for fl in sub_files[:20]:
+for i, fl in enumerate(sub_files[500:1000]):
     north_lat = south_lat = west_lon = east_lon = 0
     species = ''
     earliest_year,latest_year = 0,0
@@ -27,7 +27,8 @@ for fl in sub_files[:20]:
     years,avg = [],[]
     # Tree ring and meta data from the file
     with open(fl,'r') as f:
-        print(fl)
+        if (i % 25 == 0):
+            print(100 * i / 500,'%', sep='')
         lines = f.readlines()
         for i in range(len(lines)):
             if lines[i].startswith('# Northernmost_Latitude:'):
@@ -39,7 +40,7 @@ for fl in sub_files[:20]:
             elif lines[i].startswith('# Westernmost_Longitude:'):
                 west_lon = float(lines[i].split(' ')[2])
             elif lines[i].startswith('# Species_Name:'):
-                species = lines[i].split(': ')[1]
+                species = lines[i].split(': ')[1].strip()
             elif lines[i].startswith('# Earliest_Year:'):
                 earliest_year = int(lines[i].split(': ')[1])
             elif lines[i].startswith('# Most_Recent_Year:'):
@@ -66,7 +67,7 @@ for fl in sub_files[:20]:
                     feats = {'year':y,'lat':lat,'long':long, 'avg_tree_ring_width':a,'elevation':elevation,'tree_species':species,'organism_group':0}
                     df_final = df_final.append(feats,ignore_index=True)
 
-df_final.to_csv('clean_tree_data.csv', index=False)
+df_final.to_csv('clean_tree_data2.csv', index=False)
 
 
 
