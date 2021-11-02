@@ -116,6 +116,7 @@ Notes for data collection (downloading data from NOAA PAGES Paleo site):
 
 TREES
 - Criteria: physical measurement = ring width
+- Have to download in chunks since downloading them all would be too much for the system to handle (>1000 files at a time)
 
 CORALS
 - Criteria: physical measurement = d18O
